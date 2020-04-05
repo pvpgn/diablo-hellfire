@@ -1,5 +1,5 @@
 # Microsoft Developer Studio Project File - Name="Diablo" - Package Owner=<4>
-# Microsoft Developer Studio Generated Build File, Format Version 6.00
+# Microsoft Developer Studio Generated Build File, Format Version 5.00
 # ** DO NOT EDIT **
 
 # TARGTYPE "Win32 (x86) Application" 0x0101
@@ -20,12 +20,13 @@ CFG=Diablo - Win32 Release
 !MESSAGE "Diablo - Win32 Release" (based on "Win32 (x86) Application")
 !MESSAGE "Diablo - Win32 Debug" (based on "Win32 (x86) Application")
 !MESSAGE "Diablo - Win32 FinalFinal" (based on "Win32 (x86) Application")
-!MESSAGE "Diablo - Win32 Shareware FinalFinal" (based on "Win32 (x86) Application")
-!MESSAGE "Diablo - Win32 Shareware Release" (based on "Win32 (x86) Application")
+!MESSAGE "Diablo - Win32 Shareware FinalFinal" (based on\
+ "Win32 (x86) Application")
+!MESSAGE "Diablo - Win32 Shareware Release" (based on\
+ "Win32 (x86) Application")
 !MESSAGE 
 
 # Begin Project
-# PROP AllowPerConfigDependencies 0
 # PROP Scc_ProjName ""
 # PROP Scc_LocalPath ""
 CPP=cl.exe
@@ -69,7 +70,8 @@ LINK32=link.exe
 # PROP Intermediate_Dir ".\WinDebug"
 # PROP Ignore_Export_Lib 0
 # ADD BASE CPP /nologo /W3 /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /FR /YX /c
-# ADD CPP /nologo /G5 /Gr /MTd /W3 /Gm /GR /GX /ZI /Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D PROGRAM_VERSION=RETAIL /D "DEBUG_MEM" /D "_MULTITEST" /FAcs /Fr /YX /FD /c
+# ADD CPP /nologo /G5 /Gr /MTd /W3 /Gm /GR /GX /Zi /Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D PROGRAM_VERSION=RETAIL /D "DEBUG_MEM" /D "_MULTITEST" /FAcs /Fr /YX /FD /c
+# SUBTRACT CPP /Gy
 # ADD BASE MTL /nologo /D "_DEBUG" /win32
 # ADD MTL /nologo /D "_DEBUG" /mktyplib203 /win32
 # ADD BASE RSC /l 0x409 /d "_DEBUG"
@@ -205,6 +207,10 @@ SOURCE=.\CURSOR.CPP
 # End Source File
 # Begin Source File
 
+SOURCE=.\ddraw.lib
+# End Source File
+# Begin Source File
+
 SOURCE=.\DEAD.CPP
 # End Source File
 # Begin Source File
@@ -218,6 +224,19 @@ SOURCE=.\DIABLO.CPP
 # Begin Source File
 
 SOURCE=.\diablo.rc
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+!ENDIF 
+
 # End Source File
 # Begin Source File
 
@@ -238,6 +257,10 @@ SOURCE=.\DRLG_L3.CPP
 # Begin Source File
 
 SOURCE=.\drlg_l4.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\dsound.lib
 # End Source File
 # Begin Source File
 
@@ -281,7 +304,15 @@ SOURCE=.\gmenu.cpp
 # End Source File
 # Begin Source File
 
+SOURCE=.\WinDebug\hellfrui.lib
+# End Source File
+# Begin Source File
+
 SOURCE=.\help.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\implode.lib
 # End Source File
 # Begin Source File
 
@@ -433,6 +464,10 @@ SOURCE=.\stores.cpp
 # End Source File
 # Begin Source File
 
+SOURCE=.\WinDebug\storm.lib
+# End Source File
+# Begin Source File
+
 SOURCE=.\sync.cpp
 # End Source File
 # Begin Source File
@@ -466,26 +501,6 @@ SOURCE=.\TRIGS.CPP
 # Begin Source File
 
 SOURCE=.\wave.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=.\ddraw.lib
-# End Source File
-# Begin Source File
-
-SOURCE=.\dsound.lib
-# End Source File
-# Begin Source File
-
-SOURCE=.\WinDebug\hellfrui.lib
-# End Source File
-# Begin Source File
-
-SOURCE=.\implode.lib
-# End Source File
-# Begin Source File
-
-SOURCE=.\WinDebug\storm.lib
 # End Source File
 # End Group
 # Begin Group "Header Files"
