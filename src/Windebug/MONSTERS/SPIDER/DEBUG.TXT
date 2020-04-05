@@ -1,0 +1,8 @@
+Spider width 148  height 110  
+Spider width 148  height 110  
+Neutral frame count 12 
+Walk frame count 10 
+Attack frame count 15 
+Get hit frame count 6 
+Die frame count 20 
+Special frame count 0 

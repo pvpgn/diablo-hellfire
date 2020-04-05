@@ -1,0 +1,184 @@
+//Microsoft Developer Studio generated resource script.
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Message Table
+//
+
+1 MESSAGETABLE MSG00001.bin
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 256
+//
+
+BLIZZARDKEY             256     MOVEABLE PURE   "blizzard.key"
+SYSTEMPALETTE           256     MOVEABLE PURE   "syspal.pcx"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+SELECTPROVIDER_DIALOG DIALOGEX 0, 0, 256, 203
+STYLE DS_3DLOOK | WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    LTEXT           "Select Connection Method",IDC_STATIC,10,62,124,10,0,
+                    WS_EX_TRANSPARENT
+    LISTBOX         IDC_PROVIDERLIST,10,74,124,60,LBS_SORT | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Players supported: ",IDC_MAXPLAYERS,10,134,124,9
+    LTEXT           "Requirements: ",IDC_REQUIREMENTS,10,143,124,50
+    LTEXT           "",IDC_PROGRAMDESCRIPTION,10,192,124,9,0,
+                    WS_EX_TRANSPARENT
+    DEFPUSHBUTTON   "&Connect",IDOK,160,147,90,12
+    PUSHBUTTON      "&Previous Menu",IDCANCEL,160,161,90,12
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    "SELECTPROVIDER_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 250
+        TOPMARGIN, 7
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+#ifndef STATICLIB
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1997,9,7,1
+ PRODUCTVERSION 1997,9,7,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Author", "Mike O'Brien\0"
+            VALUE "CompanyName", "Blizzard Entertainment\0"
+            VALUE "FileDescription", "Storm Library\0"
+            VALUE "FileVersion", "1.05\0"
+            VALUE "LegalCopyright", "Copyright © 1997, Blizzard Entertainment\0"
+            VALUE "OriginalFilename", "Storm.dll\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !STATICLIB
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ERROR               "ERROR #%u (0x%08x)"
+    IDS_HEADER              "This application has encountered a critical error:\n\n%s\n"
+    IDS_PROGRAM             "Program:\t%s\n"
+    IDS_FILELINE            "File:\t%s\nLine:\t%d\n"
+    IDS_FUNCTION            "Function:\t%s\n"
+    IDS_OBJECT              "Object:\t%s\n"
+    IDS_HANDLE              "Handle:\t%s\n"
+    IDS_EXPRESSION          "Expr:\t%s\n\n"
+    IDS_DESCRIPTION         "\n%s\n\n"
+    IDS_TERMINATE           "Press OK to terminate the application."
+    IDS_RECOVERABLE         "Do you wish to terminate the application?"
+    IDS_FILE                "File:\t%s\n"
+    IDS_BADARGUMENT         "Invalid argument: %s"
+    IDS_NOTENOUGHARGUMENTS  "The syntax of the command is incorrect."
+    IDS_OPENFAILED          "Unable to open response file: %s"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

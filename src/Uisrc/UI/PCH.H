@@ -1,0 +1,13 @@
+#define  STRICT
+#include <windows.h>
+#include <commctrl.h>
+#include <ddraw.h>
+#include "..\storm.h"
+#include "diabloui.h"
+#include "DiabEdit.h"
+#include "local.h"
+#include "Fade.h"
+#include "Doom.h"
+#include "Sbar.h"
+#include "mike.h"
+#include "frank.h"

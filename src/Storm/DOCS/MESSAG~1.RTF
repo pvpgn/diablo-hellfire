@@ -1,0 +1,59 @@
+{\rtf1\ansi \deff4\deflang1033{\fonttbl{\f4\froman\fcharset0\fprq2 Times New Roman;}{\f11\fmodern\fcharset0\fprq1 Courier New;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;
+\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;
+\red192\green192\blue192;}{\stylesheet{\widctlpar \f4\fs20 \snext0 Normal;}{\*\cs10 \additive Default Paragraph Font;}{\s15\widctlpar \b\f4\fs40 \sbasedon0\snext16 API Title;}{\s16\widctlpar \f4 \sbasedon0\snext16 API Description;}{\s17\widctlpar 
+\f11\fs22 \sbasedon0\snext17 API Function;}{\s18\widctlpar \b\f4 \sbasedon0\snext16 API Section;}{\s19\li720\widctlpar \f4 \sbasedon0\snext16 API Parameter Description;}{\s20\widctlpar \i\f4 \sbasedon0\snext19 API Parameter Name;}{\s21\widctlpar \f4\fs20 
+\sbasedon0\snext21 footnote text;}{\*\cs22 \additive\super \sbasedon10 footnote reference;}}{\info{\title SNetCreateGame}{\author Mike O'Brien}{\operator Mike O'Brien}{\creatim\yr1996\mo8\dy21\hr16\min18}{\revtim\yr1996\mo10\dy21\hr11\min40}{\version5}
+{\edmins11}{\nofpages2}{\nofwords255}{\nofchars1458}{\*\company Blizzard Entertainment}{\vern57431}}\widowctrl\ftnbj\aenddoc\hyphcaps0\formshade \fet0\sectd \linex0\endnhere {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2
+\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6
+\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang
+{\pntxtb (}{\pntxta )}}\pard\plain \s15\keepn\widctlpar \b\f4\fs40 {\cs22\super ${\footnote \pard\plain \s21\widctlpar \f4\fs20 {\cs22\super $} MessageBoxProc}#{\footnote \pard\plain \s21\widctlpar \f4\fs20 {\cs22\super #} MessageBoxProc}K{\footnote 
+\pard\plain \s21\widctlpar \f4\fs20 {\cs22\super K} MessageBoxProc}} MessageBoxProc
+\par \pard\plain \s16\widctlpar \f4 
+\par {\b\i MessageBoxProc() is a placeholder for an application-defined function name.}
+\par 
+\par \pard \s16\widctlpar This function is called by Storm or the current network provider when it needs to display a message box.
+\par \pard \s16\widctlpar 
+\par \pard\plain \s17\widctlpar \f11\fs22 BOOL CALLBACK MessageBoxProc (
+\par \tab HWND\tab \tab parentwindow,
+\par \tab LPCSTR\tab text,
+\par \tab LPCSTR\tab caption,
+\par \tab UINT\tab \tab type
+\par );
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s18\widctlpar \b\f4 Parameters
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 parentwindow
+\par \pard\plain \s19\li720\widctlpar \f4 A handle to the window that the message box should use as its parent.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 text
+\par \pard\plain \s19\li720\widctlpar \f4 The text of the message.  The procedure should dynamically scale the message box in order to fit the entire text.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 caption
+\par \pard\plain \s19\li720\widctlpar \f4 The caption, which should be used as the title of the message box window.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 type
+\par \pard\plain \s19\li720\widctlpar \f4 A set of flags which indicate the type of the message box.  The following constants are allowed:
+\par \pard\plain \s16\widctlpar \f4 
+\par \trowd \trgaph108\trleft612 \cellx3960\cellx7812 \pard\plain \s19\widctlpar\intbl \f4 {\b Value}\cell \pard \s19\widctlpar\intbl {\b Meaning}\cell \pard\plain \widctlpar\intbl \f4\fs20 \row \trowd \trgaph108\trleft612 \cellx3960\cellx7812 \pard\plain 
+\s19\widctlpar\intbl \f4 MB_OK\cell The message box contains one push button: OK.  This is the default.\cell \pard\plain \widctlpar\intbl \f4\fs20 \row \pard\plain \s19\widctlpar\intbl \f4 MB_OKCANCEL\cell The message box contains tw
+o push buttons: OK and Cancel.\cell \pard\plain \widctlpar\intbl \f4\fs20 \row \pard\plain \s19\widctlpar\intbl \f4 MB_RETRYCANCEL\cell The message box contains two push buttons: Retry and Cancel.\cell \pard\plain \widctlpar\intbl \f4\fs20 \row 
+\pard\plain \s19\widctlpar\intbl \f4 MB_YESNO\cell The message box contains two push buttons: Yes and No.\cell \pard\plain \widctlpar\intbl \f4\fs20 \row \pard\plain \s19\widctlpar\intbl \f4 MB_YESNOCANCEL\cell 
+The message box contains three push buttons: Yes, No, and Cancel.\cell \pard\plain \widctlpar\intbl \f4\fs20 \row \pard\plain \s19\widctlpar\intbl \f4 MB_DEFBUTTON1\cell \pard \s19\widctlpar\intbl 
+The first button is the default button.  This is the default.\cell \pard\plain \widctlpar\intbl \f4\fs20 \row \pard\plain \s19\widctlpar\intbl \f4 MB_DEFBUTTON2\cell The second button is the default button.\cell \pard\plain \widctlpar\intbl \f4\fs20 \row 
+\trowd \trgaph108\trleft612 \cellx3960\cellx7812 \pard\plain \s19\widctlpar\intbl \f4 MB_DEFBUTTON3\cell \pard \s19\widctlpar\intbl The third button is the default button.\cell \pard\plain \widctlpar\intbl \f4\fs20 \row \pard\plain \s16\widctlpar \f4 
+
+\par \pard\plain \s20\widctlpar \i\f4 flags
+\par \pard\plain \s19\li720\widctlpar \f4 A set of flags specifying how the sound should be played.  Use the SND_* constants defined in Windows.h.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s18\widctlpar \b\f4 Return Value
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard \s16\widctlpar The return value is FALSE if the procedure is not able to display the message box.
+\par 
+\par Otherwise, the return value is one of the following item values returned by the dialog box:
+\par 
+\par \trowd \trgaph108\trleft612 \cellx3960\cellx7812 \pard\plain \s19\widctlpar\intbl \f4 IDOK\cell The OK button was selected.\cell \pard\plain \widctlpar\intbl \f4\fs20 \row \trowd \trgaph108\trleft612 \cellx3960\cellx7812 \pard\plain \s19\widctlpar\intbl 
+\f4 IDCANCEL\cell The Cancel button was selected.\cell \pard\plain \widctlpar\intbl \f4\fs20 \row \pard\plain \s19\widctlpar\intbl \f4 IDYES\cell The Yes button was selected.\cell \pard\plain \widctlpar\intbl \f4\fs20 \row \pard\plain 
+\s19\widctlpar\intbl \f4 IDNO\cell The No button was selected.\cell \pard\plain \widctlpar\intbl \f4\fs20 \row \trowd \trgaph108\trleft612 \cellx3960\cellx7812 \pard\plain \s19\widctlpar\intbl \f4 IDRETRY\cell \pard \s19\widctlpar\intbl 
+The Retry button was selected.\cell \pard\plain \widctlpar\intbl \f4\fs20 \row \pard\plain \s16\widctlpar \f4 
+\par \pard \s16\widctlpar 
+\par }

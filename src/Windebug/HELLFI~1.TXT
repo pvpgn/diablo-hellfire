@@ -1,0 +1,17 @@
+Application d:\diablo97\windebug\hellfire_hiprof.exe started properly.
+Note: Passing this info to the GUI: requested "ddraw.dll", located "c:\windows\system\ddraw.dll"
+Warning: LoadLibrary of ddraw.dll (UNEXPECTED)
+Warning: *** To avoid potentially incorrect operation of your application,
+Warning: *** please add the above dll and any subsequent unexpected dlls to
+Warning: *** your AtomTools list and reinstrument your application.
+Note: Passing this info to the GUI: requested "dsound.dll", located "c:\windows\system\dsound.dll"
+Warning: LoadLibrary of dsound.dll (UNEXPECTED)
+Note: Passing this info to the GUI: requested "smackw32.dll", located "d:\diablo97\windebug\smackw32.dll"
+Warning: LoadLibrary of smackw32.dll (UNEXPECTED)
+Note: Passing this info to the GUI: requested "D:\DIABLO97\WINDEBUG\Standard.snp", located "d:\diablo97\windebug\standard.snp"
+Warning: LoadLibrary of D:\DIABLO97\WINDEBUG\Standard.snp (UNEXPECTED)
+Note: Passing this info to the GUI: requested "D:\DIABLO97\WINDEBUG\StandardD.snp", located "d:\diablo97\windebug\standardd.snp"
+Warning: LoadLibrary of D:\DIABLO97\WINDEBUG\StandardD.snp (UNEXPECTED)
+Note: Passing this info to the GUI: requested "D:\DIABLO97\WINDEBUG\StandardD.snp", located "d:\diablo97\windebug\standardd.snp"
+Warning: LoadLibrary of D:\DIABLO97\WINDEBUG\StandardD.snp (UNEXPECTED)
+Application terminated properly.

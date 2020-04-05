@@ -1,0 +1,9 @@
+bubba width 154  height 128  
+bubba width 154  height 128  
+bubba width 154  height 128  
+Neutral frame count 8 
+Walk frame count 18 
+Attack frame count 12 
+Get hit frame count 8 
+Die frame count 21 
+Special frame count 0 

@@ -1,0 +1,8 @@
+napalm0 width 96  height 102  
+napalm0 width 96  height 102  
+Neutral frame count 18 
+Walk frame count 16 
+Attack frame count 14 
+Get hit frame count 6 
+Die frame count 18 
+Special frame count 11 

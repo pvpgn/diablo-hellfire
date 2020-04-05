@@ -1,0 +1,8 @@
+farmer width 96  height 81  
+farmer width 96  height 81  
+Neutral frame count 15 
+Walk frame count 1 
+Attack frame count 1 
+Get hit frame count 1 
+Die frame count 1 
+Special frame count 1 

@@ -1,0 +1,69 @@
+{\rtf1\ansi \deff4\deflang1033{\fonttbl{\f4\froman\fcharset0\fprq2 Times New Roman;}{\f11\fmodern\fcharset0\fprq1 Courier New;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;
+\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;
+\red192\green192\blue192;}{\stylesheet{\widctlpar \f4\fs20 \snext0 Normal;}{\*\cs10 \additive Default Paragraph Font;}{\s15\widctlpar \b\f4\fs40 \sbasedon0\snext16 API Title;}{\s16\widctlpar \f4 \sbasedon0\snext16 API Description;}{\s17\widctlpar 
+\f11\fs22 \sbasedon0\snext17 API Function;}{\s18\widctlpar \b\f4 \sbasedon0\snext16 API Section;}{\s19\li720\widctlpar \f4 \sbasedon0\snext16 API Parameter Description;}{\s20\widctlpar \i\f4 \sbasedon0\snext19 API Parameter Name;}{\s21\widctlpar \f4\fs20 
+\sbasedon0\snext21 footnote text;}{\*\cs22 \additive\super \sbasedon10 footnote reference;}}{\info{\title SNetCreateGame}{\author Mike O'Brien}{\operator Mike O'Brien}{\creatim\yr1996\mo8\dy21\hr16\min18}{\revtim\yr1996\mo11\dy22\min44}{\version2}
+{\edmins1}{\nofpages2}{\nofwords310}{\nofchars1768}{\*\company Blizzard Entertainment}{\vern57431}}\widowctrl\ftnbj\aenddoc\hyphcaps0\formshade \fet0\sectd \linex0\endnhere {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2
+\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6
+\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang
+{\pntxtb (}{\pntxta )}}\pard\plain \s15\keepn\widctlpar \b\f4\fs40 {\cs22\super ${\footnote \pard\plain \s21\widctlpar \f4\fs20 {\cs22\super $} DrawDescProc}#{\footnote \pard\plain \s21\widctlpar \f4\fs20 {\cs22\super #} DrawDescProc}K{\footnote 
+\pard\plain \s21\widctlpar \f4\fs20 {\cs22\super K} DrawDescProc}} DrawDescProc
+\par \pard\plain \s16\widctlpar \f4 
+\par {\b\i DrawDescProc() is a placeholder for an application-defined function name.}
+\par 
+\par This function is called by Storm or the current network provider when it needs to draw a game or player description.
+\par 
+\par \pard\plain \s17\widctlpar \f11\fs22 BOOL CALLBACK DrawDescProc (
+\par \tab DWORD\tab \tab \tab \tab providerid,
+\par \tab DWORD\tab \tab \tab \tab itemtype,
+\par \tab LPCSTR\tab \tab \tab itemname,
+\par \tab LPCSTR\tab \tab \tab itemdescription,
+\par \tab DWORD\tab \tab \tab \tab itemflags,
+\par \tab DWORD\tab \tab \tab \tab itemcreationtime,
+\par \tab DWORD\tab \tab \tab \tab drawflags,
+\par \tab LPDRAWITEMSTRUCT\tab drawdata
+\par );
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s18\widctlpar \b\f4 Parameters
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 providerid
+\par \pard\plain \s19\li720\widctlpar \f4 The ID of the network provider which is making the request.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 itemtype
+\par \pard\plain \s19\li720\widctlpar \f4 An identifier which tells whether the name and description describe a game or a player.  It can be one of the following values:
+\par \pard\plain \s16\widctlpar \f4 
+\par \trowd \trgaph108\trleft612 \cellx3960\cellx7812 \pard\plain \s19\widctlpar\intbl \f4 {\b Value}\cell {\b Meaning}\cell \pard\plain \widctlpar\intbl \f4\fs20 \row \trowd \trgaph108\trleft612 \cellx3960\cellx7812 \pard\plain \s19\widctlpar\intbl \f4 
+SNET_DRAWTYPE_GAME\cell Item is a game\cell \pard\plain \widctlpar\intbl \f4\fs20 \row \trowd \trgaph108\trleft612 \cellx3960\cellx7812 \pard\plain \s19\widctlpar\intbl \f4 SNET_DRAWTYPE_PLAYER\cell Item is a player\cell \pard\plain \widctlpar\intbl 
+\f4\fs20 \row \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 itemname
+\par \pard\plain \s19\li720\widctlpar \f4 The name of the game or player.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 itemdescription
+\par \pard\plain \s19\li720\widctlpar \f4 The description of the game or player.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 itemflags
+\par \pard\plain \s19\li720\widctlpar \f4 A set of flags for the game or player.  The following flags are currently defined for players:
+\par \pard\plain \s16\widctlpar \f4 \tab 
+\par \trowd \trgaph108\trleft612 \cellx3960\cellx7812 \pard\plain \s19\widctlpar\intbl \f4 {\b Value}\cell {\b Meaning}\cell \pard\plain \widctlpar\intbl \f4\fs20 \row \trowd \trgaph108\trleft612 \cellx3960\cellx7812 \pard\plain \s19\widctlpar\intbl \f4 
+SNET_DDPF_BLIZZARD\cell Player is a Blizzard employee\cell \pard\plain \widctlpar\intbl \f4\fs20 \row \pard\plain \s19\widctlpar\intbl \f4 SNET_DDPF_MODERATOR\cell Player is a channel moderator\cell \pard\plain \widctlpar\intbl \f4\fs20 \row \pard\plain 
+\s19\widctlpar\intbl \f4 SNET_DDPF_SPEAKER\cell Player is a speaker for a special event\cell \pard\plain \widctlpar\intbl \f4\fs20 \row \pard\plain \s19\widctlpar\intbl \f4 SNET_DDPF_SYSOP\cell Player is a sysop of the selected gaming service\cell 
+\pard\plain \widctlpar\intbl \f4\fs20 \row \trowd \trgaph108\trleft612 \cellx3960\cellx7812 \pard\plain \s19\widctlpar\intbl \f4 SNET_DDPF_SQUELCHED\cell Player has been squelched by the local user\cell \pard\plain \widctlpar\intbl \f4\fs20 \row 
+\pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 itemcreationtime
+\par \pard\plain \s19\li720\widctlpar \f4 The creation time of the game, expressed as the number of seconds since midnight, January 1, 1970 UTC.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 drawflags
+\par \pard\plain \s19\li720\widctlpar \f4 A set of flags defining how the item should be drawn.  The following flags are defined:
+\par 
+\par \trowd \trgaph108\trleft612 \cellx3960\cellx7812 \pard \s19\widctlpar\intbl {\b Value}\cell {\b Meaning}\cell \pard\plain \widctlpar\intbl \f4\fs20 \row \trowd \trgaph108\trleft612 \cellx3960\cellx7812 \pard\plain \s19\widctlpar\intbl \f4 
+SNET_DDF_INCLUDENAME\cell The callback function should draw the game name as well as the description.  If this flag is not specified then the game is already visible elsewhere on the screen, and only the description needs to be drawn.\cell \pard\plain 
+\widctlpar\intbl \f4\fs20 \row \trowd \trgaph108\trleft612 \cellx3960\cellx7812 \pard\plain \s19\widctlpar\intbl \f4 SNET_DDF_MULTILINE\cell The area for the description is large enough to include more than one line of text.\cell \pard\plain 
+\widctlpar\intbl \f4\fs20 \row \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 drawdata
+\par \pard\plain \s19\li720\widctlpar \f4 A structure containing information about the output device.  This includes the device context, and the rectangle (in client coordinates) to which the application should bound its output.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s18\widctlpar \b\f4 Return Value
+\par \pard\plain \s16\widctlpar \f4 
+\par This function should return TRUE if the description was successfully drawn, or FALSE if an error occurred.
+\par 
+\par }

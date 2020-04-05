@@ -1,0 +1,259 @@
+HELLFIRE (European/US) PATCH README v1.01
+01/13/98
+
+TABLE OF CONTENTS
+
+[1] WHAT THE PATCH FIXES
+[2] HOW TO INSTALL THE PATCH
+[3] IF YOU STILL EXPERIANCE PROBLEMS
+
+[1] WHAT THE PATCH FIXES
+====================================
+This patch provides fixes and enhancements to the Hellfire 1.00 product. It provides a new executable (HELLFIRE.EXE), an interface library (HELLFRUI.DLL), a patch text file (Patch.txt), and a version text file (Version.txt.
+
+
+List of changes
+--------------------------------------------------------------------------
+-  Fixed Gossip (same gossip from each towner every time)
+-  Fixed disappearing quests (upon re-entering the town level, quest statuses were incorrectly cleared through array bounds overstep).
+-  Fixed generating spell books by Adria (would "morph" on new game).
+-  Fixed the bug where picking up gold when your inventory is full duplicates the gold in your hand and fills your gold slot.
+-  Fixed the Berserk spell to prevent crashes (large numbers of berserk monsters occasionally attacked dead monsters).
+-  Fixed inactive monsters to prevent same kind of crash as above
+-  Fixed entering levels; had crashed on some systems (seemingly randomly).
+-  Fixed doppelganger's items to not clone Diablo
+-  Fixed generating rings of fire behind a wall.
+-  Sped up monk's open-hand attack (users complained he should be faster with feet than with the sweeping staff).
+-  Various small internal fixes to prevent potential misbehavior.
+-  Fixed monster hitpoint variable type for tough monsters (some monsters, especially in Nightmare/Hell difficulty, had way fewer hit points than specified)
+-  Changed Search spell to show items on automap, too (users complained they couldn't find things behind solid walls in Caves, Nest, Crypt).
+-  Fix to unique items changing between games (veil of steel, arkaine's valor, etc).
+-  Fixed to dropping and picking back up oiled items (bonus was lost).
+-  Fixed Cathedral Map activation crash bug
+-  Added sounds to Mana Drain and Disenchant traps
+-  Monster hit points in Nightmare/Hell are +100/200 instead of +1.5/+3
+-  Fixed monster stats display in Nightmare/Hell to reflect the halving.
+-  Balance/Stability/Harmony now does something
+
+
+
+[2] HOW TO INSTALL THE PATCH
+====================================
+
+This patch is a self-extracting executable that will place four files into the program directory that contains the Hellfire.exe file. If you have not installed to the default directory, make the appropriate changes on the next screen.  
+
+To start the install process, simply double click on the HF101 file and follow the given instructions.
+
+
+[3] IF YOU STILL EXPERIENCE PROBLEMS
+====================================
+
+Customer Service Support and Sales
+
+United States	
+U.S.A. Sales Phone: (800) 757-7707
+Sierra Direct	
+International Sales:  (425) 746-5771 
+Sundays 8 AM to 9PM CST 
+Hours: Monday-Saturday 7AM to 11 PM CST,
+FAX: (402) 393-3224	
+
+7100 W. Center Rd			
+STE 301				
+Omaha, NE  68106
+
+
+United Kingdom
+CUC Software International Limited	
+Main: (0118) 920-9111
+Monday-Friday, 9:00 a.m. - 5:00 p.m.
+Fax:   (0118) 987-5603
+Disk/CD replacements in the U.K. are £6.00,
+or £7.00 outside the UK. Add "ATTN.: Returns."
+
+2 Beacontree Plaza,			
+Gillette Way,				
+Reading, Berkshire			
+RG2 0BS United Kingdom		
+
+France
+CUC Software International Limited
+Parc Tertiaire de Meudon		
+Phone: (01) 46-01-46-50
+Fax: (01) 46-30-00-65
+Lundi au Vendredi de 9h à 19h 
+
+Immeuble "Le Newton"		
+25 rue Jeanne Braconnier 		
+92366 Meudon La Forêt Cedex
+France
+
+Germany
+CUC Software International Limited
+Tel: (0) 6103-99-40-40
+Montag bis Freitag von 9h - 19Uhr
+Fax: (0) 6103-99-40-35 	
+Robert-Bosh-Str. 32			
+D-63303 Dreieich			
+Germany
+
+On-Line Sales
+Internet USA:		http://www.sierra.com
+Internet United Kingdom:http://www.sierra-online.co.uk
+Internet France:	http://www.sierra.fr
+Internet Germany:	http://www.sierra.de
+
+THE SIERRA NO-RISK GUARANTEE
+The Promise: We want you to be happy with every Sierra product you purchase from us. Period. If for any reason you're unhappy with the product, return it within 30 days for an exchange or a full refund EVEN IF YOU BOUGHT IT RETAIL. (Hardware ordered direct must be returned within ten days.)  Please send back your product, signature required if mailing via US Postal Service.
+
+The Only Catch: You've got to tell us why you don't like the game. Otherwise, we'll never get any better. Send it back to us and we promise we'll make things right. (If you bought it at a retail outlet, please send your original sales receipt.)
+ 
+* Returns valid in North America only.
+
+Disk and or Manual Replacement:
+Sierra On-Line Fulfillment
+4100 West 190th Street
+Torrance, CA  90504
+
+Product Returns:
+Sierra On-Line Returns
+4100 West 190th Street
+Torrance, CA  90504	 
+	
+
+NOTE: To replace your disk(s) please send only Disk #1 (or the CD) and copy of your dated Receipt, if less then 90 days.  After 90 days please include a $10 handling fee along with Disk / CD #1.  For Documentation, please include a $ 5.00 handling fee and a photocopy ONLY of disk #1.  Payment should be made at the time of your request.  Sorry, no credit cards.	
+
+* Returns to this address valid in North America only.
+
+Technical Support
+Automated Technical Support Line - USA:
+1-425-644-4343			
+Sierra On-Line offers a 24-hour Automated Technical Support line with recorded answers to the most frequently asked technical questions. To access this service, call (425) 644-4343, and follow the recorded instructions to find your specific topic and resolve the issue. If this fails to solve your problem, you may still write, or fax us with your questions, or contact us via our web site.
+
+U.S. Technical Support
+Sierra On-Line				
+Technical Support
+Main: (425) 644-4343
+Monday-Friday, 8:00 a.m. - 4:45 p.m. PST 
+Fax:   (425) 644-7697
+P.O. Box 85006			
+Bellevue, WA 98015-8506		
+				
+Automated Technical Support Line - United Kingdom:
+(0118) 920-9111
+CUC Software International Limited offers a 24-hour Automated Technical Support line with recorded answers to the most frequently asked technical questions. To access this service, call (0118) 920-9111, and follow the recorded instructions to find your specific topic and resolve the issue. If this fails to solve your problem, you may still write, or fax us with your questions, or contact us via our Internet or CompuServe sites.
+
+U.K. Technical Support
+CUC Software International Limited 	
+Phone: (0118) 920-9111
+Monday-Friday, 9:00 a.m. - 5:00 p.m.
+Fax:   (0118) 987-5603
+Disk/CD replacements in the U.K. are £6.00,
+or £7.00 outside the UK. Add "ATTN.: Returns."
+2 Beacontree Plaza,			
+Gillette Way,				
+Reading, Berkshire 			
+RG2 0BS United Kingdom		
+
+France
+CUC Software International Limited
+Téléphone: 01-46-01-46-50
+Lundi au Vendredi de 9h à 19h
+Fax: 01-46-30-00-65
+
+Parc Tertiaire de Meudon		
+Immeuble "Le Newton"		 
+25 rue Jeanne Braconnier		
+92366 Meudon La Forêt Cedex	
+France
+
+Germany
+CUC Software International Limited
+Tel: (0) 6103-99-40-40
+Montag bis Freitag von 9 - 19Uhr
+Fax: (0) 6103-99-40-35
+Mailbox: (0) 6103-99-40-35
+
+Robert-Bosh-Str. 32			
+D-63303 Dreieich			
+Deutschland				
+
+Spain
+CUC Software International Limited
+Teléfono: (01) 383-2623
+Lunes a Viernes de 9h30 a 14h y de 15h a 18h30
+Fax: (01) 381-2437
+
+Avenida de Burgos 9			
+1º-OF2					
+28036 Madrid
+Spain
+
+Italy		Contattare il vostro distribotore.			
+
+
+
+
+
+(Please note: If your product does not provide hints on the 900 hint line, then do not include this hint section in your manuals)
+
+24-Hour Automated Hint Lines
+
+U.S.A.:
+1-900-370-5583
+$.95 per minute (must be 18 years or older, or have parental permission).
+
+You may also contact Direct Sales to inquire whether a hint book is available for your product.
+
+You may also write to our hint department for free hints.  Please let us know what game you are playing and where you are struck.
+
+Sierra Online, Attn:  Hint Department
+P O Box 53210
+Bellevue, WA 98015
+
+Canada:
+1-900-451-3356
+$1.25 (Canadian) per minute (must be 18 years or older, or have parental permission). You may also contact Direct Sales at 800-757-7707 to inquire whether a hint book is available for your product.
+
+France:
+08-36-68-46-50
+2,23F TTC la minute; tariff en vigueur au 1 Juillet 1996. (France métropolitaine seulement)
+
+Germany:
+019-515-616
+Kosten: 1,20 DM pro Minute (Nur in Deutschland verfügbar)
+
+Italy:
+Contattare il vostro distribotore
+
+Spain:
+Coktel Educative Multimedia
+Teléfono: (01) 383-2623
+Lunes a Viernes de 9h30 a 14h y de 15h a 18h30
+Fax: (01) 381-2437
+	
+Avenida de Burgos 9		
+1º-OF2				
+28036 Madrid
+Spain
+
+United Kingdom:
+New Programs hint line: (0891) 660-660 (within the UK only)
+
+For adventure programs released after January 1, 1993.  Charged 50p/minute at all times.  Maximum call length 7.5 minutes.  Maximum charge is £3.75.  Must have permission of the person who pays the phone bill before calling. Line available in the UK only. Requires a touch tone phone.
+
+
+Sierra Warranty 
+
+You are entitled to use this product for your own use, but may not copy, reproduce, translate, publicly perform, display, or reduce to any electronic medium or machine- readable form, reproductions of the software or manual to other parties in any way, nor sell, rent or lease the product to others without prior written permission of Sierra.  You may use one copy of the product on a single computer.  YOU MAY NOT NETWORK THE PRODUCT OR OTHERWISE INSTALL IT OR USE IT ON MORE THAN ONE COMPUTER AT THE SAME TIME.
+
+UNAUTHORIZED REPRESENTATIONS: SIERRA WARRANTS ONLY THAT THE PROGRAM WILL PERFORM AS DESCRIBED IN THE USER DOCUMENTATION. NO OTHER ADVERTISING, DESCRIPTION, OR REPRESENTATION, WHETHER MADE BY A SIERRA DEALER, DISTRIBUTOR, AGENT, OR EMPLOYEE, SHALL BE BINDING UPON SIERRA OR SHALL CHANGE THE TERMS OF THIS WARRANTY.
+
+IMPLIED WARRANTIES LIMITED: EXCEPT AS STATED ABOVE, SIERRA MAKES NO WARRANTY, EXPRESS OR IMPLIED, REGARDING THIS PRODUCT. SIERRA DISCLAIMS ANY WARRANTY THAT THE SOFTWARE IS FIT FOR A PARTICULAR PURPOSE, AND ANY IMPLIED WARRANTY OF MERCHANTABILITY SHALL BE LIMITED TO THE NINETY (90) DAY DURATION OF THIS LIMITED EXPRESS WARRANTY AND IS OTHERWISE EXPRESSLY AND SPECIFICALLY DISCLAIMED. SOME STATES DO NOT ALLOW LIMITATIONS ON HOW LONG AN IMPLIED WARRANTY LASTS, SO THE ABOVE LIMITATION MAY NOT APPLY TO YOU.
+
+NO CONSEQUENTIAL DAMAGES: SIERRA SHALL NOT BE LIABLE FOR SPECIAL, INCIDENTAL, CONSEQUENTIAL OR OTHER DAMAGES, EVEN IF SIERRA IS ADVISED OF OR AWARE OF THE POSSIBILITY OF SUCH DAMAGES. THIS MEANS THAT SIERRA SHALL NOT BE RESPONSIBLE OR LIABLE FOR LOST PROFITS OR REVENUES, OR FOR DAMAGES OR COSTS INCURRED AS A RESULT OF LOSS OF TIME, DATA OR USE OF THE SOFTWARE, OR FROM ANY OTHER CAUSE EXCEPT THE ACTUAL COST OF THE PRODUCT. IN NO EVENT SHALL SIERRA'S LIABILITY EXCEED THE PURCHASE PRICE OF THIS PRODUCT. SOME STATES DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATION OR EXCLUSION MAY NOT APPLY TO YOU.
+
+
+Copyright/Trademarks
+
+(c) 1997 Sierra On-Line, Inc. (R) and (TM) designate trademarks of, or licensed to Sierra On-Line, Inc.  All rights reserved.

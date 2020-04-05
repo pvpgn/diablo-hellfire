@@ -1,0 +1,22 @@
+ALL : WINDCL.EXE
+
+WINDCL.RES : WINDCL.RC RESOURCE.H
+     rc -r WinDCL.rc
+
+WINDCL.OBJ : WINDCL.C WINDCL.H
+     cl -c /D "_X86_" /D "WIN32" WinDCL.c
+
+DCL.OBJ : DCL.C DCL.H
+     cl -c /D "_X86_" /D "WIN32" DCL.C
+
+#     rc WinDCL.res
+
+LINK32_OBJS= \
+    WINDCL.res \
+    WINDCL.OBJ \
+    DCL.OBJ
+    
+WINDCL.EXE : WINDCL.RES WINDCL.OBJ DCL.OBJ
+    link /SUBSYSTEM:windows /INCREMENTAL:no /MACHINE:I386 /OUT:"windcl.exe" \
+         $(LINK32_OBJS) ..\..\..\IMPLODEI.LIB GDI32.LIB
+

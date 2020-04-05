@@ -1,0 +1,8 @@
+Worm width 192  height 119  
+Worm width 192  height 119  
+Neutral frame count 14 
+Walk frame count 12 
+Attack frame count 12 
+Get hit frame count 6 
+Die frame count 20 
+Special frame count 0 

@@ -1,0 +1,6 @@
+//SUPPRESSIONPROJ:Diablo
+//VERSION:5.00
+//ENABLE:Yes
+
+ignore param 5 KERNEL32.DLL:CreateFileA in function EXE:"MonoDevice::DeviceData::DeviceData"
+ignore param 7 KERNEL32.DLL:DeviceIoControl in function EXE:"MonoDevice::ClearScreen"

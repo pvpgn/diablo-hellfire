@@ -1,0 +1,52 @@
+{\rtf1\ansi \deff4\deflang1033{\fonttbl{\f4\froman\fcharset0\fprq2 Times New Roman;}{\f11\fmodern\fcharset0\fprq1 Courier New;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;
+\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;
+\red192\green192\blue192;}{\stylesheet{\widctlpar \f4\fs20 \snext0 Normal;}{\*\cs10 \additive Default Paragraph Font;}{\s15\widctlpar \b\f4\fs40 \sbasedon0\snext16 API Title;}{\s16\widctlpar \f4 \sbasedon0\snext16 API Description;}{\s17\widctlpar 
+\f11\fs22 \sbasedon0\snext17 API Function;}{\s18\widctlpar \b\f4 \sbasedon0\snext16 API Section;}{\s19\li720\widctlpar \f4 \sbasedon0\snext16 API Parameter Description;}{\s20\widctlpar \i\f4 \sbasedon0\snext19 API Parameter Name;}{\s21\widctlpar \f4\fs20 
+\sbasedon0\snext21 footnote text;}{\*\cs22 \additive\super \sbasedon10 footnote reference;}}{\info{\title SNetCreateGame}{\author Mike O'Brien}{\operator Mike O'Brien}{\creatim\yr1996\mo8\dy21\hr16\min18}{\revtim\yr1996\mo10\dy21\hr17\min2}{\version4}
+{\edmins8}{\nofpages2}{\nofwords261}{\nofchars1490}{\*\company Blizzard Entertainment}{\vern57431}}\widowctrl\ftnbj\aenddoc\hyphcaps0\formshade \fet0\sectd \linex0\endnhere {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2
+\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6
+\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang
+{\pntxtb (}{\pntxta )}}\pard\plain \s15\keepn\widctlpar \b\f4\fs40 {\cs22\super ${\footnote \pard\plain \s21\widctlpar \f4\fs20 {\cs22\super $} CreateProc}#{\footnote \pard\plain \s21\widctlpar \f4\fs20 {\cs22\super #} CreateProc}K{\footnote \pard\plain 
+\s21\widctlpar \f4\fs20 {\cs22\super K} CreateProc}} CreateProc
+\par \pard\plain \s16\widctlpar \f4 
+\par {\b\i CreateProc() is a placeholder for an application-defined function name.}
+\par 
+\par This function is called by 
+from SNetSelectGame() if the user has decided to create a new game.  The create callback is responsible for display a dialog to the user to request game information like the game name and difficulty, and then calling SNetCreateGame().
+\par 
+\par \pard\plain \s17\widctlpar \f11\fs22 BOOL CALLBACK CreateProc (
+\par \tab SNETCREATEDATAPTR\tab createdata,
+\par \tab SNETPROGRAMDATAPTR\tab programdata,
+\par \tab SNETPLAYERDATAPTR\tab playerdata,
+\par \tab SNETUIDATAPTR\tab \tab interfacedata,
+\par \tab SNETVERSIONDATAPTR\tab versiondata,
+\par \tab DWORD\tab  *\tab \tab \tab playerid
+\par );
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s18\widctlpar \b\f4 Parameters
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 createdata
+\par \pard\plain \s19\li720\widctlpar \f4 A structure provided by the service provider containing data that the application will need to create the game.  When the data in this structure conflicts with the application\rquote 
+s own data, the application should use the data in the structure.  For example, the maxplayers field may be set lower than the application\rquote s maximum number of players if the network provider does not support the application\rquote 
+s maximum number of players.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 programdata
+\par \pard\plain \s19\li720\widctlpar \f4 A structure containing the program data that was passed to SNetSelectGame().
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 playerdata
+\par \pard\plain \s19\li720\widctlpar \f4 A structure containing the player data that was passed to SNetSelectGame().
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 interfacedata
+\par \pard\plain \s19\li720\widctlpar \f4 A structure containing the interface data that was passed to SNetSelectGame(), modified as necessary to ensure that the dialog that the create callback displays fits with the network provider\rquote s interface.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 versiondata
+\par \pard\plain \s19\li720\widctlpar \f4 A structure containing the version data that was passed to SNetSelectGame().
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 playerid
+\par \pard\plain \s19\li720\widctlpar \f4 A pointer to a DWORD which the function should fill in with the player ID assigned in the call to SNetCreateGame().
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s18\widctlpar \b\f4 Return Value
+\par \pard\plain \s16\widctlpar \f4 
+\par The application should return TRUE if it called SNetCreateGame() and the call was successful.  It should return FALSE if the game was not created for any reason.
+\par 
+\par }

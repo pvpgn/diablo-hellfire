@@ -1,0 +1,13 @@
+Bad Priest: 
+  Low max strength:
+  Medium armor cuts spell level in half.
+  Full armor sets spell level to 1.
+  
+  Daggers and small swords are best.
+  
+  
+  Large weapons don't do full damage. (Priest is too weak)
+  
+  Benefit: mana cost is really low.  Heal other in Multiplayer mode
+  
+  

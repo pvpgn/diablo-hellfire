@@ -1,0 +1,79 @@
+*******************************************************************
+*** Important information for use with the                      ***
+*** PKWARE Data Compression Library (R) for Win32               ***
+*** Copyright 1995 by PKWARE Inc. All Rights Reserved.          *** 
+*** PKWARE Data Compression Library Reg. U.S. Pat. and Tm. Off. ***
+*******************************************************************
+
+* Please read the following file before calling PKWARE for technical support!
+
+***************************************************************************
+
+
+* When installing the PKWARE Data Compression Library for Win32, you
+  should keep the directory structure of the floppy intact on your hard
+  disk.  Use the supplied INSTALL.BAT file to install the files from the
+  floppy disk to your hard disk.  To use the INSTALL.BAT program, type:
+
+     [source:]install [source:] [destination:]
+
+  where [source:] is the PKWARE distribution disk
+  and [destination:] is the target disk.
+
+  The PKWARE Data Compression Library will be installed in a directory
+  called PKW32DCL on the destination drive.
+		
+
+* For more information on the examples, read the EXAMPLES.TXT file.
+
+
+             F I L E   D E S C R I P T I O N S
+--------------------------------------------------------------
+
+implode.lib    Static link library (includes all .OBJ files).
+
+implodei.lib   Dynamic link import library for use with DLL files.
+
+impborl.lib    Static link library for Borland C++ compiler (includes
+               all .OBJ files).
+
+impborli.lib   Dynamic link import library for Borland C++ compiler,
+               for use with DLL files.
+
+implode.dll    Dynamic link library of the PKWARE Data Compression Library.
+
+impborl.dll    Dynamic link library created by Borland C++ compiler.
+
+crc32.obj      Object module file for CRC-32 error checking routine.
+
+crcborl.obj    Borland C++ Object module file for CRC-32 error checking
+               routine.
+
+crcfast.obj    __fastcall calling convention object module file for CRC-32
+               error checking routine.
+
+crcstd.obj     __stdcall calling convention object module file for CRC-32
+               error checking routine.
+
+explode.obj    Object module file for explode routine.
+
+expborl.obj    Borland C++ Object module file for explode routine.
+
+expfast.obj    __fastcall calling convention object module file for explode
+               routine.
+
+expstd.obj     __stdcall calling convention object module file for explode
+               routine.
+
+implode.obj    Object module file for implode routine.
+
+impborl.obj    Borland C++ Object module file for implode routine.
+
+impfast.obj    __fastcall calling convention object module file for implode
+               routine.
+
+impstd.obj     __stdcall calling convention object module file for implode
+               routine.
+
+implode.h      A C/C++ header file for use with the PKWARE Data Compression
+               Library.

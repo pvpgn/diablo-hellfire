@@ -1,0 +1,8 @@
+gd0 width 124  height 111
+gd0 width 124  height 111
+Neutral frame count 24
+Walk frame count 24
+Attack frame count 12
+Get hit frame count 6
+Die frame count 16
+Special frame count 16

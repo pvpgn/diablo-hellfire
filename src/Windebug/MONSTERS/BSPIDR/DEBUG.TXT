@@ -1,0 +1,8 @@
+BSpidr width 148  height 111  
+BSpidr width 148  height 111  
+Neutral frame count 12 
+Walk frame count 10 
+Attack frame count 15 
+Get hit frame count 6 
+Die frame count 20 
+Special frame count 10 

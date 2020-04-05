@@ -1,0 +1,37 @@
+{\rtf1\ansi \deff4\deflang1033{\fonttbl{\f4\froman\fcharset0\fprq2 Times New Roman;}{\f11\fmodern\fcharset0\fprq1 Courier New;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;
+\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;
+\red192\green192\blue192;}{\stylesheet{\widctlpar \f4\fs20 \snext0 Normal;}{\*\cs10 \additive Default Paragraph Font;}{\s15\widctlpar \b\f4\fs40 \sbasedon0\snext16 API Title;}{\s16\widctlpar \f4 \sbasedon0\snext16 API Description;}{\s17\widctlpar 
+\f11\fs22 \sbasedon0\snext17 API Function;}{\s18\widctlpar \b\f4 \sbasedon0\snext16 API Section;}{\s19\li720\widctlpar \f4 \sbasedon0\snext16 API Parameter Description;}{\s20\widctlpar \i\f4 \sbasedon0\snext19 API Parameter Name;}{\s21\widctlpar \f4\fs20 
+\sbasedon0\snext21 footnote text;}{\*\cs22 \additive\super \sbasedon10 footnote reference;}}{\info{\title SNetCreateGame}{\author Mike O'Brien}{\operator Mike O'Brien}{\creatim\yr1996\mo8\dy21\hr16\min18}{\revtim\yr1996\mo10\dy21\hr16\min49}{\version2}
+{\edmins0}{\nofpages1}{\nofwords126}{\nofchars719}{\*\company Blizzard Entertainment}{\vern57431}}\widowctrl\ftnbj\aenddoc\hyphcaps0\formshade \fet0\sectd \linex0\endnhere {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2
+\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6
+\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang
+{\pntxtb (}{\pntxta )}}\pard\plain \s15\keepn\widctlpar \b\f4\fs40 {\cs22\super ${\footnote \pard\plain \s21\widctlpar \f4\fs20 {\cs22\super $} SNETCREATEDATA}#{\footnote \pard\plain \s21\widctlpar \f4\fs20 {\cs22\super #} SNETCREATEDATA}K{\footnote 
+\pard\plain \s21\widctlpar \f4\fs20 {\cs22\super K} SNETCREATEDATA}} SNETCREATEDATA
+\par \pard\plain \s16\widctlpar \f4 
+\par The SNETCREATEDATA structure is used in the create game callback function to communicate information about the current provider\rquote s abilities.
+\par 
+\par \pard\plain \s17\widctlpar \f11\fs22 typedef struct _SNETCREATEDATA \{
+\par \tab DWORD\tab \tab size;
+\par \tab DWORD\tab \tab providerid;
+\par \tab DWORD\tab \tab maxplayers;
+\par \tab DWORD\tab \tab createflags;
+\par \} SNETCREATEDATA, *SNETCREATEDATAPTR;
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s18\widctlpar \b\f4 Members
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 size
+\par \pard\plain \s19\li720\widctlpar \f4 The size of the structure, in bytes.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 providerid
+\par \pard\plain \s19\li720\widctlpar \f4 The ID of the currently selected provider.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 maxplayers
+\par \pard\plain \s19\li720\widctlpar \f4 The maximum number of players that can join the game.  This value is the minimum of the maximum number of players the application supports and the maximum number of players the provider supports.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 createflags
+\par \pard\plain \s19\li720\widctlpar \f4 A set of flags specifying what creation options are available.  The following flags are defined:
+\par 
+\par \trowd \trgaph108\trleft612 \cellx4680\cellx7812 \pard \s19\widctlpar\intbl {\b Value}\cell {\b Meaning}\cell \pard\plain \widctlpar\intbl \f4\fs20 \row \trowd \trgaph108\trleft612 \cellx4680\cellx7812 \pard\plain \s19\widctlpar\intbl \f4 
+SNET_CF_ALLOWPRIVATEGAMES\cell The creation callback function should allow the user the opportunity to create a private game.\cell \pard\plain \widctlpar\intbl \f4\fs20 \row \pard\plain \s16\widctlpar \f4 
+\par }

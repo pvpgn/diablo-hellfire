@@ -1,0 +1,54 @@
+{\rtf1\ansi \deff4\deflang1033{\fonttbl{\f1\froman\fcharset2\fprq2 Symbol;}{\f4\froman\fcharset0\fprq2 Times New Roman;}{\f11\fmodern\fcharset0\fprq1 Courier New;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;
+\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;
+\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\widctlpar \f4\fs20 \snext0 Normal;}{\*\cs10 \additive Default Paragraph Font;}{\s15\widctlpar \b\f4\fs40 \sbasedon0\snext16 API Title;}{\s16\widctlpar \f4 
+\sbasedon0\snext16 API Description;}{\s17\widctlpar \f11\fs22 \sbasedon0\snext17 API Function;}{\s18\widctlpar \b\f4 \sbasedon0\snext16 API Section;}{\s19\li720\widctlpar \f4 \sbasedon0\snext16 API Parameter Description;}{\s20\widctlpar \i\f4 
+\sbasedon0\snext19 API Parameter Name;}{\s21\widctlpar \f4\fs20 \sbasedon0\snext21 footnote text;}{\*\cs22 \additive\super \sbasedon10 footnote reference;}}{\info{\title SNetReceiveTurns}{\author Mike O'Brien}{\operator Mike O'Brien}
+{\creatim\yr1996\mo8\dy21\hr16\min22}{\revtim\yr1996\mo10\dy3\hr15\min9}{\version3}{\edmins0}{\nofpages2}{\nofwords269}{\nofchars1536}{\*\company Blizzard Entertainment}{\vern57431}}\widowctrl\ftnbj\aenddoc\hyphcaps0\formshade \fet0\sectd 
+\linex0\endnhere {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang
+{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8
+\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \s15\keepn\widctlpar \b\f4\fs40 {\cs22\super ${\footnote \pard\plain \s21\widctlpar \f4\fs20 {\cs22\super $}
+ SNetReceiveTurns}#{\footnote \pard\plain \s21\widctlpar \f4\fs20 {\cs22\super #} SNetReceiveTurns}K{\footnote \pard\plain \s21\widctlpar \f4\fs20 {\cs22\super K} SNetReceiveTurns}} SNetReceiveTurns
+\par \pard\plain \s16\widctlpar \f4 
+\par This function receives the next set of turns from every active player, if all turns are available.
+\par 
+\par \pard\plain \s17\widctlpar \f11\fs22 BOOL SNetReceiveTurns (
+\par \tab DWORD\tab \tab firstplayerid,
+\par \tab DWORD\tab \tab arraysize,
+\par \tab LPVOID\tab *arraydata,
+\par \tab LPDWORD\tab arraydatabytes,
+\par \tab LPDWORD\tab arrayplayerstatus
+\par );
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s18\widctlpar \b\f4 Parameters
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 firstplayerid
+\par \pard\plain \s19\li720\widctlpar \f4 The player ID of the first player for which a turn will be received.  For example, if this parameter is one, then slot zero in the each array corresponds to player number one.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 arraysize
+\par \pard\plain \s19\li720\widctlpar \f4 The number of slots in each array.  This limits the number of players for which turns can be returned.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 arraydata
+\par \pard\plain \s19\li720\widctlpar \f4 An array of pointers, which will be filled in with pointers to the message data for each player\rquote s turn.  Each returned pointer will remain valid until the next call to an SNet function or to StormDestroy().
+
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 arraydatabytes
+\par \pard\plain \s19\li720\widctlpar \f4 An array of DWORDs, which will be filled in with the size, in bytes, of the message data for each player\rquote s turn.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 arrayplayerstatus
+\par \pard\plain \s19\li720\widctlpar \f4 An array of DWORDs, which will be filled in with the status of each player, whether or not the function successfully returns turns for each player.  The following status codes can be returned:
+\par \pard\plain \s16\widctlpar \f4 
+\par \trowd \trgaph108\trleft612 \cellx3960\cellx7812 \pard\plain \s19\widctlpar\intbl \f4 {\b Value}\cell {\b Meaning}\cell \pard\plain \widctlpar\intbl \f4\fs20 \row \trowd \trgaph108\trleft612 \cellx3960\cellx7812 \pard\plain \s19\widctlpar\intbl \f4 
+SNET_PS_UNUSED\cell There is no active player in this slot.\cell \pard\plain \widctlpar\intbl \f4\fs20 \row \pard\plain \s19\widctlpar\intbl \f4 SNET_PS_READY\cell The next turn for this player has been received.\cell \pard\plain \widctlpar\intbl 
+\f4\fs20 \row \pard\plain \s19\widctlpar\intbl \f4 SNET_PS_WAITING\cell The next turn for this player has not yet been received.\cell \pard\plain \widctlpar\intbl \f4\fs20 \row \trowd \trgaph108\trleft612 \cellx3960\cellx7812 \pard\plain 
+\s19\widctlpar\intbl \f4 SNET_PS_NOTRESPONDING\cell The next turn for this player has not been received, and attempts to contact the computer for a resend have been unsuccessful.  The player may have lost his network connection.\cell \pard\plain 
+\widctlpar\intbl \f4\fs20 \row \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s18\widctlpar \b\f4 Return Value
+\par \pard\plain \s16\widctlpar \f4 
+\par This function returns TRUE for success or FALSE for failure.  The function can fail if:
+\par {\pntext\pard\plain\f1 \'b7\tab}\pard \s16\fi-360\li360\widctlpar{\*\pn \pnlvlblt\pnf1\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}No network provider has been initialized
+\par {\pntext\pard\plain\f1 \'b7\tab}No game has been created or joined
+\par {\pntext\pard\plain\f1 \'b7\tab}An array size of zero is specified
+\par {\pntext\pard\plain\f1 \'b7\tab}An array was not provided
+\par {\pntext\pard\plain\f1 \'b7\tab}This machine has not yet received the next turn from at least one player
+\par \pard\plain \widctlpar \f4\fs20 
+\par }

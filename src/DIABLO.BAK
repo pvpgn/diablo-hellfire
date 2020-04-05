@@ -1,0 +1,5342 @@
+# Microsoft Developer Studio Generated NMAKE File, Format Version 4.20
+# ** DO NOT EDIT **
+
+# TARGTYPE "Win32 (x86) Application" 0x0101
+
+!IF "$(CFG)" == ""
+CFG=Diablo - Win32 Debug
+!MESSAGE No configuration specified.  Defaulting to Diablo - Win32 Debug.
+!ENDIF 
+
+!IF "$(CFG)" != "Diablo - Win32 Release" && "$(CFG)" != "Diablo - Win32 Debug"\
+ && "$(CFG)" != "Diablo - Win32 FinalFinal" && "$(CFG)" !=\
+ "Diablo - Win32 Shareware FinalFinal" && "$(CFG)" !=\
+ "Diablo - Win32 Shareware Release"
+!MESSAGE Invalid configuration "$(CFG)" specified.
+!MESSAGE You can specify a configuration when running NMAKE on this makefile
+!MESSAGE by defining the macro CFG on the command line.  For example:
+!MESSAGE 
+!MESSAGE NMAKE /f "DIABLO.MAK" CFG="Diablo - Win32 Debug"
+!MESSAGE 
+!MESSAGE Possible choices for configuration are:
+!MESSAGE 
+!MESSAGE "Diablo - Win32 Release" (based on "Win32 (x86) Application")
+!MESSAGE "Diablo - Win32 Debug" (based on "Win32 (x86) Application")
+!MESSAGE "Diablo - Win32 FinalFinal" (based on "Win32 (x86) Application")
+!MESSAGE "Diablo - Win32 Shareware FinalFinal" (based on\
+ "Win32 (x86) Application")
+!MESSAGE "Diablo - Win32 Shareware Release" (based on\
+ "Win32 (x86) Application")
+!MESSAGE 
+!ERROR An invalid configuration is specified.
+!ENDIF 
+
+!IF "$(OS)" == "Windows_NT"
+NULL=
+!ELSE 
+NULL=nul
+!ENDIF 
+################################################################################
+# Begin Project
+# PROP Target_Last_Scanned "Diablo - Win32 Debug"
+CPP=cl.exe
+RSC=rc.exe
+MTL=mktyplib.exe
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "WinRel"
+# PROP BASE Intermediate_Dir "WinRel"
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "WinRel"
+# PROP Intermediate_Dir "WinRel"
+OUTDIR=.\WinRel
+INTDIR=.\WinRel
+
+ALL : "$(OUTDIR)\DIABLO.exe"
+
+CLEAN : 
+	-@erase "$(INTDIR)\appfat.obj"
+	-@erase "$(INTDIR)\automap.obj"
+	-@erase "$(INTDIR)\capture.obj"
+	-@erase "$(INTDIR)\CODEC.OBJ"
+	-@erase "$(INTDIR)\CONTROL.OBJ"
+	-@erase "$(INTDIR)\CURSOR.OBJ"
+	-@erase "$(INTDIR)\DEAD.OBJ"
+	-@erase "$(INTDIR)\DEBUG.OBJ"
+	-@erase "$(INTDIR)\DIABLO.OBJ"
+	-@erase "$(INTDIR)\diablo.res"
+	-@erase "$(INTDIR)\doom.obj"
+	-@erase "$(INTDIR)\DRLG_L1.OBJ"
+	-@erase "$(INTDIR)\DRLG_L2.OBJ"
+	-@erase "$(INTDIR)\DRLG_L3.OBJ"
+	-@erase "$(INTDIR)\drlg_l4.obj"
+	-@erase "$(INTDIR)\dthread.obj"
+	-@erase "$(INTDIR)\dx.obj"
+	-@erase "$(INTDIR)\effects.obj"
+	-@erase "$(INTDIR)\encrypt.obj"
+	-@erase "$(INTDIR)\ENGINE.OBJ"
+	-@erase "$(INTDIR)\error.obj"
+	-@erase "$(INTDIR)\except.obj"
+	-@erase "$(INTDIR)\GameMenu.obj"
+	-@erase "$(INTDIR)\GENDUNG.OBJ"
+	-@erase "$(INTDIR)\gmenu.obj"
+	-@erase "$(INTDIR)\help.obj"
+	-@erase "$(INTDIR)\init.obj"
+	-@erase "$(INTDIR)\Interfac.obj"
+	-@erase "$(INTDIR)\inv.obj"
+	-@erase "$(INTDIR)\itemdat.obj"
+	-@erase "$(INTDIR)\ITEMS.OBJ"
+	-@erase "$(INTDIR)\LIGHTING.OBJ"
+	-@erase "$(INTDIR)\loadsave.obj"
+	-@erase "$(INTDIR)\mainmenu.obj"
+	-@erase "$(INTDIR)\minitext.obj"
+	-@erase "$(INTDIR)\misdat.obj"
+	-@erase "$(INTDIR)\MISSILES.OBJ"
+	-@erase "$(INTDIR)\MONSTDAT.OBJ"
+	-@erase "$(INTDIR)\MONSTER.OBJ"
+	-@erase "$(INTDIR)\movie.obj"
+	-@erase "$(INTDIR)\mpqapi.obj"
+	-@erase "$(INTDIR)\msg.obj"
+	-@erase "$(INTDIR)\multi.obj"
+	-@erase "$(INTDIR)\nthread.obj"
+	-@erase "$(INTDIR)\objdat.obj"
+	-@erase "$(INTDIR)\OBJECTS.OBJ"
+	-@erase "$(INTDIR)\packplr.obj"
+	-@erase "$(INTDIR)\PALETTE.OBJ"
+	-@erase "$(INTDIR)\path.obj"
+	-@erase "$(INTDIR)\pfile.obj"
+	-@erase "$(INTDIR)\PLAYER.OBJ"
+	-@erase "$(INTDIR)\plrmsg.obj"
+	-@erase "$(INTDIR)\portal.obj"
+	-@erase "$(INTDIR)\Quests.obj"
+	-@erase "$(INTDIR)\scroll.obj"
+	-@erase "$(INTDIR)\SCROLLRT.OBJ"
+	-@erase "$(INTDIR)\SetMaps.obj"
+	-@erase "$(INTDIR)\SHA.OBJ"
+	-@erase "$(INTDIR)\SOUND.OBJ"
+	-@erase "$(INTDIR)\Spelldat.obj"
+	-@erase "$(INTDIR)\SPELLS.OBJ"
+	-@erase "$(INTDIR)\stores.obj"
+	-@erase "$(INTDIR)\sync.obj"
+	-@erase "$(INTDIR)\Textdat.obj"
+	-@erase "$(INTDIR)\themes.obj"
+	-@erase "$(INTDIR)\tmsg.obj"
+	-@erase "$(INTDIR)\TOWN.OBJ"
+	-@erase "$(INTDIR)\towners.obj"
+	-@erase "$(INTDIR)\track.obj"
+	-@erase "$(INTDIR)\TRIGS.OBJ"
+	-@erase "$(INTDIR)\vc40.pdb"
+	-@erase "$(INTDIR)\wave.obj"
+	-@erase "$(OUTDIR)\DIABLO.exe"
+	-@erase "$(OUTDIR)\DIABLO.map"
+	-@erase "$(OUTDIR)\DIABLO.pdb"
+
+"$(OUTDIR)" :
+    if not exist "$(OUTDIR)/$(NULL)" mkdir "$(OUTDIR)"
+
+$(OUTDIR)/DIABLO.bsc : $(OUTDIR)  $(BSC32_SBRS)
+# ADD BASE CPP /nologo /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /FR /YX /c
+# ADD CPP /nologo /G5 /Gr /MT /W3 /Zi /O1 /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D PROGRAM_VERSION=RETAIL /FAcs /YX /c
+# SUBTRACT CPP /Fr
+CPP_PROJ=/nologo /G5 /Gr /MT /W3 /Zi /O1 /D "WIN32" /D "_WINDOWS" /D "_DEBUG"\
+ /D PROGRAM_VERSION=RETAIL /FAcs /Fa"$(INTDIR)/" /Fp"$(INTDIR)/DIABLO.pch" /YX\
+ /Fo"$(INTDIR)/" /Fd"$(INTDIR)/" /c 
+CPP_OBJS=.\WinRel/
+CPP_SBRS=.\.
+# ADD BASE MTL /nologo /D "NDEBUG" /win32
+# ADD MTL /nologo /D "NDEBUG" /win32
+MTL_PROJ=/nologo /D "NDEBUG" /win32 
+# ADD BASE RSC /l 0x409 /d "NDEBUG"
+# ADD RSC /l 0x409 /d "NDEBUG"
+RSC_PROJ=/l 0x409 /fo"$(INTDIR)/diablo.res" /d "NDEBUG" 
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+BSC32_FLAGS=/nologo /o"$(OUTDIR)/DIABLO.bsc" 
+BSC32_SBRS= \
+	
+LINK32=link.exe
+# ADD BASE LINK32 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /machine:I386
+# ADD LINK32 libcmt.lib winmm.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib version.lib /nologo /subsystem:windows /map /debug /machine:I386 /nodefaultlib
+# SUBTRACT LINK32 /incremental:yes
+LINK32_FLAGS=libcmt.lib winmm.lib kernel32.lib user32.lib gdi32.lib\
+ comdlg32.lib advapi32.lib shell32.lib version.lib /nologo /subsystem:windows\
+ /incremental:no /pdb:"$(OUTDIR)/DIABLO.pdb" /map:"$(INTDIR)/DIABLO.map" /debug\
+ /machine:I386 /nodefaultlib /out:"$(OUTDIR)/DIABLO.exe" 
+LINK32_OBJS= \
+	"$(INTDIR)\appfat.obj" \
+	"$(INTDIR)\automap.obj" \
+	"$(INTDIR)\capture.obj" \
+	"$(INTDIR)\CODEC.OBJ" \
+	"$(INTDIR)\CONTROL.OBJ" \
+	"$(INTDIR)\CURSOR.OBJ" \
+	"$(INTDIR)\DEAD.OBJ" \
+	"$(INTDIR)\DEBUG.OBJ" \
+	"$(INTDIR)\DIABLO.OBJ" \
+	"$(INTDIR)\diablo.res" \
+	"$(INTDIR)\doom.obj" \
+	"$(INTDIR)\DRLG_L1.OBJ" \
+	"$(INTDIR)\DRLG_L2.OBJ" \
+	"$(INTDIR)\DRLG_L3.OBJ" \
+	"$(INTDIR)\drlg_l4.obj" \
+	"$(INTDIR)\dthread.obj" \
+	"$(INTDIR)\dx.obj" \
+	"$(INTDIR)\effects.obj" \
+	"$(INTDIR)\encrypt.obj" \
+	"$(INTDIR)\ENGINE.OBJ" \
+	"$(INTDIR)\error.obj" \
+	"$(INTDIR)\except.obj" \
+	"$(INTDIR)\GameMenu.obj" \
+	"$(INTDIR)\GENDUNG.OBJ" \
+	"$(INTDIR)\gmenu.obj" \
+	"$(INTDIR)\help.obj" \
+	"$(INTDIR)\init.obj" \
+	"$(INTDIR)\Interfac.obj" \
+	"$(INTDIR)\inv.obj" \
+	"$(INTDIR)\itemdat.obj" \
+	"$(INTDIR)\ITEMS.OBJ" \
+	"$(INTDIR)\LIGHTING.OBJ" \
+	"$(INTDIR)\loadsave.obj" \
+	"$(INTDIR)\mainmenu.obj" \
+	"$(INTDIR)\minitext.obj" \
+	"$(INTDIR)\misdat.obj" \
+	"$(INTDIR)\MISSILES.OBJ" \
+	"$(INTDIR)\MONSTDAT.OBJ" \
+	"$(INTDIR)\MONSTER.OBJ" \
+	"$(INTDIR)\movie.obj" \
+	"$(INTDIR)\mpqapi.obj" \
+	"$(INTDIR)\msg.obj" \
+	"$(INTDIR)\multi.obj" \
+	"$(INTDIR)\nthread.obj" \
+	"$(INTDIR)\objdat.obj" \
+	"$(INTDIR)\OBJECTS.OBJ" \
+	"$(INTDIR)\packplr.obj" \
+	"$(INTDIR)\PALETTE.OBJ" \
+	"$(INTDIR)\path.obj" \
+	"$(INTDIR)\pfile.obj" \
+	"$(INTDIR)\PLAYER.OBJ" \
+	"$(INTDIR)\plrmsg.obj" \
+	"$(INTDIR)\portal.obj" \
+	"$(INTDIR)\Quests.obj" \
+	"$(INTDIR)\scroll.obj" \
+	"$(INTDIR)\SCROLLRT.OBJ" \
+	"$(INTDIR)\SetMaps.obj" \
+	"$(INTDIR)\SHA.OBJ" \
+	"$(INTDIR)\SOUND.OBJ" \
+	"$(INTDIR)\Spelldat.obj" \
+	"$(INTDIR)\SPELLS.OBJ" \
+	"$(INTDIR)\stores.obj" \
+	"$(INTDIR)\sync.obj" \
+	"$(INTDIR)\Textdat.obj" \
+	"$(INTDIR)\themes.obj" \
+	"$(INTDIR)\tmsg.obj" \
+	"$(INTDIR)\TOWN.OBJ" \
+	"$(INTDIR)\towners.obj" \
+	"$(INTDIR)\track.obj" \
+	"$(INTDIR)\TRIGS.OBJ" \
+	"$(INTDIR)\wave.obj" \
+	".\ddraw.lib" \
+	".\Diabloui.lib" \
+	".\dsound.lib" \
+	".\implode.lib" \
+	".\Storm.lib"
+
+"$(OUTDIR)\DIABLO.exe" : "$(OUTDIR)" $(DEF_FILE) $(LINK32_OBJS)
+    $(LINK32) @<<
+  $(LINK32_FLAGS) $(LINK32_OBJS)
+<<
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "WinDebug"
+# PROP BASE Intermediate_Dir "WinDebug"
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "WinDebug"
+# PROP Intermediate_Dir "WinDebug"
+OUTDIR=.\WinDebug
+INTDIR=.\WinDebug
+
+ALL : "$(OUTDIR)\DIABLO.exe"
+
+CLEAN : 
+	-@erase "$(INTDIR)\appfat.obj"
+	-@erase "$(INTDIR)\automap.obj"
+	-@erase "$(INTDIR)\capture.obj"
+	-@erase "$(INTDIR)\CODEC.OBJ"
+	-@erase "$(INTDIR)\CONTROL.OBJ"
+	-@erase "$(INTDIR)\CURSOR.OBJ"
+	-@erase "$(INTDIR)\DEAD.OBJ"
+	-@erase "$(INTDIR)\DEBUG.OBJ"
+	-@erase "$(INTDIR)\DIABLO.OBJ"
+	-@erase "$(INTDIR)\diablo.res"
+	-@erase "$(INTDIR)\doom.obj"
+	-@erase "$(INTDIR)\DRLG_L1.OBJ"
+	-@erase "$(INTDIR)\DRLG_L2.OBJ"
+	-@erase "$(INTDIR)\DRLG_L3.OBJ"
+	-@erase "$(INTDIR)\drlg_l4.obj"
+	-@erase "$(INTDIR)\dthread.obj"
+	-@erase "$(INTDIR)\dx.obj"
+	-@erase "$(INTDIR)\effects.obj"
+	-@erase "$(INTDIR)\encrypt.obj"
+	-@erase "$(INTDIR)\ENGINE.OBJ"
+	-@erase "$(INTDIR)\error.obj"
+	-@erase "$(INTDIR)\except.obj"
+	-@erase "$(INTDIR)\GameMenu.obj"
+	-@erase "$(INTDIR)\GENDUNG.OBJ"
+	-@erase "$(INTDIR)\gmenu.obj"
+	-@erase "$(INTDIR)\help.obj"
+	-@erase "$(INTDIR)\init.obj"
+	-@erase "$(INTDIR)\Interfac.obj"
+	-@erase "$(INTDIR)\inv.obj"
+	-@erase "$(INTDIR)\itemdat.obj"
+	-@erase "$(INTDIR)\ITEMS.OBJ"
+	-@erase "$(INTDIR)\LIGHTING.OBJ"
+	-@erase "$(INTDIR)\loadsave.obj"
+	-@erase "$(INTDIR)\mainmenu.obj"
+	-@erase "$(INTDIR)\minitext.obj"
+	-@erase "$(INTDIR)\misdat.obj"
+	-@erase "$(INTDIR)\MISSILES.OBJ"
+	-@erase "$(INTDIR)\MONSTDAT.OBJ"
+	-@erase "$(INTDIR)\MONSTER.OBJ"
+	-@erase "$(INTDIR)\movie.obj"
+	-@erase "$(INTDIR)\mpqapi.obj"
+	-@erase "$(INTDIR)\msg.obj"
+	-@erase "$(INTDIR)\multi.obj"
+	-@erase "$(INTDIR)\nthread.obj"
+	-@erase "$(INTDIR)\objdat.obj"
+	-@erase "$(INTDIR)\OBJECTS.OBJ"
+	-@erase "$(INTDIR)\packplr.obj"
+	-@erase "$(INTDIR)\PALETTE.OBJ"
+	-@erase "$(INTDIR)\path.obj"
+	-@erase "$(INTDIR)\pfile.obj"
+	-@erase "$(INTDIR)\PLAYER.OBJ"
+	-@erase "$(INTDIR)\plrmsg.obj"
+	-@erase "$(INTDIR)\portal.obj"
+	-@erase "$(INTDIR)\Quests.obj"
+	-@erase "$(INTDIR)\scroll.obj"
+	-@erase "$(INTDIR)\SCROLLRT.OBJ"
+	-@erase "$(INTDIR)\SetMaps.obj"
+	-@erase "$(INTDIR)\SHA.OBJ"
+	-@erase "$(INTDIR)\SOUND.OBJ"
+	-@erase "$(INTDIR)\Spelldat.obj"
+	-@erase "$(INTDIR)\SPELLS.OBJ"
+	-@erase "$(INTDIR)\stores.obj"
+	-@erase "$(INTDIR)\sync.obj"
+	-@erase "$(INTDIR)\Textdat.obj"
+	-@erase "$(INTDIR)\themes.obj"
+	-@erase "$(INTDIR)\tmsg.obj"
+	-@erase "$(INTDIR)\TOWN.OBJ"
+	-@erase "$(INTDIR)\towners.obj"
+	-@erase "$(INTDIR)\track.obj"
+	-@erase "$(INTDIR)\TRIGS.OBJ"
+	-@erase "$(INTDIR)\vc40.idb"
+	-@erase "$(INTDIR)\vc40.pdb"
+	-@erase "$(INTDIR)\wave.obj"
+	-@erase "$(OUTDIR)\DIABLO.exe"
+	-@erase "$(OUTDIR)\DIABLO.map"
+	-@erase "$(OUTDIR)\DIABLO.pdb"
+
+"$(OUTDIR)" :
+    if not exist "$(OUTDIR)/$(NULL)" mkdir "$(OUTDIR)"
+
+$(OUTDIR)/DIABLO.bsc : $(OUTDIR)  $(BSC32_SBRS)
+# ADD BASE CPP /nologo /W3 /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /FR /YX /c
+# ADD CPP /nologo /G5 /Gr /MT /W3 /Gm /Zi /Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D PROGRAM_VERSION=RETAIL /FAcs /YX /c
+# SUBTRACT CPP /Fr
+CPP_PROJ=/nologo /G5 /Gr /MT /W3 /Gm /Zi /Od /D "WIN32" /D "_WINDOWS" /D\
+ "_DEBUG" /D PROGRAM_VERSION=RETAIL /FAcs /Fa"$(INTDIR)/"\
+ /Fp"$(INTDIR)/DIABLO.pch" /YX /Fo"$(INTDIR)/" /Fd"$(INTDIR)/" /c 
+CPP_OBJS=.\WinDebug/
+CPP_SBRS=.\.
+# ADD BASE MTL /nologo /D "_DEBUG" /win32
+# ADD MTL /nologo /D "_DEBUG" /win32
+MTL_PROJ=/nologo /D "_DEBUG" /win32 
+# ADD BASE RSC /l 0x409 /d "_DEBUG"
+# ADD RSC /l 0x409 /d "_DEBUG"
+RSC_PROJ=/l 0x409 /fo"$(INTDIR)/diablo.res" /d "_DEBUG" 
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+BSC32_FLAGS=/nologo /o"$(OUTDIR)/DIABLO.bsc" 
+BSC32_SBRS= \
+	
+LINK32=link.exe
+# ADD BASE LINK32 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /debug /machine:I386
+# ADD LINK32 libcmt.lib winmm.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib version.lib /nologo /subsystem:windows /incremental:no /map /debug /machine:I386 /nodefaultlib
+LINK32_FLAGS=libcmt.lib winmm.lib kernel32.lib user32.lib gdi32.lib\
+ comdlg32.lib advapi32.lib shell32.lib version.lib /nologo /subsystem:windows\
+ /incremental:no /pdb:"$(OUTDIR)/DIABLO.pdb" /map:"$(INTDIR)/DIABLO.map" /debug\
+ /machine:I386 /nodefaultlib /out:"$(OUTDIR)/DIABLO.exe" 
+LINK32_OBJS= \
+	"$(INTDIR)\appfat.obj" \
+	"$(INTDIR)\automap.obj" \
+	"$(INTDIR)\capture.obj" \
+	"$(INTDIR)\CODEC.OBJ" \
+	"$(INTDIR)\CONTROL.OBJ" \
+	"$(INTDIR)\CURSOR.OBJ" \
+	"$(INTDIR)\DEAD.OBJ" \
+	"$(INTDIR)\DEBUG.OBJ" \
+	"$(INTDIR)\DIABLO.OBJ" \
+	"$(INTDIR)\diablo.res" \
+	"$(INTDIR)\doom.obj" \
+	"$(INTDIR)\DRLG_L1.OBJ" \
+	"$(INTDIR)\DRLG_L2.OBJ" \
+	"$(INTDIR)\DRLG_L3.OBJ" \
+	"$(INTDIR)\drlg_l4.obj" \
+	"$(INTDIR)\dthread.obj" \
+	"$(INTDIR)\dx.obj" \
+	"$(INTDIR)\effects.obj" \
+	"$(INTDIR)\encrypt.obj" \
+	"$(INTDIR)\ENGINE.OBJ" \
+	"$(INTDIR)\error.obj" \
+	"$(INTDIR)\except.obj" \
+	"$(INTDIR)\GameMenu.obj" \
+	"$(INTDIR)\GENDUNG.OBJ" \
+	"$(INTDIR)\gmenu.obj" \
+	"$(INTDIR)\help.obj" \
+	"$(INTDIR)\init.obj" \
+	"$(INTDIR)\Interfac.obj" \
+	"$(INTDIR)\inv.obj" \
+	"$(INTDIR)\itemdat.obj" \
+	"$(INTDIR)\ITEMS.OBJ" \
+	"$(INTDIR)\LIGHTING.OBJ" \
+	"$(INTDIR)\loadsave.obj" \
+	"$(INTDIR)\mainmenu.obj" \
+	"$(INTDIR)\minitext.obj" \
+	"$(INTDIR)\misdat.obj" \
+	"$(INTDIR)\MISSILES.OBJ" \
+	"$(INTDIR)\MONSTDAT.OBJ" \
+	"$(INTDIR)\MONSTER.OBJ" \
+	"$(INTDIR)\movie.obj" \
+	"$(INTDIR)\mpqapi.obj" \
+	"$(INTDIR)\msg.obj" \
+	"$(INTDIR)\multi.obj" \
+	"$(INTDIR)\nthread.obj" \
+	"$(INTDIR)\objdat.obj" \
+	"$(INTDIR)\OBJECTS.OBJ" \
+	"$(INTDIR)\packplr.obj" \
+	"$(INTDIR)\PALETTE.OBJ" \
+	"$(INTDIR)\path.obj" \
+	"$(INTDIR)\pfile.obj" \
+	"$(INTDIR)\PLAYER.OBJ" \
+	"$(INTDIR)\plrmsg.obj" \
+	"$(INTDIR)\portal.obj" \
+	"$(INTDIR)\Quests.obj" \
+	"$(INTDIR)\scroll.obj" \
+	"$(INTDIR)\SCROLLRT.OBJ" \
+	"$(INTDIR)\SetMaps.obj" \
+	"$(INTDIR)\SHA.OBJ" \
+	"$(INTDIR)\SOUND.OBJ" \
+	"$(INTDIR)\Spelldat.obj" \
+	"$(INTDIR)\SPELLS.OBJ" \
+	"$(INTDIR)\stores.obj" \
+	"$(INTDIR)\sync.obj" \
+	"$(INTDIR)\Textdat.obj" \
+	"$(INTDIR)\themes.obj" \
+	"$(INTDIR)\tmsg.obj" \
+	"$(INTDIR)\TOWN.OBJ" \
+	"$(INTDIR)\towners.obj" \
+	"$(INTDIR)\track.obj" \
+	"$(INTDIR)\TRIGS.OBJ" \
+	"$(INTDIR)\wave.obj" \
+	".\ddraw.lib" \
+	".\Diabloui.lib" \
+	".\dsound.lib" \
+	".\implode.lib" \
+	".\Storm.lib"
+
+"$(OUTDIR)\DIABLO.exe" : "$(OUTDIR)" $(DEF_FILE) $(LINK32_OBJS)
+    $(LINK32) @<<
+  $(LINK32_FLAGS) $(LINK32_OBJS)
+<<
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "Diablo__"
+# PROP BASE Intermediate_Dir "Diablo__"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "WinFinal"
+# PROP Intermediate_Dir "WinFinal"
+# PROP Target_Dir ""
+OUTDIR=.\WinFinal
+INTDIR=.\WinFinal
+
+ALL : "$(OUTDIR)\DIABLO.exe"
+
+CLEAN : 
+	-@erase "$(INTDIR)\appfat.obj"
+	-@erase "$(INTDIR)\automap.obj"
+	-@erase "$(INTDIR)\capture.obj"
+	-@erase "$(INTDIR)\CODEC.OBJ"
+	-@erase "$(INTDIR)\CONTROL.OBJ"
+	-@erase "$(INTDIR)\CURSOR.OBJ"
+	-@erase "$(INTDIR)\DEAD.OBJ"
+	-@erase "$(INTDIR)\DEBUG.OBJ"
+	-@erase "$(INTDIR)\DIABLO.OBJ"
+	-@erase "$(INTDIR)\diablo.res"
+	-@erase "$(INTDIR)\doom.obj"
+	-@erase "$(INTDIR)\DRLG_L1.OBJ"
+	-@erase "$(INTDIR)\DRLG_L2.OBJ"
+	-@erase "$(INTDIR)\DRLG_L3.OBJ"
+	-@erase "$(INTDIR)\drlg_l4.obj"
+	-@erase "$(INTDIR)\dthread.obj"
+	-@erase "$(INTDIR)\dx.obj"
+	-@erase "$(INTDIR)\effects.obj"
+	-@erase "$(INTDIR)\encrypt.obj"
+	-@erase "$(INTDIR)\ENGINE.OBJ"
+	-@erase "$(INTDIR)\error.obj"
+	-@erase "$(INTDIR)\except.obj"
+	-@erase "$(INTDIR)\GameMenu.obj"
+	-@erase "$(INTDIR)\GENDUNG.OBJ"
+	-@erase "$(INTDIR)\gmenu.obj"
+	-@erase "$(INTDIR)\help.obj"
+	-@erase "$(INTDIR)\init.obj"
+	-@erase "$(INTDIR)\Interfac.obj"
+	-@erase "$(INTDIR)\inv.obj"
+	-@erase "$(INTDIR)\itemdat.obj"
+	-@erase "$(INTDIR)\ITEMS.OBJ"
+	-@erase "$(INTDIR)\LIGHTING.OBJ"
+	-@erase "$(INTDIR)\loadsave.obj"
+	-@erase "$(INTDIR)\mainmenu.obj"
+	-@erase "$(INTDIR)\minitext.obj"
+	-@erase "$(INTDIR)\misdat.obj"
+	-@erase "$(INTDIR)\MISSILES.OBJ"
+	-@erase "$(INTDIR)\MONSTDAT.OBJ"
+	-@erase "$(INTDIR)\MONSTER.OBJ"
+	-@erase "$(INTDIR)\movie.obj"
+	-@erase "$(INTDIR)\mpqapi.obj"
+	-@erase "$(INTDIR)\msg.obj"
+	-@erase "$(INTDIR)\multi.obj"
+	-@erase "$(INTDIR)\nthread.obj"
+	-@erase "$(INTDIR)\objdat.obj"
+	-@erase "$(INTDIR)\OBJECTS.OBJ"
+	-@erase "$(INTDIR)\packplr.obj"
+	-@erase "$(INTDIR)\PALETTE.OBJ"
+	-@erase "$(INTDIR)\path.obj"
+	-@erase "$(INTDIR)\pfile.obj"
+	-@erase "$(INTDIR)\PLAYER.OBJ"
+	-@erase "$(INTDIR)\plrmsg.obj"
+	-@erase "$(INTDIR)\portal.obj"
+	-@erase "$(INTDIR)\Quests.obj"
+	-@erase "$(INTDIR)\scroll.obj"
+	-@erase "$(INTDIR)\SCROLLRT.OBJ"
+	-@erase "$(INTDIR)\SetMaps.obj"
+	-@erase "$(INTDIR)\SHA.OBJ"
+	-@erase "$(INTDIR)\SOUND.OBJ"
+	-@erase "$(INTDIR)\Spelldat.obj"
+	-@erase "$(INTDIR)\SPELLS.OBJ"
+	-@erase "$(INTDIR)\stores.obj"
+	-@erase "$(INTDIR)\sync.obj"
+	-@erase "$(INTDIR)\Textdat.obj"
+	-@erase "$(INTDIR)\themes.obj"
+	-@erase "$(INTDIR)\tmsg.obj"
+	-@erase "$(INTDIR)\TOWN.OBJ"
+	-@erase "$(INTDIR)\towners.obj"
+	-@erase "$(INTDIR)\track.obj"
+	-@erase "$(INTDIR)\TRIGS.OBJ"
+	-@erase "$(INTDIR)\vc40.pdb"
+	-@erase "$(INTDIR)\wave.obj"
+	-@erase "$(OUTDIR)\DIABLO.exe"
+	-@erase "$(OUTDIR)\DIABLO.map"
+
+"$(OUTDIR)" :
+    if not exist "$(OUTDIR)/$(NULL)" mkdir "$(OUTDIR)"
+
+# ADD BASE CPP /nologo /G5 /Gr /MT /W3 /Zi /O1 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /YX /c
+# SUBTRACT BASE CPP /Fr
+# ADD CPP /nologo /G5 /Gr /MT /W3 /Zi /O1 /D "WIN32" /D "_WINDOWS" /D "NDEBUG" /D PROGRAM_VERSION=RETAIL /FAcs /YX /c
+# SUBTRACT CPP /Fr
+CPP_PROJ=/nologo /G5 /Gr /MT /W3 /Zi /O1 /D "WIN32" /D "_WINDOWS" /D "NDEBUG"\
+ /D PROGRAM_VERSION=RETAIL /FAcs /Fa"$(INTDIR)/" /Fp"$(INTDIR)/DIABLO.pch" /YX\
+ /Fo"$(INTDIR)/" /Fd"$(INTDIR)/" /c 
+CPP_OBJS=.\WinFinal/
+CPP_SBRS=.\.
+# ADD BASE MTL /nologo /D "NDEBUG" /win32
+# ADD MTL /nologo /D "NDEBUG" /win32
+MTL_PROJ=/nologo /D "NDEBUG" /win32 
+# ADD BASE RSC /l 0x409 /d "NDEBUG"
+# ADD RSC /l 0x409 /d "NDEBUG"
+RSC_PROJ=/l 0x409 /fo"$(INTDIR)/diablo.res" /d "NDEBUG" 
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+BSC32_FLAGS=/nologo /o"$(OUTDIR)/DIABLO.bsc" 
+BSC32_SBRS= \
+	
+LINK32=link.exe
+# ADD BASE LINK32 winspool.lib libcmt.lib winmm.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib version.lib /nologo /subsystem:windows /machine:I386 /nodefaultlib
+# ADD LINK32 libcmt.lib winmm.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib version.lib /nologo /subsystem:windows /map /machine:I386 /nodefaultlib
+# SUBTRACT LINK32 /incremental:yes
+LINK32_FLAGS=libcmt.lib winmm.lib kernel32.lib user32.lib gdi32.lib\
+ comdlg32.lib advapi32.lib shell32.lib version.lib /nologo /subsystem:windows\
+ /incremental:no /pdb:"$(OUTDIR)/DIABLO.pdb" /map:"$(INTDIR)/DIABLO.map"\
+ /machine:I386 /nodefaultlib /out:"$(OUTDIR)/DIABLO.exe" 
+LINK32_OBJS= \
+	"$(INTDIR)\appfat.obj" \
+	"$(INTDIR)\automap.obj" \
+	"$(INTDIR)\capture.obj" \
+	"$(INTDIR)\CODEC.OBJ" \
+	"$(INTDIR)\CONTROL.OBJ" \
+	"$(INTDIR)\CURSOR.OBJ" \
+	"$(INTDIR)\DEAD.OBJ" \
+	"$(INTDIR)\DEBUG.OBJ" \
+	"$(INTDIR)\DIABLO.OBJ" \
+	"$(INTDIR)\diablo.res" \
+	"$(INTDIR)\doom.obj" \
+	"$(INTDIR)\DRLG_L1.OBJ" \
+	"$(INTDIR)\DRLG_L2.OBJ" \
+	"$(INTDIR)\DRLG_L3.OBJ" \
+	"$(INTDIR)\drlg_l4.obj" \
+	"$(INTDIR)\dthread.obj" \
+	"$(INTDIR)\dx.obj" \
+	"$(INTDIR)\effects.obj" \
+	"$(INTDIR)\encrypt.obj" \
+	"$(INTDIR)\ENGINE.OBJ" \
+	"$(INTDIR)\error.obj" \
+	"$(INTDIR)\except.obj" \
+	"$(INTDIR)\GameMenu.obj" \
+	"$(INTDIR)\GENDUNG.OBJ" \
+	"$(INTDIR)\gmenu.obj" \
+	"$(INTDIR)\help.obj" \
+	"$(INTDIR)\init.obj" \
+	"$(INTDIR)\Interfac.obj" \
+	"$(INTDIR)\inv.obj" \
+	"$(INTDIR)\itemdat.obj" \
+	"$(INTDIR)\ITEMS.OBJ" \
+	"$(INTDIR)\LIGHTING.OBJ" \
+	"$(INTDIR)\loadsave.obj" \
+	"$(INTDIR)\mainmenu.obj" \
+	"$(INTDIR)\minitext.obj" \
+	"$(INTDIR)\misdat.obj" \
+	"$(INTDIR)\MISSILES.OBJ" \
+	"$(INTDIR)\MONSTDAT.OBJ" \
+	"$(INTDIR)\MONSTER.OBJ" \
+	"$(INTDIR)\movie.obj" \
+	"$(INTDIR)\mpqapi.obj" \
+	"$(INTDIR)\msg.obj" \
+	"$(INTDIR)\multi.obj" \
+	"$(INTDIR)\nthread.obj" \
+	"$(INTDIR)\objdat.obj" \
+	"$(INTDIR)\OBJECTS.OBJ" \
+	"$(INTDIR)\packplr.obj" \
+	"$(INTDIR)\PALETTE.OBJ" \
+	"$(INTDIR)\path.obj" \
+	"$(INTDIR)\pfile.obj" \
+	"$(INTDIR)\PLAYER.OBJ" \
+	"$(INTDIR)\plrmsg.obj" \
+	"$(INTDIR)\portal.obj" \
+	"$(INTDIR)\Quests.obj" \
+	"$(INTDIR)\scroll.obj" \
+	"$(INTDIR)\SCROLLRT.OBJ" \
+	"$(INTDIR)\SetMaps.obj" \
+	"$(INTDIR)\SHA.OBJ" \
+	"$(INTDIR)\SOUND.OBJ" \
+	"$(INTDIR)\Spelldat.obj" \
+	"$(INTDIR)\SPELLS.OBJ" \
+	"$(INTDIR)\stores.obj" \
+	"$(INTDIR)\sync.obj" \
+	"$(INTDIR)\Textdat.obj" \
+	"$(INTDIR)\themes.obj" \
+	"$(INTDIR)\tmsg.obj" \
+	"$(INTDIR)\TOWN.OBJ" \
+	"$(INTDIR)\towners.obj" \
+	"$(INTDIR)\track.obj" \
+	"$(INTDIR)\TRIGS.OBJ" \
+	"$(INTDIR)\wave.obj" \
+	".\ddraw.lib" \
+	".\Diabloui.lib" \
+	".\dsound.lib" \
+	".\implode.lib" \
+	".\Storm.lib"
+
+"$(OUTDIR)\DIABLO.exe" : "$(OUTDIR)" $(DEF_FILE) $(LINK32_OBJS)
+    $(LINK32) @<<
+  $(LINK32_FLAGS) $(LINK32_OBJS)
+<<
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "Diablo__"
+# PROP BASE Intermediate_Dir "Diablo__"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "SFinal"
+# PROP Intermediate_Dir "SFinal"
+# PROP Target_Dir ""
+OUTDIR=.\SFinal
+INTDIR=.\SFinal
+
+ALL : "$(OUTDIR)\DIABLO.exe"
+
+CLEAN : 
+	-@erase "$(INTDIR)\appfat.obj"
+	-@erase "$(INTDIR)\automap.obj"
+	-@erase "$(INTDIR)\capture.obj"
+	-@erase "$(INTDIR)\CODEC.OBJ"
+	-@erase "$(INTDIR)\CONTROL.OBJ"
+	-@erase "$(INTDIR)\CURSOR.OBJ"
+	-@erase "$(INTDIR)\DEAD.OBJ"
+	-@erase "$(INTDIR)\DEBUG.OBJ"
+	-@erase "$(INTDIR)\DIABLO.OBJ"
+	-@erase "$(INTDIR)\diablo.res"
+	-@erase "$(INTDIR)\doom.obj"
+	-@erase "$(INTDIR)\DRLG_L1.OBJ"
+	-@erase "$(INTDIR)\DRLG_L2.OBJ"
+	-@erase "$(INTDIR)\DRLG_L3.OBJ"
+	-@erase "$(INTDIR)\drlg_l4.obj"
+	-@erase "$(INTDIR)\dthread.obj"
+	-@erase "$(INTDIR)\dx.obj"
+	-@erase "$(INTDIR)\effects.obj"
+	-@erase "$(INTDIR)\encrypt.obj"
+	-@erase "$(INTDIR)\ENGINE.OBJ"
+	-@erase "$(INTDIR)\error.obj"
+	-@erase "$(INTDIR)\except.obj"
+	-@erase "$(INTDIR)\GameMenu.obj"
+	-@erase "$(INTDIR)\GENDUNG.OBJ"
+	-@erase "$(INTDIR)\gmenu.obj"
+	-@erase "$(INTDIR)\help.obj"
+	-@erase "$(INTDIR)\init.obj"
+	-@erase "$(INTDIR)\Interfac.obj"
+	-@erase "$(INTDIR)\inv.obj"
+	-@erase "$(INTDIR)\itemdat.obj"
+	-@erase "$(INTDIR)\ITEMS.OBJ"
+	-@erase "$(INTDIR)\LIGHTING.OBJ"
+	-@erase "$(INTDIR)\loadsave.obj"
+	-@erase "$(INTDIR)\mainmenu.obj"
+	-@erase "$(INTDIR)\minitext.obj"
+	-@erase "$(INTDIR)\misdat.obj"
+	-@erase "$(INTDIR)\MISSILES.OBJ"
+	-@erase "$(INTDIR)\MONSTDAT.OBJ"
+	-@erase "$(INTDIR)\MONSTER.OBJ"
+	-@erase "$(INTDIR)\movie.obj"
+	-@erase "$(INTDIR)\mpqapi.obj"
+	-@erase "$(INTDIR)\msg.obj"
+	-@erase "$(INTDIR)\multi.obj"
+	-@erase "$(INTDIR)\nthread.obj"
+	-@erase "$(INTDIR)\objdat.obj"
+	-@erase "$(INTDIR)\OBJECTS.OBJ"
+	-@erase "$(INTDIR)\packplr.obj"
+	-@erase "$(INTDIR)\PALETTE.OBJ"
+	-@erase "$(INTDIR)\path.obj"
+	-@erase "$(INTDIR)\pfile.obj"
+	-@erase "$(INTDIR)\PLAYER.OBJ"
+	-@erase "$(INTDIR)\plrmsg.obj"
+	-@erase "$(INTDIR)\portal.obj"
+	-@erase "$(INTDIR)\Quests.obj"
+	-@erase "$(INTDIR)\scroll.obj"
+	-@erase "$(INTDIR)\SCROLLRT.OBJ"
+	-@erase "$(INTDIR)\SetMaps.obj"
+	-@erase "$(INTDIR)\SHA.OBJ"
+	-@erase "$(INTDIR)\SOUND.OBJ"
+	-@erase "$(INTDIR)\Spelldat.obj"
+	-@erase "$(INTDIR)\SPELLS.OBJ"
+	-@erase "$(INTDIR)\stores.obj"
+	-@erase "$(INTDIR)\sync.obj"
+	-@erase "$(INTDIR)\Textdat.obj"
+	-@erase "$(INTDIR)\themes.obj"
+	-@erase "$(INTDIR)\tmsg.obj"
+	-@erase "$(INTDIR)\TOWN.OBJ"
+	-@erase "$(INTDIR)\towners.obj"
+	-@erase "$(INTDIR)\track.obj"
+	-@erase "$(INTDIR)\TRIGS.OBJ"
+	-@erase "$(INTDIR)\vc40.pdb"
+	-@erase "$(INTDIR)\wave.obj"
+	-@erase "$(OUTDIR)\DIABLO.exe"
+	-@erase "$(OUTDIR)\DIABLO.map"
+
+"$(OUTDIR)" :
+    if not exist "$(OUTDIR)/$(NULL)" mkdir "$(OUTDIR)"
+
+# ADD BASE CPP /nologo /G5 /Gr /MT /W3 /Zi /O1 /D "WIN32" /D "_WINDOWS" /D "NDEBUG" /YX /c
+# SUBTRACT BASE CPP /Fr
+# ADD CPP /nologo /G5 /Gr /MT /W3 /Zi /O1 /D "WIN32" /D "_WINDOWS" /D "NDEBUG" /D PROGRAM_VERSION=SHAREWARE /FAcs /YX /c
+# SUBTRACT CPP /Fr
+CPP_PROJ=/nologo /G5 /Gr /MT /W3 /Zi /O1 /D "WIN32" /D "_WINDOWS" /D "NDEBUG"\
+ /D PROGRAM_VERSION=SHAREWARE /FAcs /Fa"$(INTDIR)/" /Fp"$(INTDIR)/DIABLO.pch"\
+ /YX /Fo"$(INTDIR)/" /Fd"$(INTDIR)/" /c 
+CPP_OBJS=.\SFinal/
+CPP_SBRS=.\.
+# ADD BASE MTL /nologo /D "NDEBUG" /win32
+# ADD MTL /nologo /D "NDEBUG" /win32
+MTL_PROJ=/nologo /D "NDEBUG" /win32 
+# ADD BASE RSC /l 0x409 /d "NDEBUG"
+# ADD RSC /l 0x409 /d "NDEBUG"
+RSC_PROJ=/l 0x409 /fo"$(INTDIR)/diablo.res" /d "NDEBUG" 
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+BSC32_FLAGS=/nologo /o"$(OUTDIR)/DIABLO.bsc" 
+BSC32_SBRS= \
+	
+LINK32=link.exe
+# ADD BASE LINK32 libcmt.lib winmm.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib version.lib /nologo /subsystem:windows /machine:I386 /nodefaultlib
+# ADD LINK32 libcmt.lib winmm.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib version.lib /nologo /subsystem:windows /map /machine:I386 /nodefaultlib
+# SUBTRACT LINK32 /incremental:yes
+LINK32_FLAGS=libcmt.lib winmm.lib kernel32.lib user32.lib gdi32.lib\
+ comdlg32.lib advapi32.lib shell32.lib version.lib /nologo /subsystem:windows\
+ /incremental:no /pdb:"$(OUTDIR)/DIABLO.pdb" /map:"$(INTDIR)/DIABLO.map"\
+ /machine:I386 /nodefaultlib /out:"$(OUTDIR)/DIABLO.exe" 
+LINK32_OBJS= \
+	"$(INTDIR)\appfat.obj" \
+	"$(INTDIR)\automap.obj" \
+	"$(INTDIR)\capture.obj" \
+	"$(INTDIR)\CODEC.OBJ" \
+	"$(INTDIR)\CONTROL.OBJ" \
+	"$(INTDIR)\CURSOR.OBJ" \
+	"$(INTDIR)\DEAD.OBJ" \
+	"$(INTDIR)\DEBUG.OBJ" \
+	"$(INTDIR)\DIABLO.OBJ" \
+	"$(INTDIR)\diablo.res" \
+	"$(INTDIR)\doom.obj" \
+	"$(INTDIR)\DRLG_L1.OBJ" \
+	"$(INTDIR)\DRLG_L2.OBJ" \
+	"$(INTDIR)\DRLG_L3.OBJ" \
+	"$(INTDIR)\drlg_l4.obj" \
+	"$(INTDIR)\dthread.obj" \
+	"$(INTDIR)\dx.obj" \
+	"$(INTDIR)\effects.obj" \
+	"$(INTDIR)\encrypt.obj" \
+	"$(INTDIR)\ENGINE.OBJ" \
+	"$(INTDIR)\error.obj" \
+	"$(INTDIR)\except.obj" \
+	"$(INTDIR)\GameMenu.obj" \
+	"$(INTDIR)\GENDUNG.OBJ" \
+	"$(INTDIR)\gmenu.obj" \
+	"$(INTDIR)\help.obj" \
+	"$(INTDIR)\init.obj" \
+	"$(INTDIR)\Interfac.obj" \
+	"$(INTDIR)\inv.obj" \
+	"$(INTDIR)\itemdat.obj" \
+	"$(INTDIR)\ITEMS.OBJ" \
+	"$(INTDIR)\LIGHTING.OBJ" \
+	"$(INTDIR)\loadsave.obj" \
+	"$(INTDIR)\mainmenu.obj" \
+	"$(INTDIR)\minitext.obj" \
+	"$(INTDIR)\misdat.obj" \
+	"$(INTDIR)\MISSILES.OBJ" \
+	"$(INTDIR)\MONSTDAT.OBJ" \
+	"$(INTDIR)\MONSTER.OBJ" \
+	"$(INTDIR)\movie.obj" \
+	"$(INTDIR)\mpqapi.obj" \
+	"$(INTDIR)\msg.obj" \
+	"$(INTDIR)\multi.obj" \
+	"$(INTDIR)\nthread.obj" \
+	"$(INTDIR)\objdat.obj" \
+	"$(INTDIR)\OBJECTS.OBJ" \
+	"$(INTDIR)\packplr.obj" \
+	"$(INTDIR)\PALETTE.OBJ" \
+	"$(INTDIR)\path.obj" \
+	"$(INTDIR)\pfile.obj" \
+	"$(INTDIR)\PLAYER.OBJ" \
+	"$(INTDIR)\plrmsg.obj" \
+	"$(INTDIR)\portal.obj" \
+	"$(INTDIR)\Quests.obj" \
+	"$(INTDIR)\scroll.obj" \
+	"$(INTDIR)\SCROLLRT.OBJ" \
+	"$(INTDIR)\SetMaps.obj" \
+	"$(INTDIR)\SHA.OBJ" \
+	"$(INTDIR)\SOUND.OBJ" \
+	"$(INTDIR)\Spelldat.obj" \
+	"$(INTDIR)\SPELLS.OBJ" \
+	"$(INTDIR)\stores.obj" \
+	"$(INTDIR)\sync.obj" \
+	"$(INTDIR)\Textdat.obj" \
+	"$(INTDIR)\themes.obj" \
+	"$(INTDIR)\tmsg.obj" \
+	"$(INTDIR)\TOWN.OBJ" \
+	"$(INTDIR)\towners.obj" \
+	"$(INTDIR)\track.obj" \
+	"$(INTDIR)\TRIGS.OBJ" \
+	"$(INTDIR)\wave.obj" \
+	".\ddraw.lib" \
+	".\Diabloui.lib" \
+	".\dsound.lib" \
+	".\implode.lib" \
+	".\Storm.lib"
+
+"$(OUTDIR)\DIABLO.exe" : "$(OUTDIR)" $(DEF_FILE) $(LINK32_OBJS)
+    $(LINK32) @<<
+  $(LINK32_FLAGS) $(LINK32_OBJS)
+<<
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "Diablo_0"
+# PROP BASE Intermediate_Dir "Diablo_0"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "SRel"
+# PROP Intermediate_Dir "SRel"
+# PROP Target_Dir ""
+OUTDIR=.\SRel
+INTDIR=.\SRel
+
+ALL : "$(OUTDIR)\DIABLO.exe"
+
+CLEAN : 
+	-@erase "$(INTDIR)\appfat.obj"
+	-@erase "$(INTDIR)\automap.obj"
+	-@erase "$(INTDIR)\capture.obj"
+	-@erase "$(INTDIR)\CODEC.OBJ"
+	-@erase "$(INTDIR)\CONTROL.OBJ"
+	-@erase "$(INTDIR)\CURSOR.OBJ"
+	-@erase "$(INTDIR)\DEAD.OBJ"
+	-@erase "$(INTDIR)\DEBUG.OBJ"
+	-@erase "$(INTDIR)\DIABLO.OBJ"
+	-@erase "$(INTDIR)\diablo.res"
+	-@erase "$(INTDIR)\doom.obj"
+	-@erase "$(INTDIR)\DRLG_L1.OBJ"
+	-@erase "$(INTDIR)\DRLG_L2.OBJ"
+	-@erase "$(INTDIR)\DRLG_L3.OBJ"
+	-@erase "$(INTDIR)\drlg_l4.obj"
+	-@erase "$(INTDIR)\dthread.obj"
+	-@erase "$(INTDIR)\dx.obj"
+	-@erase "$(INTDIR)\effects.obj"
+	-@erase "$(INTDIR)\encrypt.obj"
+	-@erase "$(INTDIR)\ENGINE.OBJ"
+	-@erase "$(INTDIR)\error.obj"
+	-@erase "$(INTDIR)\except.obj"
+	-@erase "$(INTDIR)\GameMenu.obj"
+	-@erase "$(INTDIR)\GENDUNG.OBJ"
+	-@erase "$(INTDIR)\gmenu.obj"
+	-@erase "$(INTDIR)\help.obj"
+	-@erase "$(INTDIR)\init.obj"
+	-@erase "$(INTDIR)\Interfac.obj"
+	-@erase "$(INTDIR)\inv.obj"
+	-@erase "$(INTDIR)\itemdat.obj"
+	-@erase "$(INTDIR)\ITEMS.OBJ"
+	-@erase "$(INTDIR)\LIGHTING.OBJ"
+	-@erase "$(INTDIR)\loadsave.obj"
+	-@erase "$(INTDIR)\mainmenu.obj"
+	-@erase "$(INTDIR)\minitext.obj"
+	-@erase "$(INTDIR)\misdat.obj"
+	-@erase "$(INTDIR)\MISSILES.OBJ"
+	-@erase "$(INTDIR)\MONSTDAT.OBJ"
+	-@erase "$(INTDIR)\MONSTER.OBJ"
+	-@erase "$(INTDIR)\movie.obj"
+	-@erase "$(INTDIR)\mpqapi.obj"
+	-@erase "$(INTDIR)\msg.obj"
+	-@erase "$(INTDIR)\multi.obj"
+	-@erase "$(INTDIR)\nthread.obj"
+	-@erase "$(INTDIR)\objdat.obj"
+	-@erase "$(INTDIR)\OBJECTS.OBJ"
+	-@erase "$(INTDIR)\packplr.obj"
+	-@erase "$(INTDIR)\PALETTE.OBJ"
+	-@erase "$(INTDIR)\path.obj"
+	-@erase "$(INTDIR)\pfile.obj"
+	-@erase "$(INTDIR)\PLAYER.OBJ"
+	-@erase "$(INTDIR)\plrmsg.obj"
+	-@erase "$(INTDIR)\portal.obj"
+	-@erase "$(INTDIR)\Quests.obj"
+	-@erase "$(INTDIR)\scroll.obj"
+	-@erase "$(INTDIR)\SCROLLRT.OBJ"
+	-@erase "$(INTDIR)\SetMaps.obj"
+	-@erase "$(INTDIR)\SHA.OBJ"
+	-@erase "$(INTDIR)\SOUND.OBJ"
+	-@erase "$(INTDIR)\Spelldat.obj"
+	-@erase "$(INTDIR)\SPELLS.OBJ"
+	-@erase "$(INTDIR)\stores.obj"
+	-@erase "$(INTDIR)\sync.obj"
+	-@erase "$(INTDIR)\Textdat.obj"
+	-@erase "$(INTDIR)\themes.obj"
+	-@erase "$(INTDIR)\tmsg.obj"
+	-@erase "$(INTDIR)\TOWN.OBJ"
+	-@erase "$(INTDIR)\towners.obj"
+	-@erase "$(INTDIR)\track.obj"
+	-@erase "$(INTDIR)\TRIGS.OBJ"
+	-@erase "$(INTDIR)\vc40.pdb"
+	-@erase "$(INTDIR)\wave.obj"
+	-@erase "$(OUTDIR)\DIABLO.exe"
+	-@erase "$(OUTDIR)\DIABLO.map"
+	-@erase "$(OUTDIR)\DIABLO.pdb"
+
+"$(OUTDIR)" :
+    if not exist "$(OUTDIR)/$(NULL)" mkdir "$(OUTDIR)"
+
+# ADD BASE CPP /nologo /G5 /Gr /MT /W3 /Zi /O1 /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /YX /c
+# SUBTRACT BASE CPP /Fr
+# ADD CPP /nologo /G5 /Gr /MT /W3 /Zi /O1 /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D PROGRAM_VERSION=SHAREWARE /FAcs /YX /c
+# SUBTRACT CPP /Fr
+CPP_PROJ=/nologo /G5 /Gr /MT /W3 /Zi /O1 /D "WIN32" /D "_WINDOWS" /D "_DEBUG"\
+ /D PROGRAM_VERSION=SHAREWARE /FAcs /Fa"$(INTDIR)/" /Fp"$(INTDIR)/DIABLO.pch"\
+ /YX /Fo"$(INTDIR)/" /Fd"$(INTDIR)/" /c 
+CPP_OBJS=.\SRel/
+CPP_SBRS=.\.
+# ADD BASE MTL /nologo /D "NDEBUG" /win32
+# ADD MTL /nologo /D "NDEBUG" /win32
+MTL_PROJ=/nologo /D "NDEBUG" /win32 
+# ADD BASE RSC /l 0x409 /d "NDEBUG"
+# ADD RSC /l 0x409 /d "NDEBUG"
+RSC_PROJ=/l 0x409 /fo"$(INTDIR)/diablo.res" /d "NDEBUG" 
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+BSC32_FLAGS=/nologo /o"$(OUTDIR)/DIABLO.bsc" 
+BSC32_SBRS= \
+	
+LINK32=link.exe
+# ADD BASE LINK32 libcmt.lib winmm.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib version.lib /nologo /subsystem:windows /debug /machine:I386 /nodefaultlib
+# ADD LINK32 libcmt.lib winmm.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib version.lib /nologo /subsystem:windows /map /debug /machine:I386 /nodefaultlib
+# SUBTRACT LINK32 /incremental:yes
+LINK32_FLAGS=libcmt.lib winmm.lib kernel32.lib user32.lib gdi32.lib\
+ comdlg32.lib advapi32.lib shell32.lib version.lib /nologo /subsystem:windows\
+ /incremental:no /pdb:"$(OUTDIR)/DIABLO.pdb" /map:"$(INTDIR)/DIABLO.map" /debug\
+ /machine:I386 /nodefaultlib /out:"$(OUTDIR)/DIABLO.exe" 
+LINK32_OBJS= \
+	"$(INTDIR)\appfat.obj" \
+	"$(INTDIR)\automap.obj" \
+	"$(INTDIR)\capture.obj" \
+	"$(INTDIR)\CODEC.OBJ" \
+	"$(INTDIR)\CONTROL.OBJ" \
+	"$(INTDIR)\CURSOR.OBJ" \
+	"$(INTDIR)\DEAD.OBJ" \
+	"$(INTDIR)\DEBUG.OBJ" \
+	"$(INTDIR)\DIABLO.OBJ" \
+	"$(INTDIR)\diablo.res" \
+	"$(INTDIR)\doom.obj" \
+	"$(INTDIR)\DRLG_L1.OBJ" \
+	"$(INTDIR)\DRLG_L2.OBJ" \
+	"$(INTDIR)\DRLG_L3.OBJ" \
+	"$(INTDIR)\drlg_l4.obj" \
+	"$(INTDIR)\dthread.obj" \
+	"$(INTDIR)\dx.obj" \
+	"$(INTDIR)\effects.obj" \
+	"$(INTDIR)\encrypt.obj" \
+	"$(INTDIR)\ENGINE.OBJ" \
+	"$(INTDIR)\error.obj" \
+	"$(INTDIR)\except.obj" \
+	"$(INTDIR)\GameMenu.obj" \
+	"$(INTDIR)\GENDUNG.OBJ" \
+	"$(INTDIR)\gmenu.obj" \
+	"$(INTDIR)\help.obj" \
+	"$(INTDIR)\init.obj" \
+	"$(INTDIR)\Interfac.obj" \
+	"$(INTDIR)\inv.obj" \
+	"$(INTDIR)\itemdat.obj" \
+	"$(INTDIR)\ITEMS.OBJ" \
+	"$(INTDIR)\LIGHTING.OBJ" \
+	"$(INTDIR)\loadsave.obj" \
+	"$(INTDIR)\mainmenu.obj" \
+	"$(INTDIR)\minitext.obj" \
+	"$(INTDIR)\misdat.obj" \
+	"$(INTDIR)\MISSILES.OBJ" \
+	"$(INTDIR)\MONSTDAT.OBJ" \
+	"$(INTDIR)\MONSTER.OBJ" \
+	"$(INTDIR)\movie.obj" \
+	"$(INTDIR)\mpqapi.obj" \
+	"$(INTDIR)\msg.obj" \
+	"$(INTDIR)\multi.obj" \
+	"$(INTDIR)\nthread.obj" \
+	"$(INTDIR)\objdat.obj" \
+	"$(INTDIR)\OBJECTS.OBJ" \
+	"$(INTDIR)\packplr.obj" \
+	"$(INTDIR)\PALETTE.OBJ" \
+	"$(INTDIR)\path.obj" \
+	"$(INTDIR)\pfile.obj" \
+	"$(INTDIR)\PLAYER.OBJ" \
+	"$(INTDIR)\plrmsg.obj" \
+	"$(INTDIR)\portal.obj" \
+	"$(INTDIR)\Quests.obj" \
+	"$(INTDIR)\scroll.obj" \
+	"$(INTDIR)\SCROLLRT.OBJ" \
+	"$(INTDIR)\SetMaps.obj" \
+	"$(INTDIR)\SHA.OBJ" \
+	"$(INTDIR)\SOUND.OBJ" \
+	"$(INTDIR)\Spelldat.obj" \
+	"$(INTDIR)\SPELLS.OBJ" \
+	"$(INTDIR)\stores.obj" \
+	"$(INTDIR)\sync.obj" \
+	"$(INTDIR)\Textdat.obj" \
+	"$(INTDIR)\themes.obj" \
+	"$(INTDIR)\tmsg.obj" \
+	"$(INTDIR)\TOWN.OBJ" \
+	"$(INTDIR)\towners.obj" \
+	"$(INTDIR)\track.obj" \
+	"$(INTDIR)\TRIGS.OBJ" \
+	"$(INTDIR)\wave.obj" \
+	".\ddraw.lib" \
+	".\Diabloui.lib" \
+	".\dsound.lib" \
+	".\implode.lib" \
+	".\Storm.lib"
+
+"$(OUTDIR)\DIABLO.exe" : "$(OUTDIR)" $(DEF_FILE) $(LINK32_OBJS)
+    $(LINK32) @<<
+  $(LINK32_FLAGS) $(LINK32_OBJS)
+<<
+
+!ENDIF 
+
+.c{$(CPP_OBJS)}.obj:
+   $(CPP) $(CPP_PROJ) $<  
+
+.cpp{$(CPP_OBJS)}.obj:
+   $(CPP) $(CPP_PROJ) $<  
+
+.cxx{$(CPP_OBJS)}.obj:
+   $(CPP) $(CPP_PROJ) $<  
+
+.c{$(CPP_SBRS)}.sbr:
+   $(CPP) $(CPP_PROJ) $<  
+
+.cpp{$(CPP_SBRS)}.sbr:
+   $(CPP) $(CPP_PROJ) $<  
+
+.cxx{$(CPP_SBRS)}.sbr:
+   $(CPP) $(CPP_PROJ) $<  
+
+################################################################################
+# Begin Target
+
+# Name "Diablo - Win32 Release"
+# Name "Diablo - Win32 Debug"
+# Name "Diablo - Win32 FinalFinal"
+# Name "Diablo - Win32 Shareware FinalFinal"
+# Name "Diablo - Win32 Shareware Release"
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+!ENDIF 
+
+################################################################################
+# Begin Source File
+
+SOURCE=.\TOWN.CPP
+DEP_CPP_TOWN_=\
+	".\automap.h"\
+	".\Control.h"\
+	".\Cursor.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\doom.h"\
+	".\Dsound.h"\
+	".\Effects.h"\
+	".\Engine.h"\
+	".\error.h"\
+	".\Gamemenu.h"\
+	".\Gendung.h"\
+	".\help.h"\
+	".\Inv.h"\
+	".\Items.h"\
+	".\MiniText.h"\
+	".\Monster.h"\
+	".\Multi.h"\
+	".\Player.h"\
+	".\Quests.h"\
+	".\scrlasm.h"\
+	".\Scrollrt.h"\
+	".\Sound.h"\
+	".\stores.h"\
+	".\Town.h"\
+	".\towners.h"\
+	".\Trigs.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\TOWN.OBJ" : $(SOURCE) $(DEP_CPP_TOWN_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\TOWN.OBJ" : $(SOURCE) $(DEP_CPP_TOWN_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\TOWN.OBJ" : $(SOURCE) $(DEP_CPP_TOWN_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\TOWN.OBJ" : $(SOURCE) $(DEP_CPP_TOWN_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\TOWN.OBJ" : $(SOURCE) $(DEP_CPP_TOWN_) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\GENDUNG.CPP
+DEP_CPP_GENDU=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Items.h"\
+	".\Lighting.h"\
+	".\Missiles.h"\
+	".\Monster.h"\
+	".\Objects.h"\
+	".\Palette.h"\
+	".\Player.h"\
+	".\Sound.h"\
+	".\Spells.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\GENDUNG.OBJ" : $(SOURCE) $(DEP_CPP_GENDU) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\GENDUNG.OBJ" : $(SOURCE) $(DEP_CPP_GENDU) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\GENDUNG.OBJ" : $(SOURCE) $(DEP_CPP_GENDU) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\GENDUNG.OBJ" : $(SOURCE) $(DEP_CPP_GENDU) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\GENDUNG.OBJ" : $(SOURCE) $(DEP_CPP_GENDU) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\SCROLLRT.CPP
+DEP_CPP_SCROL=\
+	".\automap.h"\
+	".\Control.h"\
+	".\Cursor.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Dead.h"\
+	".\Debug.h"\
+	".\Diablo.h"\
+	".\doom.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\error.h"\
+	".\Gamemenu.h"\
+	".\Gendung.h"\
+	".\help.h"\
+	".\Inv.h"\
+	".\Items.h"\
+	".\Lighting.h"\
+	".\MiniText.h"\
+	".\misdat.h"\
+	".\Missiles.h"\
+	".\Monster.h"\
+	".\monstint.h"\
+	".\Multi.h"\
+	".\Objects.h"\
+	".\Player.h"\
+	".\Quests.h"\
+	".\regconst.h"\
+	".\Sclass.h"\
+	".\scrlasm.h"\
+	".\Scrollrt.h"\
+	".\Sound.h"\
+	".\Spells.h"\
+	".\Storm.h"\
+	".\Town.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\SCROLLRT.OBJ" : $(SOURCE) $(DEP_CPP_SCROL) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\SCROLLRT.OBJ" : $(SOURCE) $(DEP_CPP_SCROL) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\SCROLLRT.OBJ" : $(SOURCE) $(DEP_CPP_SCROL) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\SCROLLRT.OBJ" : $(SOURCE) $(DEP_CPP_SCROL) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\SCROLLRT.OBJ" : $(SOURCE) $(DEP_CPP_SCROL) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\DEAD.CPP
+DEP_CPP_DEAD_=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Dead.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Gendung.h"\
+	".\Lighting.h"\
+	".\misdat.h"\
+	".\Missiles.h"\
+	".\Monster.h"\
+	".\monstint.h"\
+	".\Sound.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\DEAD.OBJ" : $(SOURCE) $(DEP_CPP_DEAD_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\DEAD.OBJ" : $(SOURCE) $(DEP_CPP_DEAD_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\DEAD.OBJ" : $(SOURCE) $(DEP_CPP_DEAD_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\DEAD.OBJ" : $(SOURCE) $(DEP_CPP_DEAD_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\DEAD.OBJ" : $(SOURCE) $(DEP_CPP_DEAD_) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\MISSILES.CPP
+DEP_CPP_MISSI=\
+	".\Control.h"\
+	".\Cursor.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Dead.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Effects.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Inv.h"\
+	".\itemdat.h"\
+	".\Items.h"\
+	".\Lighting.h"\
+	".\misdat.h"\
+	".\Missiles.h"\
+	".\Monstdat.h"\
+	".\Monster.h"\
+	".\monstint.h"\
+	".\msg.h"\
+	".\Multi.h"\
+	".\objdat.h"\
+	".\Objects.h"\
+	".\Palette.h"\
+	".\Player.h"\
+	".\Quests.h"\
+	".\Sound.h"\
+	".\Spells.h"\
+	".\Trigs.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\MISSILES.OBJ" : $(SOURCE) $(DEP_CPP_MISSI) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\MISSILES.OBJ" : $(SOURCE) $(DEP_CPP_MISSI) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\MISSILES.OBJ" : $(SOURCE) $(DEP_CPP_MISSI) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\MISSILES.OBJ" : $(SOURCE) $(DEP_CPP_MISSI) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\MISSILES.OBJ" : $(SOURCE) $(DEP_CPP_MISSI) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\OBJECTS.CPP
+DEP_CPP_OBJEC=\
+	".\automap.h"\
+	".\Control.h"\
+	".\Cursor.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Drlg_l1.h"\
+	".\Drlg_l4.h"\
+	".\Dsound.h"\
+	".\Effects.h"\
+	".\Engine.h"\
+	".\error.h"\
+	".\Gendung.h"\
+	".\Inv.h"\
+	".\itemdat.h"\
+	".\Items.h"\
+	".\Lighting.h"\
+	".\MiniText.h"\
+	".\misdat.h"\
+	".\Missiles.h"\
+	".\Monstdat.h"\
+	".\Monster.h"\
+	".\monstint.h"\
+	".\msg.h"\
+	".\Multi.h"\
+	".\objdat.h"\
+	".\Objects.h"\
+	".\Player.h"\
+	".\Quests.h"\
+	".\Setmaps.h"\
+	".\Sound.h"\
+	".\Spells.h"\
+	".\stores.h"\
+	".\textdat.h"\
+	".\themes.h"\
+	".\towners.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\OBJECTS.OBJ" : $(SOURCE) $(DEP_CPP_OBJEC) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\OBJECTS.OBJ" : $(SOURCE) $(DEP_CPP_OBJEC) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\OBJECTS.OBJ" : $(SOURCE) $(DEP_CPP_OBJEC) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\OBJECTS.OBJ" : $(SOURCE) $(DEP_CPP_OBJEC) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\OBJECTS.OBJ" : $(SOURCE) $(DEP_CPP_OBJEC) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\MONSTER.CPP
+DEP_CPP_MONST=\
+	".\Control.h"\
+	".\Cursor.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Dead.h"\
+	".\Debug.h"\
+	".\Diablo.h"\
+	".\Drlg_l4.h"\
+	".\Dsound.h"\
+	".\Effects.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Inv.h"\
+	".\itemdat.h"\
+	".\Items.h"\
+	".\Lighting.h"\
+	".\MiniText.h"\
+	".\misdat.h"\
+	".\Missiles.h"\
+	".\Monstdat.h"\
+	".\Monster.h"\
+	".\monstint.h"\
+	".\msg.h"\
+	".\Multi.h"\
+	".\objdat.h"\
+	".\Objects.h"\
+	".\Palette.h"\
+	".\path.h"\
+	".\Player.h"\
+	".\Quests.h"\
+	".\Sclass.h"\
+	".\Scrollrt.h"\
+	".\Setmaps.h"\
+	".\Sound.h"\
+	".\Storm.h"\
+	".\textdat.h"\
+	".\themes.h"\
+	".\towners.h"\
+	".\Trigs.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\MONSTER.OBJ" : $(SOURCE) $(DEP_CPP_MONST) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\MONSTER.OBJ" : $(SOURCE) $(DEP_CPP_MONST) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\MONSTER.OBJ" : $(SOURCE) $(DEP_CPP_MONST) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\MONSTER.OBJ" : $(SOURCE) $(DEP_CPP_MONST) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\MONSTER.OBJ" : $(SOURCE) $(DEP_CPP_MONST) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\LIGHTING.CPP
+DEP_CPP_LIGHT=\
+	".\automap.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Items.h"\
+	".\Lighting.h"\
+	".\Monster.h"\
+	".\Player.h"\
+	".\Sound.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\LIGHTING.OBJ" : $(SOURCE) $(DEP_CPP_LIGHT) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\LIGHTING.OBJ" : $(SOURCE) $(DEP_CPP_LIGHT) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\LIGHTING.OBJ" : $(SOURCE) $(DEP_CPP_LIGHT) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\LIGHTING.OBJ" : $(SOURCE) $(DEP_CPP_LIGHT) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\LIGHTING.OBJ" : $(SOURCE) $(DEP_CPP_LIGHT) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\DRLG_L3.CPP
+DEP_CPP_DRLG_=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Drlg_l3.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Lighting.h"\
+	".\Monster.h"\
+	".\Objects.h"\
+	".\Quests.h"\
+	".\regconst.h"\
+	".\Scrollrt.h"\
+	".\Sound.h"\
+	".\Trigs.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\DRLG_L3.OBJ" : $(SOURCE) $(DEP_CPP_DRLG_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\DRLG_L3.OBJ" : $(SOURCE) $(DEP_CPP_DRLG_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\DRLG_L3.OBJ" : $(SOURCE) $(DEP_CPP_DRLG_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\DRLG_L3.OBJ" : $(SOURCE) $(DEP_CPP_DRLG_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\DRLG_L3.OBJ" : $(SOURCE) $(DEP_CPP_DRLG_) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\DRLG_L2.CPP
+DEP_CPP_DRLG_L=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Drlg_l2.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Lighting.h"\
+	".\Monster.h"\
+	".\Objects.h"\
+	".\Quests.h"\
+	".\regconst.h"\
+	".\Sound.h"\
+	".\themes.h"\
+	".\Trigs.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\DRLG_L2.OBJ" : $(SOURCE) $(DEP_CPP_DRLG_L) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\DRLG_L2.OBJ" : $(SOURCE) $(DEP_CPP_DRLG_L) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\DRLG_L2.OBJ" : $(SOURCE) $(DEP_CPP_DRLG_L) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\DRLG_L2.OBJ" : $(SOURCE) $(DEP_CPP_DRLG_L) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\DRLG_L2.OBJ" : $(SOURCE) $(DEP_CPP_DRLG_L) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\DRLG_L1.CPP
+DEP_CPP_DRLG_L1=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Drlg_l1.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Lighting.h"\
+	".\Monster.h"\
+	".\Multi.h"\
+	".\Objects.h"\
+	".\Quests.h"\
+	".\regconst.h"\
+	".\Sound.h"\
+	".\Trigs.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\DRLG_L1.OBJ" : $(SOURCE) $(DEP_CPP_DRLG_L1) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\DRLG_L1.OBJ" : $(SOURCE) $(DEP_CPP_DRLG_L1) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\DRLG_L1.OBJ" : $(SOURCE) $(DEP_CPP_DRLG_L1) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\DRLG_L1.OBJ" : $(SOURCE) $(DEP_CPP_DRLG_L1) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\DRLG_L1.OBJ" : $(SOURCE) $(DEP_CPP_DRLG_L1) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\TRIGS.CPP
+DEP_CPP_TRIGS=\
+	".\Control.h"\
+	".\Cursor.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Effects.h"\
+	".\error.h"\
+	".\Gendung.h"\
+	".\Inv.h"\
+	".\Items.h"\
+	".\msg.h"\
+	".\Multi.h"\
+	".\Palette.h"\
+	".\Player.h"\
+	".\Quests.h"\
+	".\Setmaps.h"\
+	".\Trigs.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\TRIGS.OBJ" : $(SOURCE) $(DEP_CPP_TRIGS) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\TRIGS.OBJ" : $(SOURCE) $(DEP_CPP_TRIGS) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\TRIGS.OBJ" : $(SOURCE) $(DEP_CPP_TRIGS) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\TRIGS.OBJ" : $(SOURCE) $(DEP_CPP_TRIGS) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\TRIGS.OBJ" : $(SOURCE) $(DEP_CPP_TRIGS) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\DEBUG.CPP
+DEP_CPP_DEBUG=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Debug.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\error.h"\
+	".\Gendung.h"\
+	".\Items.h"\
+	".\msg.h"\
+	".\Player.h"\
+	".\Quests.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\DEBUG.OBJ" : $(SOURCE) $(DEP_CPP_DEBUG) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\DEBUG.OBJ" : $(SOURCE) $(DEP_CPP_DEBUG) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\DEBUG.OBJ" : $(SOURCE) $(DEP_CPP_DEBUG) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\DEBUG.OBJ" : $(SOURCE) $(DEP_CPP_DEBUG) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\DEBUG.OBJ" : $(SOURCE) $(DEP_CPP_DEBUG) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\CURSOR.CPP
+DEP_CPP_CURSO=\
+	".\Control.h"\
+	".\Cursor.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Debug.h"\
+	".\Diablo.h"\
+	".\doom.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Inv.h"\
+	".\Items.h"\
+	".\Lighting.h"\
+	".\Missiles.h"\
+	".\Monster.h"\
+	".\Objects.h"\
+	".\Player.h"\
+	".\Quests.h"\
+	".\Scrollrt.h"\
+	".\Sound.h"\
+	".\Town.h"\
+	".\towners.h"\
+	".\Trigs.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\CURSOR.OBJ" : $(SOURCE) $(DEP_CPP_CURSO) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\CURSOR.OBJ" : $(SOURCE) $(DEP_CPP_CURSO) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\CURSOR.OBJ" : $(SOURCE) $(DEP_CPP_CURSO) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\CURSOR.OBJ" : $(SOURCE) $(DEP_CPP_CURSO) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\CURSOR.OBJ" : $(SOURCE) $(DEP_CPP_CURSO) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\PALETTE.CPP
+DEP_CPP_PALET=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\Palette.h"\
+	".\Sclass.h"\
+	".\Storm.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\PALETTE.OBJ" : $(SOURCE) $(DEP_CPP_PALET) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\PALETTE.OBJ" : $(SOURCE) $(DEP_CPP_PALET) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\PALETTE.OBJ" : $(SOURCE) $(DEP_CPP_PALET) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\PALETTE.OBJ" : $(SOURCE) $(DEP_CPP_PALET) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\PALETTE.OBJ" : $(SOURCE) $(DEP_CPP_PALET) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\DIABLO.CPP
+DEP_CPP_DIABL=\
+	".\automap.h"\
+	".\Control.h"\
+	".\Cursor.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Dead.h"\
+	".\Debug.h"\
+	".\Diablo.h"\
+	".\Diabloui.h"\
+	".\doom.h"\
+	".\Drlg_l1.h"\
+	".\Drlg_l2.h"\
+	".\Drlg_l3.h"\
+	".\Drlg_l4.h"\
+	".\Dsound.h"\
+	".\Effects.h"\
+	".\Engine.h"\
+	".\error.h"\
+	".\Gamemenu.h"\
+	".\Gendung.h"\
+	".\help.h"\
+	".\Interfac.h"\
+	".\Inv.h"\
+	".\Items.h"\
+	".\Lighting.h"\
+	".\mainmenu.h"\
+	".\MiniText.h"\
+	".\Missiles.h"\
+	".\Monster.h"\
+	".\msg.h"\
+	".\Multi.h"\
+	".\Objects.h"\
+	".\packplr.h"\
+	".\Palette.h"\
+	".\Player.h"\
+	".\portal.h"\
+	".\Quests.h"\
+	".\regconst.h"\
+	".\Sclass.h"\
+	".\Scrollrt.h"\
+	".\Setmaps.h"\
+	".\Sound.h"\
+	".\spelldat.h"\
+	".\Spells.h"\
+	".\stores.h"\
+	".\Storm.h"\
+	".\textdat.h"\
+	".\themes.h"\
+	".\Town.h"\
+	".\towners.h"\
+	".\Trigs.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\DIABLO.OBJ" : $(SOURCE) $(DEP_CPP_DIABL) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\DIABLO.OBJ" : $(SOURCE) $(DEP_CPP_DIABL) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\DIABLO.OBJ" : $(SOURCE) $(DEP_CPP_DIABL) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\DIABLO.OBJ" : $(SOURCE) $(DEP_CPP_DIABL) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\DIABLO.OBJ" : $(SOURCE) $(DEP_CPP_DIABL) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\PLAYER.CPP
+DEP_CPP_PLAYE=\
+	".\Control.h"\
+	".\Cursor.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Debug.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Effects.h"\
+	".\Engine.h"\
+	".\Gamemenu.h"\
+	".\Gendung.h"\
+	".\Inv.h"\
+	".\Items.h"\
+	".\Lighting.h"\
+	".\MiniText.h"\
+	".\Missiles.h"\
+	".\Monstdat.h"\
+	".\Monster.h"\
+	".\monstint.h"\
+	".\msg.h"\
+	".\Multi.h"\
+	".\objdat.h"\
+	".\Objects.h"\
+	".\Palette.h"\
+	".\path.h"\
+	".\Player.h"\
+	".\portal.h"\
+	".\Quests.h"\
+	".\Sclass.h"\
+	".\Sound.h"\
+	".\spelldat.h"\
+	".\Spells.h"\
+	".\stores.h"\
+	".\Storm.h"\
+	".\textdat.h"\
+	".\themes.h"\
+	".\Town.h"\
+	".\towners.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\PLAYER.OBJ" : $(SOURCE) $(DEP_CPP_PLAYE) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\PLAYER.OBJ" : $(SOURCE) $(DEP_CPP_PLAYE) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\PLAYER.OBJ" : $(SOURCE) $(DEP_CPP_PLAYE) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\PLAYER.OBJ" : $(SOURCE) $(DEP_CPP_PLAYE) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\PLAYER.OBJ" : $(SOURCE) $(DEP_CPP_PLAYE) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\ENGINE.CPP
+DEP_CPP_ENGIN=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Debug.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Lighting.h"\
+	".\Palette.h"\
+	".\regconst.h"\
+	".\Sclass.h"\
+	".\Scrollrt.h"\
+	".\Storm.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\ENGINE.OBJ" : $(SOURCE) $(DEP_CPP_ENGIN) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\ENGINE.OBJ" : $(SOURCE) $(DEP_CPP_ENGIN) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\ENGINE.OBJ" : $(SOURCE) $(DEP_CPP_ENGIN) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\ENGINE.OBJ" : $(SOURCE) $(DEP_CPP_ENGIN) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\ENGINE.OBJ" : $(SOURCE) $(DEP_CPP_ENGIN) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\CONTROL.CPP
+DEP_CPP_CONTR=\
+	".\automap.h"\
+	".\Control.h"\
+	".\Cursor.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\error.h"\
+	".\Gamemenu.h"\
+	".\Gendung.h"\
+	".\Inv.h"\
+	".\itemdat.h"\
+	".\Items.h"\
+	".\Lighting.h"\
+	".\MiniText.h"\
+	".\Missiles.h"\
+	".\Monster.h"\
+	".\msg.h"\
+	".\Multi.h"\
+	".\Objects.h"\
+	".\Player.h"\
+	".\Quests.h"\
+	".\regconst.h"\
+	".\Scrollrt.h"\
+	".\Sound.h"\
+	".\spelldat.h"\
+	".\Spells.h"\
+	".\stores.h"\
+	".\Town.h"\
+	".\towners.h"\
+	".\Trigs.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\CONTROL.OBJ" : $(SOURCE) $(DEP_CPP_CONTR) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\CONTROL.OBJ" : $(SOURCE) $(DEP_CPP_CONTR) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\CONTROL.OBJ" : $(SOURCE) $(DEP_CPP_CONTR) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\CONTROL.OBJ" : $(SOURCE) $(DEP_CPP_CONTR) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\CONTROL.OBJ" : $(SOURCE) $(DEP_CPP_CONTR) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\SPELLS.CPP
+DEP_CPP_SPELL=\
+	".\Control.h"\
+	".\Cursor.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\Gamemenu.h"\
+	".\Gendung.h"\
+	".\Inv.h"\
+	".\Items.h"\
+	".\Missiles.h"\
+	".\Monster.h"\
+	".\Player.h"\
+	".\Sound.h"\
+	".\spelldat.h"\
+	".\Spells.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\SPELLS.OBJ" : $(SOURCE) $(DEP_CPP_SPELL) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\SPELLS.OBJ" : $(SOURCE) $(DEP_CPP_SPELL) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\SPELLS.OBJ" : $(SOURCE) $(DEP_CPP_SPELL) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\SPELLS.OBJ" : $(SOURCE) $(DEP_CPP_SPELL) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\SPELLS.OBJ" : $(SOURCE) $(DEP_CPP_SPELL) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\SOUND.CPP
+DEP_CPP_SOUND=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\Sclass.h"\
+	".\Sound.h"\
+	".\Storm.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\SOUND.OBJ" : $(SOURCE) $(DEP_CPP_SOUND) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\SOUND.OBJ" : $(SOURCE) $(DEP_CPP_SOUND) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\SOUND.OBJ" : $(SOURCE) $(DEP_CPP_SOUND) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\SOUND.OBJ" : $(SOURCE) $(DEP_CPP_SOUND) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\SOUND.OBJ" : $(SOURCE) $(DEP_CPP_SOUND) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\MONSTDAT.CPP
+DEP_CPP_MONSTD=\
+	".\Cursor.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Items.h"\
+	".\MiniText.h"\
+	".\Monstdat.h"\
+	".\Monster.h"\
+	".\Sound.h"\
+	".\textdat.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\MONSTDAT.OBJ" : $(SOURCE) $(DEP_CPP_MONSTD) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\MONSTDAT.OBJ" : $(SOURCE) $(DEP_CPP_MONSTD) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\MONSTDAT.OBJ" : $(SOURCE) $(DEP_CPP_MONSTD) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\MONSTDAT.OBJ" : $(SOURCE) $(DEP_CPP_MONSTD) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\MONSTDAT.OBJ" : $(SOURCE) $(DEP_CPP_MONSTD) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\ITEMS.CPP
+DEP_CPP_ITEMS=\
+	".\Control.h"\
+	".\Cursor.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\doom.h"\
+	".\Dsound.h"\
+	".\Effects.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Inv.h"\
+	".\itemdat.h"\
+	".\Items.h"\
+	".\Lighting.h"\
+	".\MiniText.h"\
+	".\Missiles.h"\
+	".\Monstdat.h"\
+	".\Monster.h"\
+	".\msg.h"\
+	".\Multi.h"\
+	".\Objects.h"\
+	".\Player.h"\
+	".\Quests.h"\
+	".\Scrollrt.h"\
+	".\Sound.h"\
+	".\spelldat.h"\
+	".\Spells.h"\
+	".\stores.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\ITEMS.OBJ" : $(SOURCE) $(DEP_CPP_ITEMS) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\ITEMS.OBJ" : $(SOURCE) $(DEP_CPP_ITEMS) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\ITEMS.OBJ" : $(SOURCE) $(DEP_CPP_ITEMS) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\ITEMS.OBJ" : $(SOURCE) $(DEP_CPP_ITEMS) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\ITEMS.OBJ" : $(SOURCE) $(DEP_CPP_ITEMS) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\inv.cpp
+DEP_CPP_INV_C=\
+	".\Control.h"\
+	".\Cursor.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\doom.h"\
+	".\Dsound.h"\
+	".\Effects.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Inv.h"\
+	".\itemdat.h"\
+	".\Items.h"\
+	".\Lighting.h"\
+	".\Monster.h"\
+	".\msg.h"\
+	".\Objects.h"\
+	".\Player.h"\
+	".\Quests.h"\
+	".\Scrollrt.h"\
+	".\Sound.h"\
+	".\spelldat.h"\
+	".\Spells.h"\
+	".\stores.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\inv.obj" : $(SOURCE) $(DEP_CPP_INV_C) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\inv.obj" : $(SOURCE) $(DEP_CPP_INV_C) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\inv.obj" : $(SOURCE) $(DEP_CPP_INV_C) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\inv.obj" : $(SOURCE) $(DEP_CPP_INV_C) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\inv.obj" : $(SOURCE) $(DEP_CPP_INV_C) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\Interfac.cpp
+DEP_CPP_INTER=\
+	".\Control.h"\
+	".\Cursor.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Effects.h"\
+	".\Engine.h"\
+	".\Gamemenu.h"\
+	".\Gendung.h"\
+	".\Items.h"\
+	".\msg.h"\
+	".\Multi.h"\
+	".\Palette.h"\
+	".\Player.h"\
+	".\portal.h"\
+	".\Quests.h"\
+	".\Sclass.h"\
+	".\Scrollrt.h"\
+	".\Setmaps.h"\
+	".\Storm.h"\
+	".\Trigs.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\Interfac.obj" : $(SOURCE) $(DEP_CPP_INTER) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\Interfac.obj" : $(SOURCE) $(DEP_CPP_INTER) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\Interfac.obj" : $(SOURCE) $(DEP_CPP_INTER) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\Interfac.obj" : $(SOURCE) $(DEP_CPP_INTER) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\Interfac.obj" : $(SOURCE) $(DEP_CPP_INTER) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\effects.cpp
+DEP_CPP_EFFEC=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Effects.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Items.h"\
+	".\Monstdat.h"\
+	".\Monster.h"\
+	".\Multi.h"\
+	".\Player.h"\
+	".\Sclass.h"\
+	".\Sound.h"\
+	".\Storm.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\effects.obj" : $(SOURCE) $(DEP_CPP_EFFEC) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\effects.obj" : $(SOURCE) $(DEP_CPP_EFFEC) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\effects.obj" : $(SOURCE) $(DEP_CPP_EFFEC) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\effects.obj" : $(SOURCE) $(DEP_CPP_EFFEC) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\effects.obj" : $(SOURCE) $(DEP_CPP_EFFEC) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\Quests.cpp
+DEP_CPP_QUEST=\
+	".\Control.h"\
+	".\Cursor.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\doom.h"\
+	".\Drlg_l1.h"\
+	".\Dsound.h"\
+	".\Effects.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Items.h"\
+	".\MiniText.h"\
+	".\Missiles.h"\
+	".\Monstdat.h"\
+	".\Monster.h"\
+	".\msg.h"\
+	".\Multi.h"\
+	".\objdat.h"\
+	".\Objects.h"\
+	".\Palette.h"\
+	".\Player.h"\
+	".\Quests.h"\
+	".\Scrollrt.h"\
+	".\Setmaps.h"\
+	".\Sound.h"\
+	".\stores.h"\
+	".\textdat.h"\
+	".\towners.h"\
+	".\Trigs.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\Quests.obj" : $(SOURCE) $(DEP_CPP_QUEST) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\Quests.obj" : $(SOURCE) $(DEP_CPP_QUEST) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\Quests.obj" : $(SOURCE) $(DEP_CPP_QUEST) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\Quests.obj" : $(SOURCE) $(DEP_CPP_QUEST) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\Quests.obj" : $(SOURCE) $(DEP_CPP_QUEST) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\GameMenu.cpp
+DEP_CPP_GAMEM=\
+	".\Cursor.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Effects.h"\
+	".\error.h"\
+	".\Gamemenu.h"\
+	".\Gendung.h"\
+	".\Items.h"\
+	".\msg.h"\
+	".\Multi.h"\
+	".\Palette.h"\
+	".\Player.h"\
+	".\Scrollrt.h"\
+	".\Sound.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\GameMenu.obj" : $(SOURCE) $(DEP_CPP_GAMEM) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\GameMenu.obj" : $(SOURCE) $(DEP_CPP_GAMEM) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\GameMenu.obj" : $(SOURCE) $(DEP_CPP_GAMEM) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\GameMenu.obj" : $(SOURCE) $(DEP_CPP_GAMEM) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\GameMenu.obj" : $(SOURCE) $(DEP_CPP_GAMEM) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\SetMaps.cpp
+DEP_CPP_SETMA=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Drlg_l1.h"\
+	".\Drlg_l2.h"\
+	".\Drlg_l3.h"\
+	".\Drlg_l4.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Objects.h"\
+	".\Palette.h"\
+	".\Quests.h"\
+	".\Setmaps.h"\
+	".\Trigs.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\SetMaps.obj" : $(SOURCE) $(DEP_CPP_SETMA) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\SetMaps.obj" : $(SOURCE) $(DEP_CPP_SETMA) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\SetMaps.obj" : $(SOURCE) $(DEP_CPP_SETMA) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\SetMaps.obj" : $(SOURCE) $(DEP_CPP_SETMA) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\SetMaps.obj" : $(SOURCE) $(DEP_CPP_SETMA) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\minitext.cpp
+DEP_CPP_MINIT=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Effects.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Items.h"\
+	".\MiniText.h"\
+	".\Quests.h"\
+	".\Scrollrt.h"\
+	".\textdat.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\minitext.obj" : $(SOURCE) $(DEP_CPP_MINIT) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\minitext.obj" : $(SOURCE) $(DEP_CPP_MINIT) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\minitext.obj" : $(SOURCE) $(DEP_CPP_MINIT) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\minitext.obj" : $(SOURCE) $(DEP_CPP_MINIT) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\minitext.obj" : $(SOURCE) $(DEP_CPP_MINIT) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\objdat.cpp
+DEP_CPP_OBJDA=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\objdat.h"\
+	".\Objects.h"\
+	".\Quests.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\objdat.obj" : $(SOURCE) $(DEP_CPP_OBJDA) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\objdat.obj" : $(SOURCE) $(DEP_CPP_OBJDA) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\objdat.obj" : $(SOURCE) $(DEP_CPP_OBJDA) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\objdat.obj" : $(SOURCE) $(DEP_CPP_OBJDA) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\objdat.obj" : $(SOURCE) $(DEP_CPP_OBJDA) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\itemdat.cpp
+DEP_CPP_ITEMD=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\itemdat.h"\
+	".\Items.h"\
+	".\Spells.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\itemdat.obj" : $(SOURCE) $(DEP_CPP_ITEMD) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\itemdat.obj" : $(SOURCE) $(DEP_CPP_ITEMD) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\itemdat.obj" : $(SOURCE) $(DEP_CPP_ITEMD) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\itemdat.obj" : $(SOURCE) $(DEP_CPP_ITEMD) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\itemdat.obj" : $(SOURCE) $(DEP_CPP_ITEMD) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\drlg_l4.cpp
+DEP_CPP_DRLG_L4=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Drlg_l4.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Lighting.h"\
+	".\Multi.h"\
+	".\Quests.h"\
+	".\Scrollrt.h"\
+	".\Sound.h"\
+	".\Trigs.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\drlg_l4.obj" : $(SOURCE) $(DEP_CPP_DRLG_L4) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\drlg_l4.obj" : $(SOURCE) $(DEP_CPP_DRLG_L4) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\drlg_l4.obj" : $(SOURCE) $(DEP_CPP_DRLG_L4) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\drlg_l4.obj" : $(SOURCE) $(DEP_CPP_DRLG_L4) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\drlg_l4.obj" : $(SOURCE) $(DEP_CPP_DRLG_L4) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\themes.cpp
+DEP_CPP_THEME=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Items.h"\
+	".\Monstdat.h"\
+	".\Monster.h"\
+	".\objdat.h"\
+	".\Objects.h"\
+	".\Quests.h"\
+	".\Sound.h"\
+	".\themes.h"\
+	".\Trigs.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\themes.obj" : $(SOURCE) $(DEP_CPP_THEME) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\themes.obj" : $(SOURCE) $(DEP_CPP_THEME) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\themes.obj" : $(SOURCE) $(DEP_CPP_THEME) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\themes.obj" : $(SOURCE) $(DEP_CPP_THEME) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\themes.obj" : $(SOURCE) $(DEP_CPP_THEME) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\stores.cpp
+DEP_CPP_STORE=\
+	".\Control.h"\
+	".\Cursor.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Effects.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Inv.h"\
+	".\itemdat.h"\
+	".\Items.h"\
+	".\MiniText.h"\
+	".\Multi.h"\
+	".\Player.h"\
+	".\Quests.h"\
+	".\Scrollrt.h"\
+	".\spelldat.h"\
+	".\stores.h"\
+	".\textdat.h"\
+	".\towners.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\stores.obj" : $(SOURCE) $(DEP_CPP_STORE) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\stores.obj" : $(SOURCE) $(DEP_CPP_STORE) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\stores.obj" : $(SOURCE) $(DEP_CPP_STORE) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\stores.obj" : $(SOURCE) $(DEP_CPP_STORE) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\stores.obj" : $(SOURCE) $(DEP_CPP_STORE) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\help.cpp
+DEP_CPP_HELP_=\
+	".\Control.h"\
+	".\Cursor.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\help.h"\
+	".\Items.h"\
+	".\MiniText.h"\
+	".\Monster.h"\
+	".\Objects.h"\
+	".\Scrollrt.h"\
+	".\Sound.h"\
+	".\stores.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\help.obj" : $(SOURCE) $(DEP_CPP_HELP_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\help.obj" : $(SOURCE) $(DEP_CPP_HELP_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\help.obj" : $(SOURCE) $(DEP_CPP_HELP_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\help.obj" : $(SOURCE) $(DEP_CPP_HELP_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\help.obj" : $(SOURCE) $(DEP_CPP_HELP_) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\automap.cpp
+DEP_CPP_AUTOM=\
+	".\automap.h"\
+	".\Control.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Inv.h"\
+	".\Items.h"\
+	".\Multi.h"\
+	".\Player.h"\
+	".\Quests.h"\
+	".\Scrollrt.h"\
+	".\Setmaps.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\automap.obj" : $(SOURCE) $(DEP_CPP_AUTOM) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\automap.obj" : $(SOURCE) $(DEP_CPP_AUTOM) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\automap.obj" : $(SOURCE) $(DEP_CPP_AUTOM) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\automap.obj" : $(SOURCE) $(DEP_CPP_AUTOM) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\automap.obj" : $(SOURCE) $(DEP_CPP_AUTOM) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\diablo.rc
+DEP_RSC_DIABLO=\
+	".\icon1.ico"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\diablo.res" : $(SOURCE) $(DEP_RSC_DIABLO) "$(INTDIR)"
+   $(RSC) $(RSC_PROJ) $(SOURCE)
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\diablo.res" : $(SOURCE) $(DEP_RSC_DIABLO) "$(INTDIR)"
+   $(RSC) $(RSC_PROJ) $(SOURCE)
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\diablo.res" : $(SOURCE) $(DEP_RSC_DIABLO) "$(INTDIR)"
+   $(RSC) $(RSC_PROJ) $(SOURCE)
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\diablo.res" : $(SOURCE) $(DEP_RSC_DIABLO) "$(INTDIR)"
+   $(RSC) $(RSC_PROJ) $(SOURCE)
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\diablo.res" : $(SOURCE) $(DEP_RSC_DIABLO) "$(INTDIR)"
+   $(RSC) $(RSC_PROJ) $(SOURCE)
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\Storm.lib
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\error.cpp
+DEP_CPP_ERROR=\
+	".\Control.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\error.h"\
+	".\Items.h"\
+	".\Scrollrt.h"\
+	".\stores.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\error.obj" : $(SOURCE) $(DEP_CPP_ERROR) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\error.obj" : $(SOURCE) $(DEP_CPP_ERROR) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\error.obj" : $(SOURCE) $(DEP_CPP_ERROR) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\error.obj" : $(SOURCE) $(DEP_CPP_ERROR) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\error.obj" : $(SOURCE) $(DEP_CPP_ERROR) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\multi.cpp
+DEP_CPP_MULTI=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Diabloui.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Items.h"\
+	".\Monster.h"\
+	".\msg.h"\
+	".\Multi.h"\
+	".\packplr.h"\
+	".\Player.h"\
+	".\portal.h"\
+	".\Sclass.h"\
+	".\Sound.h"\
+	".\Spells.h"\
+	".\Storm.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\multi.obj" : $(SOURCE) $(DEP_CPP_MULTI) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\multi.obj" : $(SOURCE) $(DEP_CPP_MULTI) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\multi.obj" : $(SOURCE) $(DEP_CPP_MULTI) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\multi.obj" : $(SOURCE) $(DEP_CPP_MULTI) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\multi.obj" : $(SOURCE) $(DEP_CPP_MULTI) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\Spelldat.cpp
+DEP_CPP_SPELLD=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Effects.h"\
+	".\Missiles.h"\
+	".\spelldat.h"\
+	".\Spells.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\Spelldat.obj" : $(SOURCE) $(DEP_CPP_SPELLD) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\Spelldat.obj" : $(SOURCE) $(DEP_CPP_SPELLD) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\Spelldat.obj" : $(SOURCE) $(DEP_CPP_SPELLD) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\Spelldat.obj" : $(SOURCE) $(DEP_CPP_SPELLD) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\Spelldat.obj" : $(SOURCE) $(DEP_CPP_SPELLD) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\spelldat.h
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\misdat.h
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\misdat.cpp
+DEP_CPP_MISDA=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Effects.h"\
+	".\misdat.h"\
+	".\Missiles.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\misdat.obj" : $(SOURCE) $(DEP_CPP_MISDA) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\misdat.obj" : $(SOURCE) $(DEP_CPP_MISDA) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\misdat.obj" : $(SOURCE) $(DEP_CPP_MISDA) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\misdat.obj" : $(SOURCE) $(DEP_CPP_MISDA) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\misdat.obj" : $(SOURCE) $(DEP_CPP_MISDA) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\appfat.cpp
+DEP_CPP_APPFA=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Sclass.h"\
+	".\Storm.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\appfat.obj" : $(SOURCE) $(DEP_CPP_APPFA) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\appfat.obj" : $(SOURCE) $(DEP_CPP_APPFA) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\appfat.obj" : $(SOURCE) $(DEP_CPP_APPFA) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\appfat.obj" : $(SOURCE) $(DEP_CPP_APPFA) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\appfat.obj" : $(SOURCE) $(DEP_CPP_APPFA) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\dsound.lib
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\ddraw.lib
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\sync.cpp
+DEP_CPP_SYNC_=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Debug.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\error.h"\
+	".\Gendung.h"\
+	".\Inv.h"\
+	".\Items.h"\
+	".\Monster.h"\
+	".\monstint.h"\
+	".\msg.h"\
+	".\Multi.h"\
+	".\Player.h"\
+	".\Sound.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\sync.obj" : $(SOURCE) $(DEP_CPP_SYNC_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\sync.obj" : $(SOURCE) $(DEP_CPP_SYNC_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\sync.obj" : $(SOURCE) $(DEP_CPP_SYNC_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\sync.obj" : $(SOURCE) $(DEP_CPP_SYNC_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\sync.obj" : $(SOURCE) $(DEP_CPP_SYNC_) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\path.cpp
+DEP_CPP_PATH_=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Gendung.h"\
+	".\Items.h"\
+	".\path.h"\
+	".\Player.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\path.obj" : $(SOURCE) $(DEP_CPP_PATH_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\path.obj" : $(SOURCE) $(DEP_CPP_PATH_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\path.obj" : $(SOURCE) $(DEP_CPP_PATH_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\path.obj" : $(SOURCE) $(DEP_CPP_PATH_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\path.obj" : $(SOURCE) $(DEP_CPP_PATH_) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\msg.cpp
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+DEP_CPP_MSG_C=\
+	".\automap.h"\
+	".\Control.h"\
+	".\Cursor.h"\
+	".\Dead.h"\
+	".\Diablo.h"\
+	".\Diabloui.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Inv.h"\
+	".\Items.h"\
+	".\Lighting.h"\
+	".\Missiles.h"\
+	".\Monstdat.h"\
+	".\Monster.h"\
+	".\msg.h"\
+	".\Multi.h"\
+	".\objdat.h"\
+	".\Objects.h"\
+	".\Player.h"\
+	".\portal.h"\
+	".\Quests.h"\
+	".\Sound.h"\
+	".\spelldat.h"\
+	".\Spells.h"\
+	".\Storm.h"\
+	
+
+"$(INTDIR)\msg.obj" : $(SOURCE) $(DEP_CPP_MSG_C) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+DEP_CPP_MSG_C=\
+	".\automap.h"\
+	".\Control.h"\
+	".\Cursor.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Dead.h"\
+	".\Diablo.h"\
+	".\Diabloui.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Inv.h"\
+	".\Items.h"\
+	".\Lighting.h"\
+	".\Missiles.h"\
+	".\Monstdat.h"\
+	".\Monster.h"\
+	".\msg.h"\
+	".\Multi.h"\
+	".\objdat.h"\
+	".\Objects.h"\
+	".\Player.h"\
+	".\portal.h"\
+	".\Quests.h"\
+	".\Sclass.h"\
+	".\Sound.h"\
+	".\Spells.h"\
+	".\Storm.h"\
+	
+
+"$(INTDIR)\msg.obj" : $(SOURCE) $(DEP_CPP_MSG_C) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+DEP_CPP_MSG_C=\
+	".\automap.h"\
+	".\Control.h"\
+	".\Cursor.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Dead.h"\
+	".\Diablo.h"\
+	".\Diabloui.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Inv.h"\
+	".\Items.h"\
+	".\Lighting.h"\
+	".\Missiles.h"\
+	".\Monstdat.h"\
+	".\Monster.h"\
+	".\msg.h"\
+	".\Multi.h"\
+	".\objdat.h"\
+	".\Objects.h"\
+	".\Player.h"\
+	".\portal.h"\
+	".\Quests.h"\
+	".\Sclass.h"\
+	".\Sound.h"\
+	".\Spells.h"\
+	".\Storm.h"\
+	
+
+"$(INTDIR)\msg.obj" : $(SOURCE) $(DEP_CPP_MSG_C) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+DEP_CPP_MSG_C=\
+	".\automap.h"\
+	".\Control.h"\
+	".\Cursor.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Dead.h"\
+	".\Diablo.h"\
+	".\Diabloui.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Inv.h"\
+	".\Items.h"\
+	".\Lighting.h"\
+	".\Missiles.h"\
+	".\Monstdat.h"\
+	".\Monster.h"\
+	".\msg.h"\
+	".\Multi.h"\
+	".\objdat.h"\
+	".\Objects.h"\
+	".\Player.h"\
+	".\portal.h"\
+	".\Quests.h"\
+	".\Sclass.h"\
+	".\Sound.h"\
+	".\Spells.h"\
+	".\Storm.h"\
+	
+
+"$(INTDIR)\msg.obj" : $(SOURCE) $(DEP_CPP_MSG_C) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+DEP_CPP_MSG_C=\
+	".\automap.h"\
+	".\Control.h"\
+	".\Cursor.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Dead.h"\
+	".\Diablo.h"\
+	".\Diabloui.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Inv.h"\
+	".\Items.h"\
+	".\Lighting.h"\
+	".\Missiles.h"\
+	".\Monstdat.h"\
+	".\Monster.h"\
+	".\msg.h"\
+	".\Multi.h"\
+	".\objdat.h"\
+	".\Objects.h"\
+	".\Player.h"\
+	".\portal.h"\
+	".\Quests.h"\
+	".\Sclass.h"\
+	".\Sound.h"\
+	".\Spells.h"\
+	".\Storm.h"\
+	
+
+"$(INTDIR)\msg.obj" : $(SOURCE) $(DEP_CPP_MSG_C) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\init.cpp
+DEP_CPP_INIT_=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Diabloui.h"\
+	".\Dsound.h"\
+	".\Effects.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Lighting.h"\
+	".\Multi.h"\
+	".\Palette.h"\
+	".\Sclass.h"\
+	".\Sound.h"\
+	".\Storm.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\init.obj" : $(SOURCE) $(DEP_CPP_INIT_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\init.obj" : $(SOURCE) $(DEP_CPP_INIT_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\init.obj" : $(SOURCE) $(DEP_CPP_INIT_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\init.obj" : $(SOURCE) $(DEP_CPP_INIT_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\init.obj" : $(SOURCE) $(DEP_CPP_INIT_) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\movie.cpp
+DEP_CPP_MOVIE=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Palette.h"\
+	".\Sclass.h"\
+	".\Scrollrt.h"\
+	".\Sound.h"\
+	".\Storm.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\movie.obj" : $(SOURCE) $(DEP_CPP_MOVIE) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\movie.obj" : $(SOURCE) $(DEP_CPP_MOVIE) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\movie.obj" : $(SOURCE) $(DEP_CPP_MOVIE) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\movie.obj" : $(SOURCE) $(DEP_CPP_MOVIE) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\movie.obj" : $(SOURCE) $(DEP_CPP_MOVIE) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\Diabloui.lib
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\mainmenu.cpp
+DEP_CPP_MAINM=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Diabloui.h"\
+	".\Dsound.h"\
+	".\Gendung.h"\
+	".\Items.h"\
+	".\Multi.h"\
+	".\Player.h"\
+	".\Sclass.h"\
+	".\Sound.h"\
+	".\Storm.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\mainmenu.obj" : $(SOURCE) $(DEP_CPP_MAINM) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\mainmenu.obj" : $(SOURCE) $(DEP_CPP_MAINM) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\mainmenu.obj" : $(SOURCE) $(DEP_CPP_MAINM) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\mainmenu.obj" : $(SOURCE) $(DEP_CPP_MAINM) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\mainmenu.obj" : $(SOURCE) $(DEP_CPP_MAINM) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\pfile.cpp
+DEP_CPP_PFILE=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Diabloui.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\Gamemenu.h"\
+	".\Gendung.h"\
+	".\Items.h"\
+	".\mpqapi.h"\
+	".\Multi.h"\
+	".\packplr.h"\
+	".\Player.h"\
+	".\Sclass.h"\
+	".\Spells.h"\
+	".\Storm.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\pfile.obj" : $(SOURCE) $(DEP_CPP_PFILE) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\pfile.obj" : $(SOURCE) $(DEP_CPP_PFILE) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\pfile.obj" : $(SOURCE) $(DEP_CPP_PFILE) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\pfile.obj" : $(SOURCE) $(DEP_CPP_PFILE) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\pfile.obj" : $(SOURCE) $(DEP_CPP_PFILE) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\packplr.cpp
+DEP_CPP_PACKP=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Gendung.h"\
+	".\Items.h"\
+	".\msg.h"\
+	".\Multi.h"\
+	".\packplr.h"\
+	".\Player.h"\
+	".\Sclass.h"\
+	".\Spells.h"\
+	".\stores.h"\
+	".\Storm.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\packplr.obj" : $(SOURCE) $(DEP_CPP_PACKP) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\packplr.obj" : $(SOURCE) $(DEP_CPP_PACKP) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\packplr.obj" : $(SOURCE) $(DEP_CPP_PACKP) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\packplr.obj" : $(SOURCE) $(DEP_CPP_PACKP) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\packplr.obj" : $(SOURCE) $(DEP_CPP_PACKP) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\nthread.cpp
+DEP_CPP_NTHRE=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Gendung.h"\
+	".\Items.h"\
+	".\msg.h"\
+	".\Multi.h"\
+	".\Player.h"\
+	".\Sclass.h"\
+	".\Sound.h"\
+	".\Storm.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\nthread.obj" : $(SOURCE) $(DEP_CPP_NTHRE) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\nthread.obj" : $(SOURCE) $(DEP_CPP_NTHRE) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\nthread.obj" : $(SOURCE) $(DEP_CPP_NTHRE) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\nthread.obj" : $(SOURCE) $(DEP_CPP_NTHRE) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\nthread.obj" : $(SOURCE) $(DEP_CPP_NTHRE) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\capture.cpp
+DEP_CPP_CAPTU=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\capture.obj" : $(SOURCE) $(DEP_CPP_CAPTU) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\capture.obj" : $(SOURCE) $(DEP_CPP_CAPTU) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\capture.obj" : $(SOURCE) $(DEP_CPP_CAPTU) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\capture.obj" : $(SOURCE) $(DEP_CPP_CAPTU) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\capture.obj" : $(SOURCE) $(DEP_CPP_CAPTU) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\encrypt.cpp
+DEP_CPP_ENCRY=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\implode.h"\
+	".\mpqapi.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\encrypt.obj" : $(SOURCE) $(DEP_CPP_ENCRY) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\encrypt.obj" : $(SOURCE) $(DEP_CPP_ENCRY) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\encrypt.obj" : $(SOURCE) $(DEP_CPP_ENCRY) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\encrypt.obj" : $(SOURCE) $(DEP_CPP_ENCRY) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\encrypt.obj" : $(SOURCE) $(DEP_CPP_ENCRY) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\mpqapi.cpp
+DEP_CPP_MPQAP=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\mpqapi.h"\
+	".\Sclass.h"\
+	".\Storm.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\mpqapi.obj" : $(SOURCE) $(DEP_CPP_MPQAP) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\mpqapi.obj" : $(SOURCE) $(DEP_CPP_MPQAP) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\mpqapi.obj" : $(SOURCE) $(DEP_CPP_MPQAP) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\mpqapi.obj" : $(SOURCE) $(DEP_CPP_MPQAP) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\mpqapi.obj" : $(SOURCE) $(DEP_CPP_MPQAP) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\track.cpp
+DEP_CPP_TRACK=\
+	".\Cursor.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Gendung.h"\
+	".\Items.h"\
+	".\msg.h"\
+	".\Player.h"\
+	".\Sclass.h"\
+	".\Storm.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\track.obj" : $(SOURCE) $(DEP_CPP_TRACK) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\track.obj" : $(SOURCE) $(DEP_CPP_TRACK) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\track.obj" : $(SOURCE) $(DEP_CPP_TRACK) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\track.obj" : $(SOURCE) $(DEP_CPP_TRACK) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\track.obj" : $(SOURCE) $(DEP_CPP_TRACK) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\implode.lib
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\Scroll.asm
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+# Begin Custom Build - scroll.asm
+IntDir=.\WinRel
+InputPath=.\Scroll.asm
+InputName=Scroll
+
+"$(IntDir)\scroll.obj" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
+   tasm /t /m5 /ml /w2 /zn $(InputName) $(IntDir)\scroll.obj
+
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+# Begin Custom Build - scroll.asm
+IntDir=.\WinDebug
+InputPath=.\Scroll.asm
+InputName=Scroll
+
+"$(IntDir)\scroll.obj" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
+   tasm /t /m5 /ml /w2 /zn $(InputName) $(IntDir)\scroll.obj
+
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+# Begin Custom Build - scroll.asm
+IntDir=.\WinFinal
+InputPath=.\Scroll.asm
+InputName=Scroll
+
+"$(IntDir)\scroll.obj" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
+   tasm /t /m5 /ml /w2 /zn $(InputName) $(IntDir)\scroll.obj
+
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+# Begin Custom Build - scroll.asm
+IntDir=.\SFinal
+InputPath=.\Scroll.asm
+InputName=Scroll
+
+"$(IntDir)\scroll.obj" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
+   tasm /t /m5 /ml /w2 /zn $(InputName) $(IntDir)\scroll.obj
+
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+# Begin Custom Build - scroll.asm
+IntDir=.\SRel
+InputPath=.\Scroll.asm
+InputName=Scroll
+
+"$(IntDir)\scroll.obj" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
+   tasm /t /m5 /ml /w2 /zn $(InputName) $(IntDir)\scroll.obj
+
+# End Custom Build
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\SHA.CPP
+DEP_CPP_SHA_C=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\SHA.OBJ" : $(SOURCE) $(DEP_CPP_SHA_C) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\SHA.OBJ" : $(SOURCE) $(DEP_CPP_SHA_C) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\SHA.OBJ" : $(SOURCE) $(DEP_CPP_SHA_C) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\SHA.OBJ" : $(SOURCE) $(DEP_CPP_SHA_C) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\SHA.OBJ" : $(SOURCE) $(DEP_CPP_SHA_C) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\CODEC.CPP
+DEP_CPP_CODEC=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\CODEC.OBJ" : $(SOURCE) $(DEP_CPP_CODEC) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\CODEC.OBJ" : $(SOURCE) $(DEP_CPP_CODEC) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\CODEC.OBJ" : $(SOURCE) $(DEP_CPP_CODEC) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\CODEC.OBJ" : $(SOURCE) $(DEP_CPP_CODEC) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\CODEC.OBJ" : $(SOURCE) $(DEP_CPP_CODEC) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\wave.cpp
+DEP_CPP_WAVE_=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\Sclass.h"\
+	".\Sound.h"\
+	".\Storm.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\wave.obj" : $(SOURCE) $(DEP_CPP_WAVE_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\wave.obj" : $(SOURCE) $(DEP_CPP_WAVE_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\wave.obj" : $(SOURCE) $(DEP_CPP_WAVE_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\wave.obj" : $(SOURCE) $(DEP_CPP_WAVE_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\wave.obj" : $(SOURCE) $(DEP_CPP_WAVE_) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\towners.cpp
+DEP_CPP_TOWNE=\
+	".\Cursor.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Effects.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Inv.h"\
+	".\itemdat.h"\
+	".\Items.h"\
+	".\MiniText.h"\
+	".\Monster.h"\
+	".\msg.h"\
+	".\Multi.h"\
+	".\Palette.h"\
+	".\Player.h"\
+	".\Quests.h"\
+	".\Sound.h"\
+	".\stores.h"\
+	".\textdat.h"\
+	".\Town.h"\
+	".\towners.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\towners.obj" : $(SOURCE) $(DEP_CPP_TOWNE) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\towners.obj" : $(SOURCE) $(DEP_CPP_TOWNE) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\towners.obj" : $(SOURCE) $(DEP_CPP_TOWNE) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\towners.obj" : $(SOURCE) $(DEP_CPP_TOWNE) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\towners.obj" : $(SOURCE) $(DEP_CPP_TOWNE) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\plrmsg.cpp
+DEP_CPP_PLRMS=\
+	".\Control.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Inv.h"\
+	".\Items.h"\
+	".\msg.h"\
+	".\Player.h"\
+	".\Quests.h"\
+	".\Scrollrt.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\plrmsg.obj" : $(SOURCE) $(DEP_CPP_PLRMS) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\plrmsg.obj" : $(SOURCE) $(DEP_CPP_PLRMS) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\plrmsg.obj" : $(SOURCE) $(DEP_CPP_PLRMS) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\plrmsg.obj" : $(SOURCE) $(DEP_CPP_PLRMS) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\plrmsg.obj" : $(SOURCE) $(DEP_CPP_PLRMS) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\gmenu.cpp
+DEP_CPP_GMENU=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Effects.h"\
+	".\Engine.h"\
+	".\Gamemenu.h"\
+	".\Gendung.h"\
+	".\Scrollrt.h"\
+	".\Sound.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\gmenu.obj" : $(SOURCE) $(DEP_CPP_GMENU) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\gmenu.obj" : $(SOURCE) $(DEP_CPP_GMENU) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\gmenu.obj" : $(SOURCE) $(DEP_CPP_GMENU) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\gmenu.obj" : $(SOURCE) $(DEP_CPP_GMENU) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\gmenu.obj" : $(SOURCE) $(DEP_CPP_GMENU) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\loadsave.cpp
+DEP_CPP_LOADS=\
+	".\automap.h"\
+	".\Control.h"\
+	".\Cursor.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Dead.h"\
+	".\Diablo.h"\
+	".\doom.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Interfac.h"\
+	".\Inv.h"\
+	".\Items.h"\
+	".\Lighting.h"\
+	".\Missiles.h"\
+	".\Monster.h"\
+	".\Multi.h"\
+	".\Objects.h"\
+	".\Palette.h"\
+	".\Player.h"\
+	".\portal.h"\
+	".\Quests.h"\
+	".\Sound.h"\
+	".\Spells.h"\
+	".\stores.h"\
+	".\Town.h"\
+	".\Trigs.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\loadsave.obj" : $(SOURCE) $(DEP_CPP_LOADS) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\loadsave.obj" : $(SOURCE) $(DEP_CPP_LOADS) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\loadsave.obj" : $(SOURCE) $(DEP_CPP_LOADS) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\loadsave.obj" : $(SOURCE) $(DEP_CPP_LOADS) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\loadsave.obj" : $(SOURCE) $(DEP_CPP_LOADS) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\portal.cpp
+DEP_CPP_PORTA=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Effects.h"\
+	".\Gendung.h"\
+	".\Items.h"\
+	".\misdat.h"\
+	".\Missiles.h"\
+	".\msg.h"\
+	".\Player.h"\
+	".\portal.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\portal.obj" : $(SOURCE) $(DEP_CPP_PORTA) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\portal.obj" : $(SOURCE) $(DEP_CPP_PORTA) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\portal.obj" : $(SOURCE) $(DEP_CPP_PORTA) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\portal.obj" : $(SOURCE) $(DEP_CPP_PORTA) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\portal.obj" : $(SOURCE) $(DEP_CPP_PORTA) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\doom.cpp
+DEP_CPP_DOOM_=\
+	".\Control.h"\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\doom.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\doom.obj" : $(SOURCE) $(DEP_CPP_DOOM_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\doom.obj" : $(SOURCE) $(DEP_CPP_DOOM_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\doom.obj" : $(SOURCE) $(DEP_CPP_DOOM_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\doom.obj" : $(SOURCE) $(DEP_CPP_DOOM_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\doom.obj" : $(SOURCE) $(DEP_CPP_DOOM_) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\Textdat.cpp
+DEP_CPP_TEXTD=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Effects.h"\
+	".\MiniText.h"\
+	".\textdat.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\Textdat.obj" : $(SOURCE) $(DEP_CPP_TEXTD) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\Textdat.obj" : $(SOURCE) $(DEP_CPP_TEXTD) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\Textdat.obj" : $(SOURCE) $(DEP_CPP_TEXTD) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\Textdat.obj" : $(SOURCE) $(DEP_CPP_TEXTD) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\Textdat.obj" : $(SOURCE) $(DEP_CPP_TEXTD) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\dx.cpp
+DEP_CPP_DX_CP=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Palette.h"\
+	".\Sclass.h"\
+	".\Storm.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\dx.obj" : $(SOURCE) $(DEP_CPP_DX_CP) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\dx.obj" : $(SOURCE) $(DEP_CPP_DX_CP) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\dx.obj" : $(SOURCE) $(DEP_CPP_DX_CP) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\dx.obj" : $(SOURCE) $(DEP_CPP_DX_CP) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\dx.obj" : $(SOURCE) $(DEP_CPP_DX_CP) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\dthread.cpp
+DEP_CPP_DTHRE=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	".\Gendung.h"\
+	".\Items.h"\
+	".\msg.h"\
+	".\Multi.h"\
+	".\Player.h"\
+	".\Sclass.h"\
+	".\Sound.h"\
+	".\Storm.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\dthread.obj" : $(SOURCE) $(DEP_CPP_DTHRE) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\dthread.obj" : $(SOURCE) $(DEP_CPP_DTHRE) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\dthread.obj" : $(SOURCE) $(DEP_CPP_DTHRE) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\dthread.obj" : $(SOURCE) $(DEP_CPP_DTHRE) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\dthread.obj" : $(SOURCE) $(DEP_CPP_DTHRE) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\tmsg.cpp
+DEP_CPP_TMSG_=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	".\Engine.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\tmsg.obj" : $(SOURCE) $(DEP_CPP_TMSG_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\tmsg.obj" : $(SOURCE) $(DEP_CPP_TMSG_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\tmsg.obj" : $(SOURCE) $(DEP_CPP_TMSG_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\tmsg.obj" : $(SOURCE) $(DEP_CPP_TMSG_) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\tmsg.obj" : $(SOURCE) $(DEP_CPP_TMSG_) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\except.cpp
+DEP_CPP_EXCEP=\
+	".\d3dtypes.h"\
+	".\Ddraw.h"\
+	".\Diablo.h"\
+	".\Dsound.h"\
+	
+
+!IF  "$(CFG)" == "Diablo - Win32 Release"
+
+
+"$(INTDIR)\except.obj" : $(SOURCE) $(DEP_CPP_EXCEP) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Debug"
+
+
+"$(INTDIR)\except.obj" : $(SOURCE) $(DEP_CPP_EXCEP) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 FinalFinal"
+
+
+"$(INTDIR)\except.obj" : $(SOURCE) $(DEP_CPP_EXCEP) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware FinalFinal"
+
+
+"$(INTDIR)\except.obj" : $(SOURCE) $(DEP_CPP_EXCEP) "$(INTDIR)"
+
+
+!ELSEIF  "$(CFG)" == "Diablo - Win32 Shareware Release"
+
+
+"$(INTDIR)\except.obj" : $(SOURCE) $(DEP_CPP_EXCEP) "$(INTDIR)"
+
+
+!ENDIF 
+
+# End Source File
+# End Target
+# End Project
+################################################################################

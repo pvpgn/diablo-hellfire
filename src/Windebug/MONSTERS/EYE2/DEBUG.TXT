@@ -1,0 +1,9 @@
+eye width 140  height 142  
+eye width 140  height 142  
+eye width 140  height 142  
+Neutral frame count 12 
+Walk frame count 13 
+Attack frame count 13 
+Get hit frame count 7 
+Die frame count 21 
+Special frame count 0 

@@ -1,0 +1,25 @@
+
+*) Fixed the bug where picking up gold when your inventory is full
+duplicates the gold in your hand and fills your gold slot.
+
+*) Fixed the Berserk spell to prevent crashes.
+
+*) Fixed entering the new levels.
+
+*) Fixed to dropping and picking back up oiled items.
+
+*) Fixed generating spell books by Adria.
+
+*) Fixed placing of weapons for all player classes.
+
+*) Fixed generating rings of fire behind a wall.
+
+
+Donald:
+
+*) Fixed Gosip.
+
+*) Fix to item changing between games.
+
+12/29/97
+*)Fix to gold cursor when full of gold in inventory.

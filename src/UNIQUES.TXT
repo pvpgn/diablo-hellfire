@@ -1,0 +1,13 @@
+------------Donald------------
+
+Re: Mr. Tsang Could you Please... from Donald Tsang (donaldtsang), Wed Jan 28 15:47:19 US/Pacific 1998 In-reply-to To Mister Tsang.
+
+(please call me Donald; "Mr. Tsang" makes me feel old. :)
+
+Okay, so the random item generator has determined that you may deserve a random unique of a certain type (say, rings).
+
+Now it goes through the list of uniques, and sees if there are any that you're allowed to have on that dungeon level (plus a few if you're getting this from a unique critter) that you haven't already found this session.
+
+It then takes the last one of those it finds (which is, presumably, the highest-level-and-therefore-best), and gives it to you.
+
+Me, I would've made that last step just a random pick from the list (perhaps weighted toward the highest-level one), but what do I know? 

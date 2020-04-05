@@ -1,0 +1,54 @@
+{\rtf1\ansi \deff4\deflang1033{\fonttbl{\f4\froman\fcharset0\fprq2 Times New Roman;}{\f11\fmodern\fcharset0\fprq1 Courier New;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;
+\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;
+\red192\green192\blue192;}{\stylesheet{\widctlpar \f4\fs20 \snext0 Normal;}{\*\cs10 \additive Default Paragraph Font;}{\s15\widctlpar \b\f4\fs40 \sbasedon0\snext16 API Title;}{\s16\widctlpar \f4 \sbasedon0\snext16 API Description;}{\s17\widctlpar 
+\f11\fs22 \sbasedon0\snext17 API Function;}{\s18\widctlpar \b\f4 \sbasedon0\snext16 API Section;}{\s19\li720\widctlpar \f4 \sbasedon0\snext16 API Parameter Description;}{\s20\widctlpar \i\f4 \sbasedon0\snext19 API Parameter Name;}{\s21\widctlpar \f4\fs20 
+\sbasedon0\snext21 footnote text;}{\*\cs22 \additive\super \sbasedon10 footnote reference;}}{\info{\title SNetCreateGame}{\author Mike O'Brien}{\operator Mike O'Brien}{\creatim\yr1996\mo8\dy21\hr16\min18}{\revtim\yr1996\mo11\dy13\hr23\min45}{\version2}
+{\edmins1}{\nofpages2}{\nofwords185}{\nofchars1060}{\*\company Blizzard Entertainment}{\vern57431}}\widowctrl\ftnbj\aenddoc\hyphcaps0\formshade \fet0\sectd \linex0\endnhere {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2
+\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6
+\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang
+{\pntxtb (}{\pntxta )}}\pard\plain \s15\keepn\widctlpar \b\f4\fs40 {\cs22\super ${\footnote \pard\plain \s21\widctlpar \f4\fs20 {\cs22\super $} SNETCAPS}#{\footnote \pard\plain \s21\widctlpar \f4\fs20 {\cs22\super #} SNETCAPS}K{\footnote \pard\plain 
+\s21\widctlpar \f4\fs20 {\cs22\super K} SNETCAPS}} SNETCAPS
+\par \pard\plain \s16\widctlpar \f4 
+\par The SNETCAPS structure contains capabilities for a network provider or a player.
+\par 
+\par \pard\plain \s17\widctlpar \f11\fs22 typedef struct _SNETCAPS \{
+\par \tab DWORD\tab \tab size;
+\par \tab DWORD\tab \tab flags;
+\par \tab DWORD\tab \tab maxmessagesize;
+\par \tab DWORD\tab \tab maxqueuesize;
+\par \tab DWORD\tab \tab maxplayers;
+\par \tab DWORD\tab \tab bytessec;
+\par \tab DWORD\tab \tab latencyms;
+\par \tab DWORD\tab \tab defaultturnssec;
+\par \tab DWORD\tab \tab defaultturnsintransit;
+\par \} SNETCAPS, *SNETCAPSPTR;
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s18\widctlpar \b\f4 Members
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 size
+\par \pard\plain \s19\li720\widctlpar \f4 The size of the structure, in bytes.  Must be filled in by the application.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 flags
+\par \pard\plain \s19\li720\widctlpar \f4 Network capability flags.  No flags are currently defined.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 maxmessagesize
+\par \pard\plain \s19\li720\widctlpar \f4 The maximum size, in bytes, of a message or turn that can be sent using this network provider.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 maxqueuesize
+\par \pard\plain \s19\li720\widctlpar \f4 The maximum size of the outgoing message queue.  This field is only meaningful if the network provider makes use of Microsoft DirectPlay.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 maxplayers
+\par \pard\plain \s19\li720\widctlpar \f4 The maximum number of players supported by this network provider.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 bytessec
+\par \pard\plain \s19\li720\widctlpar \f4 The expected bandwidth of the communications medium, expressed in bytes per second.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 latencyms
+\par \pard\plain \s19\li720\widctlpar \f4 The expected latency of the communications medium, expressed as the number of milliseconds for a round-trip transmission.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 defaultturnssec
+\par \pard\plain \s19\li720\widctlpar \f4 The recommended number of turns per second for this network provider.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 defaultturnsintransit
+\par \pard\plain \s19\li720\widctlpar \f4 The recommended number of turns that the application should maintain in transit when using this network provider.
+\par }

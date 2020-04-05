@@ -1,0 +1,8 @@
+nakrule width 226  height 189  
+nakrule width 226  height 189  
+Neutral frame count 1 
+Walk frame count 6 
+Attack frame count 16 
+Get hit frame count 6 
+Die frame count 16 
+Special frame count 16 

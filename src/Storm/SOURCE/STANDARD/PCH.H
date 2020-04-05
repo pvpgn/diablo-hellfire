@@ -1,0 +1,9 @@
+#define  STRICT
+#include <windows.h>
+#include <wsipx.h>
+#include <process.h>
+#include <stdio.h>
+#include <storm.h>
+#include "standard.h"
+#include "trace.h"
+#include "resource.h"

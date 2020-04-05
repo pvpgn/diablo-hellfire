@@ -1,0 +1,198 @@
+//#if !defined(__mm2mmapp_rh)                // Sentry use file only if it's not already included.
+//#define __mm2mmapp_rh
+
+/*  Project mem2mem
+    PKWARE, INC.
+    Copyright © 1995. All Rights Reserved.
+
+    SUBSYSTEM:    mem2mem.exe Application
+    FILE:         mm2mmapp.h
+    AUTHOR:       
+
+
+    OVERVIEW
+    ========
+    Constant definitions for all resources defined in mm2mmapp.rc.      
+*/
+
+
+//
+// IDHELP BorButton for BWCC dialogs.
+//
+#define IDHELP                  998             // Id of help button
+
+
+//
+// Application specific definitions:
+//
+#define IDI_SDIAPPLICATION      1001            // Application icon
+
+#define SDI_MENU                100             // Menu resource ID and Accelerator IDs
+#define CM_TEST_DCL	101
+
+#define IDM_DOCMANAGERFILE      32401           // Menu for DocManager merging.
+#define IDM_EDITVIEW   		    32581           // Menu for TEditView merging.
+#define IDM_LISTVIEW            32582           // Menu for TListView merging.
+
+//
+// CM_FILEnnnn commands (include\owl\editfile.rh except for CM_FILEPRINTPREVIEW)
+//
+#define CM_FILENEW              24331           // SDI New
+#define CM_FILEOPEN             24332           // SDI Open
+#define CM_FILECLOSE            24339
+#define CM_FILESAVE             24333
+#define CM_FILESAVEAS           24334
+#define CM_FILEREVERT           24335
+#define CM_VIEWCREATE           24341
+
+
+//
+// Window commands (include\owl\window.rh)
+//
+#define CM_EXIT                 24310
+
+
+//
+// CM_EDITnnnn commands (include\owl\window.rh)
+//
+#define CM_EDITUNDO             24321
+#define CM_EDITCUT              24322
+#define CM_EDITCOPY             24323
+#define CM_EDITPASTE            24324
+#define CM_EDITDELETE           24325
+#define CM_EDITCLEAR            24326
+#define CM_EDITADD              24327
+#define CM_EDITEDIT             24328
+
+
+//
+// Search menu commands (include\owl\editsear.rh)
+//
+#define CM_EDITFIND             24351
+#define CM_EDITREPLACE          24352
+#define CM_EDITFINDNEXT         24353
+
+
+//
+// Help menu commands.
+//
+#define CM_HELPABOUT            2009
+
+
+//
+// About Dialogs
+//
+#define IDD_ABOUT               22000
+#define IDC_VERSION             22001
+#define IDC_COPYRIGHT           22002
+#define IDC_DEBUG               22003
+
+
+//
+// OWL defined strings
+//
+
+// Statusbar
+#define IDS_MODES               32530
+#define IDS_MODESOFF            32531
+
+
+// EditFile
+#define IDS_UNABLEREAD          32551
+#define IDS_UNABLEWRITE         32552
+#define IDS_FILECHANGED         32553
+#define IDS_FILEFILTER          32554
+                                
+// EditSearch                   
+#define IDS_CANNOTFIND          32540
+
+
+//
+// General & application exception messages (include\owl\except.rh)
+//
+#define IDS_UNKNOWNEXCEPTION    32767
+#define IDS_OWLEXCEPTION        32766
+#define IDS_OKTORESUME          32765
+#define IDS_UNHANDLEDXMSG       32764
+#define IDS_UNKNOWNERROR        32763
+#define IDS_NOAPP               32762
+#define IDS_OUTOFMEMORY         32761
+#define IDS_INVALIDMODULE       32760
+#define IDS_INVALIDMAINWINDOW   32759
+#define IDS_VBXLIBRARYFAIL      32758
+
+//
+// Owl 1 compatibility messages
+//
+#define IDS_INVALIDWINDOW       32756
+#define IDS_INVALIDCHILDWINDOW  32755
+#define IDS_INVALIDCLIENTWINDOW 32754
+
+//
+// TXWindow messages
+//
+#define IDS_CLASSREGISTERFAIL   32749
+#define IDS_CHILDREGISTERFAIL   32748
+#define IDS_WINDOWCREATEFAIL    32747
+#define IDS_WINDOWEXECUTEFAIL   32746
+#define IDS_CHILDCREATEFAIL     32745
+
+#define IDS_MENUFAILURE         32744
+#define IDS_VALIDATORSYNTAX     32743
+#define IDS_PRINTERERROR        32742
+
+#define IDS_LAYOUTINCOMPLETE    32741
+#define IDS_LAYOUTBADRELWIN     32740
+
+//
+// TXGdi messages
+//
+#define IDS_GDIFAILURE          32739
+#define IDS_GDIALLOCFAIL        32738
+#define IDS_GDICREATEFAIL       32737
+#define IDS_GDIRESLOADFAIL      32736
+#define IDS_GDIFILEREADFAIL     32735
+#define IDS_GDIDELETEFAIL       32734
+#define IDS_GDIDESTROYFAIL      32733
+#define IDS_INVALIDDIBHANDLE    32732
+
+
+// ListView (include\owl\listview.rh)
+#define IDS_LISTNUM             32584
+
+
+// DocView (include\owl\docview.rh)
+#define IDS_DOCMANAGERFILE      32500
+#define IDS_DOCLIST             32501
+#define IDS_VIEWLIST            32502
+#define IDS_UNTITLED            32503
+#define IDS_UNABLEOPEN          32504
+#define IDS_UNABLECLOSE         32505
+#define IDS_READERROR           32506
+#define IDS_WRITEERROR          32507
+#define IDS_DOCCHANGED          32508
+#define IDS_NOTCHANGED          32509
+#define IDS_NODOCMANAGER        32510
+#define IDS_NOMEMORYFORVIEW     32511
+#define IDS_DUPLICATEDOC        32512
+
+
+// TInputDialog DIALOG resource (include\owl\inputdia.rh)
+#define IDD_INPUTDIALOG         32514
+#define ID_PROMPT               4091
+#define ID_INPUT                4090
+
+
+// TSlider bitmaps (horizontal and vertical) (include\owl\slider.rh)
+#define IDB_HSLIDERTHUMB        32000
+#define IDB_VSLIDERTHUMB        32001
+
+
+// Validation messages (include\owl\validate.rh)
+#define IDS_VALPXPCONFORM       32520
+#define IDS_VALINVALIDCHAR      32521
+#define IDS_VALNOTINRANGE       32522
+#define IDS_VALNOTINLIST        32523
+
+
+//#endif         // __mm2mmapp_rh sentry.

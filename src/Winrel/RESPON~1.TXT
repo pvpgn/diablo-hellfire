@@ -1,0 +1,25 @@
+"D:\diablo97\WinRel\Hellfire.exe"
+/exclude "d:\diablo97\winrel\hellfrui.dll"
+/exclude "d:\diablo97\winrel\storm.dll"
+/countsMask 83
+/timeStampCounter
+/retainProfiles 3
+/cpu pentium
+/atomToolData 
+  "D:\diablo97\WinRel"        # project dir
+  ""        # run application name
+  ""        # run arguments
+  "D:\diablo97\WinRel"        # run working directory
+  12        # number of DLLs
+  "d:\diablo97\winrel\hellfire.exe" 1 1487872 -420951808 29155272 1
+  "c:\windows\system\kernel32.dll" 0 411136 1550986240 28987310 0
+  "c:\windows\system\user32.dll" 0 44544 1550986240 28987310 0
+  "c:\windows\system\gdi32.dll" 0 131072 1550986240 28987310 0
+  "c:\windows\system\advapi32.dll" 0 43008 -99307776 29080255 0
+  "c:\windows\system\shell32.dll" 0 817664 99150848 29022112 0
+  "c:\windows\system\comctl32.dll" 0 379152 -99307776 29080255 0
+  "c:\windows\system\version.dll" 0 6656 1550986240 28987310 0
+  "d:\diablo97\winrel\hellfrui.dll" 0 244224 -852656128 29155067 0
+  "d:\diablo97\winrel\storm.dll" 0 137728 1204410624 29139231 0
+  "c:\windows\system\crtdll.dll" 0 161280 1550986240 28987310 0
+  "c:\windows\system\comdlg32.dll" 0 92672 99150848 29022112 0

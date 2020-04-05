@@ -1,0 +1,7 @@
+lich0 width 96  height 148  
+Neutral frame count 12 
+Walk frame count 10 
+Attack frame count 10 
+Get hit frame count 7 
+Die frame count 21 
+Special frame count 0 

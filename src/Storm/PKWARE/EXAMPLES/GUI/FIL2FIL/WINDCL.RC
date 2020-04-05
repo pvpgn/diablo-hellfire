@@ -1,0 +1,9 @@
+#include "resource.h"
+
+WinDcl  ICON "WinDcl.ico"
+
+WinDCL MENU
+  BEGIN
+    MENUITEM "&Test DCL", IDM_TEST_DCL
+    END
+

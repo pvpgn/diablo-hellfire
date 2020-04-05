@@ -1,0 +1,17 @@
+--------------------Configuration: ui - Win32 Release--------------------
+Begining build with project "U:\diabloui\ui\ui.dsp", at root.
+Active configuration is Win32 (x86) Dynamic-Link Library (based on Win32 (x86) Dynamic-Link Library)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MT /W3 /O2 /Ob2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp".\Release/ui.pch" /YX /Fo".\Release/" /Fd".\Release/" /FD /G5Fry /c "
+			"OLE Type Library Maker" with flags "/nologo /D "NDEBUG" /mktyplib203 /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x409 /fo".\Release/DiabloUI.res" /d "NDEBUG" "
+			"Browser Database Maker" with flags "/nologo /o".\Release/ui.bsc" "
+			"COFF Linker for 80x86" with flags "tapi32.lib kernel32.lib user32.lib gdi32.lib advapi32.lib shell32.lib wsock32.lib storm.lib /nologo /base:"0x20000000" /subsystem:windows /dll /incremental:no /pdb:".\Release/diabloui.pdb" /map:".\Release/diabloui.map" /machine:I386 /def:".\Diabloui.def" /out:"..\bin\diabloui.dll" /implib:".\Release/diabloui.lib" /libpath:"u:\diabloui" "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+
+
+
+diabloui.dll - 0 error(s), 0 warning(s)

@@ -1,0 +1,221 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "mike.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    "DIALOG_CREATE_GAME", DIALOG
+    BEGIN
+        LEFTMARGIN, 10
+        RIGHTMARGIN, 244
+        TOPMARGIN, 10
+        BOTTOMMARGIN, 139
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "mike.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+DIALOG_CREATE_GAME DIALOGEX 0, 61, 256, 146
+STYLE WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_NAME,168,50,76,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PASSWORD,168,69,76,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Normal",IDC_RADIO_NORMAL,46,22,34,29,BS_BOTTOM | 
+                    BS_NOTIFY | WS_GROUP | NOT WS_TABSTOP
+    PUSHBUTTON      "Nightmare",IDC_RADIO_NIGHTMARE,25,54,34,29,BS_BOTTOM | 
+                    BS_NOTIFY | NOT WS_TABSTOP
+    PUSHBUTTON      "Hell",IDC_RADIO_HELL,67,54,34,29,BS_BOTTOM | BS_NOTIFY | 
+                    NOT WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,181,128,34,15,WS_GROUP
+    PUSHBUTTON      "Cancel",IDCANCEL,219,128,34,15,WS_GROUP
+    LTEXT           "",IDC_STATIC_DIFF_DESC,10,88,104,50
+    CTEXT           "Create Game",IDC_TITLE,130,10,114,9,0,WS_EX_TRANSPARENT
+    RTEXT           "Name:",IDC_STATIC,130,50,36,12,0,WS_EX_TRANSPARENT
+    RTEXT           "Password:",IDC_STATIC,130,69,36,12,0,WS_EX_TRANSPARENT
+    CTEXT           "Difficulty",IDC_STATIC,10,10,104,9,0,WS_EX_TRANSPARENT
+    LTEXT           "To make the game private, enter a password below.",
+                    IDC_STATIC,130,23,114,18,0,WS_EX_TRANSPARENT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+DIABLO_LINKCURSOR       CURSOR  DISCARDABLE     "link.cur"
+DIABLO_ARROWCURSOR      CURSOR  DISCARDABLE     "arrow.cur"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1997,3,21,1
+ PRODUCTVERSION 1,1,0,2
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "Blizzard Entertainment\0"
+            VALUE "FileDescription", "DiabloUI\0"
+            VALUE "FileVersion", "1997, 3, 21, 1\0"
+            VALUE "InternalName", "DiabloUI\0"
+            VALUE "LegalCopyright", "Copyright © 1997\0"
+            VALUE "OriginalFilename", "DiabloUI.dll\0"
+            VALUE "ProductName", "Blizzard Entertainment DiabloUI\0"
+            VALUE "ProductVersion", "1, 1, 0, 2\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_GAME_PUBLIC         "Public"
+    IDS_GAME_PRIVATE        "Private - Requires password"
+    IDS_DIFF_NORMAL         "Normal Difficulty"
+    IDS_DIFF_NIGHTMARE      "Nightmare Difficulty"
+    IDS_DIFF_HELL           "Hell Difficulty"
+    IDS_PUBLIC_DESC         "This game will appear in the master list of games.  A password will not be required to play."
+    IDS_PRIVATE_DESC        "This game will not appear in the master list of games.  A password is required."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NAME_REQUIRED       "You must enter a name for the game."
+    IDS_PASSWORD_REQUIRED   "A password is required for all private games."
+    IDS_GAME_DESC_INCLNAME  "%s: %s"
+    IDS_GAME_DESC           "%s"
+    IDS_DIFF_NORMAL_SHORT   "Norm."
+    IDS_DIFF_NIGHTMARE_SHORT "Ntmare."
+    IDS_DIFF_HELL_SHORT     "Hell"
+    IDS_NORMAL_DESC         "Normal Difficulty\nThis is where a starting character should begin the quest to defeat Diablo."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NIGHTMARE_DESC      "Nightmare Difficulty\nThis is recommended for experienced characters only."
+    IDS_HELL_DESC           "Hell Difficulty\nOnly the most experienced characters should venture in this realm."
+    IDS_OPEN_DESC           "Open to players with spawned versions of Diablo."
+    IDS_RESTRICTED_DESC     "Only players with the full retail version of Diablo may join this game."
+    IDS_GAME_NAME_INVALID   "Invalid name. A valid name must not contain reserved words or reserved characters."
+    IDS_NORMAL_DESC_XLONG   "Normal Difficulty\nThis is where a starting character should begin the quest to defeat Diablo."
+    IDS_NIGHTMARE_DESC_XLONG 
+                            "Nightmare Difficulty\nThe denizens of the Labyrinth have been bolstered and will prove to be a greater challenge. This is recommended for experienced characters only."
+    IDS_HELL_DESC_XLONG     "Hell Difficulty\nThe most powerful of the underworld's creatures lurk at the gateway into Hell. Only the most experienced characters should venture in this realm."
+    IDS_LEVEL_AUTHORIZATION "(L"
+    IDS_CREATOR             "Creator: "
+    IDS_AM                  "am"
+    IDS_PM                  "pm"
+    IDS_CREATIONTIME_FMT    "%s:  %d:%02d%s"
+    IDS_TIME                "Time"
+    IDS_GAMEALREADYEXISTS   "There is already a game running using the name: %s."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CREATEGAMEERROR     "Unable to create game."
+    IDS_NIGHTMARE_MINREQ    "Your character must reach level 20 before you can enter a multiplayer game of Nightmare difficulty."
+    IDS_HELL_MINREQ         "Your character must reach level 30 before you can enter a multiplayer game of Hell Difficulty."
+    IDS_AUTH_STRTOOLONG     "Error: Unable to authorize. String too long."
+    IDS_AUTH_BADHERODESC    "Error: Unable to authorize. Unrecognized character information."
+    IDS_AUTH_CHANNELRESTRICTED 
+                            """%s"" is a restricted channel, and you are not authorized to enter."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

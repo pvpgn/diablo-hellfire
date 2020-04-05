@@ -1,0 +1,60 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f16\froman\fcharset238\fprq2 Times New Roman CE;}{\f17\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f19\froman\fcharset161\fprq2 Times New Roman Greek;}{\f20\froman\fcharset162\fprq2 Times New Roman Tur;}
+{\f21\froman\fcharset186\fprq2 Times New Roman Baltic;}{\f28\fmodern\fcharset238\fprq1 Courier New CE;}{\f29\fmodern\fcharset204\fprq1 Courier New Cyr;}{\f31\fmodern\fcharset161\fprq1 Courier New Greek;}{\f32\fmodern\fcharset162\fprq1 Courier New Tur;}
+{\f33\fmodern\fcharset186\fprq1 Courier New Baltic;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;
+\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\nowidctlpar\widctlpar\adjustright \fs20 \snext0 Normal;}
+{\*\cs10 \additive Default Paragraph Font;}{\s15\nowidctlpar\widctlpar\adjustright \b\fs40 \sbasedon0 \snext16 API Title;}{\s16\nowidctlpar\widctlpar\adjustright \sbasedon0 \snext16 API Description;}{\s17\nowidctlpar\widctlpar\adjustright \f2\fs22 
+\sbasedon0 \snext17 API Function;}{\s18\nowidctlpar\widctlpar\adjustright \b \sbasedon0 \snext16 API Section;}{\s19\li720\nowidctlpar\widctlpar\adjustright \sbasedon0 \snext16 API Parameter Description;}{\s20\nowidctlpar\widctlpar\adjustright \i 
+\sbasedon0 \snext19 API Parameter Name;}{\s21\nowidctlpar\widctlpar\adjustright \fs20 \sbasedon0 \snext21 footnote text;}{\*\cs22 \additive \super \sbasedon10 footnote reference;}}{\info{\title SNetCreateGame}{\author Mike O'Brien}{\operator Mike O'Brien}
+{\creatim\yr1997\mo3\dy21\hr17\min1}{\revtim\yr1997\mo3\dy21\hr18\min23}{\version5}{\edmins17}{\nofpages2}{\nofwords261}{\nofchars1490}{\*\company Blizzard Entertainment}{\nofcharsws0}{\vern71}}
+\widowctrl\ftnbj\aenddoc\hyphcaps0\formshade\viewkind1\viewscale100 \fet0\sectd \linex0\endnhere\sectdefaultcl {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3
+\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain 
+\s15\keepn\nowidctlpar\widctlpar\adjustright \b\fs40 {\cs22\super ${\footnote \pard\plain \s21\nowidctlpar\widctlpar\adjustright \fs20 {\cs22\super $}{ CategoryProc}}#{\footnote \pard\plain \s21\nowidctlpar\widctlpar\adjustright \fs20 {\cs22\super #}{ 
+CategoryProc}}K{\footnote \pard\plain \s21\nowidctlpar\widctlpar\adjustright \fs20 {\cs22\super K}{ CategoryProc}}}{ CategoryProc
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }{\b\i CategoryProc() is a placeholder for an application-defined function name.}{
+\par 
+\par This function is called by from SNetSelectGame() prior to enumerating games, and optionally in response to a user request, so that the application can prompt the user about which categories of games he would like to display.
+\par 
+\par }\pard\plain \s17\nowidctlpar\widctlpar\adjustright \f2\fs22 {BOOL CALLBACK SelectCategoryProc (
+\par \tab BOOL\tab \tab \tab \tab userinitiated,
+\par \tab SNETPROGRAMDATAPTR\tab programdata,
+\par \tab SNETPLAYERDATAPTR\tab playerdata,
+\par \tab SNETUIDATAPTR\tab \tab interfacedata,
+\par \tab SNETVERSIONDATAPTR\tab versiondata,
+\par \tab DWORD *\tab \tab \tab categorybits,
+\par \tab DWORD *\tab \tab \tab categorymask
+\par );
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s18\nowidctlpar\widctlpar\adjustright \b {Parameters
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {userinitiated
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {A boolean value spec
+ifying why the callback function is being called.  If this value is FALSE, the function is being called automatically prior to bringing up the list of games.  If this value is TRUE, the function is being called in response to a user request.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {programdata
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {A structure containing the program data that was passed to SNetSelectGame().
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {playerdata
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {A structure containing the player data that was passed to SNetSelectGame().
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {interfacedata
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {A structure containing the interface data that was passed to SNetSelectGame(), modified as necessary to ensure that the dialog that the create callback displays fits with the network provider
+\rquote s interface.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {versiondata
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {A structure containing the version data that was passed to SNetSelectGame().
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {Categorybits
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {A value returned by the callback function specifying which categories of games the user is interested in joining.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {categorymask
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {A value returned by the callback function specifying which bits must match between the value of }{\i categorybits}{ and the game\rquote s category bits for a game to be enumerated.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par 
+\par }\pard\plain \s18\nowidctlpar\widctlpar\adjustright \b {Return Value
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par The application should return TRUE to cause game enumeration to begin, or FALSE to abort the call to SNetSelectGame().
+\par 
+\par }}

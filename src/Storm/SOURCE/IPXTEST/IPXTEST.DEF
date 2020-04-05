@@ -1,0 +1,4 @@
+LIBRARY ipxtest
+EXPORTS
+Bind
+Query

@@ -1,0 +1,40 @@
+{\rtf1\ansi \deff4\deflang1033{\fonttbl{\f1\froman\fcharset2\fprq2 Symbol;}{\f4\froman\fcharset0\fprq2 Times New Roman;}{\f11\fmodern\fcharset0\fprq1 Courier New;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;
+\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;
+\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\widctlpar \f4\fs20 \snext0 Normal;}{\*\cs10 \additive Default Paragraph Font;}{\s15\widctlpar \b\f4\fs40 \sbasedon0\snext16 API Title;}{\s16\widctlpar \f4 
+\sbasedon0\snext16 API Description;}{\s17\widctlpar \f11\fs22 \sbasedon0\snext17 API Function;}{\s18\widctlpar \b\f4 \sbasedon0\snext16 API Section;}{\s19\li720\widctlpar \f4 \sbasedon0\snext16 API Parameter Description;}{\s20\widctlpar \i\f4 
+\sbasedon0\snext19 API Parameter Name;}{\s21\widctlpar \f4\fs20 \sbasedon0\snext21 footnote text;}{\*\cs22 \additive\super \sbasedon10 footnote reference;}}{\info{\author Mike O'Brien}{\operator Mike O'Brien}{\creatim\yr1996\mo8\dy21\hr16\min20}
+{\revtim\yr1996\mo11\dy13\hr23\min45}{\version2}{\edmins0}{\nofpages2}{\nofwords202}{\nofchars1152}{\*\company Blizzard Entertainment}{\vern57431}}\widowctrl\ftnbj\aenddoc\hyphcaps0\formshade \fet0\sectd \linex0\endnhere {\*\pnseclvl1
+\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5
+\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang
+{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \s15\keepn\widctlpar \b\f4\fs40 {\cs22\super ${\footnote \pard\plain \s21\widctlpar \f4\fs20 {\cs22\super $} SNetGetNetworkLatency}#{\footnote 
+\pard\plain \s21\widctlpar \f4\fs20 {\cs22\super #} SNetGetNetworkLatency}K{\footnote \pard\plain \s21\widctlpar \f4\fs20 {\cs22\super K} SNetGetNetworkLatency}} SNetGetNetworkLatency
+\par \pard\plain \s16\widctlpar \f4 
+\par Returns the expected or measured round-trip latency.  This is twice the approximate time, in milliseconds, that a message sent from one computer will take to reach another computer.
+\par 
+\par \pard\plain \s17\widctlpar \f11\fs22 BOOL SNetGetNetworkLatency (
+\par \tab DWORD\tab \tab measurementtype,
+\par \tab DWORD\tab \tab *result
+\par );
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s18\widctlpar \b\f4 Parameters
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 measurementtype
+\par \pard\plain \s19\li720\widctlpar \f4 An identifier specifying the way in which the latency should be measured.
+\par \pard\plain \s16\widctlpar \f4 
+\par \trowd \trgaph108\trleft612 \cellx3492\cellx7812 \pard\plain \s19\widctlpar\intbl \f4 {\b Value}\cell {\b Meaning}\cell \pard\plain \widctlpar\intbl \f4\fs20 \row \trowd \trgaph108\trleft612 \cellx3492\cellx7812 \pard\plain \s19\widctlpar\intbl \f4 
+SNET_LMT_EXPECTED\cell The expected latency for this network provider.  This value is always the same for any given network provider.\cell \pard\plain \widctlpar\intbl \f4\fs20 \row \pard\plain \s19\widctlpar\intbl \f4 SNET_LMT_CURRENT\cell 
+The current latency of the game.  This computer must currently be joined in a game.  The latency returned is the highest latency between this computer and any of the other players.\cell \pard\plain \widctlpar\intbl \f4\fs20 \row \trowd 
+\trgaph108\trleft612 \cellx3492\cellx7812 \pard\plain \s19\widctlpar\intbl \f4 SNET_LMT_PEAK\cell The peak latency of the game.  This computer must currently be joined in a game.  The latency returned is the highest measured latency between this computer
+ and any of the other players since the beginning of the game, or since the last call to SNetResetLatencyMeasurements().\cell \pard\plain \widctlpar\intbl \f4\fs20 \row \pard\plain \s19\li720\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 result
+\par \pard\plain \s19\li720\widctlpar \f4 The returned latency.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s18\widctlpar \b\f4 Return Value
+\par \pard\plain \s16\widctlpar \f4 
+\par This function returns TRUE for success or FALSE for failure.  The function can fail if:
+\par {\pntext\pard\plain\f1 \'b7\tab}\pard \s16\fi-360\li360\widctlpar{\*\pn \pnlvlblt\pnf1\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}No network provider has been initialized
+\par {\pntext\pard\plain\f1 \'b7\tab}The measurement type identifier is invalid
+\par {\pntext\pard\plain\f1 \'b7\tab}The measurement type calls for a measured rather than expected latency, and no game has been created or joined
+\par {\pntext\pard\plain\f1 \'b7\tab}No variable is provided to receive the result
+\par \pard\plain \widctlpar \f4\fs20 
+\par }

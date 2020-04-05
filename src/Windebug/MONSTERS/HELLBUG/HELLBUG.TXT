@@ -1,0 +1,8 @@
+helbug0 width 198  height 230  
+helbug0 width 198  height 230  
+Neutral frame count 8 
+Walk frame count 8 
+Attack frame count 14 
+Get hit frame count 6 
+Die frame count 14 
+Special frame count 12 

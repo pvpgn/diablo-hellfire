@@ -1,0 +1,905 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "frank.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+TITLESCREEN_DIALOG DIALOGEX 0, 0, 256, 203
+STYLE WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    // The text is in the art.
+    //CTEXT           "Copyright © 1997 Synergistic Software",IDC_BLIZZARD,
+    //                22,173,212,11,WS_DISABLED
+    CONTROL         "",IDC_LOGO,"Static",SS_BLACKFRAME | WS_DISABLED,0,0,
+                    256,203
+END
+
+MAINMENU_DIALOG DIALOGEX 0, 0, 256, 203
+STYLE WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Start Game",IDC_SINGLEPLAYER_BTN,26,81,204,18,
+                    BS_NOTIFY
+    PUSHBUTTON      "Replay Intro",IDC_REPLAYINTRO_BTN,26,99,204,18,
+                    BS_NOTIFY
+    PUSHBUTTON      "Support",IDC_SUPPORT_BTN,26,117,204,18,
+                    BS_NOTIFY
+    PUSHBUTTON      "Credits",IDC_SHOWCREDITS_BTN,26,135,204,18,
+                    BS_NOTIFY
+    PUSHBUTTON      "Exit Hellfire",IDCANCEL,26,153,204,18,BS_NOTIFY
+    LTEXT           "",IDC_REGISTRATION,7,187,242,9,WS_DISABLED
+    CONTROL         "",IDC_LOGO,"Static",SS_BLACKFRAME | WS_DISABLED,0,0,
+                    256,65
+END
+
+MAINMENU_DIALOG2 DIALOGEX 0, 0, 256, 203
+STYLE WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Single Player",IDC_SINGLEPLAYER_BTN,26,81,204,18,
+                    BS_NOTIFY
+    PUSHBUTTON      "Multi Player",IDC_MULTIPLAYER_BTN,26,99,204,18,
+                    BS_NOTIFY
+    PUSHBUTTON      "Replay Intro",IDC_REPLAYINTRO_BTN,26,117,204,18,
+                    BS_NOTIFY
+    PUSHBUTTON      "Support",IDC_SUPPORT_BTN,26,135,204,18,
+                    BS_NOTIFY
+    PUSHBUTTON      "Credits",IDC_SHOWCREDITS_BTN,26,153,204,18,
+                    BS_NOTIFY
+    PUSHBUTTON      "Exit Hellfire",IDCANCEL,26,171,204,18,BS_NOTIFY
+    LTEXT           "",IDC_REGISTRATION,7,187,242,9,WS_DISABLED
+    CONTROL         "",IDC_LOGO,"Static",SS_BLACKFRAME | WS_DISABLED,0,0,
+                    256,65
+END
+
+SELHERO_DIALOG DIALOGEX 0, 0, 256, 203
+STYLE WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    RTEXT           "Strength:",IDC_STRLBL,16,151,44,9
+    RTEXT           "Magic:",IDC_MAGLBL,16,160,44,9
+    RTEXT           "Dexterity:",IDC_DEXLBL,16,169,44,9
+    RTEXT           "Vitality:",IDC_VITLBL,16,178,44,9
+    CTEXT           "",IDC_CHARSTR,64,151,16,9
+    CTEXT           "",IDC_CHARMAGIC,64,160,16,9
+    CTEXT           "",IDC_CHARDEX,64,169,16,9
+    CTEXT           "",IDC_CHARVIT,64,178,16,9
+    RTEXT           "Level:",IDC_LEVELLBL,16,136,44,9
+    CTEXT           "",IDC_CHARLEVEL,64,136,16,9
+    CONTROL         "",IDC_HEROIMAGE,"Static",SS_BLACKFRAME | WS_DISABLED,12,
+                    89,72,32
+    CONTROL         "",IDC_LOGO,"Static",SS_BLACKFRAME | WS_DISABLED,0,0,
+                    256,65
+    CTEXT           "Single Player Characters",IDC_DLGTITLE,10,68,236,15,
+                    WS_DISABLED
+END
+
+OKCANCEL_DIALOG DIALOGEX 0, 0, 112, 61
+STYLE DS_CENTER | WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    PUSHBUTTON      "OK",IDC_OK,8,41,44,12
+    PUSHBUTTON      "Cancel",IDCANCEL,60,41,44,12
+    CTEXT           "",IDC_OKCANCEL_TEXT,8,5,96,34,0,WS_EX_TRANSPARENT
+END
+
+LOGON_DIALOG DIALOGEX 0, 0, 154, 118
+STYLE DS_CENTER | WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_LOGONNAME_EDIT,52,34,88,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LOGONPASSWORD_EDIT,52,50,88,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,102,85,44,12
+    PUSHBUTTON      "Cancel",IDCANCEL,102,99,44,12
+    RTEXT           "Name:",IDC_STATIC,8,34,41,9,0,WS_EX_TRANSPARENT
+    RTEXT           "Password:",IDC_STATIC,7,50,41,9,0,WS_EX_TRANSPARENT
+    CTEXT           "Connect to Battlenet",IDC_DLGTITLE,0,8,154,9,0,
+                    WS_EX_TRANSPARENT
+    LTEXT           "You can open an account on battlenet FREE at WWW.BATTLE.NET.",
+                    IDC_STATIC,8,76,88,38,0,WS_EX_TRANSPARENT
+END
+
+PROGRESS_DIALOG DIALOGEX 0, 0, 112, 61
+STYLE DS_CENTER | WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    CTEXT           "",IDC_PROGRESS_TEXT,0,4,112,18,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "Cancel",IDCANCEL,34,42,44,12
+    CONTROL         "",IDC_UIGENERIC_PROGRESS,"Static",SS_BLACKFRAME,10,22,
+                    91,16
+END
+
+OK_DIALOG DIALOGEX 0, 0, 112, 61
+STYLE DS_CENTER | WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDC_OK,34,41,44,12
+    CTEXT           "",IDC_OKCANCEL_TEXT,8,5,96,34,0,WS_EX_TRANSPARENT
+END
+
+BIGOK_DIALOG DIALOGEX 0, 0, 154, 118
+STYLE DS_CENTER | WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDC_OK,55,99,44,12
+    CTEXT           "",IDC_OKCANCEL_TEXT,8,20,139,75,0,WS_EX_TRANSPARENT
+    CTEXT           "",IDC_DLGTITLE,7,7,140,9,0,WS_EX_TRANSPARENT
+END
+
+BIGOKCANCEL_DIALOG DIALOGEX 0, 0, 154, 118
+STYLE DS_CENTER | WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDC_OK,22,99,44,12
+    CTEXT           "",IDC_OKCANCEL_TEXT,8,20,139,75,0,WS_EX_TRANSPARENT
+    DEFPUSHBUTTON   "Cancel",IDCANCEL,88,99,44,12
+    CTEXT           "",IDC_DLGTITLE,7,7,140,9,0,WS_EX_TRANSPARENT
+END
+
+CREDITS_DIALOG DIALOGEX 0, 0, 256, 203
+STYLE WS_POPUP | WS_VISIBLE
+FONT 13, "TIMES NEW ROMAN", 700, 0, 0x1
+BEGIN
+    CONTROL         "",ID_SCROLL_WINDOW,"Static",SS_BLACKFRAME | WS_DISABLED,
+                    12,48,232,106
+END
+
+SUPPORT_DIALOG DIALOGEX 0, 0, 256, 203
+STYLE WS_POPUP | WS_VISIBLE
+FONT 13, "TIMES NEW ROMAN", 700, 0, 0x1
+BEGIN
+    CONTROL         "",ID_SCROLL_WINDOW,"Static",SS_BLACKFRAME | WS_DISABLED,
+                    12,48,232,106
+END
+
+DISCLAIMER_DIALOG DIALOGEX 0, 0, 256, 203
+STYLE WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    CTEXT           "Not For Review",IDC_TEXT1,25,7,96,15
+    CTEXT           "Not For Resale",IDC_TEXT2,134,7,96,15
+    LTEXT           "This is a five level beta of Hellfire, playable only over Battle.net. There are some features that are not yet implemented, notably multi player quests. Please send all comments and bug reports to bnbeta@blizzard.com.",
+                    IDC_TEXT3,8,30,240,70
+    LTEXT           "This version of Hellfire is intended for the use of registered Battle.net beta testers only. This beta is for integrity testing of Blizzard Entertainment's Battle.net service and is not intended for review by the media or resale in any manner.",
+                    IDC_TEXT4,8,100,240,70
+    LTEXT           "Unauthorized distribution is strictly prohibited.",
+                    IDC_TEXT5,8,170,240,14
+END
+
+SELLIST_DIALOG DIALOGEX 0, 0, 256, 203
+STYLE WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_TRANSPARENT
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Cancel",IDC_FAKECANCEL,196,180,48,15,BS_NOTIFY | 
+                    WS_DISABLED | NOT WS_TABSTOP
+    PUSHBUTTON      "",IDC_HEROBTN1,106,108,128,11,BS_NOTIFY
+    PUSHBUTTON      "",IDC_HEROBTN2,106,119,128,11,BS_NOTIFY
+    PUSHBUTTON      "",IDC_HEROBTN3,106,130,128,11,BS_NOTIFY
+    PUSHBUTTON      "",IDC_HEROBTN4,106,141,128,11,BS_NOTIFY
+    PUSHBUTTON      "",IDC_HEROBTN5,106,152,128,11,BS_NOTIFY
+    PUSHBUTTON      "",IDC_HEROBTN6,106,163,128,11,BS_NOTIFY
+    PUSHBUTTON      "OK",IDC_FAKEOK,96,180,48,15,WS_DISABLED | NOT 
+                    WS_TABSTOP
+    CTEXT           "Select Hero",IDC_DLGTITLE,106,89,128,14,WS_DISABLED
+    CONTROL         "",IDC_SCROLLBAR,"Static",SS_BLACKFRAME | WS_DISABLED,
+                    234,103,10,75
+    PUSHBUTTON      "Delete",IDDELETE,146,180,48,15,BS_NOTIFY | WS_DISABLED | 
+                    NOT WS_TABSTOP
+END
+
+SELCLASS_DIALOG DIALOGEX 0, 0, 256, 203
+STYLE WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_TRANSPARENT
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Warrior",IDC_WARRIORBTN,106,105,128,14,BS_NOTIFY
+    PUSHBUTTON      "Rogue",IDC_ROGUEBTN,106,119,128,14,BS_NOTIFY
+    PUSHBUTTON      "Sorcerer",IDC_SORCERERBTN,106,133,128,14,BS_NOTIFY
+    PUSHBUTTON      "Monk",IDC_MONKBTN,106,147,128,14,BS_NOTIFY
+    PUSHBUTTON      "OK",IDC_FAKEOK,112,180,56,15,WS_DISABLED | NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "Cancel",IDC_FAKECANCEL,172,180,56,15,BS_NOTIFY | 
+                    WS_DISABLED | NOT WS_TABSTOP
+    CTEXT           "Choose Class",IDC_DLGTITLE,106,89,128,14,WS_DISABLED
+END
+
+SELCLASS_DIALOG2 DIALOGEX 0, 0, 256, 203
+STYLE WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_TRANSPARENT
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Warrior",IDC_WARRIORBTN,106,105,128,14,BS_NOTIFY
+    PUSHBUTTON      "Rogue",IDC_ROGUEBTN,106,119,128,14,BS_NOTIFY
+    PUSHBUTTON      "Sorcerer",IDC_SORCERERBTN,106,133,128,14,BS_NOTIFY
+    PUSHBUTTON      "Monk",IDC_MONKBTN,106,147,128,14,BS_NOTIFY
+    PUSHBUTTON      "Bard",IDC_BARDBTN,106,161,128,14,BS_NOTIFY
+    PUSHBUTTON      "OK",IDC_FAKEOK,112,180,56,15,WS_DISABLED | NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "Cancel",IDC_FAKECANCEL,172,180,56,15,BS_NOTIFY | 
+                    WS_DISABLED | NOT WS_TABSTOP
+    CTEXT           "Choose Class",IDC_DLGTITLE,106,89,128,14,WS_DISABLED
+END
+
+SELCLASS_DIALOG3 DIALOGEX 0, 0, 256, 203
+STYLE WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_TRANSPARENT
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Warrior",IDC_WARRIORBTN,106,108,128,11,BS_NOTIFY
+    PUSHBUTTON      "Rogue",IDC_ROGUEBTN,106,119,128,11,BS_NOTIFY
+    PUSHBUTTON      "Sorcerer",IDC_SORCERERBTN,106,130,128,11,BS_NOTIFY
+    PUSHBUTTON      "Monk",IDC_MONKBTN,106,141,128,11,BS_NOTIFY
+    PUSHBUTTON      "Bard",IDC_BARDBTN,106,153,128,11,BS_NOTIFY
+    PUSHBUTTON      "Barbarian",IDC_BARBARIANBTN,106,163,128,11,BS_NOTIFY
+    PUSHBUTTON      "OK",IDC_FAKEOK,112,180,56,15,WS_DISABLED | NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "Cancel",IDC_FAKECANCEL,172,180,56,15,BS_NOTIFY | 
+                    WS_DISABLED | NOT WS_TABSTOP
+    CTEXT           "Choose Class",IDC_DLGTITLE,106,89,128,14,WS_DISABLED
+END
+
+ENTERNAME_DIALOG DIALOGEX 0, 0, 256, 203
+STYLE WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_TRANSPARENT
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_NAMEEDIT,"DIABLOEDIT",WS_TABSTOP,106,133,128,14
+    CTEXT           "Enter Name",IDC_DLGTITLE,106,89,128,14,WS_DISABLED
+    PUSHBUTTON      "Cancel",IDC_FAKECANCEL,172,180,56,15,BS_NOTIFY | 
+                    WS_DISABLED | NOT WS_TABSTOP
+    PUSHBUTTON      "OK",IDC_FAKEOK,112,180,56,15,WS_DISABLED | NOT 
+                    WS_TABSTOP
+END
+
+SELYESNO_DIALOG DIALOGEX 0, 81, 256, 122
+STYLE WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Yes",IDC_OK,92,84,72,15,BS_NOTIFY
+    PUSHBUTTON      "No",IDCANCEL,92,99,72,15,BS_NOTIFY
+    LTEXT           "",IDC_OKCANCEL_TEXT,48,8,160,71,WS_DISABLED
+END
+
+SELCONNECT_DIALOG DIALOGEX 0, 0, 256, 203
+STYLE WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",IDC_CONNECTBTN1,122,108,114,11,BS_NOTIFY
+    PUSHBUTTON      "",IDC_CONNECTBTN2,122,119,114,11,BS_NOTIFY
+    PUSHBUTTON      "",IDC_CONNECTBTN3,122,130,114,11,BS_NOTIFY
+    PUSHBUTTON      "",IDC_CONNECTBTN4,122,141,114,11,BS_NOTIFY
+    PUSHBUTTON      "",IDC_CONNECTBTN5,122,152,114,11,BS_NOTIFY
+    CTEXT           "Multi Player Game",IDC_DLGTITLE,10,68,236,15,
+                    WS_DISABLED
+    PUSHBUTTON      "OK",IDC_FAKEOK,120,180,56,15,WS_DISABLED | NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "Cancel",IDC_FAKECANCEL,182,180,56,15,WS_DISABLED | NOT 
+                    WS_TABSTOP
+    LTEXT           "",IDC_CONNECTTEXT,14,122,82,72,WS_DISABLED
+    LTEXT           "Requirements:",IDC_REQTITLE,14,108,82,9,WS_DISABLED
+    LTEXT           "",IDC_PLAYERSTEXT,14,92,82,9,WS_DISABLED
+    CTEXT           "Select Connection",IDC_DLGTITLE2,120,89,118,14,
+                    WS_DISABLED
+    PUSHBUTTON      "",IDC_CONNECTBTN6,122,163,114,11,BS_NOTIFY
+    CONTROL         "",IDC_SCROLLBAR,"Static",SS_BLACKFRAME | WS_DISABLED,
+                    236,103,10,75
+    CONTROL         "",IDC_LOGO,"Static",SS_BLACKFRAME | WS_DISABLED,0,0,
+                    256,65
+END
+
+SELOK_DIALOG DIALOGEX 0, 81, 256, 122
+STYLE WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDC_OK,92,84,72,15,BS_NOTIFY
+    LTEXT           "",IDC_OKCANCEL_TEXT,56,8,160,71,WS_DISABLED
+END
+
+SELIPXGAME_DIALOG DIALOGEX 0, 0, 256, 203
+STYLE WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",IDC_GAMEBTN1,122,108,114,11,BS_NOTIFY
+    PUSHBUTTON      "",IDC_GAMEBTN2,122,119,114,11,BS_NOTIFY
+    PUSHBUTTON      "",IDC_GAMEBTN3,122,130,114,11,BS_NOTIFY
+    PUSHBUTTON      "",IDC_GAMEBTN4,122,141,114,11,BS_NOTIFY
+    PUSHBUTTON      "",IDC_GAMEBTN5,122,152,114,11,BS_NOTIFY
+    PUSHBUTTON      "",IDC_GAMEBTN6,122,163,114,11,BS_NOTIFY
+    PUSHBUTTON      "OK",IDC_FAKEOK,120,180,56,15,WS_DISABLED | NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "Cancel",IDC_FAKECANCEL,180,180,56,15,BS_NOTIFY | 
+                    WS_DISABLED | NOT WS_TABSTOP
+    CTEXT           "Join IPX Games",IDC_DLGTITLE,10,68,236,15,WS_DISABLED
+    CTEXT           "Select Game",IDC_DLGTITLE2,120,89,118,14,WS_DISABLED
+    LTEXT           "Description:",IDC_DLGTITLE3,14,89,82,14,WS_DISABLED
+    LTEXT           "",IDC_GAMEDESC,14,108,82,81,WS_DISABLED
+    CONTROL         "",IDC_LOGO,"Static",SS_BLACKFRAME | WS_DISABLED,0,0,
+                    256,65
+    CONTROL         "",IDC_SCROLLBAR,"Static",SS_BLACKFRAME | WS_DISABLED,
+                    236,103,10,75
+END
+
+SELDIFF_DIALOG DIALOGEX 0, 65, 256, 135
+STYLE WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    CTEXT           "Create Game",IDC_DLGTITLE,10,3,236,15,WS_DISABLED
+    PUSHBUTTON      "Cancel",IDC_FAKECANCEL,180,115,56,15,BS_NOTIFY | 
+                    WS_DISABLED | NOT WS_TABSTOP
+    PUSHBUTTON      "Normal",IDC_DIFFBTN1,120,54,118,11,BS_NOTIFY
+    PUSHBUTTON      "Nightmare",IDC_DIFFBTN2,120,65,118,11,BS_NOTIFY
+    PUSHBUTTON      "Hell",IDC_DIFFBTN3,120,76,118,11,BS_NOTIFY
+    PUSHBUTTON      "OK",IDC_FAKEOK,120,115,56,15,WS_DISABLED | NOT 
+                    WS_TABSTOP
+    CTEXT           "Select Difficulty",IDC_DLGTITLE2,120,24,118,15,
+                    WS_DISABLED
+    CTEXT           "",IDC_DLGTITLE3,14,24,82,14,WS_DISABLED
+    LTEXT           "",IDC_DIFFDESC,14,43,82,81,WS_DISABLED
+END
+
+DIRLINK_DIALOG DIALOGEX 0, 0, 256, 203
+STYLE WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    CTEXT           "Direct Link Connection",IDC_DLGTITLE,10,68,236,15,
+                    WS_DISABLED
+    PUSHBUTTON      "Cancel",IDC_FAKECANCEL,180,180,56,15,BS_NOTIFY | 
+                    WS_DISABLED | NOT WS_TABSTOP
+    PUSHBUTTON      "Create Game",IDC_DIRLINKBTN1,120,119,118,11,BS_NOTIFY
+    PUSHBUTTON      "Retry Connection",IDC_DIRLINKBTN2,120,130,118,11,
+                    BS_NOTIFY
+    PUSHBUTTON      "OK",IDC_FAKEOK,120,180,56,15,WS_DISABLED | NOT 
+                    WS_TABSTOP
+    CTEXT           "Select Action",IDC_DLGTITLE2,120,89,118,15,WS_DISABLED
+    LTEXT           "Link Status:",IDC_DLGTITLE3,14,89,82,14,WS_DISABLED
+    LTEXT           "",IDC_LINKDESC,14,108,82,81,WS_DISABLED
+    CONTROL         "",IDC_LOGO,"Static",SS_BLACKFRAME | WS_DISABLED,0,0,
+                    256,65
+END
+
+SPAWNERR_DIALOG DIALOGEX 0, 69, 256, 134
+STYLE WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    PUSHBUTTON      "OK",IDC_OK,92,103,72,18,BS_NOTIFY
+    LTEXT           "",IDC_OKCANCEL_TEXT,56,15,160,75,WS_DISABLED
+END
+
+SELLOAD_DIALOG DIALOGEX 0, 0, 256, 203
+STYLE WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_TRANSPARENT
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Cancel",IDC_FAKECANCEL,172,180,56,15,BS_NOTIFY | 
+                    WS_DISABLED | NOT WS_TABSTOP
+    PUSHBUTTON      "Load Game",IDC_LOADBTN,106,119,128,14,BS_NOTIFY
+    PUSHBUTTON      "New Game",IDC_NEWBTN,106,133,128,14,BS_NOTIFY
+    PUSHBUTTON      "OK",IDC_FAKEOK,112,180,56,15,WS_DISABLED | NOT 
+                    WS_TABSTOP
+    CTEXT           "Save File Exists",IDC_DLGTITLE,106,89,128,14,
+                    WS_DISABLED
+END
+
+MODEM_DIALOG DIALOGEX 0, 0, 256, 203
+STYLE WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    CTEXT           "Modem Connection",IDC_DLGTITLE,10,68,236,15
+    CTEXT           "",IDC_DLGTITLE2,14,89,82,14
+    LTEXT           "",IDC_MODEMDESC,14,108,82,81
+    CONTROL         "",IDC_LOGO,"Static",SS_BLACKFRAME | WS_DISABLED,0,0,
+                    256,65
+END
+
+SELMODEM_DIALOG DIALOGEX 0, 65, 256, 135
+STYLE WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Cancel",IDC_FAKECANCEL,180,115,56,15,BS_NOTIFY | 
+                    WS_DISABLED | NOT WS_TABSTOP
+    PUSHBUTTON      "",IDC_MODEMBTN1,122,43,114,11,BS_NOTIFY
+    PUSHBUTTON      "",IDC_MODEMBTN2,122,54,114,11,BS_NOTIFY
+    PUSHBUTTON      "",IDC_MODEMBTN3,122,65,114,11,BS_NOTIFY
+    PUSHBUTTON      "",IDC_MODEMBTN4,122,76,114,11,BS_NOTIFY
+    PUSHBUTTON      "",IDC_MODEMBTN5,122,87,114,11,BS_NOTIFY
+    PUSHBUTTON      "",IDC_MODEMBTN6,122,98,114,11,BS_NOTIFY
+    PUSHBUTTON      "OK",IDC_FAKEOK,120,115,56,15,WS_DISABLED | NOT 
+                    WS_TABSTOP
+    CTEXT           "Select Modem",IDC_DLGTITLE2,120,24,118,14,WS_DISABLED
+    CONTROL         "",IDC_SCROLLBAR,"Static",SS_BLACKFRAME | WS_DISABLED,
+                    236,38,10,75
+    CTEXT           "Modem Game Setup",IDC_DLGTITLE,10,3,236,15,WS_DISABLED
+    CTEXT           "Requirments:",IDC_DLGTITLE3,14,24,82,14,WS_DISABLED
+    LTEXT           "The modem must be 14400 BPS or faster. If the device you want to use is not listed here, please check your modem to ensure that it is configured correctly.",
+                    IDC_REQDESC,14,43,82,81,WS_DISABLED
+END
+
+ENTERDIAL_DIALOG DIALOGEX 0, 0, 256, 203
+STYLE WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_TRANSPARENT
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_DIALEDIT,"DIABLOEDIT",WS_TABSTOP,122,133,114,14
+    CTEXT           "Enter Number",IDC_DLGTITLE,122,89,114,14,WS_DISABLED
+    PUSHBUTTON      "Cancel",IDC_FAKECANCEL,180,180,56,15,BS_NOTIFY | 
+                    WS_DISABLED | NOT WS_TABSTOP
+    PUSHBUTTON      "OK",IDC_FAKEOK,120,180,56,15,WS_DISABLED | NOT 
+                    WS_TABSTOP
+END
+
+SELDIAL_DIALOG DIALOGEX 0, 0, 256, 203
+STYLE WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_TRANSPARENT
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Cancel",IDC_FAKECANCEL,180,180,56,15,BS_NOTIFY | 
+                    WS_DISABLED | NOT WS_TABSTOP
+    PUSHBUTTON      "Create Game",IDC_DIALBTN1,122,108,114,11,BS_NOTIFY
+    PUSHBUTTON      "Enter New Number",IDC_DIALBTN2,122,119,114,11,BS_NOTIFY
+    PUSHBUTTON      "OK",IDC_FAKEOK,120,180,56,15,WS_DISABLED | NOT 
+                    WS_TABSTOP
+    CTEXT           "Select Action",IDC_DLGTITLE,120,89,118,14,WS_DISABLED
+    PUSHBUTTON      "",IDC_DIALBTN3,122,130,114,11,BS_NOTIFY
+    PUSHBUTTON      "",IDC_DIALBTN4,122,141,114,11,BS_NOTIFY
+    PUSHBUTTON      "",IDC_DIALBTN5,122,152,114,11,BS_NOTIFY
+    PUSHBUTTON      "",IDC_DIALBTN6,122,163,114,11,BS_NOTIFY
+END
+
+MODMSTAT_DIALOG DIALOGEX 0, 81, 256, 122
+STYLE WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,92,84,72,15,BS_NOTIFY
+    LTEXT           "Attempting to connect...",IDC_OKCANCEL_TEXT,56,8,160,71,
+                    WS_DISABLED
+END
+
+SELCRE8JOIN_DIALOG DIALOGEX 0, 0, 256, 203
+STYLE WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_TRANSPARENT
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Cancel",IDC_FAKECANCEL,180,180,56,15,BS_NOTIFY | 
+                    WS_DISABLED | NOT WS_TABSTOP
+    PUSHBUTTON      "Create Game",IDC_DIALBTN1,122,108,114,11,BS_NOTIFY
+    PUSHBUTTON      "Join Game",IDC_DIALBTN2,122,119,114,11,BS_NOTIFY
+    PUSHBUTTON      "OK",IDC_FAKEOK,120,180,56,15,WS_DISABLED | NOT 
+                    WS_TABSTOP
+    CTEXT           "Select Action",IDC_DLGTITLE,120,89,118,14,WS_DISABLED
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    "TITLESCREEN_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    "MAINMENU_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    "MAINMENU_DIALOG2", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    "SELHERO_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    "OKCANCEL_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 105
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 54
+    END
+
+    "LOGON_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 147
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 111
+    END
+
+    "PROGRESS_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 105
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 52
+    END
+
+    "OK_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 105
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 54
+    END
+
+    "BIGOK_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 147
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 111
+    END
+
+    "BIGOKCANCEL_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 147
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 111
+    END
+
+    "CREDITS_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 242
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+    
+    "SUPPORT_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 242
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+
+    "DISCLAIMER_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    "SELLIST_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    "SELCLASS_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    "SELCLASS_DIALOG2", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    "ENTERNAME_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    "SELYESNO_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        HORZGUIDE, 7
+    END
+
+    "SELCONNECT_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    "SELOK_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        HORZGUIDE, 7
+    END
+
+    "SELIPXGAME_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    "SELDIFF_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 128
+    END
+
+    "DIRLINK_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    "SPAWNERR_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        HORZGUIDE, 7
+    END
+
+    "SELLOAD_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    "MODEM_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    "SELMODEM_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 128
+    END
+
+    "ENTERDIAL_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    "SELDIAL_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    "MODMSTAT_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        HORZGUIDE, 7
+    END
+
+    "SELCRE8JOIN_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "frank.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXT_FILES
+//
+
+IDR_CREDITS             TEXT_FILES DISCARDABLE  "credits.txt"
+IDR_SUPPORT             TEXT_FILES DISCARDABLE  "support.txt"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// ART_FILES
+//
+
+IDR_POPUPART            ART_FILES DISCARDABLE   "srpopup.raw"
+IDR_BTNART              ART_FILES DISCARDABLE   "but_sml.raw"
+IDR_ARTPAL              ART_FILES DISCARDABLE   "srpopup.pal"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+DIABLOCURSOR            CURSOR  DISCARDABLE     "pointer.cur"
+DIABLOIBEAM             CURSOR  DISCARDABLE     "ibeam.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_WARRIOR             "Warrior"
+    IDS_ROGUE               "Rogue"
+    IDS_SORCERER            "Sorcerer"
+    IDS_CONFIRM_DELETE      "\nAre you sure you want to delete the character ""%s""?"
+    IDS_CONFIRM_OVERWRITE   "\nCharacter already exists. Do you want to overwrite ""%s""?"
+    IDS_NAME_ERR            "\nInvalid name. A name cannot contain spaces, reserved characters, or reserved words."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CREATE_ERR          "\n\nUnable to create character."
+    IDS_DELETE_ERR          "\n\nDelete character failed."
+    IDS_ENUMCHAR_ERR        "\n\nUnable to read character files."
+    IDS_FIRST_NASTY         "gvdl"
+    IDS_STRING20            "dvou"
+    IDS_STRING21            "tiju"
+    IDS_STRING22            "cjudi"
+    IDS_STRING23            "bttipmf"
+    IDS_STRING24            "ojhhfs"
+    IDS_STRING25            "cmj{{bse"
+    IDS_LAST_NASTY          "benjo"
+    IDS_COPYPROT_ERR        "Please insert the Diablo CD into your CD-ROM drive and press 'OK'."
+    IDS_MULTILIST_TITLE     "Multi Player Characters"
+    IDS_SINGLIST_TITLE      "Single Player Characters"
+    IDS_NEWHERO             "New Hero"
+    IDS_NEWSINGHERO         "New Single Player Hero"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NEWMULTHERO         "New Multi Player Hero"
+    IDS_PLAYERSSUPPORTED    "Players Supported: %d"
+    IDS_DELETESINGHERO      "Delete Single Player Hero"
+    IDS_DELETEMULTHERO      "Delete Multi Player Hero"
+    IDS_CREATEGAME          "Create Game"
+    IDS_JOIN_ERR            "\n\nUnable to join game ""%s."""
+    IDS_CREATEGAME_ERR      "\n\nUnable to create game."
+    IDS_NORMAL              "Normal"
+    IDS_NIGHTMARE           "Nightmare"
+    IDS_HELL                "Hell"
+    IDS_CREATEDESC          "Create a new game with a difficulty setting of your choice."
+    IDS_NOGAME_ERR          "\n\nA multi player game was not detected!"
+    IDS_SELCONN_ERR         "\n\nUnable to initialize selected connection method."
+    IDS_SPAWN_ERR           "You have selected a feature only available in the full retail version of Hellfire.  For ordering information call (800) 953-SNOW."
+    IDS_NOMODEM_ERR         "\nUnable to detect a modem. Please install or configure a modem."
+    IDS_RETRYCONNDESC       "A direct link connection was not detected. Check your cable connections and confirm that the connected computer has created a game, then retry."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_GAMEDESCFMT         "%s.\nCreated by %s, a level %d %s."
+    IDS_VERSION_ERR         "\nUnable to join the detected game. Your version of Hellfire is incompatible with the game creator's version."
+    IDS_MODEMJOIN_ERR       "\nUnable to establish a connection. A game of Hellfire was not detected at the specified phone number."
+    IDS_CALL_FMT            "Call %s"
+    IDS_INITMODEM_ERR       "\n\nUnable to initialize the selected device."
+    IDS_MODEM_CREATE        "Create a new game with a difficulty setting of your choice. Another player can dial in and join your game in progress."
+    IDS_MODEM_DIALNEW       "Enter and call a number not listed here and join a game already in progress at that number."
+    IDS_MODEM_DIALOLD       "Call the selected number and join a game already in progress at that number."
+    IDS_SELDIAL_INFOTITLE   "Description:"
+    IDS_ENTERDIAL_INFO      "Enter the number you want to call exactly as you would dial it. We recommend including a code to disable call waiting."
+    IDS_ENTERDIAL_TITLE     "Description:"
+    IDS_SPAWNDATA_ERR       "Unable to locate the Spawned Hellfire data file."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NOANSWER_ERR        "\n\nUnable to connect. There was no answer at the number dialed."
+    IDS_NOTONE_ERR          "\n\nUnable to dial. No dial tone was detected."
+    IDS_BUSY_ERR            "\n\nUnable to connect. The number dialed was busy."
+    IDS_MODEM_CREATE2       "Create a new game with a difficulty setting of your choice. The connected player can join your game after you create it."
+    IDS_MODEM_JOIN          "Join the game created by the person that you currently have a connection with."
+    IDS_SPAWNCLASS_ERR      "The Rogue and Sorcerer are only available in the full retail version of Hellfire. For ordering information call (800) 953-SNOW."
+    IDS_SPAWNINTRO_ERR      "The Hellfire introduction cinematic is only available in the full retail version of Hellfire. For ordering information call (800) 953-SNOW."
+    IDS_MODEMGAMENAME_FMT   "Game %d"
+    IDS_DUPGAMENAME_FMT     "Unable to create game. The game ""%s"" already exists."
+    IDS_MODEMJOINPREV       "Join Previous Game"
+    IDS_MODEMJOINNEW        "Join New Game"
+    IDS_MODEMOFF_ERR        "Modem not detected. Please ensure that your modem is turned on and connected correctly."
+    IDS_JOINGAMES           "Join Games"
+    IDS_MEMORY_ERR          "Not enough memory. Hellfire requires that your system have a minimum of 16 MB of RAM to play multiplayer games."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

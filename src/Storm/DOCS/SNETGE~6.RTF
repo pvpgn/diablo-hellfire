@@ -1,0 +1,45 @@
+{\rtf1\ansi \deff4\deflang1033{\fonttbl{\f1\froman\fcharset2\fprq2 Symbol;}{\f4\froman\fcharset0\fprq2 Times New Roman;}{\f11\fmodern\fcharset0\fprq1 Courier New;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;
+\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;
+\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\widctlpar \f4\fs20 \snext0 Normal;}{\*\cs10 \additive Default Paragraph Font;}{\s15\widctlpar \b\f4\fs40 \sbasedon0\snext16 API Title;}{\s16\widctlpar \f4 
+\sbasedon0\snext16 API Description;}{\s17\widctlpar \f11\fs22 \sbasedon0\snext17 API Function;}{\s18\widctlpar \b\f4 \sbasedon0\snext16 API Section;}{\s19\li720\widctlpar \f4 \sbasedon0\snext16 API Parameter Description;}{\s20\widctlpar \i\f4 
+\sbasedon0\snext19 API Parameter Name;}{\s21\widctlpar \f4\fs20 \sbasedon0\snext21 footnote text;}{\*\cs22 \additive\super \sbasedon10 footnote reference;}}{\info{\author Mike O'Brien}{\operator Mike O'Brien}{\creatim\yr1996\mo8\dy21\hr16\min21}
+{\revtim\yr1996\mo10\dy3\hr15\min8}{\version2}{\edmins1}{\nofpages2}{\nofwords292}{\nofchars1667}{\*\company Blizzard Entertainment}{\vern57431}}\widowctrl\ftnbj\aenddoc\hyphcaps0\formshade \fet0\sectd \linex0\endnhere {\*\pnseclvl1
+\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5
+\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang
+{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \s15\keepn\widctlpar \b\f4\fs40 {\cs22\super ${\footnote \pard\plain \s21\widctlpar \f4\fs20 {\cs22\super $} SNetGetTurnsInTransit}#{\footnote 
+\pard\plain \s21\widctlpar \f4\fs20 {\cs22\super #} SNetGetTurnsInTransit}K{\footnote \pard\plain \s21\widctlpar \f4\fs20 {\cs22\super K} SNetGetTurnsInTransit}} SNetGetTurnsInTransit
+\par \pard\plain \s16\widctlpar \f4 
+\par Returns the number of turns which have been from this machine with SNetSendTurn() but not yet received with SNetReceiveTurns().  It is generally a good idea to keep two or more turns in transit (on the wire) so that other machines can process turns withou
+t having to wait for them to be transmitted.
+\par 
+\par For example, if a game runs at the rate of two turns per second, and for each turn it simply sends its turn and then waits for turns from all other players to arrive, then the game speed may be cut in half when running on a high-latency network such as th
+e Internet.  This is because at least a quarter of a second will be wasted for every turn waiting for turns to arrive from other players.
+\par 
+\par However, if the game is modified so that it always sends out turns two in advance of what it is processing (sending tu
+rn 3 and then processing all turns for turn 1, sending turn 4 and then processing all turns for turn 2, etc.) then the turns will have plenty of time for transmission, so no game delay will be required.
+\par 
+\par The two primary ways to compensate for latency in a turn-based game are:
+\par {\pntext\pard\plain 1. \tab}\pard \s16\fi-360\li360\widctlpar{\*\pn \pnlvlbody\pndec\pnb0\pni0\pnf4\pnfs24\pnstart1\pnindent360\pnhang{\pntxta . }}Decrease the number of turns processed per second, or
+\par {\pntext\pard\plain 2. \tab}Increase the number of turns in transit.
+\par \pard \s16\widctlpar 
+\par Since decreasing the number of turns processed per second compensates not only for latency problems but also bandwidth problems, 
+it is probably best to fix the number of turns in transit at two and then adjust the number of turns per second.  You can get a recommendation for the number of turns per second from the network provider\rquote 
+s capabilities, returned during SNetEnumerateProviders().
+\par 
+\par \pard\plain \s17\widctlpar \f11\fs22 BOOL SNetGetTurnsInTransit (
+\par \tab DWORD\tab \tab *turns
+\par );
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s18\widctlpar \b\f4 Parameters
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 turns
+\par \pard\plain \s19\li720\widctlpar \f4 The number of turns that have been sent from this computer with SNetSendTurn() but not yet received with SNetReceiveTurns().
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s18\widctlpar \b\f4 Return Value
+\par \pard\plain \s16\widctlpar \f4 
+\par This function returns TRUE for success or FALSE for failure.  The function can fail if:
+\par {\pntext\pard\plain\f1 \'b7\tab}\pard \s16\fi-360\li360\widctlpar{\*\pn \pnlvlblt\pnf1\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}No network provider has been initialized
+\par {\pntext\pard\plain\f1 \'b7\tab}No game has been created or joined
+\par {\pntext\pard\plain\f1 \'b7\tab}No variable is provided to receive the result
+\par \pard\plain \widctlpar \f4\fs20 
+\par }

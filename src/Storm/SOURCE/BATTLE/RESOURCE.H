@@ -1,0 +1,121 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Developer Studio generated include file.
+// Used by BATTLE.RC
+//
+#define IDD_DIALOG1                     122
+#define ID_SCROLL_WINDOW                1000
+#define IDS_CHAT_HELP_RES               1000
+#define IDS_NAME_REQUIRED               1001
+#define IDC_AD                          1001
+#define IDS_INVALID_ID                  1002
+#define IDC_USERLIST                    1003
+#define IDS_ASK_UPDATE                  1003
+#define IDS_PREP_RESTART                1004
+#define IDC_CHATWINDOW                  1005
+#define IDS_CHAT_JOIN_ROOM              1005
+#define IDC_CHATEDIT                    1006
+#define IDS_CHAT_PLAYER_LEFT_ROOM       1006
+#define ID_CHATJOIN                     1007
+#define IDS_CHAT_PLAYER_ENTERED_ROOM    1007
+#define ID_CHATCREATE                   1008
+#define IDS_JOIN_FAILED                 1008
+#define ID_SENDMSG                      1009
+#define IDS_ERR_UNREACHABLE             1009
+#define ID_CHATLADDER                   1009
+#define IDC_EDIT_NAME                   1010
+#define IDS_BATTLENET                   1010
+#define IDC_EDIT_PASSWORD               1011
+#define IDS_ERR_NOTRESPONDING           1011
+#define IDC_TYPE_PUBLIC                 1012
+#define ID_CHAT_CHANNEL                 1012
+#define IDS_ERR_UNABLETOUPGRADE         1012
+#define ID_CHATCHANNEL                  1012
+#define IDC_TYPE_PRIVATE                1013
+#define IDS_ERR_DOWNLOADFAILED          1013
+#define IDS_DOWNLOADPROGRESS            1014
+#define IDS_WHISPER_FROM                1015
+#define IDS_WHISPER_TO                  1016
+#define IDS_ERR_INVALIDBETAID           1017
+#define IDS_ERR_CANTWHISPER             1018
+#define IDS_CHANNEL_NAME_INVALID        1019
+#define IDC_COMBO1                      1020
+#define IDC_CHAT_CHANNEL                1020
+#define IDS_FIRST_NASTY                 1020
+#define IDC_COMBO_NAME                  1020
+#define IDC_DIFFICULTY                  1021
+#define IDS_NASTY0                      1021
+#define IDC_EDIT1                       1022
+#define IDS_NASTY1                      1022
+#define IDC_GAMETYPE                    1023
+#define IDS_NASTY2                      1023
+#define IDC_PASS1                       1023
+#define IDS_NASTY3                      1024
+#define IDC_PASS2                       1024
+#define IDS_NASTY4                      1025
+#define IDS_NASTY5                      1026
+#define IDC_LIST1                       1027
+#define IDC_GAMELIST                    1027
+#define IDS_LAST_NASTY                  1027
+#define IDS_ERR_CHATNOTHINGTOSEND       1028
+#define IDC_STATIC_DESC                 1029
+#define IDS_PROMPT_CREATECHANNEL        1029
+#define IDC_TITLE                       1030
+#define IDS_CHANNEL_FULL                1030
+#define IDC_GAMEDESCRIPTION             1031
+#define IDS_CHANNEL_RESTRICTED          1031
+#define IDC_ANIMATE                     1032
+#define IDS_ERR_BADCONNECTION           1032
+#define IDS_ERR_BADSERVICEPROVIDER      1033
+#define IDS_CHANNEL_FMT                 1034
+#define ID_WHISPER                      1035
+#define IDS_USERUNSQUELCHED_FMT         1035
+#define IDS_USERSQUELCHED_FMT           1036
+#define IDS_VERBOSE_FMT                 1037
+#define IDC_EDIT_ID                     1038
+#define IDS_NONVERBOSE_FMT              1038
+#define IDC_CHANNELLIST                 1039
+#define IDS_ERR_NOWSOCK32               1039
+#define IDC_EDIT_ID2                    1039
+#define IDC_LOGO_ANIMATE                1040
+#define IDS_QUERYBROWSEWEB              1040
+#define IDC_STATIC_TEXT                 1041
+#define IDS_QUERYDISCONNECT             1041
+#define IDC_PROGRESS_TEXT               1042
+#define IDC_RADIO1                      1042
+#define IDS_BROWSERERROR                1042
+#define IDC_UIGENERIC_PROGRESS          1043
+#define IDC_STATIC_DESC_HDR             1043
+#define IDS_ERR_HOST_UNREACHABLE        1043
+#define IDS_ERR_GAME_FULL               1044
+#define IDQUIT                          1045
+#define IDS_ENTERPASSWORD               1045
+#define IDC_STATIC_CHANNEL              1046
+#define IDS_RENAMECHARACTER             1046
+#define IDS_ERR_INVALIDPASSWORD         1047
+#define IDC_SCROLLBAR1                  1048
+#define IDS_TITLE_INVALIDPASSWORD       1048
+#define IDC_USERLIST_SCROLLBAR          1049
+#define IDC_MSGLIST_SCROLLBAR           1050
+#define ID_VERBOSE                      1051
+#define IDC_SCROLLBAR                   1052
+#define IDC_NEWACCOUNT                  1054
+#define IDS_NEWACCOUNT                  1055
+#define IDC_LOGIN_ATTR                  1056
+#define IDESCAPE                        1058
+#define IDC_CUSTOM_NAM                  1058
+#define IDC_COMBO3                      1061
+#define IDC_PROFILE                     1062
+#define IDC_FILTER                      1063
+#define IDC_NAME                        1064
+#define IDS_PASSWORD_MISMATCH           1065
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        129
+#define _APS_NEXT_COMMAND_VALUE         40001
+#define _APS_NEXT_CONTROL_VALUE         1065
+#define _APS_NEXT_SYMED_VALUE           101
+#endif
+#endif

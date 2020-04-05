@@ -1,0 +1,6158 @@
+screen??.PCX
+screen%02d.PCX
+*?+@A
+(B)C
+?AAAAAAACEEEEIIIIDNOOOOOX0UUUUYbBaaaaaaaceeeeiiiionooooo/0uuuuyby
+dd_emulate
+dd_backbuf
+ds_noduplicates
+If you are looking at this you might want to try these command line flags.
+End of flags list.
+()*+
+$!!#"!% 
+%"! 
+ahds
+ !"#32
+$Keyboard Shortcuts:|F1:    Open Help Screen|Esc:   Display Main Menu|Tab:   Display Auto-map|Space: Hide all info screens|S: Open Speedbook|B: Open Spellbook|I: Open Inventory screen|C: Open Character screen|Q: Open Quest log|F: Reduce screen brightness|G: Increase screen brightness|Z: Zoom Game Screen|+ / -: Zoom Automap|1 - 8: Use Belt item|F5, F6, F7, F8:     Set hot key for skill or spell|Shift + Left Click: Attack without moving||$Movement:|If you hold the mouse button down while moving, the character will continue to move in that direction.||$Combat:|Holding down the shift key and then left-clicking allows the character to attack without moving.||$Auto-map:|To access the auto-map, click the 'MAP' button on the Information Bar or press 'TAB' on the keyboard. Zooming in and out of the map is done with the + and - keys. Scrolling the map uses the arrow keys.||$Picking up Objects:|Useable items that are small in size, such as potions or scrolls, are automatically placed in your 'belt' located at the top of the Interface bar . When an item is placed in the belt, a small number appears in that box. Items may be used by either pressing the corresponding number or right-clicking on the item.||$Gold|You can select a specific amount of gold to drop by right clicking on a pile of gold in your inventory.||$Skills & Spells:|You can access your list of skills and spells by left-clicking on the 'SPELLS' button in the interface bar. Memorized spells and those available through staffs are listed here. Left-clicking on the spell you wish to cast will ready the spell. A readied spell may be cast by simply right-clicking in the play area.||$Using the Speedbook for Spells|Left-clicking on the 'readied spell' button will open the 'Speedbook' which allows you to select a skill or spell for immediate use.  To use a readied skill or spell, simply right-click in the main play area.||$Setting Spell Hotkeys|You can assign up to four Hot Keys for skills, spells or scrolls.  Start by opening the 'speedbook' as described in the section above. Press the F5, F6, F7 or F8 keys after highlighting the spell you wish to assign.||$Spell Books|Reading more than one book increases your knowledge of that spell, allowing you to cast the spell more effectively.|&
+HELLFIRE
+ScreenSaveActive
+ !"#320.16
+?Gamma Correction
+game
+hero
+perml%02d
+perms%02d
+templ%02d
+temps%02d
+NUSDBAMHT
+WRSMR
+unknown action
+Sound Volume
+Music Volume
+`h````
+(null)
+?IsProcessorFeaturePresent
+KERNEL32
+e+000
+LC_TIME
+LC_NUMERIC
+LC_MONETARY
+LC_CTYPE
+LC_COLLATE
+LC_ALL
+SunMonTueWedThuFriSat
+JanFebMarAprMayJunJulAugSepOctNovDec
+@runtime error 
+TLOSS error
+SING error
+DOMAIN error
+R6028
+- unable to initialize heap
+R6027
+- not enough space for lowio initialization
+R6026
+- not enough space for stdio initialization
+R6025
+- pure virtual function call
+R6024
+- not enough space for _onexit/atexit table
+R6019
+- unable to open console device
+R6018
+- unexpected heap error
+R6017
+- unexpected multithread lock error
+R6016
+- not enough space for thread data
+abnormal program termination
+R6009
+- not enough space for environment
+R6008
+- not enough space for arguments
+R6002
+- floating point not loaded
+Microsoft Visual C++ Runtime Library
+Runtime Error!
+Program: 
+<program name unknown>
+united-states
+united-kingdom
+united states
+united kingdom
+turkey
+taiwan
+switzerland
+sweden
+spain
+south-korea
+south korea
+singapore
+russia
+pr-china
+pr china
+portugal
+poland
+norway
+new-zealand
+new zealand
+netherlands
+mexico
+korea
+japan
+italy
+ireland
+iceland
+hungary
+hong-kong
+hong kong
+holland
+greece
+great britain
+germany
+france
+finland
+england
+denmark
+china
+canada
+britain
+brazil
+belgium
+austria
+australia
+america
+turkish
+swiss
+swedish
+spanish-modern
+spanish-mexican
+spanish
+slovak
+russian
+portuguese-brazilian
+portuguese
+polish
+norwegian-nynorsk
+norwegian-bokmal
+norwegian
+korean
+japanese
+italian-swiss
+italian
+irish-english
+icelandic
+hungarian
+greek
+german-swiss
+german-austrian
+german
+french-swiss
+french-canadian
+french-belgian
+french
+finnish
+english-usa
+english-us
+english-uk
+english-nz
+english-ire
+english-can
+english-aus
+english-american
+english
+dutch-belgian
+dutch
+danish
+czech
+chinese-traditional
+chinese-singapore
+chinese-simplified
+chinese-hongkong
+chinese
+canadian
+belgian
+australian
+american-english
+american english
+american
+GetLastActivePopup
+GetActiveWindow
+MessageBoxA
+user32.dll
+1#QNAN
+1#INF
+1#IND
+1#SNAN
+H:mm:ss
+dddd, MMMM dd, yyyy
+M/d/yy
+December
+November
+October
+September
+August
+July
+June
+April
+March
+February
+January
+Saturday
+Friday
+Thursday
+Wednesday
+Tuesday
+Monday
+Sunday
+frexp
+fmod
+_hypot
+_cabs
+ldexp
+modf
+fabs
+floor
+ceil
+sqrt
+atan2
+atan
+acos
+asin
+tanh
+cosh
+sinh
+log10
+!This program cannot be run in DOS mode.
+.text
+`.rdata
+@.data
+.idata
+.rsrc
+u)PSVh
+=@Sn
+50,X
+50,X
+50,X
+50,X
+=@Sn
+^vuhHSn
+=x!o
+=x!o
+=x!o
+=@Sn
+=@Sn
+u09=<tp
+9=<tp
+5x!o
+=@Sn
+=@Sn
+=<tp
+5x!o
+5x!o
+5x!o
+=`5N
+%`5N
+=p)X
+%p)X
+=t)X
+%t)X
+=x)X
+%x)X
+5x)X
+=@Sn
+=d,X
+=d,X
+95D+X
+5D+X
+95D+X
+95D+X
+=`,X
+%`,X
+%`,X
+5x=L
+%D+X
+=@Sn
+=D+X
+=d`p
+=@Sn
+50,X
+5H+X
+5|,X
+5H+X
+=@Sn
+5|,X
+5H+X
+5|,X
+_9=H+X
+=H+X
+5H+X
+=@Sn
+=@Sn
+=@Sn
+=@Sn
+=@Sn
+=@Sn
+=@Sn
+=6)o
+=:(o
+=D+X
+=@Sn
+=@Sn
+=p,X
+VSh(yY
+%@LX
+%|LX
+%p2`
+-tLX
+=tLX
+=xLX
+=pLX
+=tLX
+=xLX
+=HLX
+=LLX
+=DLX
+=HLX
+=LLX
+9=DLX
+9=HLX
+tt9=DLX
+9=LLX
+9=DLX
+9=LLX
+9=DLX
+9=LLX
+9=DLX
+9=LLX
+9=LLX
+9=DLX
+to9=HLX
+9=LLX
+9=DLX
+tH9=HLX
+9=LLX
+9=DLX
+9=HLX
+9=LLX
+=tLX
+=xLX
+9=pLX
+to9=tLX
+9=xLX
+9=pLX
+tH9=tLX
+9=xLX
+9=pLX
+9=tLX
+9=xLX
+9=tLX
+9=xLX
+9=DLX
+^u'9=HLX
+9=LLX
+9=DLX
+to9=HLX
+9=LLX
+9=DLX
+tH9=HLX
+9=LLX
+9=DLX
+9=HLX
+9=LLX
+9=tLX
+9=xLX
+9=pLX
+to9=tLX
+9=xLX
+9=pLX
+tH9=tLX
+9=xLX
+9=pLX
+9=tLX
+9=xLX
+9=@LX
+9=tLX
+9=xLX
+9=DLX
+^u'9=HLX
+9=LLX
+9=DLX
+to9=HLX
+9=LLX
+9=DLX
+tH9=HLX
+9=LLX
+9=DLX
+9=HLX
+9=LLX
+9=tLX
+9=xLX
+9=pLX
+to9=tLX
+9=xLX
+9=pLX
+tH9=tLX
+9=xLX
+9=pLX
+9=tLX
+9=xLX
+2IVa
+2HVa
+=@Sn
+Hu48
+=r(o
+9=,YX
+=,YX
+%,YX
+5,YX
+2IVa
+2HVa
+%8YX
+;58YX
+%0YX
+=0YX
+%0YX
+=0YX
+(=OyY
+(=OyY
+=v'o
+=v'o
+0x2`
+=@Sn
+t'h4
+=@Sn
+=@Sn
+2IVa
+2HVa
+=@Sn
+=@Sn
+=@Tn
+5@Tn
+=@Sn
+WSSh
+=@Sn
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+F;=$:o
+;=$:o
+)5$:o
+5$:o
+td;=$:o
+;=$:o
+;=$:o
+;=$:o
+5d,X
+5d,X
+=@Sn
+%D+X
+=@Sn
+=`!o
+=@Sn
+=@Sn
+SVWj
+5p!i
+=p!i
+=h!i
+=`!i
+%d!i
+%d!i
+=t!i
+=|!i
+5`!i
+;=l!i
+5h!i
+5h!i
+=l!i
+=l!i
+=d!i
+=l!i
+5l!i
+=h&i
+5t'i
+50,X
+50,X
+VShx'i
+5x'i
+Sh4!
+50,X
+50,X
+;5x!o
+;5x!o
+QSVWj
+9t$ }
+D$ (
+;5x!o
+UVWj
+%h)o
+%h)o
+5x!o
+5x!o
+;=x!o
+=d`p
+;5x!o
+;5x!o
+;=x!o
+95p,X
+=@Sn
+jd9=l,X
+=@Sn
+=@Sn
+=@Sn
+=@Sn
+=@Sn
+=p,X
+=@Sn
+=@Sn
+=@Sn
+=p,X
+=@Sn
+=@Sn
+;5x!o
+;=x!o
+;5x!o
+5<5i
+QPhx
+tmhP
+PShD
+PSh8
+PSh,
+tmhP
+PWhD
+PWh8
+PWh,
+;5x!o
+;5x!o
+=8>i
+=@Sn
+=L>i
+=p,X
+=8>i
+=P\o
+5x=i
+=@Sn
+-|!p
+=H:p
+=p,X
+uXVh
+=@Sn
+5 Qj
+5 Qj
+5 Qj
+5 Qj
+5 Qj
+5 Qj
+5 Qj
+5 Qj
+5 Qj
+5 Qj
+5 Qj
+5 Qj
+5 Qj
+5 Qj
+5 Qj
+=@Sn
+9=dWn
+;=dWn
+5 Qj
+5 Qj
+5 Qj
+5 Qj
+5 Qj
+5 Qj
+5 Qj
+5 Qj
+5 Qj
+5 Qj
+5 Qj
+5 Qj
+5 Qj
+5 Qj
+5 Qj
+=@Sn
+9=dWn
+;=dWn
+9=dWn
+;=dWn
+9=dWn
+;=dWn
+h(Qj
+h(Qj
+%PQj
+%TQj
+=PQj
+%DQj
+5TQj
+=<Qj
+5PQj
+=8Qj
+%DQj
+=x!o
+=x!o
+h@cK
+h,cK
+;=x!o
+hlcK
+h\cK
+9=t,X
+9=p,X
+9=t,X
+9=p,X
+=p,X
+=t,X
+=t,X
+=p,X
+h,dK
+h,dK
+hlcK
+h<dK
+] VWj
+hXdK
+hXdK
+1(yY
+hlcK
+h<dK
+hXdK
+htdK
+=@tp
+9=@tp
+;=@tp
+h,eK
+hDeK
+hDeK
+=t,X
+=p,X
+;5x!o
+;5x!o
+;5x!o
+;5x!o
+;5x!o
+;=x!o
+;5x!o
+95t,X
+95p,X
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+8(yY
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hxeK
+h`eK
+hXdK
+hxeK
+h`eK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+hXdK
+=@Sn
+%L)o
+=@Sn
+=@Sn
+=@Sn
+=@Sn
+=@Sn
+=@Sn
+=@Sn
+5lLX
+=lLX
+;=x!o
+%0)o
+N WSj|j
+=t,X
+=p,X
+vZIj
+=@Sn
+-8'o
+-T'o
+-p'o
+=@Sn
+=@Sn
+=@Sn
+=@Sn
+%D+X
+=@Sn
+u]9E
+_9~ptPj
+=@Sn
+=@Sn
+=@Sn
+=@Sn
+=@Sn
+=@Sn
+=\LX
+8xFb
+=@Sn
+1(yY
+;=x!o
+=@Sn
+PVWj
+=@Sn
+=@Sn
+=h,X
+;5xTn
+=@Sn
+=@Sn
+=@Sn
+=@Sn
+=@Sn
+=@Sn
+=@Sn
+=@Sn
+=@Sn
+9=dWn
+;=dWn
+<}(/n
+5x!o
+=@Sn
+PWhH
+=@Sn
+=@Sn
+;5x!o
+%;=x!o
+`;=x!o
+c;=x!o
+;=x!o
+<;5x!o
+=@Sn
+;D94u
+;=x!o
+;5x!o
+;5x!o
+5x!o
+5x!o
+9=x!o
+;=x!o
+;=x!o
+;5x!o
+;5x!o
+;5x!o
+;5x!o
+;5x!o
+;=x!o
+;5x!o
+5x!o
+=x!o
+;5|Tn
+5<Sn
+5x!o
+5x!o
+5<Sn
+=DSn
+=x,X
+%D+X
+;5x!o
+5x!o
+5x!o
+=@Sn
+hG(E
+5x!o
+5`!o
+Sh(Cn
+Sh(/n
+hx'i
+hx'i
+hx'i
+5x!o
+PVhHSn
+=@Sn
+9=x!o
+}(/n
+4}(/n
+5x!o
+5x!o
+h(Tn
+hz2E
+h(Tn
+t+=i
+=HTn
+%hTn
+hPTn
+=@Sn
+vrh(Tn
+h`Tn
+=DTn
+=DTn
+=DTn
+h(Tn
+h(Tn
+=@Sn
+=@Sn
+5,(o
+=@Sn
+5dWn
+5X(o
+=\(o
+hD*L
+h0*L
+>(yY
+5hWn
+)u!j
+>(yY
+=dWn
+9(yY
+8'yY
+8(yY
+8'yY
+8(yY
+=dWn
+V9-dWn
+[u/j
+;-dWn
+=dWn
+;5x!o
+=dWn
+95dWn
+;5dWn
+=DQj
+=0(o
+=DQj
+9=dWn
+;=dWn
+;=x!o
+Sjmj
+;=x!o
+;5x!o
+;5x!o
+=dWn
+hX*L
+L08Sj
+;=x!o
+;5x!o
+;5x!o
+;5x!o
+;5x!o
+;5x!o
+;5x!o
+;5x!o
+;5x!o
+;=x!o
+;=x!o
+;5x!o
+;5x!o
+;5x!o
+;-x!o
+;-x!o
+;=x!o
+;=x!o
+;=x!o
+;=x!o
+;=x!o
+=DQj
+=hLX
+=6)o
+u=;=x!o
+hp*L
+=@Un
+9=dWn
+;=dWn
+hX,L
+hH,L
+h4,L
+h(,L
+h|+L
+}hl+L
+vhX+L
+ohD+L
+hh8+L
+ah(+L
+5TLX
+5TLX
+5TLX
+5TLX
+5TLX
+5TLX
+5l,L
+-l,L
+=p,L
+%p,L
+50,X
+hX-L
+h`-L
+=@Sn
+=@Sn
+=@Sn
+=@Sn
+50,X
+=@Sn
+=@Sn
+=d!o
+Yh@-L
+=@Sn
+5d!o
+h@-L
+ G=`!o
+=@Sn
+h`-L
+h\.L
+hD.L
+h(.L
+=@Sn
+=@Sn
+hx.L
+=@Sn
+=@Sn
+=@Sn
+=@Sn
+=@Sn
+=@Sn
+=@Sn
+h`/L
+=@Sn
+h</L
+h /L
+=@Sn
+=@Sn
+ht2L
+hl2L
+Vh(3L
+Vh`3L
+hL3L
+ht2L
+Wh44L
+;=x!o
+;=x!o
+QhT4L
+=@Sn
+Whx4L
+;=x!o
+;=x!o
+;=x!o
+;=x!o
+Phx4L
+Whx4L
+\0p;=x!o
+;=x!o
+Vh@5L
+Uhh5L
+;-x!o
+;=x!o
+\0D;
+;5x!o
+;=x!o
+\0D;
+L08+
+L0<+
+;=x!o
+;=x!o
+Wh06L
+;=x!o
+WhT6L
+;=x!o
+Vht6L
+=@Sn
+Sh$7L
+;5x!o
+=DQj
+%DQj
+;5x!o
+VhP7L
+=@Sn
+tRh4
+=@Sn
+hD7L
+Y;5x!o
+=@Sn
+Whp7L
+;=x!o
+=@Sn
+;5x!o
+;=x!o
+;=x!o
+Vh48L
+Ph|8L
+VhT8L
+;=x!o
+Sh$9L
+VhD9L
+V;-x!o
+Uhd9L
+~(;=x!o
+;5x!o
+;-x!o
+;-x!o
+Vh,:L
+VhL:L
+Qhl:L
+;5x!o
+=@Sn
+;=x!o
+Vh0;L
+;=x!o
+VhP;L
+;=x!o
+Vhp;L
+;=x!o
+;5x!o
+Vh8<L
+QhX<L
+SVSj
+hX=L
+hX=L
+=h?L
+=@Sn
+=@Sn
+5x!o
+5x!o
+=x!o
+=@Sn
+h@AL
+h`AL
+hxAL
+5x!o
+hHAL
+hHAL
+hHAL
+hHAL
+hHAL
+h<BL
+h BL
+hHAL
+hHAL
+h<BL
+h BL
+hHAL
+hHAL
+hHAL
+95dWn
+;5dWn
+95dWn
+;5dWn
+=Z'o
+=l'o
+9=dWn
+;=dWn
+%8:o
+%8:o
+%8:o
+%8:o
+htEL
+hTEL
+hTEL
+%8:o
+htEL
+hTEL
+hTEL
+%8:o
+%8:o
+%8:o
+htEL
+hTEL
+hTEL
+%8:o
+%8:o
+=d,X
+%d,X
+h,FL
+5 :o
+j!h@:o
+h<FL
+=@Sn
+5(:o
+hXFL
+hlFL
+h\FL
+=d:o
+=dWn
+RQhdGL
+=V(o
+=:(o
+95$\o
+95 \o
+Sh0\o
+h0JL
+5(\o
+5,\o
+%,\o
+h<JL
+h,\o
+5 \o
+5,\o
+hpJL
+hXJL
+5 \o
+hpJL
+hXJL
+5$\o
+=p,X
+;5x!o
+=@Sn
+=``p
+VShtYL
+VSh`YL
+VShTYL
+VShDYL
+VSh4YL
+5<\o
+=8\o
+=\`p
+h4ZL
+h4ZL
+h$ZL
+PWhD
+PWh8
+PWh,
+h@ZL
+WWh8ZL
+=8\o
+=\`p
+=<\o
+9=<\o
+hxZL
+WWh8ZL
+=8\o
+=\`p
+=<\o
+-<\o
+-<\o
+VWh8ZL
+WSh8ZL
+-<\o
+hH[L
+h8ZL
+VShTYL
+5<\o
+=8\o
+=\`p
+h@ZL
+WWh8ZL
+VSh8ZL
+WSh8ZL
+-<\o
+SWh8ZL
+hH\L
+hd\L
+Bh`]L
+3h4]L
+=P\o
+h,^L
+SWh$^L
+VVhx^L
+VShd^L
+=8\o
+=\`p
+h@ZL
+WWh8ZL
+%<\o
+SWh8ZL
+SSh<_L
+Sh4_L
+hT_L
+VVhL_L
+h8ZL
+VVht_L
+VSh`_L
+95<\o
+95<\o
+B95<\o
+95<\o
+%d`p
+=x!o
+%d`p
+%d`p
+5@\o
++58\o
+=@Sn
+=@Sn
+%d`p
+%d`p
+%d`p
+%d`p
+%d`p
+%d`p
+4Eh`p
+h,`L
+h `L
+=pep
+=tep
+%tep
+%pep
+5xep
+=|ep
+=|ep
+%|ep
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+=@Sn
+SUVWj
+VWh(yY
+=n)o
+%DQj
+=DQj
+=l,X
+=DQj
+=M(o
+=:(o
+=DQj
+=DQj
+=DQj
+=DQj
+=DQj
+=h(o
+=DQj
+=DQj
+=DQj
+=DQj
+=DQj
+=DQj
+=n)o
+%n)o
+=|)o
+=DQj
+=(tp
+= tp
+%@tp
+%<tp
+=@Sn
+%<tp
+%<tp
+%@tp
+u/;=t(o
+%<tp
+%@tp
+%@tp
+%<tp
+%@tp
+%<tp
+%<tp
+%<tp
+%<tp
+%<tp
+=0tp
+=4tp
+=8tp
+9=@tp
+;=@tp
+9=@tp
+;=@tp
+9=@tp
+;=@tp
+9=@tp
+;=@tp
+9=@tp
+;=@tp
+9=@tp
+;=@tp
+=@Sn
+=@Sn
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+UR;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+;=$:o
+=(up
+D$8'
+D$(j
+T$4j
+SVWUj
+=Dyp
+l$ u
+T$$j
+f9=.vp
+j@h@vp
+=,vp
+- up
+WSUVj
+L$(j
+-@yp
+Pj#Wj
+Qj%Wj
+5:yp
+54yp
+C*PjTVj
+QjUVj
+RjVVj
+C-PjWVj
+QjRVj
+SjSVj
+=xyp
+UUSh
+D$(j
+D$.%
+D$.%
+hpyp
+D$ j
+D$,j
+T$<j
+screen??.PCX
+screen%02d.PCX
+*?+@A
+(B)C
+?AAAAAAACEEEEIIIIDNOOOOOX0UUUUYbBaaaaaaaceeeeiiiionooooo/0uuuuyby
+dd_emulate
+dd_backbuf
+ds_noduplicates
+If you are looking at this you might want to try these command line flags.
+End of flags list.
+()*+
+$!!#"!% 
+%"! 
+ahds
+ !"#32
+$Keyboard Shortcuts:|F1:    Open Help Screen|Esc:   Display Main Menu|Tab:   Display Auto-map|Space: Hide all info screens|S: Open Speedbook|B: Open Spellbook|I: Open Inventory screen|C: Open Character screen|Q: Open Quest log|F: Reduce screen brightness|G: Increase screen brightness|Z: Zoom Game Screen|+ / -: Zoom Automap|1 - 8: Use Belt item|F5, F6, F7, F8:     Set hot key for skill or spell|Shift + Left Click: Attack without moving||$Movement:|If you hold the mouse button down while moving, the character will continue to move in that direction.||$Combat:|Holding down the shift key and then left-clicking allows the character to attack without moving.||$Auto-map:|To access the auto-map, click the 'MAP' button on the Information Bar or press 'TAB' on the keyboard. Zooming in and out of the map is done with the + and - keys. Scrolling the map uses the arrow keys.||$Picking up Objects:|Useable items that are small in size, such as potions or scrolls, are automatically placed in your 'belt' located at the top of the Interface bar . When an item is placed in the belt, a small number appears in that box. Items may be used by either pressing the corresponding number or right-clicking on the item.||$Gold|You can select a specific amount of gold to drop by right clicking on a pile of gold in your inventory.||$Skills & Spells:|You can access your list of skills and spells by left-clicking on the 'SPELLS' button in the interface bar. Memorized spells and those available through staffs are listed here. Left-clicking on the spell you wish to cast will ready the spell. A readied spell may be cast by simply right-clicking in the play area.||$Using the Speedbook for Spells|Left-clicking on the 'readied spell' button will open the 'Speedbook' which allows you to select a skill or spell for immediate use.  To use a readied skill or spell, simply right-click in the main play area.||$Setting Spell Hotkeys|You can assign up to four Hot Keys for skills, spells or scrolls.  Start by opening the 'speedbook' as described in the section above. Press the F5, F6, F7 or F8 keys after highlighting the spell you wish to assign.||$Spell Books|Reading more than one book increases your knowledge of that spell, allowing you to cast the spell more effectively.|&
+HELLFIRE
+ScreenSaveActive
+ !"#320.16
+?Gamma Correction
+game
+hero
+perml%02d
+perms%02d
+templ%02d
+temps%02d
+NUSDBAMHT
+WRSMR
+unknown action
+Sound Volume
+Music Volume
+`h````
+(null)
+?IsProcessorFeaturePresent
+KERNEL32
+e+000
+LC_TIME
+LC_NUMERIC
+LC_MONETARY
+LC_CTYPE
+LC_COLLATE
+LC_ALL
+SunMonTueWedThuFriSat
+JanFebMarAprMayJunJulAugSepOctNovDec
+@runtime error 
+TLOSS error
+SING error
+DOMAIN error
+R6028
+- unable to initialize heap
+R6027
+- not enough space for lowio initialization
+R6026
+- not enough space for stdio initialization
+R6025
+- pure virtual function call
+R6024
+- not enough space for _onexit/atexit table
+R6019
+- unable to open console device
+R6018
+- unexpected heap error
+R6017
+- unexpected multithread lock error
+R6016
+- not enough space for thread data
+abnormal program termination
+R6009
+- not enough space for environment
+R6008
+- not enough space for arguments
+R6002
+- floating point not loaded
+Microsoft Visual C++ Runtime Library
+Runtime Error!
+Program: 
+<program name unknown>
+united-states
+united-kingdom
+united states
+united kingdom
+turkey
+taiwan
+switzerland
+sweden
+spain
+south-korea
+south korea
+singapore
+russia
+pr-china
+pr china
+portugal
+poland
+norway
+new-zealand
+new zealand
+netherlands
+mexico
+korea
+japan
+italy
+ireland
+iceland
+hungary
+hong-kong
+hong kong
+holland
+greece
+great britain
+germany
+france
+finland
+england
+denmark
+china
+canada
+britain
+brazil
+belgium
+austria
+australia
+america
+turkish
+swiss
+swedish
+spanish-modern
+spanish-mexican
+spanish
+slovak
+russian
+portuguese-brazilian
+portuguese
+polish
+norwegian-nynorsk
+norwegian-bokmal
+norwegian
+korean
+japanese
+italian-swiss
+italian
+irish-english
+icelandic
+hungarian
+greek
+german-swiss
+german-austrian
+german
+french-swiss
+french-canadian
+french-belgian
+french
+finnish
+english-usa
+english-us
+english-uk
+english-nz
+english-ire
+english-can
+english-aus
+english-american
+english
+dutch-belgian
+dutch
+danish
+czech
+chinese-traditional
+chinese-singapore
+chinese-simplified
+chinese-hongkong
+chinese
+canadian
+belgian
+australian
+american-english
+american english
+american
+GetLastActivePopup
+GetActiveWindow
+MessageBoxA
+user32.dll
+1#QNAN
+1#INF
+1#IND
+1#SNAN
+H:mm:ss
+dddd, MMMM dd, yyyy
+M/d/yy
+December
+November
+October
+September
+August
+July
+June
+April
+March
+February
+January
+Saturday
+Friday
+Thursday
+Wednesday
+Tuesday
+Monday
+Sunday
+frexp
+fmod
+_hypot
+_cabs
+ldexp
+modf
+fabs
+floor
+ceil
+sqrt
+atan2
+atan
+acos
+asin
+tanh
+cosh
+sinh
+log10
+unknown error 0x%08x
+DDERR_CANTPAGEUNLOCK
+DDERR_NOTPAGELOCKED
+DD_OK
+D:\diablo97\appfat.cpp
+dwMaxChars >= sizeof(szUnknown) + 10
+DDERR unknown 0x%x
+DDERR_CANTPAGELOCK
+DDERR_NOMIPMAPHW
+DDERR_INVALIDSURFACETYPE
+DDERR_DCALREADYCREATED
+DDERR_XALIGN
+DDERR_WRONGMODE
+DDERR_REGIONTOOSMALL
+DDERR_PRIMARYSURFACEALREADYEXISTS
+DDERR_OVERLAYNOTVISIBLE
+DDERR_NOTPALETTIZED
+DDERR_NOTLOCKED
+DDERR_NOTFLIPPABLE
+DDERR_NOTAOVERLAYSURFACE
+DDERR_NOPALETTEHW
+DDERR_NOPALETTEATTACHED
+DDERR_NOOVERLAYDEST
+DDERR_NOHWND
+DDERR_NOEMULATION
+DDERR_NODIRECTDRAWHW
+DDERR_NODDROPSHW
+DDERR_NODC
+DDERR_NOCLIPPERATTACHED
+DDERR_NOBLTHW
+DDERR_INVALIDPOSITION
+DDERR_INVALIDDIRECTDRAWGUID
+DDERR_IMPLICITLYCREATED
+DDERR_HWNDSUBCLASSED
+DDERR_HWNDALREADYSET
+DDERR_EXCLUSIVEMODEALREADYSET
+DDERR_DIRECTDRAWALREADYCREATED
+DDERR_CLIPPERISUSINGHWND
+DDERR_CANTDUPLICATE
+DDERR_CANTCREATEDC
+DDERR_BLTFASTCANTCLIP
+DDERR_WASSTILLDRAWING
+DDERR_VERTICALBLANKINPROGRESS
+DDERR_UNSUPPORTEDMASK
+DDERR_UNSUPPORTEDFORMAT
+DDERR_TOOBIGWIDTH
+DDERR_TOOBIGSIZE
+DDERR_TOOBIGHEIGHT
+DDERR_SURFACENOTATTACHED
+DDERR_SURFACELOST
+DDERR_SURFACEISOBSCURED
+DDERR_CANTLOCKSURFACE
+DDERR_SURFACEBUSY
+DDERR_SURFACEALREADYDEPENDENT
+DDERR_SURFACEALREADYATTACHED
+DDERR_COLORKEYNOTSET
+DDERR_OUTOFVIDEOMEMORY
+DDERR_OVERLAYCANTCLIP
+DDERR_OVERLAYCOLORKEYONLYONEACTIVE
+DDERR_PALETTEBUSY
+DDERR_OUTOFCAPS
+DDERR_NOZOVERLAYHW
+DDERR_NOZBUFFERHW
+DDERR_NOVSYNCHW
+DDERR_NOTEXTUREHW
+DDERR_NOT4BITCOLOR
+DDERR_NOT4BITCOLORINDEX
+DDERR_NOT8BITCOLOR
+DDERR_NOSTRETCHHW
+DDERR_NOROTATIONHW
+DDERR_NORASTEROPHW
+DDERR_NOOVERLAYHW
+DDERR_NOTFOUND
+DDERR_NOMIRRORHW
+DDERR_NOGDI
+DDERR_NOFLIPHW
+DDERR_NOEXCLUSIVEMODE
+DDERR_NOCOLORKEYHW
+DDERR_NOCOLORKEY
+DDERR_NOCOOPERATIVELEVELSET
+DDERR_NOCOLORCONVHW
+DDERR_NOCLIPLIST
+DDERR_NOALPHAHW
+DDERR_NO3D
+DDERR_LOCKEDSURFACES
+DDERR_INVALIDRECT
+DDERR_INVALIDPIXELFORMAT
+DDERR_INVALIDOBJECT
+DDERR_INVALIDMODE
+DDERR_INVALIDCLIPLIST
+DDERR_INVALIDCAPS
+DDERR_INCOMPATIBLEPRIMARY
+DDERR_HEIGHTALIGN
+DDERR_EXCEPTION
+DDERR_CURRENTLYNOTAVAIL
+DDERR_CANNOTDETACHSURFACE
+DDERR_CANNOTATTACHSURFACE
+DDERR_ALREADYINITIALIZED
+DDERR_INVALIDPARAMS
+DDERR_OUTOFMEMORY
+DDERR_GENERIC
+DDERR_UNSUPPORTED
+DSERR_INVALIDCALL
+DSERR_PRIOLEVELNEEDED
+DSERR_BADFORMAT
+DSERR_NODRIVER
+DSERR_ALREADYINITIALIZED
+DSERR_BUFFERLOST
+DS_OK
+DSERR unknown 0x%x
+DSERR_CONTROLUNAVAIL
+DSERR_ALLOCATED
+DSERR_INVALIDPARAM
+DSERR_OUTOFMEMORY
+DSERR_NOAGGREGATION
+E_NOINTERFACE
+ERROR
+Hellfire
+pszFmt
+assertion failed (%d:%s)
+Direct draw error (%s:%d)
+Direct sound error (%s:%d)
+center_window: %s
+ErrDlg: %d
+at: %s line %d
+FileErrDlg
+DiskFreeDlg
+InsertCDDlg
+NLevels\L5Data\L5.AMP
+Levels\L1Data\L1.AMP
+Levels\L2Data\L2.AMP
+NLevels\L6Data\L6.AMP
+Levels\L3Data\L3.AMP
+Levels\L4Data\L4.AMP
+D:\diablo97\automap.cpp
+gpBuffer
+Level: %i
+Level: Crypt %i
+Level: Nest %i
+password: 
+game: 
+D:\diablo97\capture.cpp
+pszPassword
+pbSrcDst
+D:\diablo97\CODEC.CPP
+dwSrcBytes
+Invalid encode parameters
+REGISTRATION_BLOCK
+%&'*)(
+332./+-01,#####
+Player Attack
+Send Message
+Spell book
+Inventory
+Main Menu
+Automap
+Quests log
+Character Information
+Enter
+D:\diablo97\CONTROL.CPP
+Spell Hot Key #F%i
+%s Skill
+Spell Level %i
+Spell Level 0 - Unusable
+Damages undead only
+%s Spell
+%i Scrolls
+1 Scroll
+Scroll of %s
+%i Charges
+1 Charge
+Staff of %s
+CtrlPan\Golddrop.cel
+Data\Quest.CEL
+Data\SpellI2.CEL
+Data\SpellBkB.CEL
+Data\SpellBk.CEL
+Items\DurIcons.CEL
+Data\CharBut.CEL
+CtrlPan\Panel8bu.CEL
+CtrlPan\TalkButt.CEL
+CtrlPan\P8But2.CEL
+CtrlPan\TalkPanl.CEL
+CtrlPan\P8Bulbs.CEL
+CtrlPan\Panel8.CEL
+Data\SpelIcon.CEL
+Data\Char.CEL
+CtrlPan\SmalText.CEL
+! pBtmBuff
+Hotkey : 's'
+Select current spell button
+Hotkey : %s
+Player attack
+Player friendly
+Hit Points %i of %i
+Level : %i
+Requirements not met
+%i gold %s
+%i-%i
+%i%%
+None
+Bard
+Monk
+Sorceror
+Rogue
+Warrior
+Level Up
+Skill
+Staff (%i charges)
+Mana: %i  Dam: 1/3 tgt hp
+Mana: %i   Dam: n/a
+Mana: %i  Dam: %i - %i
+pieces
+piece
+you want to remove?
+%s.  How many do
+You have %u gold
+Data\Inv\Objcurs2.CEL
+Data\Inv\Objcurs.CEL
+! pCursCels
+D:\diablo97\CURSOR.CPP
+from %s
+Town Portal
+level 15
+The Unholy Altar
+Portal to
+D:\diablo97\DEAD.CPP
+nd <= MAXDEAD
+Data\Square.CEL
+! pSquareCel
+D:\diablo97\DEBUG.CPP
+  inv = %i : hp = %i
+  mode = %i : daction = %i : walk[0] = %i
+  x = %i, y = %i : tx = %i, ty = %i : fx = %i, fy = %i
+  Lvl = %i : Change = %i
+  Plr %i is %s
+Plr %i : Active = %i
+Quest %i :  Active = %i, Var1 = %i
+Players not cleared
+Monsters not cleared
+dung sum = %i : L4Dungeon sum = %i
+Num themes = %i/%i : Trans Sum = %i : dPiece Sum = %i
+Solid Sum = %i:%i : Monst Vol = %i : Dungeon Sum = %i
+Level %i : Monst Active Sum = %i : dFlag sum = %i
+dungeon Y=%i sum = %i
+Active List = %i, Squelch = %i
+Mode = %i, Var1 = %i
+Enemy = %i, HP = %i
+X = %i, Y = %i
+Monster %i = %s
+Current debug monster = %i
+REGISTRATION_TABLE
+Look out behind you!
+Give me some gold please.
+Go through that door first.
+I need help! Heal me!
+D:\diablo97\DIABLO.CPP
+saveProc == GM_Game
+ghMainWnd
+HellfireEvent
+DiabloEvent
+gendata\Hellfire.smk
+Intro
+gendata\logo.smk
+HELLFIRE
+Multitest
+Bardtest
+NestArt
+Cowquest
+Theoquest
+MouseY < 352
+NetMsg
+dwMsg < sizeof(spszMsgTbl) / sizeof(spszMsgTbl[0])
+\hellfire.ini
+Can't get program name
+Numitems : %i
+IDX = %i  :  Seed = %i  :  CF = %i
+while in stores
+No help available
+[ MESSAGE SPEED = %i ]
+[ MESSAGE = %i ]
+Message Speed = %i
+STOP QUEST TEXT MODE
+%s, mode = %s
+Hell
+Nightmare
+Normal
+Message = %i
+START QUEST TEXT MODE
+EFlag = %i
+CX = %i  CY = %i  DP = %i
+PX = %i  PY = %i
+Mid: %i
+End = %i
+Mid1 = %i : Mid2 = %i : Mid3 = %i
+seed = %i
+Levels\TownData\TownS.CEL
+NLevels\TownData\Town.MIN
+NLevels\TownData\Town.TIL
+NLevels\TownData\Town.CEL
+NLevels\L5Data\L5S.CEL
+NLevels\L5Data\L5.MIN
+NLevels\L5Data\L5.TIL
+NLevels\L5Data\L5.CEL
+Levels\L1Data\L1S.CEL
+Levels\L1Data\L1.MIN
+Levels\L1Data\L1.TIL
+Levels\L1Data\L1.CEL
+Levels\L2Data\L2S.CEL
+Levels\L2Data\L2.MIN
+Levels\L2Data\L2.TIL
+Levels\L2Data\L2.CEL
+NLevels\L6Data\L6.MIN
+NLevels\L6Data\L6.TIL
+NLevels\L6Data\L6.CEL
+Levels\L3Data\L3.MIN
+Levels\L3Data\L3.TIL
+Levels\L3Data\L3.CEL
+Levels\L4Data\L4.MIN
+Levels\L4Data\L4.TIL
+Levels\L4Data\L4.CEL
+LoadLvlGFX
+! pDungeonCels
+! pSpeedCels
+CreateLevel
+-- Waiting for players --
+-- Network timeout --
+Unable to initialize memory
+D:\diablo97\doom.cpp
+Items\Map\MapZtown.CEL
+REGISTRATION_BLOCK
+D:\diablo97\DRLG_L1.CPP
+lv >= 0
+Levels\L1Data\Banner2.DUN
+Levels\L1Data\SKngDO.DUN
+Levels\L1Data\rnd6.DUN
+REGISTRATION_BLOCK
+3'/,
+3'/,
+3'/,
+3'/,
+3'/,
+3'/,
+3'/,
+3'/,
+3*/,
+3*/,
+3*/,
+3*/,
+3*/,
+3*/,
+3*/,
+3*/,
+3'/,
+3'/,
+3'/,
+3'/,
+3'/,
+3'/,
+3'/,
+3'/,
+3*/,
+3*/,
+3*/,
+3*/,
+3*/,
+3*/,
+3*/,
+3*/,
+xzy{
+D:\diablo97\DRLG_L2.CPP
+Levels\L2Data\Bonestr2.DUN
+Levels\L2Data\Blood1.DUN
+Levels\L2Data\Blind2.DUN
+REGISTRATION_BLOCK
+D:\diablo97\DRLG_L3.CPP
+Levels\L4Data\Vile1.DUN
+Levels\L4Data\Warlord.DUN
+gbMaxPlayers == 1
+D:\diablo97\drlg_l4.cpp
+Levels\L4Data\diab4a.DUN
+Levels\L4Data\diab4b.DUN
+Levels\L4Data\diab3a.DUN
+Levels\L4Data\diab3b.DUN
+Levels\L4Data\diab2a.DUN
+Levels\L4Data\diab2b.DUN
+Levels\L4Data\diab1.DUN
+dwLen
+pbSrc
+pnum != myplr
+D:\diablo97\dthread.cpp
+dthread2:
+dthread:1
+! sghWorkToDoEvent
+! sgpInfoHead
+sghThread == INVALID_HANDLE_VALUE
+d:%u
+gdwDeltaBytesSec
+dthread4:
+dthread3:
+(%s)
+bSuccess
+! sgpBackBuf
+! sgdwLockCount
+! gpBuffer
+D:\diablo97\dx.cpp
+caps.dwCaps & DDSCAPS_PRIMARYSURFACE
+lpDDSPrimary
+DirectDrawCreate
+ddraw.dll
+lock_buf_priv
+Draw lock underflow: 0x%x
+lpDDSBackBuf
+draw consistency error
+draw main unlock error
+! lpDDSBackBuf
+A<`J
+A$`J
+A|_J
+Ad_J
+AL_J
+A4_J
+@t^J
+@\^J
+@D^J
+@,^J
+@l]J
+@T]J
+@<]J
+@$]J
+@|\J
+@d\J
+@L\J
+@4\J
+At[J
+A\[J
+AD[J
+A,[J
+AlZJ
+@TZJ
+@<ZJ
+@$ZJ
+@xYJ
+@`YJ
+@HYJ
+@0YJ
+ApXJ
+AXXJ
+A@XJ
+A(XJ
+AhWJ
+APWJ
+A8WJ
+A WJ
+!hLJ
+!LLJ
+!0LJ
+ lKJ
+ PKJ
+ 4KJ
+ pJJ
+ TJJ
+ 8JJ
+ tIJ
+ XIJ
+ <IJ
+  IJ
+ xHJ
+ \HJ
+ @HJ
+ $HJ
+ |GJ
+ `GJ
+ DGJ
+ (GJ
+!dFJ
+!HFJ
+!,FJ
+!hEJ
+ LEJ
+ 0EJ
+ lDJ
+ PDJ
+ 4DJ
+!pCJ
+!TCJ
+!8CJ
+!tBJ
+!XBJ
+!<BJ
+! BJ
+!xAJ
+!\AJ
+!@AJ
+!$AJ
+Sfx\Items\Crclos.wav
+Sfx\Items\Cropen.wav
+Sfx\Hellfire\TRADER1.wav
+Sfx\Hellfire\Naratr4.wav
+Sfx\Hellfire\Naratr9.wav
+Sfx\Hellfire\Naratr5.wav
+Sfx\Hellfire\Naratr8.wav
+Sfx\Hellfire\Naratr7.wav
+Sfx\Hellfire\Naratr6.wav
+Sfx\Hellfire\Skljrn1.wav
+Sfx\Hellfire\COWSUT12.wav
+Sfx\Hellfire\COWSUT11.wav
+Sfx\Hellfire\COWSUT10.wav
+Sfx\Hellfire\COWSUT9.wav
+Sfx\Hellfire\COWSUT8.wav
+Sfx\Hellfire\COWSUT7.wav
+Sfx\Hellfire\COWSUT6.wav
+Sfx\Hellfire\COWSUT5.wav
+Sfx\Hellfire\COWSUT4A.wav
+Sfx\Hellfire\COWSUT4.wav
+Sfx\Hellfire\COWSUT3.wav
+Sfx\Hellfire\COWSUT2.wav
+Sfx\Hellfire\COWSUT1.wav
+Sfx\Hellfire\NARATR3.wav
+Sfx\Hellfire\NAKRUL5.wav
+Sfx\Hellfire\NAKRUL4.wav
+Sfx\Hellfire\NAKRUL3.wav
+Sfx\Hellfire\NAKRUL2.wav
+Sfx\Hellfire\NAKRUL1.wav
+Sfx\Hellfire\DEFILER7.wav
+Sfx\Hellfire\DEFILER6.wav
+Sfx\Hellfire\DEFILER8.wav
+Sfx\Hellfire\DEFILER4.wav
+Sfx\Hellfire\DEFILER3.wav
+Sfx\Hellfire\DEFILER2.wav
+Sfx\Hellfire\DEFILER1.wav
+Sfx\Hellfire\TEDDYBR4.wav
+Sfx\Hellfire\TEDDYBR3.wav
+Sfx\Hellfire\TEDDYBR2.wav
+Sfx\Hellfire\TEDDYBR1.wav
+Sfx\Hellfire\Farmer9.wav
+Sfx\Hellfire\Farmer8.wav
+Sfx\Hellfire\Farmer7.wav
+Sfx\Hellfire\Farmer6.wav
+Sfx\Hellfire\Farmer5.wav
+Sfx\Hellfire\Farmer4.wav
+Sfx\Hellfire\Farmer3.wav
+Sfx\Hellfire\Farmer2A.wav
+Sfx\Hellfire\Farmer2.wav
+Sfx\Hellfire\Farmer1.wav
+Sfx\Monsters\DiabloD.wav
+Sfx\Monsters\Zhar02.wav
+Sfx\Monsters\Zhar01.wav
+Sfx\Monsters\Wlock01.wav
+Sfx\Monsters\Warlrd01.wav
+Sfx\Monsters\Snot03.wav
+Sfx\Monsters\Snot02.wav
+Sfx\Monsters\Snot01.wav
+Sfx\Monsters\Sking01.wav
+Sfx\Monsters\Laz02.wav
+Sfx\Monsters\Laz01.wav
+Sfx\Monsters\Lach03.wav
+Sfx\Monsters\Lach02.wav
+Sfx\Monsters\Lach01.wav
+Sfx\Monsters\Izual01.wav
+Sfx\Monsters\Garbud04.wav
+Sfx\Monsters\Garbud03.wav
+Sfx\Monsters\Garbud02.wav
+Sfx\Monsters\Garbud01.wav
+Sfx\Monsters\Butcher.wav
+Sfx\Misc\Lvl16int.wav
+Sfx\Narrator\Nar09.wav
+Sfx\Narrator\Nar08.wav
+Sfx\Narrator\Nar07.wav
+Sfx\Narrator\Nar06.wav
+Sfx\Narrator\Nar05.wav
+Sfx\Narrator\Nar04.wav
+Sfx\Narrator\Nar03.wav
+Sfx\Narrator\Nar02.wav
+Sfx\Narrator\Nar01.wav
+Sfx\Monk\Monk99.wav
+Sfx\Monk\Monk98.wav
+Sfx\Monk\Monk97.wav
+Sfx\Monk\Monk96.wav
+Sfx\Monk\Monk95.wav
+Sfx\Monk\Monk94.wav
+Sfx\Monk\Monk92.wav
+Sfx\Monk\Monk91.wav
+Sfx\Monk\Monk89.wav
+Sfx\Monk\Monk88.wav
+Sfx\Monk\Monk87.wav
+Sfx\Monk\Monk83.wav
+Sfx\Monk\Monk82.wav
+Sfx\Monk\Monk80.wav
+Sfx\Monk\Monk79.wav
+Sfx\Monk\Monk71.wav
+Sfx\Monk\Monk70.wav
+Sfx\Monk\Monk69b.wav
+Sfx\Monk\Monk69.wav
+Sfx\Monk\Monk68.wav
+Sfx\Monk\Monk62.wav
+Sfx\Monk\Monk61.wav
+Sfx\Monk\Monk56.wav
+Sfx\Monk\Monk55.wav
+Sfx\Monk\Monk54.wav
+Sfx\Monk\Monk52.wav
+Sfx\Monk\Monk50.wav
+Sfx\Monk\Monk49.wav
+Sfx\Monk\Monk46.wav
+Sfx\Monk\Monk43.wav
+Sfx\Monk\Monk35.wav
+Sfx\Monk\Monk34.wav
+Sfx\Monk\Monk29.wav
+Sfx\Monk\Monk27.wav
+Sfx\Monk\Monk24.wav
+Sfx\Monk\Monk16.wav
+Sfx\Monk\Monk15.wav
+Sfx\Monk\Monk14.wav
+Sfx\Monk\Monk13.wav
+Sfx\Monk\Monk12.wav
+Sfx\Monk\Monk11.wav
+Sfx\Monk\Monk10.wav
+Sfx\Monk\Monk09.wav
+Sfx\Monk\Monk08.wav
+Sfx\Monk\Monk01.wav
+Sfx\Warrior\Wario102.wav
+Sfx\Warrior\Wario101.wav
+Sfx\Warrior\Wario100.wav
+Sfx\Warrior\Warior99.wav
+Sfx\Warrior\Wario98.wav
+Sfx\Warrior\Wario97.wav
+Sfx\Warrior\Wario96b.wav
+Sfx\Warrior\Wario95f.wav
+Sfx\Warrior\Wario95e.wav
+Sfx\Warrior\Wario95d.wav
+Sfx\Warrior\Wario95c.wav
+Sfx\Warrior\Wario95b.wav
+Sfx\Warrior\Warior95.wav
+Sfx\Warrior\Warior94.wav
+Sfx\Warrior\Warior93.wav
+Sfx\Warrior\Warior92.wav
+Sfx\Warrior\Warior91.wav
+Sfx\Warrior\Warior90.wav
+Sfx\Warrior\Warior89.wav
+Sfx\Warrior\Warior88.wav
+Sfx\Warrior\Warior87.wav
+Sfx\Warrior\Warior86.wav
+Sfx\Warrior\Warior85.wav
+Sfx\Warrior\Warior84.wav
+Sfx\Warrior\Warior83.wav
+Sfx\Warrior\Warior82.wav
+Sfx\Warrior\Warior81.wav
+Sfx\Warrior\Warior80.wav
+Sfx\Warrior\Warior79.wav
+Sfx\Warrior\Warior78.wav
+Sfx\Warrior\Warior77.wav
+Sfx\Warrior\Warior76.wav
+Sfx\Warrior\Warior75.wav
+Sfx\Warrior\Warior74.wav
+Sfx\Warrior\Warior73.wav
+Sfx\Warrior\Warior72.wav
+Sfx\Warrior\Warior71.wav
+Sfx\Warrior\Warior70.wav
+Sfx\Warrior\Wario69b.wav
+Sfx\Warrior\Warior69.wav
+Sfx\Warrior\Warior68.wav
+Sfx\Warrior\Warior67.wav
+Sfx\Warrior\Warior66.wav
+Sfx\Warrior\Warior65.wav
+Sfx\Warrior\Warior64.wav
+Sfx\Warrior\Warior63.wav
+Sfx\Warrior\Warior62.wav
+Sfx\Warrior\Warior61.wav
+Sfx\Warrior\Warior60.wav
+Sfx\Warrior\Warior59.wav
+Sfx\Warrior\Warior58.wav
+Sfx\Warrior\Warior57.wav
+Sfx\Warrior\Warior56.wav
+Sfx\Warrior\Warior55.wav
+Sfx\Warrior\Warior54.wav
+Sfx\Warrior\Warior53.wav
+Sfx\Warrior\Warior52.wav
+Sfx\Warrior\Warior51.wav
+Sfx\Warrior\Warior50.wav
+Sfx\Warrior\Warior49.wav
+Sfx\Warrior\Warior48.wav
+Sfx\Warrior\Warior47.wav
+Sfx\Warrior\Warior46.wav
+Sfx\Warrior\Warior45.wav
+Sfx\Warrior\Warior44.wav
+Sfx\Warrior\Warior43.wav
+Sfx\Warrior\Warior42.wav
+Sfx\Warrior\Warior41.wav
+Sfx\Warrior\Warior40.wav
+Sfx\Warrior\Warior39.wav
+Sfx\Warrior\Warior38.wav
+Sfx\Warrior\Warior37.wav
+Sfx\Warrior\Warior36.wav
+Sfx\Warrior\Warior35.wav
+Sfx\Warrior\Warior34.wav
+Sfx\Warrior\Warior33.wav
+Sfx\Warrior\Warior32.wav
+Sfx\Warrior\Warior31.wav
+Sfx\Warrior\Warior30.wav
+Sfx\Warrior\Warior29.wav
+Sfx\Warrior\Warior28.wav
+Sfx\Warrior\Warior27.wav
+Sfx\Warrior\Warior26.wav
+Sfx\Warrior\Warior25.wav
+Sfx\Warrior\Warior24.wav
+Sfx\Warrior\Warior23.wav
+Sfx\Warrior\Warior22.wav
+Sfx\Warrior\Warior21.wav
+Sfx\Warrior\Warior20.wav
+Sfx\Warrior\Warior19.wav
+Sfx\Warrior\Warior18.wav
+Sfx\Warrior\Warior17.wav
+Sfx\Warrior\Wario16c.wav
+Sfx\Warrior\Wario16b.wav
+Sfx\Warrior\Warior16.wav
+Sfx\Warrior\Wario15c.wav
+Sfx\Warrior\Wario15b.wav
+Sfx\Warrior\Warior15.wav
+Sfx\Warrior\Wario14c.wav
+Sfx\Warrior\Wario14b.wav
+Sfx\Warrior\Warior14.wav
+Sfx\Warrior\Warior13.wav
+Sfx\Warrior\Warior12.wav
+Sfx\Warrior\Warior11.wav
+Sfx\Warrior\Warior10.wav
+Sfx\Warrior\Warior09.wav
+Sfx\Warrior\Warior08.wav
+Sfx\Warrior\Warior07.wav
+Sfx\Warrior\Warior06.wav
+Sfx\Warrior\Warior05.wav
+Sfx\Warrior\Warior04.wav
+Sfx\Warrior\Warior03.wav
+Sfx\Warrior\Warior02.wav
+Sfx\Warrior\Warior01.wav
+Sfx\Rogue\Rogue102.wav
+Sfx\Rogue\Rogue101.wav
+Sfx\Rogue\Rogue100.wav
+Sfx\Rogue\Rogue99.wav
+Sfx\Rogue\Rogue98.wav
+Sfx\Rogue\Rogue97.wav
+Sfx\Rogue\Rogue96.wav
+Sfx\Rogue\Rogue95.wav
+Sfx\Rogue\Rogue94.wav
+Sfx\Rogue\Rogue93.wav
+Sfx\Rogue\Rogue92.wav
+Sfx\Rogue\Rogue91.wav
+Sfx\Rogue\Rogue90.wav
+Sfx\Rogue\Rogue89.wav
+Sfx\Rogue\Rogue88.wav
+Sfx\Rogue\Rogue87.wav
+Sfx\Rogue\Rogue86.wav
+Sfx\Rogue\Rogue85.wav
+Sfx\Rogue\Rogue84.wav
+Sfx\Rogue\Rogue83.wav
+Sfx\Rogue\Rogue82.wav
+Sfx\Rogue\Rogue81.wav
+Sfx\Rogue\Rogue80.wav
+Sfx\Rogue\Rogue79.wav
+Sfx\Rogue\Rogue78.wav
+Sfx\Rogue\Rogue77.wav
+Sfx\Rogue\Rogue76.wav
+Sfx\Rogue\Rogue75.wav
+Sfx\Rogue\Rogue74.wav
+Sfx\Rogue\Rogue73.wav
+Sfx\Rogue\Rogue72.wav
+Sfx\Rogue\Rogue71.wav
+Sfx\Rogue\Rogue70.wav
+Sfx\Rogue\Rogue69b.wav
+Sfx\Rogue\Rogue69.wav
+Sfx\Rogue\Rogue68.wav
+Sfx\Rogue\Rogue67.wav
+Sfx\Rogue\Rogue66.wav
+Sfx\Rogue\Rogue65.wav
+Sfx\Rogue\Rogue64.wav
+Sfx\Rogue\Rogue63.wav
+Sfx\Rogue\Rogue62.wav
+Sfx\Rogue\Rogue61.wav
+Sfx\Rogue\Rogue60.wav
+Sfx\Rogue\Rogue59.wav
+Sfx\Rogue\Rogue58.wav
+Sfx\Rogue\Rogue57.wav
+Sfx\Rogue\Rogue56.wav
+Sfx\Rogue\Rogue55.wav
+Sfx\Rogue\Rogue54.wav
+Sfx\Rogue\Rogue53.wav
+Sfx\Rogue\Rogue52.wav
+Sfx\Rogue\Rogue51.wav
+Sfx\Rogue\Rogue50.wav
+Sfx\Rogue\Rogue49.wav
+Sfx\Rogue\Rogue48.wav
+Sfx\Rogue\Rogue47.wav
+Sfx\Rogue\Rogue46.wav
+Sfx\Rogue\Rogue45.wav
+Sfx\Rogue\Rogue44.wav
+Sfx\Rogue\Rogue43.wav
+Sfx\Rogue\Rogue42.wav
+Sfx\Rogue\Rogue41.wav
+Sfx\Rogue\Rogue40.wav
+Sfx\Rogue\Rogue39.wav
+Sfx\Rogue\Rogue38.wav
+Sfx\Rogue\Rogue37.wav
+Sfx\Rogue\Rogue36.wav
+Sfx\Rogue\Rogue35.wav
+Sfx\Rogue\Rogue34.wav
+Sfx\Rogue\Rogue33.wav
+Sfx\Rogue\Rogue32.wav
+Sfx\Rogue\Rogue31.wav
+Sfx\Rogue\Rogue30.wav
+Sfx\Rogue\Rogue29.wav
+Sfx\Rogue\Rogue28.wav
+Sfx\Rogue\Rogue27.wav
+Sfx\Rogue\Rogue26.wav
+Sfx\Rogue\Rogue25.wav
+Sfx\Rogue\Rogue24.wav
+Sfx\Rogue\Rogue23.wav
+Sfx\Rogue\Rogue22.wav
+Sfx\Rogue\Rogue21.wav
+Sfx\Rogue\Rogue20.wav
+Sfx\Rogue\Rogue19.wav
+Sfx\Rogue\Rogue18.wav
+Sfx\Rogue\Rogue17.wav
+Sfx\Rogue\Rogue16.wav
+Sfx\Rogue\Rogue15.wav
+Sfx\Rogue\Rogue14.wav
+Sfx\Rogue\Rogue13.wav
+Sfx\Rogue\Rogue12.wav
+Sfx\Rogue\Rogue11.wav
+Sfx\Rogue\Rogue10.wav
+Sfx\Rogue\Rogue09.wav
+Sfx\Rogue\Rogue08.wav
+Sfx\Rogue\Rogue07.wav
+Sfx\Rogue\Rogue06.wav
+Sfx\Rogue\Rogue05.wav
+Sfx\Rogue\Rogue04.wav
+Sfx\Rogue\Rogue03.wav
+Sfx\Rogue\Rogue02.wav
+Sfx\Rogue\Rogue01.wav
+Sfx\Sorceror\Mage102.wav
+Sfx\Sorceror\Mage101.wav
+Sfx\Sorceror\Mage100.wav
+Sfx\Sorceror\Mage99.wav
+Sfx\Sorceror\Mage98.wav
+Sfx\Sorceror\Mage97.wav
+Sfx\Sorceror\Mage96.wav
+Sfx\Sorceror\Mage95.wav
+Sfx\Sorceror\Mage94.wav
+Sfx\Sorceror\Mage93.wav
+Sfx\Sorceror\Mage92.wav
+Sfx\Sorceror\Mage91.wav
+Sfx\Sorceror\Mage90.wav
+Sfx\Sorceror\Mage89.wav
+Sfx\Sorceror\Mage88.wav
+Sfx\Sorceror\Mage87.wav
+Sfx\Sorceror\Mage86.wav
+Sfx\Sorceror\Mage85.wav
+Sfx\Sorceror\Mage84.wav
+Sfx\Sorceror\Mage83.wav
+Sfx\Sorceror\Mage82.wav
+Sfx\Sorceror\Mage81.wav
+Sfx\Sorceror\Mage80.wav
+Sfx\Sorceror\Mage79.wav
+Sfx\Sorceror\Mage78.wav
+Sfx\Sorceror\Mage77.wav
+Sfx\Sorceror\Mage76.wav
+Sfx\Sorceror\Mage75.wav
+Sfx\Sorceror\Mage74.wav
+Sfx\Sorceror\Mage73.wav
+Sfx\Sorceror\Mage72.wav
+Sfx\Sorceror\Mage71.wav
+Sfx\Sorceror\Mage70.wav
+Sfx\Sorceror\Mage69b.wav
+Sfx\Sorceror\Mage69.wav
+Sfx\Sorceror\Mage68.wav
+Sfx\Sorceror\Mage67.wav
+Sfx\Sorceror\Mage66.wav
+Sfx\Sorceror\Mage65.wav
+Sfx\Sorceror\Mage64.wav
+Sfx\Sorceror\Mage63.wav
+Sfx\Sorceror\Mage62.wav
+Sfx\Sorceror\Mage61.wav
+Sfx\Sorceror\Mage60.wav
+Sfx\Sorceror\Mage59.wav
+Sfx\Sorceror\Mage58.wav
+Sfx\Sorceror\Mage57.wav
+Sfx\Sorceror\Mage56.wav
+Sfx\Sorceror\Mage55.wav
+Sfx\Sorceror\Mage54.wav
+Sfx\Sorceror\Mage53.wav
+Sfx\Sorceror\Mage52.wav
+Sfx\Sorceror\Mage51.wav
+Sfx\Sorceror\Mage50.wav
+Sfx\Sorceror\Mage49.wav
+Sfx\Sorceror\Mage48.wav
+Sfx\Sorceror\Mage47.wav
+Sfx\Sorceror\Mage46.wav
+Sfx\Sorceror\Mage45.wav
+Sfx\Sorceror\Mage44.wav
+Sfx\Sorceror\Mage43.wav
+Sfx\Sorceror\Mage42.wav
+Sfx\Sorceror\Mage41.wav
+Sfx\Sorceror\Mage40.wav
+Sfx\Sorceror\Mage39.wav
+Sfx\Sorceror\Mage38.wav
+Sfx\Sorceror\Mage37.wav
+Sfx\Sorceror\Mage36.wav
+Sfx\Sorceror\Mage35.wav
+Sfx\Sorceror\Mage34.wav
+Sfx\Sorceror\Mage33.wav
+Sfx\Sorceror\Mage32.wav
+Sfx\Sorceror\Mage31.wav
+Sfx\Sorceror\Mage30.wav
+Sfx\Sorceror\Mage29.wav
+Sfx\Sorceror\Mage28.wav
+Sfx\Sorceror\Mage27.wav
+Sfx\Sorceror\Mage26.wav
+Sfx\Sorceror\Mage25.wav
+Sfx\Sorceror\Mage24.wav
+Sfx\Sorceror\Mage23.wav
+Sfx\Sorceror\Mage22.wav
+Sfx\Sorceror\Mage21.wav
+Sfx\Sorceror\Mage20.wav
+Sfx\Sorceror\Mage19.wav
+Sfx\Sorceror\Mage18.wav
+Sfx\Sorceror\Mage17.wav
+Sfx\Sorceror\Mage16.wav
+Sfx\Sorceror\Mage15.wav
+Sfx\Sorceror\Mage14.wav
+Sfx\Sorceror\Mage13.wav
+Sfx\Sorceror\Mage12.wav
+Sfx\Sorceror\Mage11.wav
+Sfx\Sorceror\Mage10.wav
+Sfx\Sorceror\Mage09.wav
+Sfx\Sorceror\Mage08.wav
+Sfx\Sorceror\Mage07.wav
+Sfx\Sorceror\Mage06.wav
+Sfx\Sorceror\Mage05.wav
+Sfx\Sorceror\Mage04.wav
+Sfx\Sorceror\Mage03.wav
+Sfx\Sorceror\Mage02.wav
+Sfx\Sorceror\Mage01.wav
+Sfx\Towners\Wound01.wav
+Sfx\Towners\Witch50.wav
+Sfx\Towners\Witch49.wav
+Sfx\Towners\Witch48.wav
+Sfx\Towners\Witch47.wav
+Sfx\Towners\Witch46.wav
+Sfx\Towners\Witch45.wav
+Sfx\Towners\Witch44.wav
+Sfx\Towners\Witch43.wav
+Sfx\Towners\Witch42.wav
+Sfx\Towners\Witch41.wav
+Sfx\Towners\Witch40.wav
+Sfx\Towners\Witch39.wav
+Sfx\Towners\Witch38.wav
+Sfx\Towners\Witch37.wav
+Sfx\Towners\Witch36.wav
+Sfx\Towners\Witch35.wav
+Sfx\Towners\Witch34.wav
+Sfx\Towners\Witch33.wav
+Sfx\Towners\Witch32.wav
+Sfx\Towners\Witch31.wav
+Sfx\Towners\Witch30.wav
+Sfx\Towners\Witch29.wav
+Sfx\Towners\Witch28.wav
+Sfx\Towners\Witch27.wav
+Sfx\Towners\Witch26.wav
+Sfx\Towners\Witch25.wav
+Sfx\Towners\Witch24.wav
+Sfx\Towners\Witch23.wav
+Sfx\Towners\Witch22.wav
+Sfx\Towners\Witch21.wav
+Sfx\Towners\Witch20.wav
+Sfx\Towners\Witch19.wav
+Sfx\Towners\Witch18.wav
+Sfx\Towners\Witch17.wav
+Sfx\Towners\Witch16.wav
+Sfx\Towners\Witch15.wav
+Sfx\Towners\Witch14.wav
+Sfx\Towners\Witch13.wav
+Sfx\Towners\Witch12.wav
+Sfx\Towners\Witch11.wav
+Sfx\Towners\Witch10.wav
+Sfx\Towners\Witch09.wav
+Sfx\Towners\Witch08.wav
+Sfx\Towners\Witch07.wav
+Sfx\Towners\Witch06.wav
+Sfx\Towners\Witch05.wav
+Sfx\Towners\Witch04.wav
+Sfx\Towners\Witch03.wav
+Sfx\Towners\Witch02.wav
+Sfx\Towners\Witch01.wav
+Sfx\Towners\Tavown45.wav
+Sfx\Towners\Tavown44.wav
+Sfx\Towners\Tavown43.wav
+Sfx\Towners\Tavown42.wav
+Sfx\Towners\Tavown41.wav
+Sfx\Towners\Tavown40.wav
+Sfx\Towners\Tavown39.wav
+Sfx\Towners\Tavown38.wav
+Sfx\Towners\Tavown37.wav
+Sfx\Towners\Tavown36.wav
+Sfx\Towners\Tavown35.wav
+Sfx\Towners\Tavown34.wav
+Sfx\Towners\Tavown33.wav
+Sfx\Towners\Tavown32.wav
+Sfx\Towners\Tavown31.wav
+Sfx\Towners\Tavown30.wav
+Sfx\Towners\Tavown29.wav
+Sfx\Towners\Tavown28.wav
+Sfx\Towners\Tavown27.wav
+Sfx\Towners\Tavown26.wav
+Sfx\Towners\Tavown25.wav
+Sfx\Towners\Tavown24.wav
+Sfx\Towners\Tavown23.wav
+Sfx\Towners\Tavown22.wav
+Sfx\Towners\Tavown21.wav
+Sfx\Towners\Tavown20.wav
+Sfx\Towners\Tavown19.wav
+Sfx\Towners\Tavown18.wav
+Sfx\Towners\Tavown17.wav
+Sfx\Towners\Tavown16.wav
+Sfx\Towners\Tavown15.wav
+Sfx\Towners\Tavown14.wav
+Sfx\Towners\Tavown13.wav
+Sfx\Towners\Tavown12.wav
+Sfx\Towners\Tavown11.wav
+Sfx\Towners\Tavown10.wav
+Sfx\Towners\Tavown09.wav
+Sfx\Towners\Tavown08.wav
+Sfx\Towners\Tavown07.wav
+Sfx\Towners\Tavown06.wav
+Sfx\Towners\Tavown05.wav
+Sfx\Towners\Tavown04.wav
+Sfx\Towners\Tavown03.wav
+Sfx\Towners\Tavown02.wav
+Sfx\Towners\Tavown01.wav
+Sfx\Towners\Tavown00.wav
+Sfx\Towners\Storyt38.wav
+Sfx\Towners\Storyt37.wav
+Sfx\Towners\Storyt36.wav
+Sfx\Towners\Storyt35.wav
+Sfx\Towners\Storyt34.wav
+Sfx\Towners\Storyt33.wav
+Sfx\Towners\Storyt32.wav
+Sfx\Towners\Storyt31.wav
+Sfx\Towners\Storyt30.wav
+Sfx\Towners\Storyt29.wav
+Sfx\Towners\Storyt28.wav
+Sfx\Towners\Storyt27.wav
+Sfx\Towners\Storyt26.wav
+Sfx\Towners\Storyt25.wav
+Sfx\Towners\Storyt24.wav
+Sfx\Towners\Storyt23.wav
+Sfx\Towners\Storyt22.wav
+Sfx\Towners\Storyt21.wav
+Sfx\Towners\Storyt20.wav
+Sfx\Towners\Storyt19.wav
+Sfx\Towners\Storyt18.wav
+Sfx\Towners\Storyt17.wav
+Sfx\Towners\Storyt16.wav
+Sfx\Towners\Storyt15.wav
+Sfx\Towners\Storyt14.wav
+Sfx\Towners\Storyt13.wav
+Sfx\Towners\Storyt12.wav
+Sfx\Towners\Storyt11.wav
+Sfx\Towners\Storyt10.wav
+Sfx\Towners\Storyt09.wav
+Sfx\Towners\Storyt08.wav
+Sfx\Towners\Storyt07.wav
+Sfx\Towners\Storyt06.wav
+Sfx\Towners\Storyt05.wav
+Sfx\Towners\Storyt04.wav
+Sfx\Towners\Storyt03.wav
+Sfx\Towners\Storyt02.wav
+Sfx\Towners\Storyt01.wav
+Sfx\Towners\Storyt00.wav
+Sfx\Towners\Priest07.wav
+Sfx\Towners\Priest06.wav
+Sfx\Towners\Priest05.wav
+Sfx\Towners\Priest04.wav
+Sfx\Towners\Priest03.wav
+Sfx\Towners\Priest02.wav
+Sfx\Towners\Priest01.wav
+Sfx\Towners\Priest00.wav
+Sfx\Towners\Pegboy43.wav
+Sfx\Towners\Pegboy42.wav
+Sfx\Towners\Pegboy41.wav
+Sfx\Towners\Pegboy40.wav
+Sfx\Towners\Pegboy39.wav
+Sfx\Towners\Pegboy38.wav
+Sfx\Towners\Pegboy37.wav
+Sfx\Towners\Pegboy36.wav
+Sfx\Towners\Pegboy35.wav
+Sfx\Towners\Pegboy34.wav
+Sfx\Towners\Pegboy33.wav
+Sfx\Towners\Pegboy32.wav
+Sfx\Towners\Pegboy31.wav
+Sfx\Towners\Pegboy30.wav
+Sfx\Towners\Pegboy29.wav
+Sfx\Towners\Pegboy28.wav
+Sfx\Towners\Pegboy27.wav
+Sfx\Towners\Pegboy26.wav
+Sfx\Towners\Pegboy25.wav
+Sfx\Towners\Pegboy24.wav
+Sfx\Towners\Pegboy23.wav
+Sfx\Towners\Pegboy22.wav
+Sfx\Towners\Pegboy21.wav
+Sfx\Towners\Pegboy20.wav
+Sfx\Towners\Pegboy19.wav
+Sfx\Towners\Pegboy18.wav
+Sfx\Towners\Pegboy17.wav
+Sfx\Towners\Pegboy16.wav
+Sfx\Towners\Pegboy15.wav
+Sfx\Towners\Pegboy14.wav
+Sfx\Towners\Pegboy13.wav
+Sfx\Towners\Pegboy12.wav
+Sfx\Towners\Pegboy11.wav
+Sfx\Towners\Pegboy10.wav
+Sfx\Towners\Pegboy09.wav
+Sfx\Towners\Pegboy08.wav
+Sfx\Towners\Pegboy07.wav
+Sfx\Towners\Pegboy06.wav
+Sfx\Towners\Pegboy05.wav
+Sfx\Towners\Pegboy04.wav
+Sfx\Towners\Pegboy03.wav
+Sfx\Towners\Pegboy02.wav
+Sfx\Towners\Pegboy01.wav
+Sfx\Towners\Healer47.wav
+Sfx\Towners\Healer46.wav
+Sfx\Towners\Healer45.wav
+Sfx\Towners\Healer44.wav
+Sfx\Towners\Healer43.wav
+Sfx\Towners\Healer42.wav
+Sfx\Towners\Healer41.wav
+Sfx\Towners\Healer40.wav
+Sfx\Towners\Healer39.wav
+Sfx\Towners\Healer38.wav
+Sfx\Towners\Healer37.wav
+Sfx\Towners\Healer36.wav
+Sfx\Towners\Healer35.wav
+Sfx\Towners\Healer34.wav
+Sfx\Towners\Healer33.wav
+Sfx\Towners\Healer32.wav
+Sfx\Towners\Healer31.wav
+Sfx\Towners\Healer30.wav
+Sfx\Towners\Healer29.wav
+Sfx\Towners\Healer28.wav
+Sfx\Towners\Healer27.wav
+Sfx\Towners\Healer26.wav
+Sfx\Towners\Healer25.wav
+Sfx\Towners\Healer24.wav
+Sfx\Towners\Healer23.wav
+Sfx\Towners\Healer22.wav
+Sfx\Towners\Healer21.wav
+Sfx\Towners\Healer20.wav
+Sfx\Towners\Healer19.wav
+Sfx\Towners\Healer18.wav
+Sfx\Towners\Healer17.wav
+Sfx\Towners\Healer16.wav
+Sfx\Towners\Healer15.wav
+Sfx\Towners\Healer14.wav
+Sfx\Towners\Healer13.wav
+Sfx\Towners\Healer12.wav
+Sfx\Towners\Healer11.wav
+Sfx\Towners\Healer10.wav
+Sfx\Towners\Healer09.wav
+Sfx\Towners\Healer08.wav
+Sfx\Towners\Healer07.wav
+Sfx\Towners\Healer06.wav
+Sfx\Towners\Healer05.wav
+Sfx\Towners\Healer04.wav
+Sfx\Towners\Healer03.wav
+Sfx\Towners\Healer02.wav
+Sfx\Towners\Healer01.wav
+Sfx\Towners\Drunk35.wav
+Sfx\Towners\Drunk34.wav
+Sfx\Towners\Drunk33.wav
+Sfx\Towners\Drunk32.wav
+Sfx\Towners\Drunk31.wav
+Sfx\Towners\Drunk30.wav
+Sfx\Towners\Drunk29.wav
+Sfx\Towners\Drunk28.wav
+Sfx\Towners\Drunk27.wav
+Sfx\Towners\Drunk26.wav
+Sfx\Towners\Drunk25.wav
+Sfx\Towners\Drunk24.wav
+Sfx\Towners\Drunk23.wav
+Sfx\Towners\Drunk22.wav
+Sfx\Towners\Drunk21.wav
+Sfx\Towners\Drunk20.wav
+Sfx\Towners\Drunk19.wav
+Sfx\Towners\Drunk18.wav
+Sfx\Towners\Drunk17.wav
+Sfx\Towners\Drunk16.wav
+Sfx\Towners\Drunk15.wav
+Sfx\Towners\Drunk14.wav
+Sfx\Towners\Drunk13.wav
+Sfx\Towners\Drunk12.wav
+Sfx\Towners\Drunk11.wav
+Sfx\Towners\Drunk10.wav
+Sfx\Towners\Drunk09.wav
+Sfx\Towners\Drunk08.wav
+Sfx\Towners\Drunk07.wav
+Sfx\Towners\Drunk06.wav
+Sfx\Towners\Drunk05.wav
+Sfx\Towners\Drunk04.wav
+Sfx\Towners\Drunk03.wav
+Sfx\Towners\Drunk02.wav
+Sfx\Towners\Drunk01.wav
+Sfx\Towners\Deadguy2.wav
+Sfx\Towners\Cow2.wav
+Sfx\Towners\Cow1.wav
+Sfx\Towners\Bsmith56.wav
+Sfx\Towners\Bsmith55.wav
+Sfx\Towners\Bsmith54.wav
+Sfx\Towners\Bsmith53.wav
+Sfx\Towners\Bsmith52.wav
+Sfx\Towners\Bsmith51.wav
+Sfx\Towners\Bsmith50.wav
+Sfx\Towners\Bsmith49.wav
+Sfx\Towners\Bsmith48.wav
+Sfx\Towners\Bsmith47.wav
+Sfx\Towners\Bsmith46.wav
+Sfx\Towners\Bsmith45.wav
+Sfx\Towners\Bsmith44.wav
+Sfx\Towners\Bsmith43.wav
+Sfx\Towners\Bsmith42.wav
+Sfx\Towners\Bsmith41.wav
+Sfx\Towners\Bsmith40.wav
+Sfx\Towners\Bsmith39.wav
+Sfx\Towners\Bsmith38.wav
+Sfx\Towners\Bsmith37.wav
+Sfx\Towners\Bsmith36.wav
+Sfx\Towners\Bsmith35.wav
+Sfx\Towners\Bsmith34.wav
+Sfx\Towners\Bsmith33.wav
+Sfx\Towners\Bsmith32.wav
+Sfx\Towners\Bsmith31.wav
+Sfx\Towners\Bsmith30.wav
+Sfx\Towners\Bsmith29.wav
+Sfx\Towners\Bsmith28.wav
+Sfx\Towners\Bsmith27.wav
+Sfx\Towners\Bsmith26.wav
+Sfx\Towners\Bsmith25.wav
+Sfx\Towners\Bsmith24.wav
+Sfx\Towners\Bsmith23.wav
+Sfx\Towners\Bsmith22.wav
+Sfx\Towners\Bsmith21.wav
+Sfx\Towners\Bsmith20.wav
+Sfx\Towners\Bsmith19.wav
+Sfx\Towners\Bsmith18.wav
+Sfx\Towners\Bsmith17.wav
+Sfx\Towners\Bsmith16.wav
+Sfx\Towners\Bsmith15.wav
+Sfx\Towners\Bsmith14.wav
+Sfx\Towners\Bsmith13.wav
+Sfx\Towners\Bsmith12.wav
+Sfx\Towners\Bsmith11.wav
+Sfx\Towners\Bsmith10.wav
+Sfx\Towners\Bsmith09.wav
+Sfx\Towners\Bsmith08.wav
+Sfx\Towners\Bsmith07.wav
+Sfx\Towners\Bsmith06.wav
+Sfx\Towners\Bsmith05.wav
+Sfx\Towners\Bsmith04.wav
+Sfx\Towners\Bsmith03.wav
+Sfx\Towners\Bsmith02.wav
+Sfx\Towners\Bsmith01.wav
+Sfx\Towners\Bmaid40.wav
+Sfx\Towners\Bmaid39.wav
+Sfx\Towners\Bmaid38.wav
+Sfx\Towners\Bmaid37.wav
+Sfx\Towners\Bmaid36.wav
+Sfx\Towners\Bmaid35.wav
+Sfx\Towners\Bmaid34.wav
+Sfx\Towners\Bmaid33.wav
+Sfx\Towners\Bmaid32.wav
+Sfx\Towners\Bmaid31.wav
+Sfx\Towners\Bmaid30.wav
+Sfx\Towners\Bmaid29.wav
+Sfx\Towners\Bmaid28.wav
+Sfx\Towners\Bmaid27.wav
+Sfx\Towners\Bmaid26.wav
+Sfx\Towners\Bmaid25.wav
+Sfx\Towners\Bmaid24.wav
+Sfx\Towners\Bmaid23.wav
+Sfx\Towners\Bmaid22.wav
+Sfx\Towners\Bmaid21.wav
+Sfx\Towners\Bmaid20.wav
+Sfx\Towners\Bmaid19.wav
+Sfx\Towners\Bmaid18.wav
+Sfx\Towners\Bmaid17.wav
+Sfx\Towners\Bmaid16.wav
+Sfx\Towners\Bmaid15.wav
+Sfx\Towners\Bmaid14.wav
+Sfx\Towners\Bmaid13.wav
+Sfx\Towners\Bmaid12.wav
+Sfx\Towners\Bmaid11.wav
+Sfx\Towners\Bmaid10.wav
+Sfx\Towners\Bmaid09.wav
+Sfx\Towners\Bmaid08.wav
+Sfx\Towners\Bmaid07.wav
+Sfx\Towners\Bmaid06.wav
+Sfx\Towners\Bmaid05.wav
+Sfx\Towners\Bmaid04.wav
+Sfx\Towners\Bmaid03.wav
+Sfx\Towners\Bmaid02.wav
+Sfx\Towners\Bmaid01.wav
+Sfx\Misc\LMag.wav
+Sfx\Misc\Wallstrt.wav
+Sfx\Misc\Wallloop.wav
+Sfx\Misc\Vtheft.wav
+Sfx\Misc\Teleport.wav
+Sfx\Misc\Trapdis.wav
+Sfx\Misc\Storm.wav
+Sfx\Misc\Spoutstr.wav
+Sfx\Misc\Spoutlop.wav
+Sfx\Misc\Soulfire.wav
+Sfx\Misc\Shatter.wav
+Sfx\Misc\Sentinel.wav
+Sfx\Misc\Scurimp.wav
+Sfx\Misc\Scurse.wav
+Sfx\Misc\Resur.wav
+Sfx\Misc\Puddle.wav
+Sfx\Misc\Portal.wav
+Sfx\Misc\Nova.wav
+Sfx\Misc\NestXpld.wav
+Sfx\Misc\Mshield.wav
+Sfx\Misc\Ltning.wav
+Sfx\Misc\Lning1.wav
+Sfx\Misc\Invpot.wav
+Sfx\Misc\Invisibl.wav
+Sfx\Misc\Infravis.wav
+Sfx\Misc\Hyper.wav
+Sfx\Misc\Holybolt.wav
+Sfx\Misc\Grdlanch.wav
+Sfx\Misc\Guard.wav
+Sfx\Misc\Gshrine.wav
+Sfx\Misc\Golumded.wav
+Sfx\Misc\Golum.wav
+Sfx\Misc\Fountain.wav
+Sfx\Misc\Flash.wav
+Sfx\Misc\Flamwave.wav
+Sfx\Misc\Firimp2.wav
+Sfx\Misc\Firimp1.wav
+Sfx\Misc\Fbolt2.wav
+Sfx\Misc\Fbolt1.wav
+Sfx\Misc\Fball.wav
+Sfx\Misc\Ethereal.wav
+Sfx\Misc\Elementl.wav
+Sfx\Misc\Elecimp1.wav
+Sfx\Misc\DSerp.wav
+Sfx\Misc\Chltning.wav
+Sfx\Misc\Cbolt.wav
+Sfx\Misc\Caldron.wav
+Sfx\Misc\Bsimpct.wav
+Sfx\Misc\Bonesp.wav
+Sfx\Misc\Blsimpt.wav
+Sfx\Misc\Blodstar.wav
+Sfx\Misc\Bldboil.wav
+Sfx\Misc\Arrowall.wav
+Sfx\Misc\Apoc.wav
+Sfx\Misc\Acids2.wav
+Sfx\Misc\Acids1.wav
+Sfx\Misc\Repair.wav
+Sfx\Misc\Healing.wav
+Sfx\Misc\Cast9.wav
+Sfx\Misc\Cast8.wav
+Sfx\Misc\Cast7.wav
+Sfx\Misc\Cast6.wav
+Sfx\Misc\Cast5.wav
+Sfx\Misc\Cast4.wav
+Sfx\Misc\Cast3.wav
+Sfx\Misc\Cast2.wav
+Sfx\Misc\Cast12.wav
+Sfx\Misc\Cast10.wav
+Sfx\Misc\Cast1.wav
+Sfx\Items\Trap.wav
+Sfx\Misc\blank.wav
+Sfx\Items\Titlslct.wav
+Sfx\Items\Titlemov.wav
+Sfx\Items\Swrdfkd.wav
+Sfx\Items\Shielfkd.wav
+Sfx\Items\Sarc.wav
+Sfx\Items\Readbook.wav
+Sfx\Items\Magic1.wav
+Sfx\Items\Magic.wav
+Sfx\Items\Lever.wav
+Sfx\Items\Invsword.wav
+Sfx\Items\Invstaf.wav
+Sfx\Items\Invsign.wav
+Sfx\Items\Invshiel.wav
+Sfx\Items\Invscrol.wav
+Sfx\Items\Invrock.wav
+Sfx\Items\Invring.wav
+Sfx\Items\Invpot.wav
+Sfx\Items\Invmush.wav
+Sfx\Items\Invlarm.wav
+Sfx\Items\Invharm.wav
+Sfx\Items\Invgrab.wav
+Sfx\Items\Invcap.wav
+Sfx\Items\Invbow.wav
+Sfx\Items\Invbook.wav
+Sfx\Items\Invbody.wav
+Sfx\Items\Invblst.wav
+Sfx\Items\Invaxe.wav
+Sfx\Items\Invanvl.wav
+Sfx\Items\Hlmtfkd.wav
+Sfx\Items\Gold.wav
+Sfx\Items\Flipswor.wav
+Sfx\Items\Flipstaf.wav
+Sfx\Items\Flipsign.wav
+Sfx\Items\Flipshld.wav
+Sfx\Items\Flipscrl.wav
+Sfx\Items\Fliprock.wav
+Sfx\Items\Flipring.wav
+Sfx\Items\Flippot.wav
+Sfx\Items\Flipmush.wav
+Sfx\Items\Flipmag1.wav
+Sfx\Items\Flipmag.wav
+Sfx\Items\Fliplarm.wav
+Sfx\Items\Flipharm.wav
+Sfx\Items\Flipcap.wav
+Sfx\Items\Flipbow.wav
+Sfx\Items\Flipbook.wav
+Sfx\Items\Flipbody.wav
+Sfx\Items\Flipblst.wav
+Sfx\Items\Flipaxe.wav
+Sfx\Items\Flipanvl.wav
+Sfx\Items\Dooropen.wav
+Sfx\Items\Doorclos.wav
+Sfx\Items\Chest.wav
+Sfx\Items\Bhit1.wav
+Sfx\Items\Bhit.wav
+Sfx\Items\UrnPop2.wav
+Sfx\Items\UrnPop3.wav
+Sfx\Items\PodPop5.wav
+Sfx\Items\PodPop8.wav
+Sfx\Items\Barrel.wav
+Sfx\Items\Barlfire.wav
+Sfx\Items\Armrfkd.wav
+Sfx\Misc\Questdon.wav
+Sfx\Misc\FBallBow.wav
+Sfx\Misc\Sting1.wav
+Sfx\Misc\Dead.wav
+Sfx\Misc\Swing2.wav
+Sfx\Misc\Swing.wav
+Sfx\Misc\Lghit1.wav
+Sfx\Misc\Lghit.wav
+Sfx\Misc\Tmag.wav
+Sfx\Misc\Fmag.wav
+Sfx\Misc\BFire.wav
+Sfx\Misc\Walk4.wav
+Sfx\Misc\Walk3.wav
+Sfx\Misc\Walk2.wav
+Sfx\Misc\Walk1.wav
+D:\diablo97\effects.cpp
+nSFX < NUM_SFX
+Monster sound problem
+:%s playing %i
+psfx < NUM_SFX
+pSFX->bFlags & sfx_STREAM
+pSFX
+effects:1
+D:\diablo97\encrypt.cpp
+info.destoffset <= dwMaxBytes
+REGISTRATION_BLOCK
+pRLEBytes != NULL
+pDecodeTo != NULL
+D:\diablo97\ENGINE.CPP
+pCelBuff != NULL
+pBuff != NULL
+------------------------------------------------
+max allocated            0x%08x    %8dk
+%4s     0x%08x      0x%08x     %8dk    %8d
+sig       most ever    amount at max    at end of game
+------------------------------------------------------
+c:\memdump.txt
+Bad signature unused: %s
+memory free underflow
+memory block signature underflow: %s
+Attempt to free memory with unknown signature %s
+Memory block footer corruption: %s
+Memory block header corruption: %s
+Zero length SFILE:
+LoadFileInMem: %s:%d
+LoadFileWithMem(NULL):
+pszName
+nDataSize >= 0
+ttbl != NULL
+p != NULL
+nCel <= (int) pFrameTable[0]
+nCel > 0
+gpBuffer != NULL
+That which can break will.
+You feel refreshed.
+You feel wiser.
+You feel stronger.
+You feel more agile.
+Spirtual energy is restored.
+There's no place like home.
+Some experience is gained by touch.
+Give and you shall receive.
+Knowledge is power.
+That which does not kill you...
+Arcane knowledge gained!
+You must be at least level 17 to use this.
+You must be at least level 13 to use this.
+You must be at least level 8 to use this.
+Generosity brings its own rewards
+Those who are last may yet be first
+Mysteries are revealed in the light of reason
+Salvation comes at the cost of wisdom
+The way is made clear when viewed from above
+The essence of life flows from within
+Strength is bolstered by heavenly faith
+The hands of men may be guided by fate
+Blessed by a benevolent companion!
+Where avarice fails, patience gains reward
+Riches abound when least expected
+Energy comes at the cost of wisdom
+Wherever you go, there you are
+Drink and be refreshed
+Knowledge and wisdom at the cost of self
+Crimson and Azure become as the sun
+That which cannot be held cannot be harmed
+Arcane power brings destruction
+Intensity comes at the cost of wisdom
+What once was opened now is closed
+Magic is not always what it seems to be
+Time cannot diminish the power of steel
+The powers of mana refocused renews
+While the spirit is vigilant the body thrives
+The sword of justice is swift and sharp
+Those who defend seldom attack
+New strength is forged through destruction
+Some are weakened as one grows strong
+Saving...
+Loading...
+No pause in multiplayer
+Multiplayer sync problem
+Copying to a hard disk is recommended
+No Pause in town
+Not enough space to save
+Not available in shareware version
+Direct Sound Creation Failed
+No multiplayer functions in demo
+No automap available in town
+D:\diablo97\error.cpp
+Flags:%08X
+GS:%04X
+EBP:%08X
+CS:EIP:%04X:%08X
+EAX:%08X
+EBX:%08X
+ECX:%08X
+EDX:%08X
+ESI:%08X
+EDI:%08X
+Registers:
+%08X %02X:%08X %s
+Exception code: %08X %s
+%04X:%08X %s
+Module
+Call stack:
+NTDLL.DLL
+STACK_OVERFLOW
+PRIV_INSTRUCTION
+INT_OVERFLOW
+INT_DIVIDE_BY_ZERO
+FLT_UNDERFLOW
+FLT_STACK_CHECK
+FLT_OVERFLOW
+FLT_INVALID_OPERATION
+FLT_INEXACT_RESULT
+FLT_DIVIDE_BY_ZERO
+FLT_DENORMAL_OPERAND
+ARRAY_BOUNDS_EXCEEDED
+NONCONTINUABLE_EXCEPTION
+INVALID_DISPOSITION
+ILLEGAL_INSTRUCTION
+IN_PAGE_ERROR
+INVALID_HANDLE
+ACCESS_VIOLATION
+GUARD_PAGE
+DATATYPE_MISALIGNMENT
+BREAKPOINT
+SINGLE_STEP
+Fast Walk
+Walk
+Sound Disabled
+Sound
+Music Disabled
+Music
+Previous Menu
+Gamma
+Restart In Town
+Quit Hellfire
+Load Game
+New Game
+Options
+Save Game
+D:\diablo97\GameMenu.cpp
+pMenuItems == sgSingleMenu
+pMenuItems == sgMultiMenu
+bActivate
+saveProc == DisableInputWndProc
+gbValidSaveFile
+NLevels\TownData\Town.SOL
+NLevels\L5Data\L5.SOL
+Levels\L1Data\L1.SOL
+Levels\L2Data\L2.SOL
+NLevels\L6Data\L6.SOL
+Levels\L3Data\L3.SOL
+Levels\L4Data\L4.SOL
+FillSolidBlockTbls
+D:\diablo97\GENDUNG.CPP
+Pause
+D:\diablo97\gmenu.cpp
+pszStr
+Data\optbar.CEL
+Data\option.CEL
+Data\PentSpin.CEL
+Data\BigTGold.CEL
+Data\hf_logo3.CEL
+! sgpLogo
+sgpCurrItem
+plOffset
+pMenuItem
+pItem
+dwTicks >= MIN_SLIDER_TICKS && dwTicks <= MAX_SLIDER_TICKS
+Press ESC to end or the arrow keys to scroll.
+Hellfire Help
+internal version unknown
+Hellfire v1.00
+open
+Microsoft Office Shortcut Bar.lnk
+%s\%s\
+%s%s\
+Control Panel\Desktop
+Unable to create main window
+Unable to register window class
+MOM Parent
+\hfopt2.mpq
+\hfopt1.mpq
+\hfvoice.mpq
+\hfmusic.mpq
+\hfmonk.mpq
+\hellfire.mpq
+\patch_rt.mpq
+DiabloInstall
+Main program archive: diabdat.mpq
+ui_art\title.pcx
+DiabloCD
+\diabdat.mpq
+Archives
+SFileSetBasePath
+Can't get program path
+version %d.%d.%d.%d
+uBytes >= sizeof(VS_FIXEDFILEINFO)
+D:\diablo97\init.cpp
+D:\diablo97\Interfac.cpp
+sgpBackCel
+plr[myplr].plrlevel == currlevel
+Unknown progress mode
+Gendata\Cuttt.pal
+Gendata\Cuttt.CEL
+Nlevels\Cutl5.pal
+Nlevels\Cutl5.CEL
+Gendata\Cutl1d.pal
+Gendata\Cutl1d.CEL
+Gendata\Cut2.pal
+Gendata\Cut2.CEL
+Nlevels\Cutl6.pal
+Nlevels\Cutl6.CEL
+Gendata\Cut3.pal
+Gendata\Cut3.CEL
+Gendata\Cut4.pal
+Gendata\Cut4.CEL
+Gendata\Cutstart.pal
+Gendata\Cutstart.CEL
+Gendata\Cutportl.pal
+Gendata\Cutportl.CEL
+Gendata\Cutportr.pal
+Gendata\Cutportr.CEL
+Nlevels\cutl5.pal
+Nlevels\cutl5.CEL
+Nlevels\cutl6.pal
+Nlevels\cutl6.CEL
+Gendata\Cutgate.pal
+Gendata\Cutgate.CEL
+! sgpBackCel
+D:\diablo97\inv.cpp
+Data\Inv\Inv_rog.CEL
+Data\Inv\Inv_Sor.CEL
+Data\Inv\Inv.CEL
+! pInvCels
+plr[myplr].InvGrid[i] <= plr[myplr]._pNumInv
+!invtest[i]
+pCursCels
+  InvGetItem:  Removing item index %d (struct %d,numitems %d) from item list!
+  InvGetItem:  itemactive[%2.2d]:  %2.2d
+  InvGetItem:  deleting item %d.
+AutogetItem
+  AutogetItem:  Removing item index %d (struct %d,numitems %d) from item list!
+  AutoGetItem:  set item[%d].iDelFlag = TRUE
+  VerifyItemActiveList:  Duplicate item detected:  itemactive[%d] = %d (%d %8.8x %4.4x)
+  Item is definitely removed!
+FindGetItem(idx, ci, iseed) == -1
+FindGetItem(idx,ci,iseed) == -1
+  Item removed.  FindGetItem->%d, numitems->%d
+  Removing item index %d (struct %d,numitems %d) from item list!
+  Removing item from map!
+  FindGetItem returned %d
+  Nongood (x,y)
+  Bad (x,y).  Did FindGetItem->%d.
+  (x,y) said ii == %d, FindGetItem says ii == %d
+  Attempting to find item by (x,y)
+  Doing SyncGetItem...
+  InvPutItem
+CanPut(x,y)
+A duplicate item has been detected.  Destroying duplicate...
+  Duplicate item detected!
+numitems >= MAXITEMS
+SyncPutItem: respawning object %d!
+ii >= 0
+Failed to find a good square to drop in!
+A duplicate item has been detected from another player.
+Player %i dropping item.
+Gladiator's Ring
+Acolyte's Amulet
+Demon Plate Armor
+Bone Chain Armor
+Diamondedge
+Eater of Souls
+Shirotachi
+Thunderclap
+Blitzen
+Armor of Gloom
+Flambeau
+Gnat Sting
+Amulet of Warding
+Ring of Thunder
+Ring of the Mystics
+Ring of Magma
+Karik's Ring
+Xorine's Ring
+Mercurial Ring
+Giant's Knuckle
+Ring of Engagement
+Constricting Ring
+The Bleeder
+Ring of Regha
+Bramble
+Stormshield
+Holy Defender
+Blackoak Shield
+Dragon's Breach
+Split Skull Shield
+The Deflector
+Demonspike Coat
+Naj's Light Plate
+Nightscape
+Scavenger Carapace
+Sparking Mail
+Wisdom's Wrap
+Leather of Aut
+The Rainbow Cloak
+The Gladiator's Bane
+Torn Flesh of Souls
+Royal Circlet
+Gotterdamerung
+Fool's Crest
+OverLord's Helm
+Thinking Cap
+Helm of Sprits
+Rod of Onan
+Mindcry
+Naj's Puzzler
+The Protector
+Thundercall
+Gleamsong
+Storm Spire
+Immolator
+Staff of Shadows
+Dreamflange
+Schaefer's Hammer
+The Cranium Basher
+Gnarled Root
+Baranar's Star
+The Celestial Star
+Civerb's Cudgel
+Hammer of Jholm
+Crackrust
+Messerschmidt's Reaver
+Hellslayer
+Aguinara's Hatchet
+Stonecleaver
+Wicked Axe
+The Celestial Axe
+BloodSlayer
+Sharp Beak
+The Mangler
+The Grandfather
+The Grizzly
+Doombringer
+Inferno
+The Falcon's Talon
+Lightsabre
+Wizardspike
+Shadowhawk
+The Bonesaw
+The Executioner's Blade
+Ice Shank
+Gibbous Moon
+Black Razor
+Gryphons Claw
+The Defender
+Gonnagal's Dirk
+Eaglehorn
+Windforce
+Fleshstinger
+Flamedart
+The Blackoak Bow
+Bow of the Dead
+Deadly Hunter
+The Celestial Bow
+The Needler
+The Rift Bow
+The Butcher's Cleaver
+peril
+decay
+devastation
+blocking
+harmony
+stability
+balance
+haste
+speed
+swiftness
+readiness
+bashing
+puncturing
+piercing
+blood
+the leech
+vampires
+the bat
+the bear
+thieves
+corruption
+thorns
+plenty
+many
+thunder
+lightning
+shock
+burning
+fire
+flame
+radiance
+light
+the night
+the dark
+the ages
+structure
+craftsmanship
+sturdiness
+brittleness
+fragility
+the whale
+the mammoth
+the lion
+the tiger
+the wolf
+the eagle
+the jaguar
+the fox
+the jackal
+the vulture
+the zodiac
+the heavens
+the stars
+the moon
+the sky
+the pit
+trouble
+life
+vigor
+zest
+vitality
+disease
+illness
+wizardry
+sorcery
+brilliance
+the mind
+magic
+dyslexia
+the fool
+perfection
+precision
+accuracy
+skill
+dexterity
+atrophy
+paralysis
+titans
+giants
+power
+might
+strength
+weakness
+frailty
+osmosis
+deflection
+absorption
+protection
+health
+tears
+pain
+slaughter
+carnage
+gore
+slaying
+maiming
+quality
+Doppelganger's
+Crystalline
+Jester's
+Lightning
+Flaming
+Bountiful
+Plentiful
+Arch-Angel's
+Angel's
+Hydra's
+Wyrm's
+Dragon's
+Drake's
+Serpent's
+Snake's
+Raven's
+Spider's
+Frog's
+Hyena's
+Emerald
+Obsidian
+Jade
+Amber
+Topaz
+Diamond
+Crystal
+Ivory
+Pearl
+White
+Sapphire
+Cobalt
+Lapis
+Azure
+Blue
+Ruby
+Garnet
+Crimson
+Godly
+Holy
+Awesome
+Saintly
+Blessed
+Glorious
+Valiant
+Grand
+Strong
+Rusted
+Vulnerable
+King's
+Champion's
+Master's
+Knight's
+Lord's
+Soldier's
+Warrior's
+Fine
+Sharp
+Dull
+Clumsy
+Merciless
+Ruthless
+Savage
+Massive
+Brutal
+Vicious
+Heavy
+Deadly
+Jagged
+Weak
+Bent
+Useless
+Strange
+Weird
+Meteoric
+Mithril
+Platinum
+Silver
+Steel
+Iron
+Bronze
+Brass
+Rune of Stone
+Greater Rune of Lightning
+Greater Rune of Fire
+Rune of Lightning
+Rune
+Rune of Fire
+Amulet
+Ring
+War Staff
+Quarter Staff
+Composite Staff
+Long Staff
+Staff
+Long War Bow
+Short War Bow
+Long Battle Bow
+Short Battle Bow
+Composite Bow
+Long Bow
+Hunter's Bow
+Maul
+Flail
+Spiked Club
+Hammer
+War Hammer
+Morning Star
+Mace
+Great Axe
+Battle Axe
+Broad Axe
+Large Axe
+Small Axe
+Great Sword
+Two-Handed Sword
+Bastard Sword
+Broad Sword
+Long Sword
+Sabre
+Blade
+Claymore
+Scimitar
+Falchion
+Book of 
+Scroll of Apocalypse
+Scroll of Teleport
+Scroll of None
+Scroll of Golem
+Scroll of Nova
+Non Item
+Scroll of Guardian
+Scroll of Chain Lightning
+Scroll of Stone Curse
+Scroll of Fireball
+Scroll of Flame Wave
+Scroll of Mana Shield
+Scroll of Phasing
+Scroll of Infravision
+Scroll of Flash
+Scroll of Inferno
+Scroll of Fire Wall
+Scroll of Lightning
+Scroll of Search
+Scroll of Healing
+Elixir of Vitality
+Elixir of Dexterity
+Elixir of Magic
+Elixir of Strength
+Oil of Sharpness
+Oil of Accuracy
+Potion of Full Rejuvenation
+Potion of Rejuvenation
+Gothic Shield
+Tower Shield
+Kite Shield
+Large Shield
+Small Shield
+Shield
+Full Plate Mail
+Gothic Plate
+Field Plate
+Plate Mail
+Splint Mail
+Plate
+Breast Plate
+Scale Mail
+Chain Mail
+Mail
+Ring Mail
+Studded Leather Armor
+Hard Leather Armor
+Leather Armor
+Armor
+Quilted Armor
+Robe
+Cloak
+Rags
+Cape
+Great Helm
+Crown
+Full Helm
+Helm
+Skull Cap
+Grey Suit
+Brown Suit
+Reconstructed Note
+Torn Note 3
+Torn Note 2
+Torn Note 1
+Auric Amulet
+Theodore
+Rune Bomb
+Dagger
+Sword
+Short Staff
+Blacksmith Oil
+Scroll of Resurrect
+Staff of Lazarus
+Bovine Plate
+Griswold's Edge
+Potion of Full Mana
+Potion of Full Healing
+Arkaine's Valor
+Scroll of Town Portal
+Scroll of Identify
+Potion of Mana
+Potion of Healing
+Heart
+Cathedral Map
+Blood Stone
+Spectral Elixir
+Fungal Tome
+Brain
+Black Mushroom
+Anvil of Fury
+Golden Elixir
+Veil of Steel
+Harlequin Crest
+Tavern Sign
+Ring of Truth
+Optic Amulet
+Magic Rock
+Empyrean Band
+The Undead Crown
+Cleaver
+Short Staff of Mana
+Short Bow
+Club
+Buckler
+Short Sword
+Gold
+Oil of Accuracy
+Oil of Mastery
+Oil of Sharpness
+Oil of Death
+Oil of Skill
+Blacksmith Oil
+Oil of Fortitude
+Oil of Permanence
+Oil of Hardening
+Oil of Imperviousness
+SItem
+mooses1
+donkys1
+cows1
+teddys1
+runes1
+wholeps1
+halfps1
+bombs1
+FLazStaf
+Fanvil
+Bldstn
+Innsign
+FMush
+FBrain
+FEar
+FBttleDB
+FBttleWH
+FBttleBY
+FBttleBL
+FBttleBR
+FBttleOR
+FBttleDY
+FBttleBB
+Food
+FBook
+FPlateAr
+Scroll
+WShield
+LArmor
+CrownF
+Rock
+SwrdFlip
+Helmut
+GoldFlip
+FBttle
+Armor2
+! itemanims[i]
+Items\%s.CEL
+D:\diablo97\ITEMS.CPP
+Initing items...
+plr[p]._pNAnim[d]
+(DWORD) p < MAX_PLRS
+%s of %s
+%s %s
+SetupItem:  setting up object %d!
+Ear of %s
+CornerstoneRestore: respawning object %d!
+  RespawnItem:  Respawning item %d!
+sets petrification trap
+sets lightning trap
+sets fire trap
+fully recover life and mana
+recover life and mana
+decrease vitality
+decrease dexterity
+decrease strength
+increase vitality
+increase dexterity
+increase magic
+increase strength
+fully recover mana
+recover mana
+deadly heal
+recover life
+recover partial life
+fully recover life
+class of armor and shields
+greatly increases the armor
+of armor and shields
+increases the armor class
+makes an item indestructible
+current and max durability
+increases an item's
+item's durability
+restores 20% of an
+to use armor or weapons
+reduces attributes needed
+damage potential - not bows
+greatly increases a weapon's
+damage potential
+weapon's chance to hit
+greatly increases a
+chance to hit
+increases a weapon's
+Another ability (NW)
+40%% Health moved to Mana
+50%% Mana moved to Health
+extra AC vs undead
+extra AC vs demons
+to hit: %+i%%, %+i%% damage
+low dur, %+i%% damage
+Random 0 - 500% damage
+2x dmg to monst, 1x to you
+decaying %+i%% damage
+occasional triple damage
+Resist Fire : %+i%%
+charged bolts on hits
+lightning damage: %i-%i
+lightning damage: %i
+see with infravision
+no strength requirement
+life stealing
+constantly lose hit points
+one handed sword
+Faster attack swing
+altered durability
+unusual item damage
+fires random speed arrows
+adds %i points to damage
+fast block
+fastest hit recovery
+faster hit recovery
+fast hit recovery
+fastest attack
+faster attack
+fast attack
+quick attack
+penetrates target's armor
+hit steals 5% life
+hit steals 3% life
+hit steals 5% mana
+hit steals 3% mana
+hit monster doesn't heal
+All Resistance equals 0
++200% damage vs. demons
+knocks target back
+absorbs half of trap damage
+you can't heal
+user loses all mana
+attacker takes 1-3 damage
+fireball damage: %i-%i
+fireball damage: %i
+lightning arrows damage %i-%i
+lightning arrows damage %i
+fire arrows damage: %i-%i
+fire arrows damage: %i
+multiple arrows per shot
+-%i%% light radius
++%i%% light radius
+indestructible
+decreased durability
+high durability
+Mana : %+i
+Hit Points : %+i
+%+i damage from enemies
+%+i to all attributes
+%+i to vitality
+%+i to dexterity
+%+i to magic
+%+i to strength
+Lightning hit damage: %i-%i
+Lightning hit damage: %i
+Fire hit damage: %i-%i
+Fire hit damage: %i
+%i %s charges
+Extra charges
+spells are decreased 1 level
+spells are increased 2 levels
+spells are increased 1 level
+Resist All : 75%% MAX
+Resist All : %+i%%
+Resist Magic : 75%% MAX
+Resist Magic : %+i%%
+Resist Lightning : 75%% MAX
+Resist Lightning : %+i%%
+Resist Fire : 75%% MAX
+armor class: %i
+%+i%% armor
+%+i%% damage
+chance to hit : %+i%%
+Doubles gold capacity
+Right click to view
+Right click to read
+Right click to use
+left-click to target
+Right-click to read, then
+Right-click to read
+%s %i Dex
+%s %i Mag
+%s %i Str
+Required:
+unique item
+Charges: %i/%i
+dam: %i-%i  Dur: %i/%i
+dam: %i  Dur: %i/%i
+armor: %i  Dur: %i/%i
+armor: %i  Indestructible
+damage: %i-%i  Dur: %i/%i
+damage: %i-%i  Indestructible
+damage: %i  Dur: %i/%i
+damage: %i  Indestructible
+Not Identified
+gnNumGetRecords > 0
+nIndex < gnNumGetRecords
+D:\diablo97\LIGHTING.CPP
+! pLightTbl
+PlrGFX\Stone.TRN
+PlrGFX\Infra.TRN
+Invalid save file
+D:\diablo97\loadsave.cpp
+FILEBUFF >= tbuff - SaveBuff
+Unable to display mainmenu
+Unable to display SelHeroSing
+Can't load multiplayer dialog
+D:\diablo97\minitext.cpp
+Data\TextBox.CEL
+Data\MedTextS.CEL
+! pMedTextCels
+(DWORD) m < gdwAllTextEntries
+ms_blb
+ex_red3
+ex_blu3
+ex_yel2
+rglows1
+ms_yeb
+ms_reb
+ms_bla
+ms_ora
+reflect
+spawns
+Scbsexpd
+Scubmisd
+Scbsexpc
+Scubmisc
+Scbsexpb
+Scubmisb
+Fireplar
+Rportal
+Sklball
+Ressur1
+Firerun
+Ethrshld
+Acidpud
+Acidspla
+Acidbf
+Firarwex
+Larrow
+Holyexpl
+Miniltng
+Krull
+Magball
+Flareexp
+Flare
+Thinlght
+Bigexp
+Shatter1
+Newexp
+Blodbur
+Doom
+Farrow
+Metlhit
+Bone
+Blood
+Manashld
+Bluexbk
+Bluexfr
+Portal
+MagBlos
+Firewal
+Lghning
+Guard
+Fireba
+Arrows
+i < 64 && i >= 0
+myplr < MAX_PLRS && myplr >= 0
+D:\diablo97\MISSILES.CPP
+pn <= MAXTILES && pn >= 0
+fy < MAXDUNY && fy >= 0
+fx < MAXDUNX && fx >= 0
+sn < 64 && sn >= 0
+id < MAX_PLRS && id >= 0
+i < MAXMISSILES
+nummissiles <= MAXMISSILES
+monster[m].MType != NULL
+m < MAXMONSTERS && m >= 0
+monster[m].MData != NULL
+pnum < MAX_PLRS && pnum >= 0
+mi < MAXMISSILES && mi >= 0
+Missiles\%s%i.CL2
+Missiles\%s.CL2
+mx < MAXMISSILES && mx >= 0
+i < MAXMISSILES && i >= 0
+dy < MAXDUNY && dy >= 0
+dx < MAXDUNX && dx >= 0
+p < MAX_PLRS && p >= 0
+monster[id].MType != NULL
+id < MAXMONSTERS
+numtrigs <= MAXTRIGGERS
+pn <= MAXTILES
+ty < MAXDUNY && ty >= 0
+tx < MAXDUNX && tx >= 0
+id < MAXMONSTERS && id >= 0
+my < MAXDUNY && my >= 0
+mx < MAXDUNX && mx >= 0
+monst < MAXMONSTERS && monst >= 0
+missile[i]._miy < MAXDUNY && missile[i]._miy >= 0
+missile[i]._mix < MAXDUNX && missile[i]._mix >= 0
+\\.\DARKMONO.VXD
+Doomlock
+Grimspike
+Fleshdancer
+Webwidow
+Bloodlust
+Zamphir
+The Vizier
+Sir Gorash
+Steelskull the Hunter
+Stareye the Witch
+Dreadjudge
+Graywar the Slayer
+Gorefeast
+Witchmoon
+Bloodmoon Soulfire
+Doomcloud
+Howlingire the Shade
+Rustweaver
+Lord of the Pit
+Windspawn
+Soulslash
+Blackskull
+Witchfire the Unholy
+Fangskin
+Viperflame
+Viletouch
+Blacktongue
+Lionskull the Bent
+Festerskull
+Fangspeir
+Warpfire Hellspawn
+Bluehorn
+The Flayer
+Plaguewrath
+Blackstorm
+Goldblight of the Flame
+Oozedrool
+Stormbane
+Brokenstorm
+Devilskull Sharpbone
+Breakspine
+Bonesaw the Litch
+Madburner
+Doomgrin the Rotting
+Chaoshowler
+BHSM
+Blighthorn Steelmace
+Baron Sludge
+Firewound the Grim
+WFTD
+Wrathfire the Doomed
+Bronzefist Firestone
+Gorestone
+Nightwing the Cold
+Blightfire
+Glasskull the Jagged
+Warmaggot the Mad
+DSFM
+Deathshade Fleshmaul
+BGBL
+Bloodgutter
+BFDS
+Deathspit
+Hazeshifter
+SHDR
+Shadowdrinker
+Foulwing
+Bloodskin Darkbow
+BFTP
+Bilefroth the Pit Master
+Blightstone the Weak
+Shadowcrow
+BASHTB
+Blackash the Burning
+Spineeater
+Wrathraven
+Moonbender
+Pulsecrawler
+Goretongue
+TSPO
+Warpskull
+SKFR
+Skullfire
+El Chupacabras
+Madeye the Dead
+Deadeye
+SHBT
+Shadowbite
+RCRN
+Rotcarnage
+Bongo
+BHBS
+Brokenhead Bangshield
+Gutshank the Quick
+Rotfeast the Hungry
+Boneripper
+Pukerat the Unclean
+Soulpus
+BSTS
+Bladeskin the Slasher
+Bonehead Keenaxe
+The Defiler
+Warlord of Blood
+BHKA
+Lachdanan
+BLKJD
+BlackJade
+REDV
+Red Vex
+Arch-Bishop Lazarus
+Snotspill
+GENERAL
+Zhar the Mad
+GENRL
+BSDB
+Gharbad the Weak
+Na-Krul
+Monsters\newsfx\Nakrul%c%i.WAV
+Monsters\Nkr\Nkr%c.CL2
+Reaper
+Monsters\newsfx\Reaper%c%i.WAV
+Monsters\Reaper\Reap%c.CL2
+Flesh Thing
+Monsters\newsfx\FleshT%c%i.WAV
+Monsters\Flesh\Flesh%c.CL2
+Biclops
+Monsters\newsfx\Biclop%c%i.WAV
+Monsters\Byclps\Byclps%c.CL2
+Arch Lich
+Monsters\Lich2\Lich2%c.CL2
+Bone Demon
+Hellbat
+Monsters\Hellbat2\bhelbt%c.CL2
+Crypt Demon
+Monsters\newsfx\Crypt%c%i.WAV
+Monsters\Bubba\Bubba%c.CL2
+Lich
+Monsters\newsfx\Lich%c%i.WAV
+Monsters\Lich\Lich%c.CL2
+Skullwing
+Monsters\newsfx\SWing%c%i.WAV
+Firebat
+Monsters\newsfx\HelBat%c%i.WAV
+Monsters\Hellbat\Helbat%c.CL2
+Tomb Rat
+Monsters\newsfx\TmbRat%c%i.WAV
+Monsters\Rat\Rat%c.CL2
+Gravedigger
+Monsters\newsfx\GDiggr%c%i.WAV
+Monsters\Gravdg\Gravdg%c.CL2
+Hell Bug
+Monsters\newsfx\Defile%c%i.WAV
+Monsters\Hellbug\Hellbg%c.CL2
+Hork Demon
+Monsters\newsfx\HDemon%c%i.WAV
+Monsters\HorkD\HorkD%c.CL2
+Torchant
+Monsters\newsfx\TchAnt%c%i.WAV
+Monsters\AntWorm\Worm%c.CL2
+Lashworm
+Monsters\newsfx\Lworm%c%i.WAV
+Monsters\Clasp\Clasp%c.CL2
+Spider Lord
+Monsters\bSpidr\bSpidr%c.CL2
+Necromorb
+Monsters\newsfx\Psyco%c%i.WAV
+Monsters\Eye2\Eye2%c.CL2
+Venomtail
+Monsters\WScorp\WScorp%c.CL2
+Hork Spawn
+Monsters\newsfx\HSpawn%c%i.WAV
+Monsters\Spawn\Spawn%c.CL2
+Felltwin
+Monsters\newsfx\FTwin%c%i.WAV
+Arachnon
+Monsters\newsfx\SLord%c%i.WAV
+Monsters\Spider\Spider%c.CL2
+Psychorb
+Monsters\newsfx\psyco%c%i.WAV
+Monsters\Eye\Eye%c.CL2
+Stinger
+Monsters\newsfx\Stingr%c%i.WAV
+Monsters\Scorp\Scorp%c.CL2
+Hellboar
+Monsters\newsfx\HBoar%c%i.WAV
+Monsters\Fork\Fork%c.CL2
+The Arch-Litch Malignus
+Monsters\DarkMage\Dmag%c%i.WAV
+Monsters\DarkMage\Dmage%c.CL2
+The Dark Lord
+Monsters\Diablo\Diablo%c%i.WAV
+Monsters\Diablo\Diablo%c.CL2
+Golem
+Monsters\Golem\Golm%c%i.WAV
+Monsters\Golem\Golem%c.CL2
+Advocate
+Monsters\Mage\Cnselbk.TRN
+Cabalist
+Monsters\Mage\Cnselgd.TRN
+Magistrate
+Monsters\Mage\Cnselg.TRN
+Counselor
+Monsters\Mage\Mage%c%i.WAV
+Monsters\Mage\Mage%c.CL2
+Soul Burner
+Monsters\Succ\Succbw.TRN
+Hell Spawn
+Monsters\Succ\Succrw.TRN
+Snow Witch
+Monsters\Succ\Succb.TRN
+Succubus
+Monsters\Succ\Scbs%c%i.WAV
+Monsters\Succ\Scbs%c.CL2
+Reality Weaver
+Pain Master
+Hollow One
+The Shredded
+Monsters\newsfx\Shred%c%i.WAV
+Monsters\Unrav\Unrav%c.CL2
+Blood Knight
+Monsters\Black\BlkKntBe.TRN
+Steel Lord
+Monsters\Black\BlkKntBT.TRN
+Doom Guard
+Monsters\Black\BlkKntRT.TRN
+Black Knight
+Monsters\Black\Black%c%i.WAV
+Monsters\Black\Black%c.CL2
+Azure Drake
+Monsters\Snake\Snakb.TRN
+Gold Viper
+Monsters\Snake\Snakg.TRN
+Fire Drake
+Monsters\Snake\SnakR.TRN
+Cave Viper
+Monsters\Snake\Snake%c%i.WAV
+Monsters\Snake\Snake%c.CL2
+Balrog
+Monsters\Mega\Balr.TRN
+Vortex Lord
+Monsters\Mega\Vtexl.TRN
+Guardian
+Monsters\Mega\Guard.TRN
+Slayer
+Monsters\Mega\Mega%c%i.WAV
+Monsters\Mega\Mega%c.CL2
+Death Wing
+Monsters\Gargoyle\GargB.TRN
+Blood Claw
+Monsters\Gargoyle\GargBr.TRN
+Gargoyle
+Monsters\Gargoyle\GarE.TRN
+Winged-Demon
+Monsters\Gargoyle\Gargo%c%i.WAV
+Monsters\Gargoyle\Gargo%c.CL2
+Devil Kin Brute
+Monsters\newsfx\KBrute%c%i.WAV
+Monsters\BigFall\Fallg%c.CL2
+Maelstorm
+Monsters\Thin\Thinv1.TRN
+Storm Lord
+Monsters\Thin\Thinv2.TRN
+Storm Rider
+Red Storm
+Hell Burner
+Doom Fire
+Flame Lord
+Incinerator
+Monsters\Fireman\FireM%c.CL2
+Undead Balrog
+Litch Demon
+Red Death
+Monsters\Thin\Thin%c.CL2
+oldboned
+Monsters\Thin\Thinv3.TRN
+Monsters\Thin\Thin%c%i.WAV
+Monsters\Demskel\Demskl%c.CL2
+Obsidian Lord
+Monsters\Rhino\RhinoB.TRN
+Frost Charger
+Monsters\Rhino\Blue.TRN
+Mud Runner
+Monsters\Rhino\Orange.TRN
+Horned Demon
+Monsters\Rhino\Rhino%c%i.WAV
+Monsters\Rhino\Rhino%c.CL2
+Lava Lord
+Monsters\Magma\Wierd.TRN
+Hell Stone
+Monsters\Magma\Blue.TRN
+Monsters\Magma\Yellow.TRN
+Magma Demon
+Monsters\Magma\Magma%c%i.WAV
+Monsters\Magma\Magma%c.CL2
+Devourer
+Devil Wyrm
+Cave Slug
+Wyrm
+Monsters\Worm\Worm%c.CL2
+Flayed One
+Monsters\Fat\FatF.TRN
+Toad Demon
+Monsters\Fat\FatB.TRN
+Mud Man
+Monsters\Fat\Blue.TRN
+Overlord
+Monsters\Fat\Fat%c%i.WAV
+Monsters\Fat\Fat%c.CL2
+The Butcher
+Monsters\FatC\FatC%c%i.WAV
+Monsters\FatC\FatC%c.CL2
+Skeleton King
+Monsters\SKing\SKing%c%i.WAV
+Monsters\SKing\SKing%c.CL2
+Lava Maw
+Monsters\Acid\AcidR.TRN
+Pit Beast
+Monsters\Acid\AcidB.TRN
+Poison Spitter
+Monsters\Acid\AcidBlk.TRN
+Acid Beast
+Monsters\Acid\Acid%c%i.WAV
+Monsters\Acid\Acid%c.CL2
+Monsters\GoatBow\Gray.TRN
+Monsters\GoatBow\Red.TRN
+Monsters\GoatBow\Beige.TRN
+Monsters\GoatBow\GoatB%c%i.WAV
+Monsters\GoatBow\GoatB%c.CL2
+Familiar
+Monsters\Bat\orange.trn
+Gloom
+Monsters\Bat\grey.trn
+Blink
+Fiend
+Monsters\Bat\red.trn
+Monsters\Bat\Bat%c%i.WAV
+Monsters\Bat\Bat%c.CL2
+Night Clan
+Monsters\GoatMace\Gray.TRN
+Fire Clan
+Monsters\GoatMace\Red.TRN
+Stone Clan
+Monsters\GoatMace\Beige.TRN
+Flesh Clan
+Monsters\GoatMace\Goat%c%i.WAV
+Monsters\GoatMace\Goat%c.CL2
+Satyr Lord
+Monsters\newsfx\Satyr%c%i.WAV
+Monsters\GoatLord\GoatL%c.CL2
+Illusion Weaver
+Monsters\Sneak\Sneakv1.TRN
+Unseen
+Monsters\Sneak\Sneakv3.TRN
+Stalker
+Monsters\Sneak\Sneakv2.TRN
+Hidden
+Monsters\Sneak\Sneak%c%i.WAV
+Monsters\Sneak\Sneak%c.CL2
+Invisible Lord
+Monsters\TSneak\Sneakl%c%i.WAV
+Monsters\TSneak\TSneak%c.CL2
+Horror Captain
+Monsters\SkelSd\Black.TRN
+Burning Dead Captain
+Corpse Captain
+Monsters\SkelSd\Skelt.TRN
+Skeleton Captain
+Monsters\SkelSd\White.TRN
+Monsters\SkelSd\SklSr%c%i.WAV
+Monsters\SkelSd\SklSr%c.CL2
+Monsters\SkelBow\Black.TRN
+Corpse Bow
+Monsters\SkelBow\Skelt.TRN
+Monsters\SkelBow\White.TRN
+Monsters\SkelBow\SklBw%c%i.WAV
+Monsters\SkelBow\SklBw%c.CL2
+Bone Gasher
+Monsters\Scav\ScavW.TRN
+Shadow Beast
+Monsters\Scav\ScavBe.TRN
+Plague Eater
+Monsters\Scav\ScavBr.TRN
+Scavenger
+Monsters\Scav\Scav%c%i.WAV
+Monsters\Scav\Scav%c.CL2
+Monsters\FalSword\Blue.TRN
+Monsters\FalSword\Dark.TRN
+Monsters\FalSword\FallenT.TRN
+Monsters\FalSword\Fall%c%i.WAV
+Monsters\FalSword\Fall%c.CL2
+Horror
+Monsters\SkelAxe\Black.TRN
+Burning Dead
+Corpse Axe
+Monsters\SkelAxe\Skelt.TRN
+Skeleton
+Monsters\SkelAxe\White.TRN
+Monsters\SkelAxe\SklAx%c%i.WAV
+Monsters\SkelAxe\SklAx%c.CL2
+Dark One
+Monsters\FalSpear\Blue.TRN
+Devil Kin
+Carver
+Monsters\FalSpear\Dark.TRN
+Fallen One
+Monsters\FalSpear\FallenT.TRN
+Monsters\FalSpear\Phall%c%i.WAV
+Monsters\FalSpear\Phall%c.CL2
+Black Death
+Monsters\Zombie\Yellow.TRN
+Rotting Carcass
+Monsters\Zombie\Grey.TRN
+Ghoul
+Monsters\Zombie\Bluered.TRN
+Zombie
+Monsters\Zombie\Zombie%c%i.WAV
+Monsters\Zombie\Zombie%c.CL2
+Invalid Monster
+nwahds
+D:\diablo97\MONSTER.CPP
+(DWORD)nummtypes <= MAX_LVLMTYPES
+! Monsters[monst].Anims[anim].CMem
+(DWORD)monst < MAX_LVLMTYPES
+monst->MData != NULL
+(DWORD)mtype < MAX_LVLMTYPES
+(DWORD)i < MAXMONSTERS
+(uniquetrans << 8) + 4864 < LIGHTSIZE
+Monsters\Monsters\%s.TRN
+uniqtype < nummtypes
+(DWORD)nummonsters < MAXMONSTERS
+Levels\L3Data\Anvil.DUN
+Levels\L2Data\Blood2.DUN
+Levels\L1Data\Banner1.DUN
+skeltype < nummtypes
+(DWORD)monster[nummonsters]._my < MAXDUNY
+(DWORD)monster[nummonsters]._mx < MAXDUNX
+(DWORD)leader < MAXMONSTERS
+(DWORD)(nummonsters-1) < MAXMONSTERS
+(DWORD)nummonsters <= MAXMONSTERS
+monster[i].MType != NULL
+(DWORD)md < 8
+(DWORD)(my+1) < MAXDUNY
+(DWORD)(mx+1) < MAXDUNX
+(DWORD)monster[i]._my < MAXDUNY
+(DWORD)monster[i]._mx < MAXDUNX
+M_StartKill: Invalid monster %d
+MonstStartKill: Monster %d "%s" MType NULL
+MonstStartKill: Invalid monster %d
+M_SyncStartKill: Invalid monster %d
+M_DoStand: Monster %d "%s" MType NULL
+M_DoStand: Invalid monster %d
+M_DoWalk: Monster %d "%s" MType NULL
+M_DoWalk: Invalid monster %d
+M_ChangeLightOffset: Invalid monster %d
+M_DoWalk2: Monster %d "%s" MType NULL
+M_DoWalk2: Invalid monster %d
+M_DoWalk3: Monster %d "%s" MType NULL
+M_DoWalk3: Invalid monster %d
+M_TryM2MHit: Monster %d "%s" MType NULL
+M_TryM2MHit: Invalid monster %d
+Monster %d "%s" getting hit by monster: MType NULL
+Invalid monster %d getting hit by monster
+M2MStartKill: Monster %d "%s" MType NULL
+M2MStartKill: Invalid monster (killed) %d
+M2MStartKill: Invalid monster (attacker) %d
+M_DoAttack: Monster %d "%s" MData NULL
+M_DoAttack: Monster %d "%s" MType NULL
+M_DoAttack: Invalid monster %d
+(DWORD)pnum < MAX_PLRS
+M_TryH2HHit: Monster %d "%s" MType NULL
+M_TryH2HHit: Invalid monster %d
+M_DoRAttack: Monster %d "%s" MData NULL
+M_DoRAttack: Monster %d "%s" MType NULL
+M_DoRAttack: Invalid monster %d
+M_DoRSpAttack: Monster %d "%s" MData NULL
+M_DoRSpAttack: Monster %d "%s" MType NULL
+M_DoRSpAttack: Invalid monster %d
+M_DoSAttack: Monster %d "%s" MData NULL
+M_DoSAttack: Monster %d "%s" MType NULL
+M_DoSAttack: Invalid monster %d
+M_DoFadein: Invalid monster %d
+M_DoFadeout: Invalid monster %d
+M_DoHeal: Invalid monster %d
+SS Talk = %i, Flags = %i
+setpc_x != 0
+M_DoTalk: Invalid monster %d
+(DWORD)Monst->_my < MAXDUNY
+(DWORD)Monst->_mx < MAXDUNX
+M_Teleport: Invalid monster %d
+M_DoGotHit: Monster %d "%s" MType NULL
+M_DoGotHit: Invalid monster %d
+M_UpdateLeader: Invalid monster %d
+gendata\loopdend.smk
+gendata\Diabend.smk
+gendata\DiabVic3.smk
+gendata\DiabVic1.smk
+gendata\DiabVic2.smk
+(DWORD)myplr < MAX_PLRS
+!(dFlags[monster[i]._mx+1][monster[i]._my] & BFLAG_MONSTLR) && !(dFlags[monster[i]._mx][monster[i]._my+1] & BFLAG_MONSTLR)
+M_DoDeath: Monster %d "%s" MType NULL
+M_DoDeath: Invalid monster %d
+M_DoSpStand: Monster %d "%s" MType NULL
+M_DoSpStand: Invalid monster %d
+M_DoDelay: Monster %d "%s" MType NULL
+M_DoDelay: Invalid monster %d
+M_DoStone: Invalid monster %d
+M_WalkDir: Invalid monster %d
+(DWORD)fy < MAXDUNY
+(DWORD)fx < MAXDUNX
+GroupUnity: Invalid monster %d
+M_PathWalk: Invalid monster %d
+MAI_Zombie: Invalid monster %d
+MAI_SkelSd: Invalid monster %d
+MAI_Path: Invalid monster %d
+Monst->_mgoalvar2 >= 0 && Monst->_mgoalvar2 < 8
+MAI_Snake: Invalid monster %d
+MAI_Bat: Invalid monster %d
+MAI_SkelBow: Invalid monster %d
+MAI_Fat: Invalid monster %d
+MAI_Sneak: Invalid monster %d
+M_StartFadein: Monster %d "%s" MType NULL
+M_StartFadein: Invalid monster %d
+M_StartFadeout: Monster %d "%s" MType NULL
+M_StartFadeout: Invalid monster %d
+MAI_Fireman: Invalid monster %d
+MAI_Fallen: Invalid monster %d
+MAI_Cleaver: Invalid monster %d
+MAI_Round: Invalid monster %d
+MAI_Ranged: Invalid monster %d
+MAI_Scav: Invalid monster %d
+MAI_Garg: Invalid monster %d
+M_StartHeal: Monster %d "%s" MType NULL
+M_StartHeal: Invalid monster %d
+MAI_RoundRanged: Invalid monster %d
+MAI_RR2: Invalid monster %d
+MAI_Golum: Invalid monster %d
+MAI_SkelKing: Invalid monster %d
+MAI_Rhino: Invalid monster %d
+MAI_HorkDemon: Invalid monster %d
+MAI_Counselor: Invalid monster %d
+MAI_Garbud: Invalid monster %d
+MAI_Zhar: Invalid monster %d
+MAI_SnotSpil: Invalid monster %d
+gendata\fprst3.smk
+MAI_Lazurus: Invalid monster %d
+MAI_Lazhelp: Invalid monster %d
+MAI_Lachdanan: Invalid monster %d
+MAI_Warlord: Invalid monster %d
+Illegal enemy player %d for monster "%s"
+Illegal enemy monster %d for monster "%s"
+tmp >= 0
+DirOK: Invalid monster %d
+(DWORD)monster[m]._mMTidx < MAX_LVLMTYPES
+SyncMonsterAnim: Invalid monster %d
+Immune : 
+Lightning 
+Resists : 
+Fire 
+Magic 
+No magic resistance
+Hit Points : %i-%i
+Total kills : %i
+Some Magic Immunities
+Some Magic Resistances
+No Immunities
+No resistances
+Monst->_mmode == MM_MISSILE
+MissToMonst: Invalid monster %d
+MissToMonst: Invalid missile %d
+TalktoMonster: Invalid monster %d
+SpawnGolum: Invalid monster %d
+CanTalkToMonst: Invalid monster %d
+CheckMonsterHit: Invalid monster %d
+saveProc == MovieWndProc
+D:\diablo97\movie.cpp
+pszMovie
+Hellfire
+Video Player 
+D:\diablo97\mpqapi.cpp
+pszArchive
+dwChar < MAX_CHARACTERS
+gbMaxPlayers != 1
+sghArchive != INVALID_HANDLE_VALUE
+MPQ free list error
+Out of free block entries
+fnGetName
+pbData
+Out of hash space
+Hash collision between "%s" and existing file
+destsize <= pBlk->sizealloc
+sectoroffsettable
+pszNew
+pszOld
+(hash table)
+HASH_TBL_SIZE == dwTemp
+fhdr.hdr.hashoffset == HASH_TBL_OFFSET
+fhdr.hdr.hashcount == HASH_ENTRIES
+! sgpHashTbl
+(block table)
+BLOCK_TBL_SIZE == dwTemp
+fhdr.hdr.blockoffset == BLOCK_TBL_OFFSET
+fhdr.hdr.blockcount == BLOCK_ENTRIES
+! sgpBlockTbl
+sghArchive == INVALID_HANDLE_VALUE
+pdwNextFileStart
+pHdr
+(%8.8x,%2.2d):
+c:\droplog.txt
+sgpCurrPkt->dwSpaceLeft >= dwLen
+sgpCurrPkt
+dwLen <= gdwLargestMsgSize
+pMsg
+(DWORD) pnum < MAX_PLRS
+D:\diablo97\msg.cpp
+Unable to get level data
+The game ended
+Waiting for game data...
+! sgpCurrPkt
+! sgpMegaPkt
+plr[myplr].plrlevel == 0
+currlevel == 0
+(DWORD) nPlayer < MAX_PLRS
+bLevel < NUMLEVELS
+y < DMAXY
+x < DMAXX
+(DWORD)mi < MAXMONSTERS
+pSync != NULL
+bLevel != 0
+(DWORD)i < MAXPORTAL
+(DWORD)i <= MAXMULTIQUESTS
+(DWORD)ii < MAXITEMS
+(DWORD) currlevel < NUMLEVELS
+  DeltaLoadLevel:  respawning %d (%4.4x,%4.4x,%8.8x) @ (x,y)->(%2.2x,%2.2x)
+done
+  DeltaLoadLevel:  moving object from (x,y)->(%2.2x,%2.2x) to (x,y)->(%2.2x,%2.2x)!
+my < DMAXY
+mx < DMAXX
+pnum < MAX_PLRS
+ii < MAXITEMS
+bPlr < MAX_PLRS
+dwStrLen < sizeof(cmd.str)
+pCmd != NULL
+p->wOffset == sgdwRecvOffset
+msg:1
+CMD_SYNCDATA(%d)
+CMD_WALKXY(%d):(%d,%d)
+gbBufferMsgs != BUFFER_PROCESS
+CMD_ADDSTR(%d)
+CMD_ADDMAG(%d)
+CMD_ADDDEX(%d)
+CMD_ADDVIT(%d)
+%s has cast an illegal spell.
+CMD_SBSPELL(%d)
+CMD_GOTOGETITEM(%d):  xy->(%d,%d)
+  Resend expired.  Extra Item.
+  Item not found.  Resending.
+  Item found.  FindGetItem returned %d and iDelFlag is FALSE.
+currlevel == plr[myplr].plrlevel
+CMD_REQUESTGETITEM(%d,%8.8x):  index->0x%8.8x ci->0x%8.8x seed->0x%8.8x xy->(%d,%d)
+  Not found in delta tbl.  Resending...
+  Remote player (%d) got item.
+  Local player got item.
+  Item already picked up.
+  Found in delta tbl.
+  Looking in delta tbl[%d]
+  Data:  dwTime = %8.8x
+  Data:  dwBuff = %8.8x
+  Data:  wValue = %4.4x
+  Data:  bMCh = %2.2x
+  Data:  bCh = %2.2x
+  Data:  bMDur = %2.2x
+  Data:  bDur = %2.2x
+  Data:  bID = %2.2x
+  Data:  dwSeed = %8.8x
+  Data:  wCI = %4.4x
+  Data:  wIndx = %4.4x
+  Data:  y = %2.2x
+  Data:  x = %2.2x
+  Data:  bLevel = %2.2x
+  Data:  bCursitem = %2.2x
+  Data:  bPnum = %2.2x
+  Data:  bMaster = %2.2x
+  Data:  bCmd = %2.2x
+CMD_GETITEM(%d,%8.8x,%d):  index->0x%8.8x ci->0x%8.8x seed->0x%8.8x xy->(%d,%d)
+  delta_get_item:  added item to delta tbl
+  delta_get_item:  could not add item to delta tbl
+  delta_get_item:  item not found
+delta:1
+  delta_get_item:  foreign item picked up from floor
+  delta_get_item:  native item picked up from floor
+  delta_get_item:  item already picked up?!
+pI != NULL
+CMD_GOTOAUTOGETITEM(%d):  xy->(%d,%d)
+  Item found.
+CMD_REQUESTAUTOGETITEM(%d):  index->0x%8.8x ci->0x%8.8x seed->0x%8.8x xy->(%d,%d)
+CMD_AUTOGETITEM(%d):  index->0x%8.8x ci->0x%8.8x seed->0x%8.8x xy->(%d,%d)
+CMD_ITEMEXTRA(%d):  index->0x%8.8x ci->0x%8.8x seed->0x%8.8x xy->(%d,%d)
+  Item not on my level.  Adding to delta...
+  Put unsuccessful.
+  Dropping into delta tbl[%d]
+  Put successful.  Putting item into delta...
+  Item on my level.
+CMD_PUTITEM(%d):  index->0x%8.8x ci->0x%8.8x seed->0x%8.8x xy->(%d,%d)
+Trying to drop a floor item?
+CMD_SYNCPUTITEM(%d):  index->0x%8.8x ci->0x%8.8x seed->0x%8.8x xy->(%d,%d)
+  Adding to delta...
+  SyncPutting into level.
+CMD_RESPAWNITEM(%d):  index->0x%8.8x ci->0x%8.8x seed->0x%8.8x xy->(%d,%d)
+CMD_ATTACKXY(%d):  xy->(%d,%d)
+CMD_SATTACKXY(%d):  xy->(%d,%d)
+CMD_RATTACKXY(%d):  xy->(%d,%d)
+CMD_SPELLXYD(%d):  xy->(%d,%d)
+CMD_SPELLXY(%d):  xy->(%d,%d)
+CMD_TSPELLXY(%d):  xy->(%d,%d)
+CMD_OPOBJXY(%d):  xy->(%d,%d)
+CMD_DISARMXY(%d):  xy->(%d,%d)
+CMD_OPOBJT(%d)
+CMD_ATTACKID(%d):  id->%d
+CMD_ATTACKPID(%d):  id->%d
+CMD_RATTACKID(%d):  id->%d
+CMD_RATTACKPID(%d):  id->%d
+CMD_SPELLID(%d):  id->%d
+CMD_SPELLPID(%d):  id->%d
+CMD_TSPELLID(%d):  id->%d
+CMD_TSPELLPID(%d):  id->%d
+CMD_KNOCKBACK(%d):  id->%d
+CMD_RESURRECT(%d):  id->%d
+CMD_HEALOTHER(%d):  id->%d
+CMD_TALKXY(%d):  xy->(%d,%d)
+CMD_NEWLVL(%d)
+CMD_WARP(%d)
+CMD_MONSTDEATH(%d):  id->%d xy->(%d,%d)
+CMD_KILLGOLEM(%d):  xy->(%d,%d)
+CMD_AWAKENGOLEM(%d)
+CMD_MONSTDAMAGE(%d):  id->%d
+CMD_PLAYERDEAD(I'm dead!!!)
+CMD_PLAYERDEAD(%d):  id->%d
+  Current level->%d
+  I'm taking damage.
+CMD_PLAYERDAMAGE(%d)
+CMD_OPENDOOR(%d):  id->%d
+(DWORD)oi < MAXOBJECTS
+CMD_CLOSEDOOR(%d):  id->%d
+CMD_OPERATEOBJ(%d):  id->%d
+CMD_PLAYEROPOBJ(%d):  plrid->%d objid->%d
+CMD_BREAKOBJ(%d):  id1->%d id2->%d
+CMD_CHANGEPLAYERITEMS(%d):  index->%8.8x ci->%8.8x seed->%8.8x
+CMD_DELPLAYERITEMS(%d):  loc->%d
+CMD_PLAYERLEVEL(%d)
+CMD_DROPITEM(%d):  index->%8.8x ci->%8.8x seed->%8.8x xy->(%d,%d)
+CMD_ACK\SENDPLRINFO(%d)
+(%d) activating %d on joinlevel
+Player '%s' (level %d) just joined the game
+(%d) received %d joinlevel before plrdata
+CMD_PLAYERJOINLEVEL(%d)
+CMD_ACTIVATEPORTAL(%d):  xy->(%d,%d)
+CMD_DEACTIVEPORTAL(%d)
+CMD_RETOWN(%d)
+CMD_SETSTR(%d)
+CMD_SETDEX(%d)
+CMD_SETMAG(%d)
+CMD_SETVIT(%d)
+CMD_STRING(%d)
+CMD_SYNCQUEST(%d)
+CMD_ENDSHIELD(%d)
+CMD_CHEATEXPERIENCE(%d)
+CMD_CHEATSPELLLEVEL(%d)
+          %x%c %x%c %x%c %x%c
+%4u.%02u  
+c:\dumphist.txt
+bLen <= gdwNormalMsgSize - sizeof(TPktHdr)
+sgbNetInited
+D:\diablo97\multi.cpp
+msg buffer failure
+SNetSendMessage0
+bLen
+pbMsg
+SNetSendMessage
+(DWORD) myplr < MAX_PLRS
+dwSendBytes < gdwNormalMsgSize
+glpMsgTbl[i]
+(%d) player %d left game due to 0x%x
+(%d) buffering -- player %d left game due to 0x%x
+Player '%s' killed Diablo and left the game!
+Player '%s' dropped due to timeout
+Player '%s' just left the game
+(%d) player %d --> inactive
+nLowestPlayer != -1
+nLowestActive != -1
+bGroupPlayers
+(%d) dropping player %d state 0x%x
+SNetReceiveMsg
+SNetSendMessage2
+dwBody <= 0x0ffff
+dwLen <= 0x0ffff
+(%d) NetClose
+SNetRegisterEventHandler:
+pEvt->databytes >= sizeof(DWORD)
+(%d) callback: player %d left game due to 0x%x
+pEvt->playerid >= 0 && pEvt->playerid < MAX_PLRS
+pEvt->data
+SNetGetGameInfo2
+SNetGetGameInfo1
+! *pfExitProgram
+(%d) new game started
+dwID == 0
+SNetCreateGame1:
+SNetInitializeProvider:
+Hellfire Retail
+pfExitProgram
+local
+Network upgrade failed
+(%d) received all %d plrinfo
+(%d) making %d active -- recv_plrinfo
+Player '%s' (level %d) is already in the game
+D:\diablo97\nthread.cpp
+pszFcn
+SNetSendTurn
+gdwTurnsInTransit
+SNetGetTurnsInTransit
+SNetReceiveTurns
+sgbSyncCountdown
+sgbPacketCountdown
+pfSendAsync
+%02x %02x %02x %02x
+nthread2:
+caps.maxplayers
+gdwLargestMsgSize >= MIN_MSG_SIZE
+SNetGetProviderCaps:
+n:%u
+nthread3:
+(%s)
+sgbThreadIsRunning != bStart
+L6Pod2
+L6Pod1
+L5Books
+Urnexpld
+L5Sarco
+L5Light
+L5Lever
+LzStand
+Mushptch
+Bkslbrnt
+Mcirl
+Altboy
+TFountn
+MFountn
+Cauldren
+Goatshrn
+Armstand
+PFountn
+L3Doors
+Pedistl
+Decap
+Bloodfnt
+RShrineG
+LShrineG
+Barrelex
+Barrel
+WeapStnd
+BShelf
+BCase
+WTorch1
+WTorch2
+MiniWatr
+Traphole
+Prsrplt1
+Flame1
+Sarc
+WTorch3
+WTorch4
+L2Doors
+TSoul
+TNudeW
+TNudeM
+Switch4
+Nude2
+Candle2
+Burncros
+Chest3
+Angel
+Rockstan
+Book2
+Book1
+CruxSk3
+CruxSk2
+CruxSk1
+SkulStik
+SkulFire
+SkulPile
+Banner
+Chest2
+Chest1
+Lever
+L1Doors
+L1Braz
+A Spellbook
+Journal: The End
+Journal: NA-KRUL
+Journal: His Power Grows
+Journal: The Tirade
+Journal: The Meeting
+Journal: The Ensorcellment
+The Black King
+Tale of the Three
+The Realms Beyond
+The Binding of the Three
+The Sin War
+The Dark Exile
+The Tale of the Horadrim
+The Wages of Sin are War
+The Great Conflict
+Murphy's
+Solar
+Shimmering
+Town
+Sparkling
+Mendicant's
+Glowing
+Oily
+Tainted
+Glimmering
+Ornate
+Secluded
+Quiet
+Creepy
+Abandoned
+Spooky
+Spiritual
+Sacred
+Divine
+Eerie
+Eldritch
+Cryptic
+Fascinating
+Thaumaturgic
+Enchanted
+Religious
+Stone
+Magical
+Gloomy
+Mysterious
+Nlevels\L5data\L5door.CEL
+! pObjCels[numobjfiles]
+Objects\%s.CEL
+numobjfiles == 0
+D:\diablo97\OBJECTS.CPP
+(DWORD)i < MAXOBJECTS
+(DWORD)yp < MAXDUNY
+(DWORD)xp < MAXDUNX
+(DWORD)v1 < MAXOBJECTS
+(DWORD)o < MAXOBJECTS
+Trapped %s
+Slain Hero
+Vile Stand
+Mushroom Patch
+Weapon Rack
+Pedestal of Blood
+Fountain of Tears
+Murky Pool
+Cauldron
+Goat Shrine
+Purifying Spring
+Book of Blood
+Steel Tome
+Book of the Blind
+Decapitated Body
+Blood Fountain
+Library Book
+Skeleton Tome
+%s Shrine
+Bookcase
+Bookshelf
+Sarcophagus
+Large Chest
+Chest
+Small Chest
+Mythical Book
+Blocked Door
+Closed Door
+Open Door
+Skull Lever
+Book of Vileness
+Ancient Tome
+Crucified Skeleton
+D:\diablo97\PALETTE.CPP
+pszFileName
+NLevels\L%iData\L%iBase%i.PAL
+NLevels\L5Data\L5Base.PAL
+Levels\L%iData\L%i_%i.PAL
+Levels\TownData\Town.pal
+Unable to initialize save directory
+D:\diablo97\pfile.cpp
+pszDir
+myplr >= 0 && myplr < MAX_PLRS
+xrgyrkj1
+Unable to get save directory
+\single_%d.sv
+\dlinfo_%d.drv
+dwBufSize >= MAX_PATH
+pszBuf
+dwBytes == dwSize
+pPack
+hsArchive
+heroinfo->name[0]
+Unable to load character
+Unable to open archive
+dwChar != MAX_CHARACTERS
+Unable to read to save file archive
+Unable to write to save file archive
+! GetPermSaveNames(dwIndex,szPerm)
+bResult
+dwBytes == *pdwLen
+Unable to read save file
+Unable to open save file
+Unable to open save file archive
+pdwLen
+pData
+PlrGFX\%s\%s\%s%s.CL2
+PLR:2
+%c%c%c
+D:\diablo97\PLAYER.CPP
+(DWORD) pPlayer->_pClass <= NUM_CLASSES
+LoadPlrGFX: illegal player %d
+InitPlayerGFX: illegal player %d
+! plr[pnum]._pNData
+InitPlrGFXMem: illegal player %d
+hsFile
+FreePlayerGFX: illegal player %d
+NewPlrAnim: illegal player %d
+ClearPlrPVars: illegal player %d
+SetPlrAnims: illegal player %d
+CreatePlayer: illegal player %d
+NextPlrLevel: illegal player %d
+AddPlrExperience: illegal player %d
+InitPlayer: illegal player %d
+PlrDirOK: illegal player %d
+SetPlayerOld: illegal player %d
+FixPlayerLocation: illegal player %d
+StartStand: illegal player %d
+StartWalkStand: illegal player %d
+PM_ChangeLightOff: illegal player %d
+PM_ChangeOffset: illegal player %d
+StartWalk: illegal player %d
+StartWalk2: illegal player %d
+StartWalk3: illegal player %d
+StartAttack: illegal player %d
+StartRangeAttack: illegal player %d
+StartPlrBlock: illegal player %d
+StartSpell: illegal player %d
+FixPlrWalkTags: illegal player %d
+StartPlrHit: illegal player %d
+StartPlayerKill: illegal player %d
+PlrDeadItem: illegal player %d
+DropHalfPlayersGold: illegal player %d
+StripTopGold: illegal player %d
+StartNewLvl
+StartNewLvl: illegal player %d
+RestartTownLvl: illegal player %d
+PM_DoWalk: illegal player %d
+PM_DoWalk2: illegal player %d
+PM_DoWalk3: illegal player %d
+WeaponDur: illegal player %d
+PlrHitMonst: illegal player %d
+PlrHitMonst: illegal monster %d
+PlrHitPlr: illegal attacking player %d
+PlrHitPlr: illegal target player %d
+PM_DoAttack: illegal player %d
+PM_DoRangeAttack: illegal player %d
+ShieldDur: illegal player %d
+PM_DoBlock: illegal player %d
+PM_DoSpell: illegal player %d
+PM_DoGotHit: illegal player %d
+ArmorDur: illegal player %d
+PM_DoDeath: illegal player %d
+CheckNewPath: illegal player %d
+PlrDeathModeOK: illegal player %d
+ValidatePlayer: illegal player %d
+ProcessPlayers: illegal player %d
+ClrPlrPath: illegal player %d
+MakePlrPath: illegal player %d
+CheckPlrSpell: illegal player %d
+plr[p]._pAnimData
+SyncPlrAnim
+SyncPlrAnim: illegal player %d
+SyncInitPlr: illegal player %d
+CheckStats: illegal player %d
+ModifyPlrStr: illegal player %d
+ModifyPlrMag: illegal player %d
+ModifyPlrDex: illegal player %d
+ModifyPlrVit: illegal player %d
+SetPlayerHitPoints: illegal player %d
+SetPlrStr: illegal player %d
+SetPlrMag: illegal player %d
+SetPlrDex: illegal player %d
+SetPlrVit: illegal player %d
+InitDungMsgs: illegal player %d
+PlayDungMsgs: illegal player %d
+D:\diablo97\plrmsg.cpp
+pszMsg
+strlen(pMsg->str) < sizeof(pMsg->str)
+%s (lvl %d): %s
+strlen(pszStr) < MAX_SEND_STR_LEN
+strlen(plr[pnum]._pName) < PLR_NAME_LEN
+D:\diablo97\portal.cpp
+(DWORD)portalindex < MAXPORTAL
+Unholy Altar
+A Dark Passage
+Maze
+King Leoric's Tomb
+The Jersey's Jersey
+Cornerstone of the World
+Wandering Trader
+Little Girl
+Farmer's Orchard
+Grave Matters
+Archbishop Lazarus
+The Chamber of Bone
+Poisoned Water Supply
+The Curse of King Leoric
+Valor
+Halls of the Blind
+Ogden's Sign
+Diablo
+Gharbad The Weak
+The Magic Rock
+Levels\L3Data\L3pwater.pal
+To %s
+D:\diablo97\Quests.cpp
+(DWORD)i < MAXQUESTS
+(DWORD)m < MAXMONSTERS
+(DWORD)q < MAXQUESTS
+(DWORD)(rh + y - 1) < MDMAXY
+(DWORD)(rw + x - 1) < MDMAXX
+Levels\L4Data\Warlord2.DUN
+Levels\L2Data\Bonestr1.DUN
+(DWORD)(y+rh-1) < MDMAXY
+(DWORD)(x+rw-1) < MDMAXX
+Levels\L2Data\Blind1.DUN
+Levels\L3Data\L3pfoul.pal
+Close Quest Log
+Quest Log
+quests[q]._qactive != QUEST_NOTAVAIL
+REGISTRATION_BLOCK
+quitting
+changing levels
+casting a spell
+attacking (melee)
+talking
+healing
+stoned
+charging
+delaying
+attacking (special ranged)
+standing (special)
+attacking (ranged)
+fading out
+fading in
+attacking (special)
+dying
+getting hit
+attacking
+walking (3)
+walking (2)
+walking (1)
+standing
+D:\diablo97\SCROLLRT.CPP
+missileactive[i] < MAXMISSILES && missileactive[i] >= 0
+bItem <= MAXITEMS && bItem >= 0
+pDeadGuy->_deadData[dd] != NULL
+(sy-1) < MAXDUNY
+sy < MAXDUNY
+sx < MAXDUNX
+bv < MAXOBJECTS && bv >= 0
+object[bv]._oAnimData
+sgdwCursWdt * sgdwCursHgt < sizeof sgSaveBack
+! sgdwCursWdt
+ysize >= 0 && ysize <= 480
+! (dwWdt & 3)
+! (dwX & 3)
+E(;)I7?7EAI-N3O+Y5
+N"C#N*C+N.#+*3++132+;3
+Archbishop Lazarus' Lair
+Bone Chamber
+Skeleton King's Lair
+ObjIndex: Active object not found at (%d,%d)
+D:\diablo97\SetMaps.cpp
+Levels\L1Data\SklKng2.DUN
+Levels\L1Data\SklKng1.DUN
+Levels\L2Data\L2_2.pal
+Levels\L2Data\Bonecha1.DUN
+Levels\L2Data\Bonecha2.DUN
+Levels\L1Data\L1_5.pal
+Levels\L1Data\Lv1MazeB.DUN
+Levels\L1Data\Lv1MazeA.DUN
+Levels\L3Data\Foulwatr.DUN
+Levels\L1Data\L1_2.pal
+Levels\L1Data\Vile2.DUN
+Levels\L1Data\Vile1.DUN
+Music\Dintro.wav
+Music\DLvlF.wav
+Music\DLvlE.wav
+Music\DLvlD.wav
+Music\DLvlC.wav
+Music\DLvlB.wav
+Music\DLvlA.wav
+Music\DTowne.wav
+D:\diablo97\SOUND.CPP
+pDSB
+pSnd
+Invalid sound format on file %s
+sglpDS
+! sglpDS || bSuccess
+! sglpDS
+DirectSoundCreate
+dsound.dll
+(DWORD) nTrack < NUM_MUSIC
+lVolume <= VOLUME_MAX
+lVolume >= VOLUME_MIN
+Rune of Immolation
+Rune of Nova
+Rune of Light
+Search
+Ring of Fire
+Berserk
+Reflect
+Warp
+Immolation
+Lightning Wall
+the Jester
+the Magi
+Mana
+Bone Spirit
+Blood Star
+Heal Other
+Telekinesis
+Resurrect
+Holy Bolt
+Charged Bolt
+Elemental
+Trap Disarm
+Staff Recharge
+Item Repair
+Etherealize
+Apocalypse
+Teleport
+Blood Boil
+Invisibility
+Nova
+Blood Ritual
+Doom Serpents
+Flame Wave
+Chain Lightning
+Fireball
+Mana Shield
+Phasing
+Infravision
+Stone Curse
+Fire Wall
+Identify
+Flash
+Healing
+Firebolt
+Wirt
+Gillian
+Adria
+Farnham
+Cain
+Ogden
+Pepin
+Griswold
+Data\TextSlid.CEL
+Data\PentSpn2.CEL
+Data\TextBox2.CEL
+! pSTextBoxCels
+D:\diablo97\stores.cpp
+Leave the shop
+Repair items
+Sell items
+Buy premium items
+Buy basic items
+Talk to Griswold
+Would you like to:
+Blacksmith's shop
+Welcome to the
+Unique Item
+No required attributes
+Indestructible,  
+Dur: %i/%i,  
+Armor: %i  
+Damage: %i-%i  
+Back
+I have these items for sale :           Your gold : %i
+I have these premium items for sale :   Your gold : %i
+Which item is for sale?            Your gold : %i
+You have nothing I want.            Your gold : %i
+Repair which item?            Your gold : %i
+You have nothing to repair.            Your gold : %i
+itm->_iMaxDur > 0
+Leave the shack
+Recharge staves
+Buy items
+Talk to Adria
+Witch's shack
+Recharge which item?            Your gold : %i
+You have nothing to recharge.            Your gold : %i
+You do not have enough gold
+You do not have enough room in inventory
+Do we have a deal?
+Are you sure you want to buy this item?
+Are you sure you want to identify this item?
+Are you sure you want to recharge this item?
+Are you sure you want to sell this item?
+Are you sure you want to repair this item?
+Say goodbye
+What have you got?
+just to take a look. 
+but it will cost 50 gold
+I have something for sale,
+Talk to Wirt
+Wirt the Peg-legged boy
+Leave
+I have this item for sale :           Your gold : %i
+Leave Healer's home
+Talk to Pepin
+Healer's home
+Identify an item
+Talk to Cain
+The Town Elder
+Identify which item?            Your gold : %i
+You have nothing to identify.            Your gold : %i
+Done
+This item is:
+Gossip
+Talk to %s
+Leave the tavern
+Talk to Ogden
+Rising Sun
+Talk to Gillian
+Say Goodbye
+Talk to Farnham
+Farnham the Drunk
+D:\diablo97\sync.cpp
+dwMaxLen <= 0xffff
+(DWORD) sgnSyncPInv < NUM_INVLOC
+wLen == 0
+bad sync command
+ Ahh, the story of our King, is it?  The tragic fall of Leoric was a harsh blow to this land.  The people always loved the King, and now they live in mortal fear of him.  The question that I keep asking myself is how he could have fallen so far from the Light, as Leoric had always been the holiest of men.  Only the vilest powers of Hell could so utterly destroy a man from within... |
+The village needs your help, good master!  Some months ago King Leoric's son, Prince Albrecht, was kidnapped.  The King went into a rage and scoured the village for his missing child.  With each passing day, Leoric seemed to slip deeper into madness.  He sought to blame innocent townsfolk for the boy's disappearance and had them brutally executed.  Less than half of us survived his insanity...
+The King's Knights and Priests tried to placate him, but he turned against them and sadly, they were forced to kill him.  With his dying breath the King called down a terrible curse upon his former followers.  He vowed that they would serve him in darkness forever...
+This is where things take an even darker twist than I thought possible!  Our former King has risen from his eternal sleep and now commands a legion of undead minions within the Labyrinth.  His body was buried in a tomb three levels beneath the Cathedral.  Please, good master, put his soul at ease by destroying his now cursed form... |
+As I told you, good master, the King was entombed three levels below.  He's down there, waiting in the putrid darkness for his chance to destroy this land... |
+The curse of our King has passed, but I fear that it was only part of a greater evil at work.  However, we may yet be saved from the darkness that consumes our land, for your victory is a good omen.  May Light guide you on your way, good master. |
+The loss of his son was too much for King Leoric.  I did what I could to ease his madness, but in the end it overcame him.  A black curse has hung over this kingdom from that day forward, but perhaps if you were to free his spirit from his earthly prison, the curse would be lifted... |
+I don't like to think about how the King died.  I like to remember him for the kind and just ruler that he was.  His death was so sad and seemed very wrong, somehow. |
+I made many of the weapons and most of the armor that King Leoric used to outfit his knights.  I even crafted a huge two-handed sword of the finest mithril for him, as well as a field crown to match.  I still cannot believe how he died, but it must have been some sinister force that drove him insane! |
+I don't care about that.  Listen, no skeleton is gonna be MY king.  Leoric is King.  King, so you hear me?  HAIL TO THE KING! |
+The dead who walk among the living follow the cursed King.  He holds the power to raise yet more warriors for an ever growing army of the undead.  If you do not stop his reign, he will surely march across this land and slay all who still live here. |
+Look, I'm running a business here.  I don't sell information, and I don't care about some King that's been dead longer than I've been alive.  If you need something to use against this King of the undead, then I can help you out... |
+The warmth of life has entered my tomb.  Prepare yourself, mortal, to serve my Master for eternity! |
+I see that this strange behavior puzzles you as well.  I would surmise that since many demons fear the light of the sun and believe that it holds great power, it may be that the rising sun depicted on the sign you speak of has led them to believe that it too holds some arcane powers.  Hmm, perhaps they are not all as smart as we had feared... |
+Master, I have a strange experience to relate.  I know that you have a great knowledge of those monstrosities that inhabit the labyrinth, and this is something that I cannot understand for the very life of me... I was awakened during the night by a scraping sound just outside of my tavern.  When I looked out from my bedroom, I saw the shapes of small demon-like creatures in the inn yard.  After a short time, they ran off, but not before stealing the sign to my inn.  I don't know why the demons would steal my sign but leave my family in peace... 'tis strange, no? |
+Oh, you didn't have to bring back my sign, but I suppose that it does save me the expense of having another one made.  Well, let me see, what could I give you as a fee for finding it?  Hmmm, what have we here... ah, yes!  This cap was left in one of the rooms by a magician who stayed here some time ago.  Perhaps it may be of some value to you. |
+My goodness, demons running about the village at night, pillaging our homes - is nothing sacred?  I hope that Ogden and Garda are all right.  I suppose that they would come to see me if they were hurt... |
+Oh my!  Is that where the sign went?  My Grandmother and I must have slept right through the whole thing.  Thank the Light that those monsters didn't attack the inn. |
+Demons stole Ogden's sign, you say?  That doesn't sound much like the atrocities I've heard of - or seen. 
+Demons are concerned with ripping out your heart, not your signpost. |
+You know what I think?  Somebody took that sign, and they gonna want lots of money for it.  If I was Ogden... and I'm not, but if I was... I'd just buy a new sign with some pretty drawing on it.  Maybe a nice mug of ale or a piece of cheese... |
+No mortal can truly understand the mind of the demon.  
+Never let their erratic actions confuse you, as that too may be their plan. |
+What - is he saying I took that?  I suppose that Griswold is on his side, too. 
+Look, I got over simple sign stealing months ago.  You can't turn a profit on a piece of wood. |
+Hey - You that one that kill all!  You get me Magic Banner or we attack!  You no leave with life!  You kill big uglies and give back Magic.  Go past corner and door, find uglies.  You give, you go! |
+You kill uglies, get banner.  You bring to me, or else... |
+You give!  Yes, good!  Go now, we strong.  We kill all with big Magic! |
+This does not bode well, for it confirms my darkest fears.  While I did not allow myself to believe the ancient legends, I cannot deny them now.  Perhaps the time has come to reveal who I am.
+My true name is Deckard Cain the Elder, and I am the last descendant of an ancient Brotherhood that was dedicated to safeguarding the secrets of a timeless evil.  An evil that quite obviously has now been released.
+The Archbishop Lazarus, once King Leoric's most trusted advisor, led a party of simple townsfolk into the Labyrinth to find the King's missing son, Albrecht.  Quite some time passed before they returned, and only a few of them escaped with their lives.
+Curse me for a fool!  I should have suspected his veiled treachery then.  It must have been Lazarus himself who kidnapped Albrecht and has since hidden him within the Labyrinth.  I do not understand why the Archbishop turned to the darkness, or what his interest is in the child, unless he means to sacrifice him to his dark masters!
+That must be what he has planned!  The survivors of his 'rescue party' say that Lazarus was last seen running into the deepest bowels of the labyrinth.  You must hurry and save the prince from the sacrificial blade of this demented fiend! |
+You must hurry and rescue Albrecht from the hands of Lazarus.  The prince and the people of this kingdom are counting on you! |
+Your story is quite grim, my friend.  Lazarus will surely burn in Hell for his horrific deed.  The boy that you describe is not our prince, but I believe that Albrecht may yet be in danger.  The symbol of power that you speak of must be a portal in the very heart of the labyrinth.
+Know this, my friend - The evil that you move against is the dark Lord of Terror.  He is known to mortal men as Diablo.  It was he who was imprisoned within the Labyrinth many centuries ago and I fear that he seeks to once again sow chaos in the realm of mankind.  You must venture through the portal and destroy Diablo before it is too late! |
+Lazarus was the Archbishop who led many of the townspeople into the labyrinth.  I lost many good friends that day, and Lazarus never returned.  I suppose he was killed along with most of the others.  If you would do me a favor, good master - please do not talk to Farnham about that day. |
+I was shocked when I heard of what the townspeople were planning to do that night.  I thought that of all people, Lazarus would have had more sense than that.  He was an Archbishop, and always seemed to care so much for the townsfolk of Tristram.  So many were injured, I could not save them all... |
+I remember Lazarus as being a very kind and giving man.  He spoke at my mother's funeral, and was supportive of my grandmother and myself in a very troubled time.  I pray every night that somehow, he is still alive and safe. |
+I was there when Lazarus led us into the labyrinth.  He spoke of holy retribution, but when we started fighting those hellspawn, he did not so much as lift his mace against them.  He just ran deeper into the dim, endless chambers that were filled with the servants of darkness! |
+They stab, then bite, then they're all around you.  Liar!  LIAR!  They're all dead!  Dead!  Do you hear me?  They just keep falling and falling... their blood spilling out all over the floor... all his fault... |
+I did not know this Lazarus of whom you speak, but I do sense a great conflict within his being.  He poses a great danger, and will stop at nothing to serve the powers of darkness which have claimed him as theirs. |
+Yes, the righteous Lazarus, who was sooo effective against those monsters down there.  Didn't help save my leg, did it?  Look, I'll give you a free piece of advice.  Ask Farnham, he was there. |
+Abandon your foolish quest.  All that awaits you is the wrath of my Master!  You are too late to save the child.  Now you will join him in Hell! |
+Hmm, I don't know what I can really tell you about this that will be of any help.  The water that fills our wells comes from an underground spring.  I have heard of a tunnel that leads to a great lake - perhaps they are one and the same.  Unfortunately, I do not know what would cause our water supply to be tainted. |
+I have always tried to keep a large supply of foodstuffs and drink in our storage cellar, but with the entire town having no source of fresh water, even our stores will soon run dry. 
+Please, do what you can or I don't know what we will do. |
+I'm glad I caught up to you in time!  Our wells have become brackish and stagnant and some of the townspeople have become ill drinking from them.  Our reserves of fresh water are quickly running dry.  I believe that there is a passage that leads to the springs that serve our town.  Please find what has caused this calamity, or we all will surely perish. |
+Please, you must hurry.  Every hour that passes brings us closer to having no water to drink. 
+We cannot survive for long without your help. |
+What's that you say - the mere presence of the demons had caused the water to become tainted?  Oh, truly a great evil lurks beneath our town, but your perseverance and courage gives us hope.  Please take this ring - perhaps it will aid you in the destruction of such vile creatures. |
+My grandmother is very weak, and Garda says that we cannot drink the water from the wells.  Please, can you do something to help us? |
+Pepin has told you the truth.  We will need fresh water badly, and soon.  I have tried to clear one of the smaller wells, but it reeks of stagnant filth.  It must be getting clogged at the source. |
+You drink water? |
+The people of Tristram will die if you cannot restore fresh water to their wells. 
+Know this - demons are at the heart of this matter, but they remain ignorant of what they have spawned. |
+For once, I'm with you.  My business runs dry - so to speak - if I have no market to sell to.  You better find out what is going on, and soon! |
+A book that speaks of a chamber of human bones?  Well, a Chamber of Bone is mentioned in certain archaic writings that I studied in the libraries of the East.  These tomes inferred that when the Lords of the underworld desired to protect great treasures, they would create domains where those who died in the attempt to steal that treasure would be forever bound to defend it.  A twisted, but strangely fitting, end? |
+I am afraid that I don't know anything about that, good master.  Cain has many books that may be of some help. |
+This sounds like a very dangerous place.  If you venture there, please take great care. |
+I am afraid that I haven't heard anything about that.  Perhaps Cain the Storyteller could be of some help. |
+I know nothing of this place, but you may try asking Cain.  He talks about many things, and it would not surprise me if he had some answers to your question. |
+Okay, so listen.  There's this chamber of wood, see.  And his wife, you know - her - tells the tree... cause you gotta wait.  Then I says, that might work against him, but if you think I'm gonna PAY for this... you... uh... yeah. |
+You will become an eternal servant of the dark lords should you perish within this cursed domain. 
+Enter the Chamber of Bone at your own peril. |
+A vast and mysterious treasure, you say?  Maybe I could be interested in picking up a few things from you... or better yet, don't you need some rare and expensive supplies to get you through this ordeal? |
+It seems that the Archbishop Lazarus goaded many of the townsmen into venturing into the Labyrinth to find the King's missing son.  He played upon their fears and whipped them into a frenzied mob.  None of them were prepared for what lay within the cold earth... Lazarus abandoned them down there - left in the clutches of unspeakable horrors - to die. |
+Yes, Farnham has mumbled something about a hulking brute who wielded a fierce weapon.  I believe he called him a butcher. |
+By the Light, I know of this vile demon.  There were many that bore the scars of his wrath upon their bodies when the few survivors of the charge led by Lazarus crawled from the Cathedral.  I don't know what he used to slice open his victims, but it could not have been of this world.  It left wounds festering with disease and even I found them almost impossible to treat.  Beware if you plan to battle this fiend... |
+When Farnham said something about a butcher killing people, I immediately discounted it.  But since you brought it up, maybe it is true. |
+I saw what Farnham calls the Butcher as it swathed a path through the bodies of my friends.  He swung a cleaver as large as an axe, hewing limbs and cutting down brave men where they stood.  I was separated from the fray by a host of small screeching demons and somehow found the stairway leading out.  I never saw that hideous beast again, but his blood-stained visage haunts me to this day. |
+Big!  Big cleaver killing all my friends.  Couldn't stop him, had to run away, couldn't save them.  Trapped in a room with so many bodies... so many friends... NOOOOOOOOOO! |
+The Butcher is a sadistic creature that delights in the torture and pain of others.  You have seen his handiwork in the drunkard Farnham.  His destruction will do much to ensure the safety of this village. |
+I know more than you'd think about that grisly fiend.  His little friends got a hold of me and managed to get my leg before Griswold pulled me out of that hole. 
+I'll put it bluntly - kill him before he kills you and adds your corpse to his collection. |
+Please, listen to me.  The Archbishop Lazarus, he led us down here to find the lost prince.  The bastard led us into a trap!  Now everyone is dead... killed by a demon he called the Butcher.  Avenge us!  Find this Butcher and slay him so that our souls may finally rest... |
+You recite an interesting rhyme written in a style that reminds me of other works.  Let me think now - what was it?
+...Darkness shrouds the Hidden.  Eyes glowing unseen with only the sounds of razor claws briefly scraping to torment those poor souls who have been made sightless for all eternity.  The prison for those so damned is named the Halls of the Blind... |
+I never much cared for poetry.  Occasionally, I had cause to hire minstrels when the inn was doing well, but that seems like such a long time ago now. 
+What?  Oh, yes... uh, well, I suppose you could see what someone else knows. |
+This does seem familiar, somehow.  I seem to recall reading something very much like that poem while researching the history of demonic afflictions.  It spoke of a place of great evil that... wait - you're not going there are you? |
+If you have questions about blindness, you should talk to Pepin.  I know that he gave my grandmother a potion that helped clear her vision, so maybe he can help you, too. |
+I am afraid that I have neither heard nor seen a place that matches your vivid description, my friend.  Perhaps Cain the Storyteller could be of some help. |
+Look here... that's pretty funny, huh? Get it?  Blind - look here? |
+This is a place of great anguish and terror, and so serves its master well. 
+Tread carefully or you may yourself be staying much longer than you had anticipated. |
+Lets see, am I selling you something?  No.  Are you giving me money to tell you about this?  No.  Are you now leaving and going to talk to the storyteller who lives for this kind of thing?  Yes. |
+You claim to have spoken with Lachdanan?  He was a great hero during his life.  Lachdanan was an honorable and just man who served his King faithfully for years.  But of course, you already know that.
+Of those who were caught within the grasp of the King's Curse, Lachdanan would be the least likely to submit to the darkness without a fight, so I suppose that your story could be true.  If I were in your place, my friend, I would find a way to release him from his torture. |
+You speak of a brave warrior long dead!  I'll have no such talk of speaking with departed souls in my inn yard, thank you very much. |
+A golden elixir, you say.  I have never concocted a potion of that color before, so I can't tell you how it would effect you if you were to try to drink it.  As your healer, I strongly advise that should you find such an elixir, do as Lachdanan asks and DO NOT try to use it. |
+I've never heard of a Lachdanan before.  I'm sorry, but I don't think that I can be of much help to you. |
+If it is actually Lachdanan that you have met, then I would advise that you aid him.  I dealt with him on several occasions and found him to be honest and loyal in nature.  The curse that fell upon the followers of King Leoric would fall especially hard upon him. |
+ Lachdanan is dead.  Everybody knows that, and you can't fool me into thinking any other way.  You can't talk to the dead.  I know! |
+You may meet people who are trapped within the Labyrinth, such as Lachdanan. 
+I sense in him honor and great guilt.  Aid him, and you aid all of Tristram. |
+Wait, let me guess.  Cain was swallowed up in a gigantic fissure that opened beneath him.  He was incinerated in a ball of hellfire, and can't answer your questions anymore.  Oh, that isn't what happened?  Then I guess you'll be buying something or you'll be on your way. |
+Please, don't kill me, just hear me out.  I was once Captain of King Leoric's Knights, upholding the laws of this land with justice and honor.  Then his dark Curse fell upon us for the role we played in his tragic death.  As my fellow Knights succumbed to their twisted fate, I fled from the King's burial chamber, searching for some way to free myself from the Curse.  I failed...
+I have heard of a Golden Elixir that could lift the Curse and allow my soul to rest, but I have been unable to find it.  My strength now wanes, and with it the last of my humanity as well.  Please aid me and find the Elixir.  I will repay your efforts - I swear upon my honor. |
+You have not found the Golden Elixir.  I fear that I am doomed for eternity.  Please, keep trying... |
+You have saved my soul from damnation, and for that I am in your debt.  If there is ever a way that I can repay you from beyond the grave I will find it, but for now - take my helm.  On the journey I am about to take I will have little use for it.  May it protect you against the dark powers below.  Go with the Light, my friend... |
+Griswold speaks of The Anvil of Fury - a legendary artifact long searched for, but never found.  Crafted from the metallic bones of the Razor Pit demons, the Anvil of Fury was smelt around the skulls of the five most powerful magi of the underworld.  Carved with runes of power and chaos, any weapon or armor forged upon this Anvil will be immersed into the realm of Chaos, imbedding it with magical properties.  It is said that the unpredictable nature of Chaos makes it difficult to know what the outcome of this smithing will be... |
+Don't you think that Griswold would be a better person to ask about this?  He's quite handy, you know. |
+If you had been looking for information on the Pestle of Curing or the Silver Chalice of Purification, I could have assisted you, my friend.  However, in this matter, you would be better served to speak to either Griswold or Cain. |
+Griswold's father used to tell some of us when we were growing up about a giant anvil that was used to make mighty weapons.  He said that when a hammer was struck upon this anvil, the ground would shake with a great fury.  Whenever the earth moves, I always remember that story. |
+Greetings!  It's always a pleasure to see one of my best customers!  I know that you have been venturing deeper into the Labyrinth, and there is a story I was told that you may find worth the time to listen to...
+One of the men who returned from the Labyrinth told me about a mystic anvil that he came across during his escape.  His description reminded me of legends I had heard in my youth about the burning Hellforge where powerful weapons of magic are crafted.  The legend had it that deep within the Hellforge rested the Anvil of Fury!  This Anvil contained within it the very essence of the demonic underworld...
+It is said that any weapon crafted upon the burning Anvil is imbued with great power.  If this anvil is indeed the Anvil of Fury, I may be able to make you a weapon capable of defeating even the darkest lord of Hell! 
+Find the Anvil for me, and I'll get to work! |
+Nothing yet, eh?  Well, keep searching.  A weapon forged upon the Anvil could be your best hope, and I am sure that I can make you one of legendary proportions. |
+I can hardly believe it!  This is the Anvil of Fury - good work, my friend.  Now we'll show those bastards that there are no weapons in Hell more deadly than those made by men!  Take this and may Light protect you. |
+Griswold can't sell his anvil.  What will he do then?  And I'd be angry too if someone took my anvil! |
+There are many artifacts within the Labyrinth that hold powers beyond the comprehension of mortals.  Some of these hold fantastic power that can be used by either the Light or the Darkness.  Securing the Anvil from below could shift the course of the Sin War towards the Light. |
+If you were to find this artifact for Griswold, it could put a serious damper on my business here.  Awwww, you'll never find it. |
+The Gateway of Blood and the Halls of Fire are landmarks of mystic origin.  Wherever this book you read from resides it is surely a place of great power.
+Legends speak of a pedestal that is carved from obsidian stone and has a pool of boiling blood atop its bone encrusted surface.  There are also allusions to Stones of Blood that will open a door that guards an ancient treasure...
+The nature of this treasure is shrouded in speculation, my friend, but it is said that the ancient hero Arkaine placed the holy armor Valor in a secret vault.  Arkaine was the first mortal to turn the tide of the Sin War and chase the legions of darkness back to the Burning Hells.
+Just before Arkaine died, his armor was hidden away in a secret vault.  It is said that when this holy armor is again needed, a hero will arise to don Valor once more.  Perhaps you are that hero... |
+Every child hears the story of the warrior Arkaine and his mystic armor known as Valor.  If you could find its resting place, you would be well protected against the evil in the Labyrinth. |
+Hmm... it sounds like something I should remember, but I've been so busy learning new cures and creating better elixirs that I must have forgotten.  Sorry... |
+The story of the magic armor called Valor is something I often heard the boys talk about.  You had better ask one of the men in the village. |
+The armor known as Valor could be what tips the scales in your favor.  I will tell you that many have looked for it - including myself.  Arkaine hid it well, my friend, and it will take more than a bit of luck to unlock the secrets that have kept it concealed oh, lo these many years. |
+Zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz... |
+Should you find these Stones of Blood, use them carefully. 
+The way is fraught with danger and your only hope rests within your self trust. |
+You intend to find the armor known as Valor? 
+No one has ever figured out where Arkaine stashed the stuff, and if my contacts couldn't find it, I seriously doubt you ever will either. |
+I know of only one legend that speaks of such a warrior as you describe.  His story is found within the ancient chronicles of the Sin War...
+Stained by a thousand years of war, blood and death, the Warlord of Blood stands upon a mountain of his tattered victims.  His dark blade screams a black curse to the living; a tortured invitation to any who would stand before this Executioner of Hell.
+It is also written that although he was once a mortal who fought beside the Legion of Darkness during the Sin War, he lost his humanity to his insatiable hunger for blood. |
+I am afraid that I haven't heard anything about such a vicious warrior, good master.  I hope that you do not have to fight him, for he sounds extremely dangerous. |
+Cain would be able to tell you much more about something like this than I would ever wish to know. |
+If you are to battle such a fierce opponent, may Light be your guide and your defender.  I will keep you in my thoughts. |
+Dark and wicked legends surrounds the one Warlord of Blood.  Be well prepared, my friend, for he shows no mercy or quarter. |
+Always you gotta talk about Blood?  What about flowers, and sunshine, and that pretty girl that brings the drinks.  Listen here, friend - you're obsessive, you know that? |
+His prowess with the blade is awesome, and he has lived for thousands of years knowing only warfare.  I am sorry... I can not see if you will defeat him. |
+I haven't ever dealt with this Warlord you speak of, but he sounds like he's going through a lot of swords.  Wouldn't mind supplying his armies... |
+My blade sings for your blood, mortal, and by my dark masters it shall not be denied. |
+Griswold speaks of the Heaven Stone that was destined for the enclave located in the east.  It was being taken there for further study.  This stone glowed with an energy that somehow granted vision beyond that which a normal man could possess.  I do not know what secrets it holds, my friend, but finding this stone would certainly prove most valuable. |
+The caravan stopped here to take on some supplies for their journey to the east.  I sold them quite an array of fresh fruits and some excellent sweetbreads that Garda has just finished baking.  Shame what happened to them... |
+I don't know what it is that they thought they could see with that rock, but I will say this.  If rocks are falling from the sky, you had better be careful! |
+Well, a caravan of some very important people did stop here, but that was quite a while ago.  They had strange accents and were starting on a long journey, as I recall. 
+I don't see how you could hope to find anything that they would have been carrying. |
+Stay for a moment - I have a story you might find interesting.  A caravan that was bound for the eastern kingdoms passed through here some time ago.  It was supposedly carrying a piece of the heavens that had fallen to earth!  The caravan was ambushed by cloaked riders just north of here along the roadway.  I searched the wreckage for this sky rock, but it was nowhere to be found.  If you should find it, I believe that I can fashion something useful from it. |
+I am still waiting for you to bring me that stone from the heavens.  I know that I can make something powerful out of it. |
+Let me see that - aye... aye, it is as I believed.  Give me a moment...
+Ah, Here you are.  I arranged pieces of the stone within a silver ring that my father left me.  I hope it serves you well. |
+I used to have a nice ring; it was a really expensive one, with blue and green and red and silver.  Don't remember what happened to it, though.  I really miss that ring... |
+The Heaven Stone is very powerful, and were it any but Griswold who bid you find it, I would prevent it.  He will harness its powers and its use will be for the good of us all. |
+If anyone can make something out of that rock, Griswold can.  He knows what he is doing, and as much as I try to steal his customers, I respect the quality of his work. |
+The witch Adria seeks a black mushroom?  I know as much about Black Mushrooms as I do about Red Herrings.  Perhaps Pepin the Healer could tell you more, but this is something that cannot be found in any of my stories or books. |
+Let me just say this.  Both Garda and I would never, EVER serve black mushrooms to our honored guests.  If Adria wants some mushrooms in her stew, then that is her business, but I can't help you find any.  Black mushrooms... disgusting! |
+The witch told me that you were searching for the brain of a demon to assist me in creating my elixir.  It should be of great value to the many who are injured by those foul beasts, if I can just unlock the secrets I suspect that its alchemy holds.  If you can remove the brain of a demon when you kill it, I would be grateful if you could bring it to me. |
+Excellent, this is just what I had in mind.  I was able to finish the elixir without this, but it can't hurt to have this to study.  Would you please carry this to the witch?  I believe that she is expecting it. |
+I think Ogden might have some mushrooms in the storage cellar.  Why don't you ask him? |
+If Adria doesn't have one of these, you can bet that's a rare thing indeed.  I can offer you no more help than that, but it sounds like... a huge, gargantuan, swollen, bloated mushroom!  Well, good hunting, I suppose. |
+Ogden mixes a MEAN black mushroom, but I get sick if I drink that.  Listen, listen... here's the secret - moderation is the key! |
+What do we have here?  Interesting, it looks like a book of reagents.  Keep your eyes open for a black mushroom.  It should be fairly large and easy to identify.  If you find it, bring it to me, won't you? |
+It's a big, black mushroom that I need.  Now run off and get it for me so that I can use it for a special concoction that I am working on. |
+Yes, this will be perfect for a brew that I am creating.  By the way, the healer is looking for the brain of some demon or another so he can treat those who have been afflicted by their poisonous venom.  I believe that he intends to make an elixir from it.  If you help him find what he needs, please see if you can get a sample of the elixir for me. |
+Why have you brought that here?  I have no need for a demon's brain at this time.  I do need some of the elixir that the Healer is working on.  He needs that grotesque organ that you are holding, and then bring me the elixir.  Simple when you think about it, isn't it? |
+What?  Now you bring me that elixir from the healer?  I was able to finish my brew without it.  Why don't you just keep it... |
+I don't have any mushrooms of any size or color for sale.  How about something a bit more useful? |
+So, the legend of the Map is real.  Even I never truly believed any of it!  I suppose it is time that I told you the truth about who I am, my friend.  You see, I am not all that I seem...
+My true name is Deckard Cain the Elder, and I am the last descendant of an ancient Brotherhood that was dedicated to keeping and safeguarding the secrets of a timeless evil.  An evil that quite obviously has now been released...
+The evil that you move against is the dark Lord of Terror - known to mortal men as Diablo.  It was he who was imprisoned within the Labyrinth many centuries ago.  The Map that you hold now was created ages ago to mark the time when Diablo would rise again from his imprisonment.  When the two stars on that map align, Diablo will be at the height of his power.  He will be all but invincible...
+You are now in a race against time, my friend!  Find Diablo and destroy him before the stars align, for we may never have a chance to rid the world of his evil again! |
+Our time is running short!  I sense his dark power building and only you can stop him from attaining his full might. |
+I am sure that you tried your best, but I fear that even your strength and will may not be enough.  Diablo is now at the height of his earthly power, and you will need all your courage and strength to defeat him.  May the Light protect and guide you, my friend.  I will help in any way that I am able. |
+If the witch can't help you and suggests you see Cain, what makes you think that I would know anything?  It sounds like this is a very serious matter.  You should hurry along and see the storyteller as Adria suggests. |
+I can't make much of the writing on this map, but perhaps Adria or Cain could help you decipher what this refers to. 
+I can see that it is a map of the stars in our sky, but any more than that is beyond my talents. |
+The best person to ask about that sort of thing would be our storyteller. 
+Cain is very knowledgeable about ancient writings, and that is easily the oldest looking piece of paper that I have ever seen. |
+I have never seen a map of this sort before.  Where'd you get it?  Although I have no idea how to read this, Cain or Adria may be able to provide the answers that you seek. |
+Listen here, come close.  I don't know if you know what I know, but you have really got somethin' here.  That's a map. |
+Oh, I'm afraid this does not bode well at all.  This map of the stars portends great disaster, but its secrets are not mine to tell.  The time has come for you to have a very serious conversation with the Storyteller... |
+I've been looking for a map, but that certainly isn't it.  You should show that to Adria - she can probably tell you what it is.  I'll say one thing; it looks old, and old usually means valuable. |
+Pleeeease, no hurt.  No Kill.  Keep alive and next time good bring to you. |
+Something for you I am making.  Again, not kill Gharbad.  Live and give good. 
+You take this as proof I keep word... |
+Nothing yet!  Almost done. 
+Very powerful, very strong.  Live!  Live! 
+No pain and promise I keep! |
+This too good for you.  Very Powerful!  You want - you take! |
+What?!  Why are you here?  All these interruptions are enough to make one insane.  Here, take this and leave me to my work.  Trouble me no more! |
+Arrrrgh!  Your curiosity will be the death of you!!! |
+Hello, my friend.  Stay awhile and listen... |
+While you are venturing deeper into the Labyrinth you may find tomes of great knowledge hidden there. 
+Read them carefully for they can tell you things that even I cannot. |
+I know of many myths and legends that may contain answers to questions that may arise in your journeys into the Labyrinth.  If you come across challenges and questions to which you seek knowledge, seek me out and I will tell you what I can. |
+Griswold - a man of great action and great courage.  I bet he never told you about the time he went into the Labyrinth to save Wirt, did he?  He knows his fair share of the dangers to be found there, but then again - so do you.  He is a skilled craftsman, and if he claims to be able to help you in any way, you can count on his honesty and his skill. |
+Ogden has owned and run the Rising Sun Inn and Tavern for almost four years now.  He purchased it just a few short months before everything here went to hell.  He and his wife Garda do not have the money to leave as they invested all they had in making a life for themselves here.  He is a good man with a deep sense of responsibility. |
+Poor Farnham.  He is a disquieting reminder of the doomed assembly that entered into the Cathedral with Lazarus on that dark day.  He escaped with his life, but his courage and much of his sanity were left in some dark pit.  He finds comfort only at the bottom of his tankard nowadays, but there are occasional bits of truth buried within his constant ramblings. |
+The witch, Adria, is an anomaly here in Tristram.  She arrived shortly after the Cathedral was desecrated while most everyone else was fleeing.  She had a small hut constructed at the edge of town, seemingly overnight, and has access to many strange and arcane artifacts and tomes of knowledge that even I have never seen before. |
+The story of Wirt is a frightening and tragic one.  He was taken from the arms of his mother and dragged into the labyrinth by the small, foul demons that wield wicked spears.  There were many other children taken that day, including the son of King Leoric.  The Knights of the palace went below, but never returned.  The Blacksmith found the boy, but only after the foul beasts had begun to torture him for their sadistic pleasures. |
+Ah, Pepin.  I count him as a true friend - perhaps the closest I have here.  He is a bit addled at times, but never a more caring or considerate soul has existed.  His knowledge and skills are equaled by few, and his door is always open. |
+Gillian is a fine woman.  Much adored for her high spirits and her quick laugh, she holds a special place in my heart.  She stays on at the tavern to support her elderly grandmother who is too sick to travel.  I sometimes fear for her safety, but I know that any man in the village would rather die than see her harmed. |
+Greetings, good master.  Welcome to the Tavern of the Rising Sun! |
+Many adventurers have graced the tables of my tavern, and ten times as many stories have been told over as much ale.  The only thing that I ever heard any of them agree on was this old axiom.  Perhaps it will help you.  You can cut the flesh, but you must crush the bone. |
+Griswold the blacksmith is extremely knowledgeable about weapons and armor.  If you ever need work done on your gear, he is definitely the man to see. |
+Farnham spends far too much time here, drowning his sorrows in cheap ale.  I would make him leave, but he did suffer so during his time in the Labyrinth. |
+Adria is wise beyond her years, but I must admit - she frightens me a little. 
+Well, no matter.  If you ever have need to trade in items of sorcery, she maintains a strangely well-stocked hut just across the river. |
+If you want to know more about the history of our village, the storyteller Cain knows quite a bit about the past. |
+Wirt is a rapscallion and a little scoundrel.  He was always getting into trouble, and it's no surprise what happened to him. 
+He probably went fooling about someplace that he shouldn't have been.  I feel sorry for the boy, but I don't abide the company that he keeps.  |
+Pepin is a good man - and certainly the most generous in the village.  He is always attending to the needs of others, but trouble of some sort or another does seem to follow him wherever he goes... |
+Gillian, my Barmaid?  If it were not for her sense of duty to her grand-dam, she would have fled from here long ago. 
+Goodness knows I begged her to leave, telling her that I would watch after the old woman, but she is too sweet and caring to have done so. |
+What ails you, my friend? |
+I have made a very interesting discovery.  Unlike us, the creatures in the Labyrinth can heal themselves without the aid of potions or magic.  If you hurt one of the monsters, make sure it is dead or it very well may regenerate itself. |
+Before it was taken over by, well, whatever lurks below, the Cathedral was a place of great learning.  There are many books to be found there.  If you find any, you should read them all, for some may hold secrets to the workings of the Labyrinth. |
+Griswold knows as much about the art of war as I do about the art of healing.  He is a shrewd merchant, but his work is second to none.  Oh, I suppose that may be because he is the only blacksmith left here. |
+Cain is a true friend and a wise sage.  He maintains a vast library and has an innate ability to discern the true nature of many things.  If you ever have any questions, he is the person to go to. |
+Even my skills have been unable to fully heal Farnham.  Oh, I have been able to mend his body, but his mind and spirit are beyond anything I can do. |
+While I use some limited forms of magic to create the potions and elixirs I store here, Adria is a true sorceress.  She never seems to sleep, and she always has access to many mystic tomes and artifacts.  I believe her hut may be much more than the hovel it appears to be, but I can never seem to get inside the place. |
+Poor Wirt.  I did all that was possible for the child, but I know he despises that wooden peg that I was forced to attach to his leg.  His wounds were hideous.  No one - and especially such a young child - should have to suffer the way he did. |
+I really don't understand why Ogden stays here in Tristram.  He suffers from a slight nervous condition, but he is an intelligent and industrious man who would do very well wherever he went.  I suppose it may be the fear of the many murders that happen in the surrounding countryside, or perhaps the wishes of his wife that keep him and his family where they are. |
+Ogden's barmaid is a sweet girl.  Her grandmother is quite ill, and suffers from delusions. 
+She claims that they are visions, but I have no proof of that one way or the other. |
+Good day!  How may I serve you? |
+My grandmother had a dream that you would come and talk to me.  She has visions, you know and can see into the future. |
+The woman at the edge of town is a witch!  She seems nice enough, and her name, Adria, is very pleasing to the ear, but I am very afraid of her. 
+It would take someone quite brave, like you, to see what she is doing out there. |
+Our Blacksmith is a point of pride to the people of Tristram.  Not only is he a master craftsman who has won many contests within his guild, but he received praises from our King Leoric himself - may his soul rest in peace.  Griswold is also a great hero; just ask Cain. |
+Cain has been the storyteller of Tristram for as long as I can remember.  He knows so much, and can tell you just about anything about almost everything. |
+Farnham is a drunkard who fills his belly with ale and everyone else's ears with nonsense. 
+I know that both Pepin and Ogden feel sympathy for him, but I get so frustrated watching him slip farther and farther into a befuddled stupor every night. |
+Pepin saved my grandmother's life, and I know that I can never repay him for that.  His ability to heal any sickness is more powerful than the mightiest sword and more mysterious than any spell you can name.  If you ever are in need of healing, Pepin can help you. |
+I grew up with Wirt's mother, Canace.  Although she was only slightly hurt when those hideous creatures stole him, she never recovered.  I think she died of a broken heart.  Wirt has become a mean-spirited youngster, looking only to profit from the sweat of others.  I know that he suffered and has seen horrors that I cannot even imagine, but some of that darkness hangs over him still. |
+Ogden and his wife have taken me and my grandmother into their home and have even let me earn a few gold pieces by working at the inn.  I owe so much to them, and hope one day to leave this place and help them start a grand hotel in the east. |
+Well, what can I do for ya? |
+If you're looking for a good weapon, let me show this to you.  Take your basic blunt weapon, such as a mace.  Works like a charm against most of those undying horrors down there, and there's nothing better to shatter skinny little skeletons! |
+The axe?  Aye, that's a good weapon, balanced against any foe.  Look how it cleaves the air, and then imagine a nice fat demon head in its path.  Keep in mind, however, that it is slow to swing - but talk about dealing a heavy blow! |
+Look at that edge, that balance.  A sword in the right hands, and against the right foe, is the master of all weapons.  Its keen blade finds little to hack or pierce on the undead, but against a living, breathing enemy, a sword will better slice their flesh! |
+Your weapons and armor will show the signs of your struggles against the Darkness.  If you bring them to me, with a bit of work and a hot forge, I can restore them to top fighting form. |
+While I have to practically smuggle in the metals and tools I need from caravans that skirt the edges of our damned town, that witch, Adria, always seems to get whatever she needs.  If I knew even the smallest bit about how to harness magic as she did, I could make some truly incredible things. |
+Gillian is a nice lass.  Shame that her gammer is in such poor health or I would arrange to get both of them out of here on one of the trading caravans. |
+Sometimes I think that Cain talks too much, but I guess that is his calling in life.  If I could bend steel as well as he can bend your ear, I could make a suit of court plate good enough for an Emperor! |
+I was with Farnham that night that Lazarus led us into Labyrinth.  I never saw the Archbishop again, and I may not have survived if Farnham was not at my side.  I fear that the attack left his soul as crippled as, well, another did my leg.  I cannot fight this battle for him now, but I would if I could. |
+A good man who puts the needs of others above his own.  You won't find anyone left in Tristram - or anywhere else for that matter - who has a bad thing to say about the healer. |
+That lad is going to get himself into serious trouble... or I guess I should say, again.  I've tried to interest him in working here and learning an honest trade, but he prefers the high profits of dealing in goods of dubious origin.  I cannot hold that against him after what happened to him, but I do wish he would at least be careful. |
+The Innkeeper has little business and no real way of turning a profit.  He manages to make ends meet by providing food and lodging for those who occasionally drift through the village, but they are as likely to sneak off into the night as they are to pay him.  If it weren't for the stores of grains and dried meats he kept in his cellar, why, most of us would have starved during that first year when the entire countryside was overrun by demons. |
+Can't a fella drink in peace? |
+The gal who brings the drinks?  Oh, yeah, what a pretty lady.  So nice, too. |
+Why don't that old crone do somethin' for a change.  Sure, sure, she's got stuff, but you listen to me... she's unnatural.  I ain't never seen her eat or drink - and you can't trust somebody who doesn't drink at least a little. |
+Cain isn't what he says he is.  Sure, sure, he talks a good story... some of 'em are real scary or funny... but I think he knows more than he knows he knows. |
+Griswold?  Good old Griswold.  I love him like a brother!  We fought together, you know, back when... we... Lazarus...  Lazarus... Lazarus!!! |
+Hehehe, I like Pepin.  He really tries, you know.  Listen here, you should make sure you get to know him. Good fella like that with people always wantin' help.  Hey, I guess that would be kinda like you, huh hero?  I was a hero too... |
+Wirt is a kid with more problems than even me, and I know all about problems.  Listen here - that kid is gotta sweet deal, but he's been there, you know?  Lost a leg!  Gotta walk around on a piece of wood.  So sad, so sad... |
+Ogden is the best man in town.  I don't think his wife likes me much, but as long as she keeps tappin' kegs, I'll like her just fine.  Seems like I been spendin' more time with Ogden than most, but he's so good to me... |
+I wanna tell ya sumthin', 'cause I know all about this stuff.  It's my specialty.  This here is the best... theeeee best!  That other ale ain't no good since those stupid dogs... |
+No one ever lis... listens to me.  Somewhere - I ain't too sure - but somewhere under the church is a whole pile o' gold.  Gleamin' and shinin' and just waitin' for someone to get it. |
+I know you gots your own ideas, and I know you're not gonna believe this, but that weapon you got there - it just ain't no good against those big brutes!  Oh, I don't care what Griswold says, they can't make anything like they used to in the old days... |
+If I was you... and I ain't... but if I was, I'd sell all that stuff you got and get out of here.  That boy out there... He's always got somethin good, but you gotta give him some gold or he won't even show you what he's got. |
+I sense a soul in search of answers... |
+Wisdom is earned, not given.  If you discover a tome of knowledge, devour its words.  Should you already have knowledge of the arcane mysteries scribed within a book, remember - that level of mastery can always increase. |
+The greatest power is often the shortest lived.  You may find ancient words of power written upon scrolls of parchment.  The strength of these scrolls lies in the ability of either apprentice or adept to cast them with equal ability.  Their weakness is that they must first be read aloud and can never be kept at the ready in your mind.  Know also that these scrolls can be read but once, so use them with care. |
+Though the heat of the sun is beyond measure, the mere flame of a candle is of greater danger.  No energies, no matter how great, can be used without the proper focus.  For many spells, ensorcelled Staves may be charged with magical energies many times over.  I have the ability to restore their power - but know that nothing is done without a price. |
+The sum of our knowledge is in the sum of its people.  Should you find a book or scroll that you cannot decipher, do not hesitate to bring it to me.  If I can make sense of it I will share what I find. |
+To a man who only knows Iron, there is no greater magic than Steel.  The blacksmith Griswold is more of a sorcerer than he knows.  His ability to meld fire and metal is unequaled in this land. |
+Corruption has the strength of deceit, but innocence holds the power of purity.  The young woman Gillian has a pure heart, placing the needs of her matriarch over her own.  She fears me, but it is only because she does not understand me. |
+A chest opened in darkness holds no greater treasure than when it is opened in the light.  The storyteller Cain is an enigma, but only to those who do not look.  His knowledge of what lies beneath the cathedral is far greater than even he allows himself to realize. |
+The higher you place your faith in one man, the farther it has to fall.  Farnham has lost his soul, but not to any demon.  It was lost when he saw his fellow townspeople betrayed by the Archbishop Lazarus.  He has knowledge to be gleaned, but you must separate fact from fantasy. |
+The hand, the heart and the mind can perform miracles when they are in perfect harmony.  The healer Pepin sees into the body in a way that even I cannot.  His ability to restore the sick and injured is magnified by his understanding of the creation of elixirs and potions.  He is as great an ally as you have in Tristram. |
+There is much about the future we cannot see, but when it comes it will be the children who wield it.  The boy Wirt has a blackness upon his soul, but he poses no threat to the town or its people.  His secretive dealings with the urchins and unspoken guilds of nearby towns gain him access to many devices that cannot be easily found in Tristram.  While his methods may be reproachful, Wirt can provide assistance for your battle against the encroaching Darkness. |
+Earthen walls and thatched canopy do not a home create.  The innkeeper Ogden serves more of a purpose in this town than many understand.  He provides shelter for Gillian and her matriarch, maintains what life Farnham has left to him, and provides an anchor for all who are left in the town to what Tristram once was.  His tavern, and the simple pleasures that can still be found there, provide a glimpse of a life that the people here remember.  It is that memory that continues to feed their hopes for your success. |
+Pssst... over here... |
+Not everyone in Tristram has a use - or a market - for everything you will find in the labyrinth.  Not even me, as hard as that is to believe. 
+Sometimes, only you will be able to find a purpose for some things. |
+Don't trust everything the drunk says.  Too many ales have fogged his vision and his good sense. |
+In case you haven't noticed, I don't buy anything from Tristram.  I am an importer of quality goods.  If you want to peddle junk, you'll have to see Griswold, Pepin or that witch, Adria.  I'm sure that they will snap up whatever you can bring them... |
+I guess I owe the blacksmith my life - what there is of it.  Sure, Griswold offered me an apprenticeship at the smithy, and he is a nice enough guy, but I'll never get enough money to... well, let's just say that I have definite plans that require a large amount of gold. |
+If I were a few years older, I would shower her with whatever riches I could muster, and let me assure you I can get my hands on some very nice stuff.  Gillian is a beautiful girl who should get out of Tristram as soon as it is safe.  Hmmm... maybe I'll take her with me when I go... |
+Cain knows too much.  He scares the life out of me - even more than that woman across the river.  He keeps telling me about how lucky I am to be alive, and how my story is foretold in legend.  I think he's off his crock. |
+Farnham - now there is a man with serious problems, and I know all about how serious problems can be.  He trusted too much in the integrity of one man, and Lazarus led him into the very jaws of death.  Oh, I know what it's like down there, so don't even start telling me about your plans to destroy the evil that dwells in that Labyrinth.  Just watch your legs... |
+As long as you don't need anything reattached, old Pepin is as good as they come. 
+If I'd have had some of those potions he brews, I might still have my leg... |
+Adria truly bothers me.  Sure, Cain is creepy in what he can tell you about the past, but that witch can see into your past.  She always has some way to get whatever she needs, too.  Adria gets her hands on more merchandise than I've seen pass through the gates of the King's Bazaar during High Festival. |
+Ogden is a fool for staying here.  I could get him out of town for a very reasonable price, but he insists on trying to make a go of it with that stupid tavern.  I guess at the least he gives Gillian a place to work, and his wife Garda does make a superb Shepherd's pie... |
+Beyond the Hall of Heroes lies the Chamber of Bone.  Eternal death awaits any who would seek to steal the treasures secured within this room.  So speaks the Lord of Terror, and so it is written. |
+...and so, locked beyond the Gateway of Blood and past the Hall of Fire, Valor awaits for the Hero of Light to awaken... |
+I can see what you see not.
+Vision milky then eyes rot.
+When you turn they will be gone,
+Whispering their hidden song.
+Then you see what cannot be,
+Shadows move where light should be.
+Out of darkness, out of mind,
+Cast down into the Halls of the Blind. |
+The armories of Hell are home to the Warlord of Blood.  In his wake lay the mutilated bodies of thousands.  Angels and man alike have been cut down to fulfill his endless sacrifices to the Dark ones who scream for one thing - blood. |
+Take heed and bear witness to the truths that lie herein, for they are the last legacy of the Horadrim.  There is a war that rages on even now, beyond the fields that we know - between the utopian kingdoms of the High Heavens and the chaotic pits of the Burning Hells.  This war is known as the Great Conflict, and it has raged and burned longer than any of the stars in the sky.  Neither side ever gains sway for long as the forces of Light and Darkness constantly vie for control over all creation. |
+Take heed and bear witness to the truths that lie herein, for they are the last legacy of the Horadrim.  When the Eternal Conflict between the High Heavens and the Burning Hells falls upon mortal soil, it is called the Sin War.  Angels and Demons walk amongst humanity in disguise, fighting in secret, away from the prying eyes of mortals.  Some daring, powerful mortals have even allied themselves with either side, and helped to dictate the course of the Sin War. |
+Take heed and bear witness to the truths that lie herein, for they are the last legacy of the Horadrim.  Nearly three hundred years ago, it came to be known that the Three Prime Evils of the Burning Hells had mysteriously come to our world.  The Three Brothers ravaged the lands of the east for decades, while humanity was left trembling in their wake.  Our Order - the Horadrim - was founded by a group of secretive magi to hunt down and capture the Three Evils once and for all.
+The original Horadrim captured two of the Three within powerful artifacts known as Soulstones and buried them deep beneath the desolate eastern sands.  The third Evil escaped capture and fled to the west with many of the Horadrim in pursuit.  The Third Evil - known as Diablo, the Lord of Terror - was eventually captured, his essence set in a Soulstone and buried within this Labyrinth.
+Be warned that the soulstone must be kept from discovery by those not of the faith.  If Diablo were to be released, he would seek a body that is easily controlled as he would be very weak - perhaps that of an old man or a child. |
+So it came to be that there was a great revolution within the Burning Hells known as The Dark Exile.  The Lesser Evils overthrew the Three Prime Evils and banished their spirit forms to the mortal realm.  The demons Belial (the Lord of Lies) and Azmodan (the Lord of Sin) fought to claim rulership of Hell during the absence of the Three Brothers.  All of Hell polarized between the factions of Belial and Azmodan while the forces of the High Heavens continually battered upon the very Gates of Hell. |
+Many demons traveled to the mortal realm in search of the Three Brothers.  These demons were followed to the mortal plane by Angels who hunted them throughout the vast cities of the East.  The Angels allied themselves with a secretive Order of mortal magi named the Horadrim, who quickly became adept at hunting demons.  They also made many dark enemies in the underworlds. |
+So it came to be that the Three Prime Evils were banished in spirit form to the mortal realm and after sewing chaos across the East for decades, they were hunted down by the cursed Order of the mortal Horadrim.  The Horadrim used artifacts called Soulstones to contain the essence of Mephisto, the Lord of Hatred and his brother Baal, the Lord of Destruction.  The youngest brother - Diablo, the Lord of Terror - escaped to the west.
+Eventually the Horadrim captured Diablo within a Soulstone as well, and buried him under an ancient, forgotten Cathedral.  There, the Lord of Terror sleeps and awaits the time of his rebirth.  Know ye that he will seek a body of youth and power to possess - one that is innocent and easily controlled.  He will then arise to free his Brothers and once more fan the flames of the Sin War... |
+All praises to Diablo - Lord of Terror and Survivor of The Dark Exile.  When he awakened from his long slumber, my Lord and Master spoke to me of secrets that few mortals know.  He told me the kingdoms of the High Heavens and the pits of the Burning Hells engage in an eternal war.  He revealed the powers that have brought this discord to the realms of man.  My lord has named the battle for this world and all who exist here the Sin War. |
+Glory and Approbation to Diablo - Lord of Terror and Leader of the Three.  My Lord spoke to me of his two Brothers, Mephisto and Baal, who were banished to this world long ago.  My Lord wishes to bide his time and harness his awesome power so that he may free his captive brothers from their tombs beneath the sands of the east.  Once my Lord releases his Brothers, the Sin War will once again know the fury of the Three. |
+Hail and Sacrifice to Diablo - Lord of Terror and Destroyer of Souls.  When I awoke my Master from his sleep, he attempted to possess a mortal's form.  Diablo attempted to claim the body of King Leoric, but my Master was too weak from his imprisonment.  My Lord required a simple and innocent anchor to this world, and so found the boy Albrecht to be perfect for the task.  While the good King Leoric was left maddened by Diablo's unsuccessful possession, I kidnapped his son Albrecht and brought him before my Master.  I now await Diablo's call and pray that I will be rewarded when he at last emerges as the Lord of this world. |
+Thank goodness you've returned!
+Much has changed since you lived here, my friend.  All was peaceful until the dark riders came and destroyed our village.  Many were cut down where they stood, and those who took up arms were slain or dragged away to become slaves - or worse.  The church at the edge of town has been desecrated and is being used for dark rituals.  The screams that echo in the night are inhuman, but some of our townsfolk may yet survive.  Follow the path that lies between my tavern and the blacksmith shop to find the church and save who you can. 
+Perhaps I can tell you more if we speak again.  Good luck.|
+Maintain your quest.  Finding a treasure that is lost is not easy.  Finding a treasure that is hidden less so.  I will leave you with this.  Do not let the sands of time confuse your search.|
+A what?!  This is foolishness.  There's no treasure buried here in Tristram.  Let me see that!!  Ah, Look these drawings are inaccurate.  They don't match our town at all.  I'd keep my mind on what lies below the cathedral and not what lies below our topsoil.|
+I really don't have time to discus some map you are looking for.  I have many sick people that require my help and yours as well.|
+The once proud Iswall is trapped deep beneath the surface of this world.  His honor stripped and his visage altered.  He is trapped in immortal torment.  Charged to conceal the very thing that could free him.|
+I'll bet that Wirt saw you coming and put on an act just so he could laugh at you later when you were running around the town with your nose in the dirt.  I'd ignore it.|
+There was a time when this town was a frequent stop for travelers from far and wide.  Much has changed since then.  But hidden caves and buried treasure are common fantasies of any child.  Wirt seldom indulges in youthful games.  So it may just be his imagination.|
+Listen here.  Come close.  I don't know if you know what I know, but you've have really got something here.  That's a map.|
+My grandmother often tells me stories about the strange forces that inhabit the graveyard outside of the church.  And it may well interest you to hear one of them.  She said that if you were to leave the proper offering in the cemetary, enter the cathedral to pray for the dead, and then return, the offering would be altered in some strange way.  I don't know if this is just the talk of an old sick woman, but anything seems possible these days.|
+Hmmm.  A vast and mysterious treasure you say.  Mmmm.  Maybe I could be interested in picking up a few things from you.  Or better yet, don't you need some rare and expensive supplies to get you through this ordeal?|
+Moo.|
+I said, Moo.|
+Look I'm just a cow, OK?|
+All right, all right.  I'm not really a cow.  I don't normally go around like this; but, I was sitting at home minding my own business and all of a sudden these bugs & vines & bulbs & stuff started coming out of the floor... it was horrible!  If only I had something normal to wear, it wouldn't be so bad.  Hey!  Could you go back to my place and get my suit for me?  The brown one, not the gray one, that's for evening wear.  I'd do it myself, but I don't want anyone seeing me like this.  Here, take this, you might need it... to kill those things that have overgrown everything.  You can't miss my house, it's just south of the fork in the river... you know... the one with the overgrown vegetable garden.|
+All right, I'll cut the bull.  I didn't mean to steer you wrong.  I was sitting at home, feeling moo-dy, when things got really un-stable; a whole stampede of monsters came out of the floor!  I just cowed.  I just happened to be wearing this Jersey when I ran out the door, and now I look udderly ridiculous.  If only I had something normal to wear, it wouldn't be so bad.  Hey!  Can you go back to my place and get my suit for me?  The brown one, not the gray one, that's for evening wear.  I'd do it myself, but I don't want anyone seeing me like this.  Here, take this, you might need it... to kill those things that have overgrown everything.  You can't miss my house, it's just south of the fork in the river... you know... the one with the overgrown vegetable garden.|
+What are you wasting time for?  Go get my suit!  And hurry!  That Holstein over there keeps winking at me! |
+Hey, have you got my suit there?  Quick, pass it over!  These ears itch like you wouldn't believe!|
+No no no no!  This is my GRAY suit!  It's for evening wear!  Formal occasions!  I can't wear THIS.  What are you, some kind of weirdo?  I need the BROWN suit.|
+Ahh, that's MUCH better.  Whew!  At last, some dignity!  Are my antlers on straight?  Good.  Look, thanks a lot for helping me out.  Here, take this as a gift; and, you know... a little fashion tip... you could use a little... you could use a new... yknowwhatImean?  The whole adventurer motif is just so... retro.  Just a word of advice, eh?  Ciao.|
+And in the year of the Golden Light, it was so decreed that a great Cathedral be raised.  The cornerstone of this holy place was to be carved from the translucent stone Antyrael, named for the Angel who shared his power with the Horadrim.  
+In the Year of Drawing Shadows, the ground shook and the Cathedral shattered and fell.  As the building of catacombs and castles began and man stood against the ravages of the Sin War, the ruins were scavenged for their stones.  And so it was that the cornerstone vanished from the eyes of man. 
+The stone was of this world -- and of all worlds -- as the Light is both within all things and beyond all things. Light and unity are the products of this holy foundation, a unity of purpose and a unity of possession.|
+Waaaah! (sniff) Waaaah! (sniff)|
+I lost Theo!  I lost my best friend!  We were playing over by the river, and Theo said he wanted to go look at the big green thing.  I said we shouldn't, but we snuck over there, and then suddenly this BUG came out!  We ran away but Theo fell down and the bug GRABBED him and took him away!|
+Didja find him?  You gotta find Theodore, please!  He's just little.  He can't take care of himself!  Please!|
+You found him!  You found him!  Thank you!  Oh Theo, did those nasty bugs scare you?  Hey!  Ugh!  There's something stuck to your fur!  Ick!  Come on, Theo, let's go home!  Thanks again, hero person!|
+So, you're the hero everyone's been talking about. Perhaps you could help a poor, simple farmer out of a terrible mess? At the edge of my orchard, just south of here, there's a horrible thing swelling out of the ground! I can't get to my crops or my bales of hay, and my poor cows will starve. The witch gave this to me and said that it would blast that thing out of my field. If you could destroy it, I would be forever grateful. I'd do it myself, but someone has to stay here with the cows...|
+I knew that it couldn't be as simple as that witch made it sound. It's a sad world when you can't even trust your neighbors.|
+It must truly be a fearsome task I've set before you. If there was just some way that I could... would a flagon of some nice, fresh milk help?|
+Is it gone? Did you send it back to the dark recesses of Hades that spawned it? You what? Oh, don't tell me you lost it! Those things don't come cheap, you know. You've got to find it, and then blast that horror out of our town.|
+I heard the explosion from here! Many thanks to you, kind stranger. What with all these things comin' out of the ground, monsters taking over the church, and so forth, these are trying times. I am but a poor farmer, but here -- take this with my great thanks.|
+Oh, such a trouble I have...maybe...No, I couldn't impose on you, what with all the other troubles. Maybe after you've cleansed the church of some of those creatures you could come back... and spare a little time to help a poor farmer?|
+Oh, I could use your help, but perhaps after you've saved the catacombs from the desecration of those beasts.|
+I need something done, but I couldn't impose on a perfect stranger. Perhaps after you've been here a while I might feel more comfortable asking a favor.|
+I see in you the potential for greatness.  Perhaps sometime while you are fulfilling your destiny, you could stop by and do a little favor for me?|
+I think you could probably help me, but perhaps after you've gotten a little more powerful. I wouldn't want to injure the village's only chance to destroy the menace in the church!|
+Cloudy and cooler today.  Casting the nets of necromancy across the void landed two new subspecies of flying horror; a good day's work.  Must remember to order some more bat guano and black candles from Adria; I'm running a bit low.|
+I have tried spells, threats, abjuration and bargaining with this foul creature -- to no avail.  My methods of enslaving lesser demons seem to have no effect on this fearsome beast.|
+full of shadows that move just beyond the corners of my vision.  The faint scrabble of claws dances at the edges of my hearing. They are searching, I think, for this journal.|
+In its ranting, the creature has let slip its name -- Na-Krul.  I have attempted to research the name, but the smaller demons have somehow destroyed my library.  Na-Krul... The name fills me with a cold dread.  I prefer to think of it only as The Creature rather than ponder its true name.|
+The entrapped creature's howls of fury keep me from gaining much needed sleep.  It rages against the one who sent it to the Void, and it calls foul curses upon me for trapping it here.  Its words fill my heart with terror, and yet I cannot block out its voice.|
+My time is quickly running out.  I must record the ways to weaken the demon, and then conceal that text, lest his minions find some way to use my knowledge to free their lord.  I hope that whoever finds this journal will seek the knowledge.|
+Whoever finds this scroll is charged with stopping the demonic creature that lies within these walls.  My time is over. Even now, its hellish minions claw at the frail door behind which I hide.  
+I have hobbled the demon with arcane magic and encased it within great walls, but I fear that will not be enough. 
+The spells found in my three grimoires will provide you protected entrance to his domain, but only if cast in their proper sequence.  The levers at the entryway will remove the barriers and free the demon; touch them not!  Use only these spells to gain entry or his power may be too great for you to defeat.|
+Ahh, mammal, welcome.  Such a... tasty planet you have.  My Nest shall spread across this land, and you and your species shall serve as food for our colony.  I'm sure our meeting will be quite... delicious. |
+Have you been enjoying yourself, little mammal?  How pathetic. Your little world will be no challenge at all.|
+Come closer, morsel...come find me, the Defiler. I have waited thousands of years...do not try my patience any further. |
+Ah, I can smell you...you are close! Close! Ssss...the scent of blood and fear...how enticing...|
+We have long lain dormant, and the time to awaken has come.  After our long sleep, we are filled with great hunger.  Soon, now, we shall feed...|
+These lands shall be defiled, and our brood shall overrun the fields that men call home.  Our tendrils shall envelop this world, and we will feast on the flesh of its denizens.  Man shall become our chattel and sustenance.|
+Come closer, morsel!  I smell your terror, and I hunger.|
+In Spiritu Sanctum. |
+Praedictum Otium. |
+Efficio Obitus Ut Inimicus. |
+D:\diablo97\themes.cpp
+(DWORD)i < MAXTHEMES
+(DWORD)t < MAXTHEMES
+(DWORD)themeCount < MAXTHEMES
+(DWORD)numthemes < MAXTHEMES
+bLen <= dwMaxLen
+D:\diablo97\tmsg.cpp
+! sgpTimedMsgHead
+D:\diablo97\TOWN.CPP
+plr[bv]._pAnimData
+towner[mi]._tAnimData
+item[bv]._iAnimData
+Levels\TownData\Sector4s.DUN
+Levels\TownData\Sector3s.DUN
+Levels\TownData\Sector2s.DUN
+Levels\TownData\Sector1s.DUN
+Levels\TownData\Town.TIL
+D:\diablo97\towners.cpp
+pAnim
+Griswold the Blacksmith
+Towners\Smith\SmithN.CEL
+! towner[numtowners]._tNData
+Ogden the Tavern owner
+Towners\TwnF\TwnFN.CEL
+Wounded Townsman
+Towners\Butch\Deadguy.CEL
+Adria the Witch
+Towners\TownWmn1\Witch.CEL
+Gillian the Barmaid
+Towners\TownWmn1\WmnN.CEL
+Towners\TownBoy\PegKid1.CEL
+Pepin the Healer
+Towners\Healer\Healer.CEL
+Cain the Elder
+Towners\Strytell\Strytell.CEL
+Towners\Drunk\TwnDrunk.CEL
+Towners\Animals\Cow.CEL
+! pCowCels
+Lester the farmer
+Towners\Farmer\Farmrn2.CEL
+Complete Nut
+Towners\Farmer\mfrmrn2.CEL
+Towners\Farmer\cfrmrn2.CEL
+Celia
+Towners\Girl\Girls1.CEL
+Towners\Girl\Girlw1.CEL
+Slain Townsman
+Down to Crypt
+Down to hell
+Down to caves
+Down to catacombs
+Down to dungeon
+Down to Hive
+Down to Crypt level %i
+Up to Crypt level %i
+Down to level %i
+Up to town
+Up to level %i
+Up to Nest level %i
+Down to Diablo
+Back to Level %i
+D:\diablo97\TRIGS.CPP
+Unknown trigger msg
+D:\diablo97\wave.cpp
+bytestoread == dwBytes
+pMemFile
+pwfx
+lpBuf
+lDist >= 0
+dwMethod == FILE_CURRENT
+UUUU
+sqrt
+?pow
+PKWARE Data Compression Library for Win32
+Copyright 1989-1995 PKWARE Inc.  All Rights Reserved
+Patent No. 5,051,745
+PKWARE Data Compression Library Reg. U.S. Pat. and Tm. Off.
+Version 1.11
+PKWARE Data Compression Library for Win32
+Copyright 1989-1995 PKWARE Inc.  All Rights Reserved.
+Patent No. 5,051,745
+PKWARE Data Compression Library Reg. U.S. Pat. and Tm. Off.
+Version 1.11
+SetUnhandledExceptionFilter
+FormatMessageA
+GetLastError
+ExitProcess
+OutputDebugStringA
+Sleep
+GetCurrentThreadId
+DeleteFileA
+CloseHandle
+WriteFile
+CreateFileA
+SetThreadPriority
+GetCurrentThread
+CreateEventA
+SetLastError
+GetTickCount
+GetPrivateProfileStringA
+GetModuleFileNameA
+InitializeCriticalSection
+DeleteCriticalSection
+LeaveCriticalSection
+EnterCriticalSection
+SetEvent
+ResetEvent
+WaitForSingleObject
+GetProcAddress
+LoadLibraryA
+SetFilePointer
+VirtualQuery
+IsBadWritePtr
+GetModuleHandleA
+FindClose
+FindNextFileA
+FindFirstFileA
+GetCurrentDirectoryA
+GetDriveTypeA
+GetLogicalDriveStringsA
+DeviceIoControl
+SetFileAttributesA
+GetFileAttributesA
+ReadFile
+SetEndOfFile
+GetFileSize
+GetWindowsDirectoryA
+GetDiskFreeSpaceA
+GetComputerNameA
+TerminateProcess
+GetCurrentProcess
+FileTimeToSystemTime
+FileTimeToLocalFileTime
+InterlockedDecrement
+InterlockedIncrement
+HeapFree
+HeapAlloc
+CreateThread
+TlsSetValue
+ExitThread
+GetTimeZoneInformation
+GetSystemTime
+GetLocalTime
+GetStartupInfoA
+GetCommandLineA
+GetVersion
+TlsAlloc
+TlsGetValue
+MultiByteToWideChar
+WideCharToMultiByte
+LCMapStringA
+LCMapStringW
+HeapDestroy
+HeapCreate
+VirtualFree
+VirtualAlloc
+HeapReAlloc
+HeapSize
+UnhandledExceptionFilter
+RtlUnwind
+FlushFileBuffers
+FreeEnvironmentStringsA
+FreeEnvironmentStringsW
+GetEnvironmentStrings
+GetEnvironmentStringsW
+GetCPInfo
+GetACP
+GetOEMCP
+SetHandleCount
+GetStdHandle
+GetFileType
+GetStringTypeA
+GetStringTypeW
+SetStdHandle
+GetLocaleInfoA
+GetLocaleInfoW
+RaiseException
+CompareStringA
+CompareStringW
+SetEnvironmentVariableA
+KERNEL32.dll
+wsprintfA
+MessageBoxA
+SetWindowPos
+wvsprintfA
+ShowCursor
+ReleaseDC
+GetDC
+GetWindowRect
+DialogBoxParamA
+EndDialog
+SetDlgItemTextA
+SetCursorPos
+PeekMessageA
+ReleaseCapture
+DispatchMessageA
+TranslateMessage
+DestroyWindow
+SetFocus
+SetForegroundWindow
+GetTopWindow
+GetLastActivePopup
+FindWindowA
+SetCapture
+GetAsyncKeyState
+GetSystemMetrics
+ShowWindow
+GetDesktopWindow
+UpdateWindow
+CreateWindowExA
+RegisterClassExA
+LoadImageA
+LoadCursorA
+LoadIconA
+PostMessageA
+GetWindow
+GetClassNameA
+GetForegroundWindow
+DefWindowProcA
+PostQuitMessage
+SetWindowLongA
+GetWindowLongA
+InvalidateRect
+GetKeyState
+USER32.dll
+GetDeviceCaps
+TextOutA
+GdiSetBatchLimit
+GetStockObject
+SetBkMode
+SetBkColor
+SetTextColor
+GetSystemPaletteEntries
+GDI32.dll
+RegCloseKey
+RegSetValueExA
+RegQueryValueExA
+RegOpenKeyExA
+ADVAPI32.dll
+SHGetPathFromIDListA
+SHGetSpecialFolderLocation
+ShellExecuteA
+SHELL32.dll
+VerQueryValueA
+GetFileVersionInfoA
+GetFileVersionInfoSizeA
+VERSION.dll
+UiDestroy
+UiTitleDialog
+UiInitialize
+UiAppActivate
+UiSupportDialog
+UiCreditsDialog
+UiMainMenuDialog
+UiSelHeroSingDialog
+UiSelHeroMultDialog
+UiProgressDialog
+UiSelectGame
+UiSelectProvider
+UiCategoryCallback
+UiGetDataCallback
+UiAuthCallback
+UiSoundCallback
+UiMessageBoxCallback
+UiDrawDescCallback
+UiCreateGameCallback
+UiArtCallback
+UiCreatePlayerDescription
+hellfrui.dll
+storm.dll

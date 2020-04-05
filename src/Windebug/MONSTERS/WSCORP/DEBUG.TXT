@@ -1,0 +1,8 @@
+wScorp width 86  height 81  
+wScorp width 86  height 81  
+Neutral frame count 10 
+Walk frame count 10 
+Attack frame count 12 
+Get hit frame count 6 
+Die frame count 15 
+Special frame count 0 

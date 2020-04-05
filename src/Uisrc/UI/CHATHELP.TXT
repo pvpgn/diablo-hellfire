@@ -1,0 +1,10 @@
+Press CREATE to create a new game.
+
+Press JOIN to join a game currently in progress.
+
+Press HELP to display this help screen.
+
+Press QUIT to leave the chatroom without joining a game.
+
+
+For additional help, get Bill Roper or someone to write something.

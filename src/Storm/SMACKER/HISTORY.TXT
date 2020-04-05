@@ -1,0 +1,828 @@
+ ============================================================================
+
+  This file contains most of the development history of Smacker.
+
+  It contains changes, updates, and fixes in the Smacker Tools, the
+  Smacker SDK, and the Smacker Xtra.
+
+============================================================================
+
+3.1 a - 9/29/97
+---------------
+Added MMX support throughout Smacker - playback can now be up to 200%
+  faster on MMX machines!
+Added the new SmackBlit API for all Smacker platforms - gives SDK users a
+  high-performance, low-level blitting library.  Supports 1x, 2x,
+  2x smoothed, 2x interlaced to either 8-bit or 16-bit surfaces! See the
+  ExamSmkB.C example program for a nifty demo of this new API.
+Added replacement blitters for machines where DirectDraw has been installed
+  with using the SmackBuffer API - now, whenever possible, Smacker does its
+  own direct to screen blitting rather than using DIBSections.
+Added masked and merged blitting to the SmackBuffer, SmackBlit, and DOS
+  SVGA blit libraries (for much faster transparencies).
+The front-end can now process a group of files one-by-one instead of only
+  as a group.
+Added a cursor API for detecting software cursors and then easily hiding and
+  restoring them (for direct to screen blitting or playback).
+Rewrote the DirectSound support code - should now have perfect synch and
+  work on most emulated sound drivers.
+The Xtra and the scriptor now use the merging blitter for faster playback.
+Added BitmapToBitmapMerge and BitmapToScreenMerge command to the scriptor.
+Fixed a bug on the Mac when decompressing 16-bit, stereo sound.
+Added a "Play Last" button on the player tab that will play the last Smacker
+  animation that was compressed, mixed, played, etc.  Great for quickly
+  viewing the last animation that you created.
+Made the Smacker PC Xtra not use DirectSound unless you call the new
+  SmackUseDirectSound global command.
+Added a 2x playback mode to the Smacker Xtra (including interlaced and
+  smoothed modes).
+Added a SmackHideVideo command to the Smacker Xtra which allows you to
+  hide the video without closing the Smacker object.
+Added a SmackSetAlignment command to the Smacker Xtra to control how the
+  playback window is automatically aligned.
+Added the SmackScreenMethod call to the PC Xtra.
+Switched to MASM 6.11 for most of the assembly files.
+Added error return codes to the SmackSetTransBackground in the Xtra.
+Fixed a playback bug in the Xtra when using a cast member background.
+Added Win95, Win95 OSR2, WinNT, MMX, and Pentium II detection to RADSI.
+Merged the 16-bit and 32-bit blitters into one 32-bit module.
+On NT and 95, SmackBuffers now always use top-down DIBSections (even when
+  standard DIBS are requested).
+
+3.0 r - 8/6/97
+--------------
+Fixed a nasty race condition in the DirectSound shutdown code.
+Fixed the compressor to honor the height when it was larger than the input
+  height (pads with black pixels).
+
+3.0 q - 8/1/97
+--------------
+Fixed an optimizer crash in the compressor and graphic processor when
+  halftoning both 8 and 24 bit files together.
+Fixed crash in graphics processor if the input and output filenames matched.
+Added some extra debug dumping info in the DirectSound module.
+
+3.0 p - 7/25/97 (skipped "o")
+-----------------------------
+Fixed the filename quoting in the mixer when you used a wave file with a
+  space in it.
+Fixed a bug in the Mac decompression code where one of the block types was
+  decoded incorrectly.
+Fixed a bug in the summary window in the Mac 68K player.
+Fixed a Mac Xtra bug where the palette wasn't being copied from the Smacker
+  frame.
+
+3.0 n - 7/15/97
+---------------
+Fixed a bug in the graphics file input routines that could cause a crash
+  when compressing or converting under NT 4.
+Added a debug dumping facility in the SDK. (Add "debug=1" under [Smacker] 
+  in the win.ini file to enable.)
+
+3.0 m - 6/25/97
+---------------
+Worked around an optimizer bug that caused list files not be saved correctly.
+Added AVI files as an output file in the graphics processor.
+Added a true color support to the graphics processor (it can now copy
+  directly from a true color input file to a true color output file).
+Fixed crash in RAD system information utility.
+Fixed the close button not working in the player.
+
+3.0 L - 6/20/97
+---------------
+Converted all the Win32 code to the Microsoft compiler - the tools now run
+  about 20% faster!
+Improved the color quantizer slightly by using human vision color model.
+Put all of the common internal Smacker APIs into a utility DLL - saved about
+  400K after installation.
+Fixed a crash in SmackOpen when the Smack file could not be found.
+Fixed a crash in the 16-bit Smacker Xtra.
+Fixed the ScreenWindowHWND command in the scriptor.
+Removed the SmkW32MS.LIB file from the SDK - use SmackW32.LIB for both
+  Microsoft and Watcom compilers.
+
+3.0 k - 6/2/97
+--------------
+Added new Smacker file compiler - compile one or more Smks into an EXE.
+Player tab can now view files other than Smacks (double-click).
+Added many speed-ups in the Mac Xtra.
+Cleaned-up some palette problems in the Mac Xtra.
+Fixed the preload option in the Xtra on both PCs and Macs.
+Added new SmackGetSummary command in the Xtra to report runtime performance.
+Fixed return codes on the utilities.
+Tools check for running out of disk space more frequently.
+Fixed bug in 16-bit SDK when playing with a file handle.
+Fixed a bug in the DOS player where playback could stick on the final frame.
+Added a new example for 16-bit DirectDraw with 8-bit off-screen surface.
+Updated to Delphi 3 for the Tools front-end.
+Dropped the DOS based Tools (the DOS player, scriptor and SDK remain).
+
+3.0 j - 5/14/97
+--------------
+Fixed SmackGoto not setting the 16-bit palette.
+Compressed the front-end executable.
+Fixed the left offsets when playing into a 16-bit surface.
+Finished the Mac Xtra for Director.
+
+3.0 i - 5/4/97
+--------------
+Smacker can decompress directly into a 16-bit buffer (on- or off-screen).
+DirectDraw example programs now all support 16-bit surfaces.
+Fixed the Windows and icons moving when changing the video mode in Win 95.
+Changed the Mac version to try to allocate the GWorld in temp memory if
+  normal memory fails (helps in low mem situations).
+Fixed scriptor FileFind command to return all files under Win 95 or Win NT.
+Set the primary buffer format when NULL is passed to SmackSoundUseDirectSound.
+Added 16-bit VESA support to SDK - use SVGAUSE16BIT in SVGADetect.
+Added a flags parameter to the SmackToScreen call - you will usually just
+  pass SVGAFlags() - see Example.c for details.
+Added a warning when the hint file could not be opened.
+Fixed a problem in the front-end where compressing losslessly didn't always
+  work correctly.
+
+3.0 h - 4/14/97
+--------------
+Fixed a bug in high-color mode on the Mac.
+Fixed a bug if SmackSoundOnOff was called when no sound was playing.
+Fixed bug in Xtra destructor (it was harmless - but a bug nonetheless).
+Added MSS Xtra support into the Smacker Xtra.
+
+3.0 g - 3/9/97
+--------------
+Fixed Xtra to not display a black frame when playback begins.
+Switched to new Causeway extender.
+Fixed a bug in the VESA linear address code when switching to a new VESA
+  mode without switching to text mode first.
+Added ability to convert 4-bit (16 color AVIs) - these AVIs are very rare.
+Fixed a DirectSound deadlock when you use MSS and Smacker both with
+  DirectSound - you should now call SmackSoundUseDirectSound only if
+  you are using Smacker without MSS - otherwise, always call
+  SmackSoundUseMSS.
+Added CFM Smacker library to the Mac SDK.
+Added an A4-relative library to the Mac SDK.
+
+3.0 f - 2/16/97
+---------------
+Fixed mixing error when mixing with very slow frame rates and very fast
+  sound data rates.
+Fixed some Xtra problems with focus control and mouse clicking.
+Fixed some Xtra weirdnesses with odd palette remapping modes.
+Fixed some Xtra problems with full-screen mode.
+Fixed Xtra playback in 16-bit color depth mode.
+Improved quality of halftoned images.
+
+3.0 e - 1/28/97
+---------------
+Try to open a graphics file as a TGA before a JPEG to handle TGAs that
+  have "jpeg-ish" headers.
+Made the maximum frame rate 10000 fps.
+Added new mouse functions and display mode switching to the Smacker Xtra.
+
+3.0 d - 1/22/97
+---------------
+Fixed the front-end resizing when new screen size is too small for the
+  front-end window.
+Fixed the front-end to allow negative frame rates (for ms per frame).
+Fixed the front-end when clicking on the change frame rate button.
+Fixed display of centered movies that exactly matched the current screen
+  size under Windows NT.
+Fixed crash when displaying a Smacker summary with the Win32 player under
+  Windows 3.x.
+Fixed crash in the 16-bit player under Windows NT 4.0 (worked around the
+  new, buggy DPMI host).
+Added a simple RAW graphics import type for each Smacker input (call us for
+  the exact file format).
+Fixed halftoning of 8-bit input files.
+
+3.0 c - 1/20/97
+---------------
+Added ability to directly Smack wave files into a sound-only Smk file.
+Added a double-buffered DispDIB 320x200 mode in the SDK.
+Speeded-up Smacker batch file processing.
+Fixed batch file processing of very long commmand lines.
+Updated copyright notices.
+Fixed halftoning when processing list files.
+Fixed Smacking of non-4x4 animation files.
+
+3.0 b - 1/10/97
+---------------
+Added the new help file.
+Merged in the Xtra code changes.
+Added a few const defines in the SDK.
+Made the Smacker DLLs check to see if they are incorrectly installed
+  in the Windows or Windows system directory.
+Added some hint text in the Expert sub-tab on the Smack tab.
+Added a specific lossless compression mode in the Smack tab.
+Fixed a crash in the DOS mixer.
+Changed the auto-key frame default to 95%.
+Made the main tab hook directly to our web page.
+Updated the Mac SDK to 3.0b.
+Fixed offset blitting in SmackBufferBlit on Mac.
+
+3.0 a - 1/8/97
+--------------
+Fixed processing of single image filenames that are zero-padded.
+Switched to an hourglass when reading large directories.
+Fixed the directory and drive properties window.
+Made some small changes to the short-cuts in the front-end.
+
+2.2 k - 1/2/97
+--------------
+Added intelligent halftoning (tries to only halftone gradients).
+Reversed the order of this history file.
+Allow multiple calls to UseMSS under Windows NT.
+
+2.2 j - 12/17/96
+----------------
+The compressor can now process sound while it is compressing the video.
+The front-end has new compression settings for sound in the Smack tab.
+You can now use any data rate (not just 11025, 22050, and 44100) for sound.
+Fixed a bug when encoding some Smacker palettes.
+Fixed conversion of 32-bit AVIs (24-bit worked fine).
+Fixed problem with Borland 4.5 and Smacker header file in SDK.
+Added switch for the player to use DirectSound (/Z).
+Added command for the scriptor to use DirectSound (SYSTEMUSEDIRECTSOUND).
+The mixer and the sound processor can take a list of sound files.
+Fixed border when compressing different sized list files with a ring frame.
+Added ability to show frame numbers in the Windows player.
+
+2.2 i - 12/8/96
+---------------
+Fixed zooming with CreateDIBSection blitter.
+Fixed error when playing extremely long movies with high data rate sound.
+Improved frame timing slightly (should help on > 15 minute movies).
+Added an option to the player to only show the differences between frames.
+Added an option to the player to not pause the video when the focus is lost.
+
+2.2 h - 11/22/96
+----------------
+Changed the way file handles are read to work with all C compilers under
+  Windows - use _lopen for 16-bit, CreateFile for 32-bit.
+Integrated Diamondware sound support to Windows version.
+Added CreateDIBSection support for Win95 and WinNT - WinG is now only
+  necessary for 16-bit and Win32s playback.
+Added a DirectDraw example that shows how to use Smacker with a 16-bit
+  color pimary surface (ExamDDP6.C and DoDDP6.BAT).
+
+2.2 g - 11/19/96
+----------------
+Fixed overly large frame compression on palette switches.
+Fixed problem when compressing with "% of its size" option.
+Fixed weird palette compression bug when rotating palette counter-clockwise.
+Added raw output type to Sound Processor.
+Fixed ring frame creation when using a non-final end frame.
+Added non-sound mixing to SmackMixer.
+Expanded compression ranges for "% of average" and "% of its size" (1-200%).
+Fixed Smacker's support for DirectX II (DirectX III worked fine).
+Smacker commands minimize nicer now.
+
+2.2 f - 11/15/96
+----------------
+Fixed every frame full window repaints on high-color video cards.
+Removed the second parameter from SmackSoundUseMSS under DOS (wasn't
+  necessary anymore).
+SmackMix can now take WAVs, AVIs or Smks as sound input files.
+SmackMix can change the sound format type on the fly.
+SmackMix mixes sound into Smacker files with ring frames correctly.
+Major improvements in compressor quality over multiple frames.
+Compressor is much faster with certain types of flics.
+Smacker analysis tool doesn't count the first frame in the moving average.
+
+2.2 e - 11/11/96
+----------------
+Changed front-end notification message number to avoid control conflicts.
+Fixed conversions of 24-bit still images.
+Fixed left-over temp files when you cancel during SmackC.
+
+2.2 d - 11/07/96
+----------------
+Fixed AVI sound extraction.
+Fixed focus order in Front-end.
+Fixed click on same name from a different tab with no highlighting.
+Changed the utility sub-windows to be 3D.
+Changed the player utility window to be 3D and added several other
+  window styles (/I#).
+Added new scriptor command to change window border type: 
+  SCREENWINDOWBORDER type.  0=thick, 1=thin, 2=none.
+Removed setting of thread priorities in Scriptor and player.
+
+2.2 c - 11/05/96
+----------------
+The Smacker compressor can now compress AVIs, BMPs, TGAs, GIFs, TIFs,
+  PCXs, JPGs and list files directly.
+Fixed pop-up window after playing movie from Explorer in NT.
+Added a list file editor to the front-end.
+You can now highlight a group of files to create a list file from.
+Added the new Sound Processor utility.  It takes Wavs, Smks and AVIs
+  files as input and writes out wave files.  It comes in both DOS
+  and Windows versions.
+Sound Processor filters sound when scaling to different rates to avoid
+  the "tinny" sound when upscaling.
+ToWav, SmackUnm, and SmackUnW have all been removed (replaced by the
+  general purpose sound processor.
+OSmk2Flc removed and placed separately on ftp site.
+Added starting and ending millisecond times to the Sound Processor.
+
+2.2 b - 10/23/96
+----------------
+Simplied front-end for converters.
+Multimedia tab has been removed - just double-click on a file to play it.
+Front-end has built-in viewers for bmp, gif, pcx, tif, tga, and jpg.
+Graphics processor uses an improved color reduction method.
+Graphics processor can take an input palette.
+Graphics processor can overlay windows colors on conversion.
+Graphics processor can extract portions of a frame (X,Y,W,H).
+Graphics processor can take Smack files as input.
+Graphics processor can take a list of files to convert.
+Crash when converting single image files is fixed.
+SmkInfo can display info on wav,avi,bmp,gif,pcx,tif,tga and jpg files.
+FlicJoin and FlicCpy were dropped (GraphPr has these features now).
+Graphics processor can save as BMPs, GIFs, PCXs, TIFs, TGAs or JPGs.
+Added multiple Smacks example program (ExamMult.C) to SDK.
+Smacker now requires 3.50F of MSS.
+Fixed pause of Smacker animations on MSSW with large internal MSS buffers.
+Made the Smacker decompressor tolerant of file i/o errors - when an read
+  error occurs, Smacker goes into a friendly skip mode.
+Fixed crash when playing two flics in a row with the 320x200 and 320x240
+  full screen modes.
+
+2.2 a - 9/23/96
+---------------
+Fixed scrolling in front end for goto and find editor commands.
+Added web page button in front end.
+
+2.1 m - 9/20/96
+---------------
+Utilities 32-bit only - Win95 and Windows NT - no more Win3.x.
+New 32-bit front end - long filenames.
+SmackTune now built into the front end.
+ToFlic now runs under NT and is much, much faster.
+SmackC now has more compress types.
+Fixed bug in SmackC when compressing multiple files.
+Fixed error in calling SmackSoundOnOff back to on.
+Added BitmapToBitmapMask and BitmapToScreenMask commands to scriptor.
+Added SystemCurrentExe to scriptor.
+Made scriptor clip when blitting, lines, rects, etc.
+Fixed scriptor loosing current directory on FilePieces.
+
+2.1 l - 9/10/96
+---------------
+Fixed the return value of SmackDoFrame when SMACKNOSKIP is specified.
+
+2.1 k - 8/22/96
+---------------
+Rewrote compressor lossy engine to be data rate based
+Added auto-key framing to compressor.
+Raised limit on code overflows in compressor.
+Add new frame skipping logic resulting in much fewer frame skips on low
+  data rate devices.
+New cursor management code on Macs.
+Fixed crashes in scriptor.
+Added AnimationTracks command in the scriptor.
+Added auto run feature to scriptor - rename script to autoexec.ss and they
+  run when scriptor is run without parameters.
+Removed the SmackToScreen option from the Mac (use SmackBuffers with the
+  SMACKDIRECTBLIT option).
+
+2.1 j - 08/10/96
+----------------
+Switched to new MSS for DOS and Windows.
+Fixed 16-bit sound on 68K Macs.
+Switched to Microseconds call on Macs.
+Switched to new 64-bit divide on Macs.
+Fixed palette problems on Mac.
+Fixed 44 Khz sound on Mac.
+Improved 2x blitting on Mac by 8 times.
+SmackBufferFocused uses process id to determine focus.
+Added new blit type for Mac (it is the default on 8-bit):
+  SMACKGWORLDCUSTOMBLIT.
+Blitters are 25% faster on Mac.
+
+2.1 i - 07/10/96
+----------------
+Allow multiple calls to SmackSoundUseMSS (make sure all smks are closed 1st).
+RADSIW returns accurate Mhz for Pentium Pros.
+
+2.1 h - 06/21/96
+----------------
+Now query the VTD vxd device for timing info under Win3 and Win95 DOS boxes.
+
+2.1 g - 06/19/96
+----------------
+Fixed non-export of hook procedure in 16-bit DLL - cause full 320x200 to fail.
+Fixed sync of 22Khz sound with MSS for DOS.
+Removed outputdebugstring in directsound code.
+Fixed odd-sized SmackBuffer problem (use Pitch in SmackToBuffer, BTW).
+
+2.1 f - 06/06/96
+----------------
+Fixed capitalization of the Unsmack function.
+Made the 16-bit SmackW16 thunk to SmackW32 on WinNT.
+Switched to the stdcall calling convention in SmackW32.
+Use declspec imports in Smack.H to optimize Smacker calls.
+The 16-bit DLL can switch modes under NT.
+Fixed extra mode reset under Windows NT.
+Now ship with Borland DEF file.
+Fixed SmackFromScreen when hwnd is valid and not at 0,0.
+
+2.1 e - 05/25/96
+----------------
+Fixed SmkInfo opening files in read/write mode.
+Fixed Mac looping of sound.
+Improved sound synch on Mac.
+Fixed ToFlic and MMInfo reading PCXs with TGA-style headers.
+Fixed compressing palette fade-ins.
+Fixed palette fades on >256 color cards.
+Optimized palette fade-ins and fade-outs.
+Rewrote low-level decompressor - up to 30% faster on 586, up to 12% on 486.
+Added doubled playback along the y axis.
+Fixed opening more than 32 Smackers in the 16-bit DLL.
+Improved memory allocation code.
+Made SmackSoundUseDirectSound take a DirectSound object instead of a HWND.
+Fixed mixer sound type switches and descriptions in front end.
+Added new compression and playback options to front end.
+Added three directdraw example programs: examdds, examddp, and examddf.
+
+2.1 d - 04/25/96
+----------------
+Added interleaving to Smack compressor.
+Compiled with Watcom 10.6.
+Fixed stupid looping sound synch error for MSS and MSSW.
+Change new palette logic to handle jumping to the same frame that you're on.
+Fixed DirectSound volume control.
+Use NewPtr and MultiFinder temporary memory instead on malloc on Mac.
+Fixed looping of Smacker movies with sound on Mac.
+Fixed looping of preloaded Smacker movies on Mac.
+
+2.1 c - 04/09/96
+----------------
+Made NULL buf in call to SmackToBuffer turn off video but leave sound on.
+Adjusted mixer to be more tolerant of weird format headers in WAV files.
+Fixed SOS code for new version of SOS 4 (must now have SOS4 1/26/96 version).
+Mac memory allocation now uses NewPtr and NewSysPtr for memory allocation.
+
+2.1 b - 03/18/96
+----------------
+Added new switch to SmackPlay to force the extra buffer to be filled on open.
+Fixed stupid clipping error in the sound mixer for 16 bit sound.
+
+2.1 a - 03/11/96
+----------------
+Fixed error when you changed the volume with SOS before the first frame.
+
+2.0 y - 02/27/96
+----------------
+Fixed leak if preloading a smack file, and not enough memory was available.
+Fixed divide by zero error in the Miles Sound System code.
+Fixed divide by zero error in the HMI code.
+Fixed nasty overwrite bug in the background buffering code.
+Fixed color palette weirdness on Mac Quadra AVs.
+
+2.0 x - 02/19/96
+----------------
+Used new Causeway extender.
+Fixed a problem with offsets when zoomed on the Mac.
+Adjusted the way ToFlic creates its palettes (weight green higher).
+Fixed a problem with the smacker extra buffer when specified as zero.
+
+2.0 w - 02/07/96
+----------------
+Switched to new combined Win32/Win32s MSS DLL.
+
+2.0 v - 01/16/96
+----------------
+Fixed MSS and MSSW sync code.
+
+2.0 u - 01/09/96
+----------------
+Remerged final Mac SDK.
+Major changes in sound subsystem - simplified third-pary lib use.
+Fairly major changes for Windows DLLs - just the two DLLs now.
+Half dozen or so minor SDK changes to match Mac.
+
+2.0 t - 01/02/96
+----------------
+Fixed buffer bug when using very tiny extra buffer amounts.
+Add ability for player (/D##) and scriptor (WindowsDisplayResolution) to
+  set the screen display mode (under Win95 and NT only).
+Fixed ToFlic converter leaving a DLL in memory.
+Fixed ToFlic converter for mostly dark images.
+Optimized skipping to a frame that is already in the read ahead buffer.
+Added new Smacker DLL for WAIL with Win32s.
+
+2.0 s - 12/22/95
+----------------
+Major improvement in buffering system - will lower dropped frames by half.
+Adjust VGA detection routine to allow for strange VGAs.
+Fixed AIL too agressively dropping frames.
+
+2.0 r - 12/04/95
+----------------
+First Mac code integrated back into RAD.h Smack.h Rfile,h lowsnd.h
+ and Smackinp.cpp.
+Header files pretty drastically modified (to add Mac support).
+Upgraded to patch level 'a' for Watcom 10.5 - fixes several DOS problems.
+
+2.0 q - 11/28/95
+----------------
+Recompiled with WAIL 3.03D - you must update to this version for Smacker.
+Fixed caption option in the 16-bit Smacker playback utility.
+Optimized palette fade out compression.
+
+2.0 p - 11/27/95
+----------------
+Fixed nasty bug in 16-bit WAIL support code (good catch Illumina).
+Tweaked DOS HMI timer code.
+
+2.0 o
+-----
+Speeded up looping of ring frames in scriptor.
+Added new DebugFile command that dumps your script to a file as it runs.
+Added new DebugText command that dumps to the DumpFile output.
+Dialed in DirectSound synching code.
+
+2.0 n
+-----
+Fixed resync after loss of synch in WAIL.
+Changed SmackToBufferRect param to a u32.
+
+2.0 m
+-----
+Tweaked WAIL synching code.
+Added ability to set ms per frame down to hundredth of a ms to all utilities.
+Remove BreakPoints from ToFlic and SmackW32.DLL.
+
+2.0 l
+-----
+Tweaking SmackBuffer close code.
+
+2.0 k
+-----
+Fixed stupid flag reversal in SmackBufferNewPalette code.
+Fix Y coordinate in fliccpy.
+Locked more of the AIL data structures for DOS under Win95.
+Added example program that does its own i/o.
+DirectSound support.
+
+2.0 j
+-----
+WAIL DLL unloaded problem fixed.
+AIL under DOS locking problem fixed.
+Added palette type for SmackBufferNewPalette (same flags as SmackColorRemap).
+Added check for null pointers in all Smack functions.
+
+2.0 i
+-----
+Temporary DirectSound support for Zombie.
+
+2.0 h
+-----
+Fixed timer code for AIL under DOS.
+
+2.0 g
+-----
+Added WAIL support to the SDK.
+Took out automatic timer slow down on SVGASetText and SVGASetGraphics.
+
+2.0 f
+-----
+Added mousemode command for absolute mouse devices under DOS.
+Used the new dead code eliminator in Watcom 10.5 to make utilities smaller.
+Minor optimizations to compressor and toflic converter.
+Tweaked flic output code so that copies will byte compare as identical.
+Fixed double-buffered playback under DOS with larger vesa modes.
+
+2.0 e
+-----
+Fixed stack error with HMI 4 (make sure you have HMI 4 from 9/11/95).
+Fixed error in front end with blank switches.
+Fixed error on exit from player after help displayed.
+Fixed conversion of 16-bit images to flics.
+
+2.0 d
+-----
+Tweaked timer code.
+Fixed looping error in scriptor.
+Fixed button highlighting in scriptor tab.
+Fixed file i/o in scriptor under Win386.
+Added support in the SDK for HMI4.
+
+2.0 c
+-----
+Fixed bug when playing multiple sound Smacker file in a row with SmackPly.
+
+2.0 b
+-----
+Switched to Watcom 10.5 (files got smaller for some reason).
+Added API support for Borland (Windows only - no powerpack).
+Tweaked full-screen mode setting for 16-bit SmackBuffers.
+Added SmackBufferFocused command.
+
+2.0 a
+-----
+Fixed palette clearing after mode set.
+Added new fliccpy command.
+Finished demo.
+Keep fractional frame rates hidden in the flic file.
+Fixed line and button settings on restore of edit tab in Scriptor tab.
+Fixed saving current edit position in scriptor tab.
+ESC on command to run in command tab will clear the line first.
+Fixed Ctrl-PageDown in edit memo boxes.
+Changed Multimedia tab, so that it doesn't automatically open the MCI file.
+Fixed file highlight after a file find or recent file choice.
+Fixed crash when sound interrupted under NT.
+Fixed beeping under Win32s
+Fixed loop around slowdown when using animationadvance to the end of a flic.
+Updated help files.
+Fixed a null region select in weird palette reselect cases.
+Fixed GPF when using Recent Directories after running the scriptor.
+Fixed multiple notification to parent from scriptor.
+Created better default mouse for scriptor (12x20).
+Fixed crash on looping under NT 3.51.
+Fixed dragging on a lower priority for smoother dragging.
+Switched to AIL-lite sound library for DOS version.
+Switched to the Causeway extender for DOS version (compressed EXEs).
+Major change to the DispDIB code for greater compatibility (changed API).
+Improved ToFlic quantoning on darker colors.
+Made palettes into keypalettes on keyframes.
+Allow copy from the pop-up copy file option to a directory name.
+
+1.9 u
+-----
+Took thread priorities out of Smackinp - put into player and
+  scriptor directly.
+Took out feature of calling SmackerW with SMK or SS - put into SMACKGO.EXE.
+Fixed misspellings and always asking to install FFS, VFW or Win32s.
+Fixed cursor on utility windows.
+Fixed compressing flics directly from read-only media.
+Fixed div error when mixed non-sound data.
+Fixed new palette on input change error in toflic.
+Fixed using SmackBuffers with SYSPAL_NOSTATIC turned on.
+Fixed error using ".." with DirChange in scriptor.
+Added SystemPaletteLock command in scriptor.
+Fixed centering error on odd-sized flics under the DOS scriptor.
+
+1.9 t
+-----
+Cleaned up help significantly.
+The front-end has context-sensitive help for the scriptor (Ctrl-F1).
+Fixed locating file associations under Win95.
+Fixed rare crash when compressing under Win32s.
+First CD-based version.
+All new set-up programs.
+Can call SmackerW with an SMK or a SS to play.
+
+1.9 s
+-----
+Added help to front end.
+Fixed scriptor problem where you move up to 640x480 then back to 320x200.
+Fixed error passing in SMACKTRACKS to SmackVolume.
+
+1.9 r
+-----
+Renamed a few executables for consistency (ToFlicW6, SmkInfoW, MMInfoW).
+Front-end figures out if it is running WinNT/Win95/Win32 and runs Win32s 
+  versions of the utilities, otherwise it runs the 16 bit versions.
+Fixed crash at end of toflic.exe under NT and Win95.
+Fixed reversal of channels and quality flags in SmackUnmix.
+Added the built-in SVGA (non-vesa) drivers from FastGraph.
+Fixed too short entry for simulate and extra mem in front-end for player.
+Fixed error where high indexes mapped to lower indexes in SmackC.
+SmackOnOff releases the Windows waveout handle while it is off (SDK).
+Fixed simulation speeds under Windows 3.11 with SmackPlay.
+Fixed variable deletion when another variable holds same variable (scriptor).
+Fixed palette loading in AnimationLoadToBitmap command.
+Added VESA controls in player (/A option).
+Added VESA control in DOS scriptor-SCREENSETTINGS num (num same as /A).
+Added blitter control in Windows scriptor-SCREENSETTINGS num (num same as 
+  /V in Windows player).
+Added ScreenInfo command in scriptor - returns settings used for display.
+Added frame specific settings in DOS and Windows.
+
+1.9 q
+-----
+Added ScreenWindowAutoPause command in SmackScript (pauses when lose focus).
+Added ScreenWindowHasFocus (returns whether SmackScript has focus).
+Fixed slow loading of the player from 16 bit apps under WinNT.
+Bump up the thread priority automatically under NT and Win95.
+Fixed support for VBEs that hose the top of the extended registers (UNIVBE).
+Added support for VBE 2.0 32 bit bank switching.
+Added support for VBE 2.0 32 bit linear frame buffering - very,very fast.
+Fixed bug in playback of very large, or very unusual flics.
+Removed support for FlashTek's X32.
+
+1.9 p
+-----
+Adjusted RAD.H for Microsoft.
+Fixed SmackW32.DLL linker error.
+Fixed file buffering for NT (fixes all sorts of weird errors on 3.51).
+Fixed port calls to avoid NT exceptions.
+Did import library for MSC 2 - nightmare city.
+Added support for full-screen under Win95 - another nightmare city.
+Made front-end icon show in title bar under Win95.
+Made copy command in front-end retain the file times.
+Fixed front-end not restoring with Win95 (bug in build 490 and below).
+Fixed front-end error when sub-process sends finish flag at awkward time.
+
+1.9 o
+-----
+Fixed non-display of VESA modes with DOS radsi.exe.
+Switched all of the windows utilities to Win32s versions (normal Windows
+  versions of the scriptor and player are still licenseable).  This allows
+  the utilities to run well under Win NT and Win95.
+
+1.9 n
+-----
+Fixed directory command in SmackerW.
+Fixed playback problem with extremely small Smks (less than 2K).
+Added Recently used file and directory options.
+Fixed error on directory with invalid file date/times.
+Fixed error renaming/copying twice in a row.
+Now allow more than one rename/copy window open at a time.
+You can use wildcards in del, ren, copy.
+Rename directory remembers where it is.
+Can make Smacker Batch files (*.SBT files).
+File attributes windows and command.
+Find File command.
+Batch file editor.
+Fixed error holding down down arrow in command history.
+Added Cls,SaveHist,type and edit commands in command line.
+Handle switching away from default drive and back again.
+Fixed problem where script files weren't being closed.
+Fixed problem where utilities couldn't allocate a window.
+Speeded up fades in the Windows scriptor.
+
+1.9 m
+-----
+Fixed SmackMixing into non-first frame .
+Created SmackMix option to loop the sound over and over.
+New front-end (tab based, written in Delphi).
+
+1.9 l
+-----
+Fixed blip that occurred when playing very short sound files.
+
+1.9 k
+-----
+Fixed 100* error in negative frame rates with SmackPly.
+Finished sound extractor - can also convert between wav formats.
+
+1.9 j
+-----
+Changed the way the SmackBlw.DLL initializes palettes to account for
+  buggy Diamond display drivers.
+Added replaceable font support in SmackScript .
+    (TEXTFONTFROMBITMAP bitmapvariable,charwidth,charheight,startcharnum,endcharnum)
+Added easy loading bitmap support in SmackScript .
+    (opens a smk, allocs a bitmap, puts each frame into a bitmap)
+    (ANIMATIONLOADTOBITMAP smkname, bitmap1, bitmap2, etc).
+Added BitmapWidth, BitmapHeight commands in SmackScript.
+Switched to latest HMI version (2/5/95).
+Set the blit mode when using STANDARDBLIT to COLORONCOLOR in Windows.
+
+1.9 i
+-----
+Fix divide by zero error when compressing unusual flics.
+Palette fades compress better.
+
+1.9 h
+-----
+8/16 bit AVIs are handled by ToFlic.
+TGA, PCX, BMP, GIF, TIF, and JPEG are handled by ToFlic.
+Palette remapping has been improved - it is now the default on 256 cards.
+Can specify key frames with SmackC.
+SmackC handle negative frame rates correctly (as MS Per Frame).
+
+1.9 g
+-----
+Fixed off by one error on ScreenFilledBox when on reversed WinG screens.
+Added file handle options on SmackOpen.
+
+1.9 f
+-----
+Windows front end updated.
+New palette setting code.
+Fixed bug in scriptor.
+Scriptor sped up by 100%.
+Fixed bug in Windows scriptor when playing a sound.
+
+1.9 d
+-----
+Scriptor added.
+Most of the utilities slightly updated.
+
+1.8 s
+-----
+Fixed SmackScr when using unusual multiple VESA windows.
+
+1.8 q
+-----
+SmackScr will reset the mouse cursor on a mouse add.
+SmackPlw will skip frames if it is falling behind the audio.
+
+1.8 p
+-----
+Smackc can take a list of flics to compressed instead of just one (useful
+  when your flics are huge and you don't want to join them.)
+ToFlic gives info on PCX, GIF, TIF, TGA, JPG, and BMP files.
+

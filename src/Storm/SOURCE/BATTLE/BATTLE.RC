@@ -1,0 +1,602 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXT
+//
+
+CHAT_HELP               TEXT    MOVEABLE PURE   "chathelp.txt"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    "DIALOG_CHATROOM", DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 247
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 143
+    END
+
+    "DIALOG_JOIN_GAME", DIALOG
+    BEGIN
+        LEFTMARGIN, 10
+        RIGHTMARGIN, 244
+        TOPMARGIN, 10
+        BOTTOMMARGIN, 141
+    END
+
+    "DIALOG_CHAT_HELP", DIALOG
+    BEGIN
+        LEFTMARGIN, 18
+        RIGHTMARGIN, 137
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 110
+    END
+
+    "DIALOG_LOGON", DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        VERTGUIDE, 22
+        VERTGUIDE, 134
+        VERTGUIDE, 180
+        VERTGUIDE, 244
+        VERTGUIDE, 248
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 200
+        HORZGUIDE, 4
+        HORZGUIDE, 62
+        HORZGUIDE, 74
+        HORZGUIDE, 86
+        HORZGUIDE, 112
+        HORZGUIDE, 170
+    END
+
+    "DIALOG_CHAT_CHANNEL", DIALOG
+    BEGIN
+        LEFTMARGIN, 10
+        RIGHTMARGIN, 244
+        TOPMARGIN, 8
+        BOTTOMMARGIN, 136
+    END
+
+    "DIALOG_CONNECT_BG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    "DIALOG_PROGRESS", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 105
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 52
+    END
+
+    "DIALOG_BATTLENET", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    "DIALOG_CONNECT_CANCEL", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 105
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 53
+    END
+
+    "DIALOG_AD", DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 186
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 23
+    END
+
+    "DIALOG_SET_PASSWORD", DIALOG
+    BEGIN
+        LEFTMARGIN, 10
+        RIGHTMARGIN, 142
+        TOPMARGIN, 10
+        BOTTOMMARGIN, 111
+    END
+
+    "DIALOG_ENTER_PASSWORD", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 147
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 110
+    END
+
+    "DIALOG_RENAME_ACCOUNT", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 147
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 110
+    END
+
+    "DIALOG_CREATE_NAME", DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 150
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 115
+    END
+
+    "DIALOG_FILTER_JOIN_GAME", DIALOG
+    BEGIN
+        LEFTMARGIN, 10
+        RIGHTMARGIN, 244
+        TOPMARGIN, 10
+        BOTTOMMARGIN, 141
+    END
+
+    "DIALOG_NEW_ACCOUNT", DIALOG
+    BEGIN
+        LEFTMARGIN, 10
+        RIGHTMARGIN, 244
+        VERTGUIDE, 23
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 141
+        HORZGUIDE, 32
+        HORZGUIDE, 58
+        HORZGUIDE, 83
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+DIALOG_CHATROOM DIALOGEX 0, 61, 256, 146
+STYLE WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_CHATEDIT,46,128,122,10,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER
+    PUSHBUTTON      "C&hannel",ID_CHATCHANNEL,4,2,34,30,BS_BOTTOM | 
+                    BS_MULTILINE
+    PUSHBUTTON      "&Create",ID_CHATCREATE,4,39,34,30,BS_BOTTOM | 
+                    BS_MULTILINE
+    PUSHBUTTON      "&Join",ID_CHATJOIN,4,76,34,30,BS_BOTTOM | BS_MULTILINE
+    PUSHBUTTON      "&Quit",IDQUIT,4,113,34,30,BS_BOTTOM
+    LISTBOX         IDC_USERLIST,184,27,57,92,LBS_OWNERDRAWFIXED | 
+                    LBS_HASSTRINGS | NOT WS_BORDER | WS_TABSTOP
+    LISTBOX         IDC_CHATWINDOW,46,10,115,108,NOT LBS_NOTIFY | 
+                    LBS_OWNERDRAWFIXED | LBS_HASSTRINGS | LBS_USETABSTOPS | 
+                    LBS_NOSEL | NOT WS_BORDER | WS_TABSTOP
+    PUSHBUTTON      "&Send",IDOK,181,128,34,15
+    PUSHBUTTON      "&Whisper",ID_WHISPER,219,128,34,15
+    CTEXT           "",IDC_STATIC_CHANNEL,181,8,66,9
+    CONTROL         "",IDC_USERLIST_SCROLLBAR,"StormScrollbar",0x0,241,27,7,
+                    88
+    CONTROL         "",IDC_MSGLIST_SCROLLBAR,"StormScrollbar",0x0,161,10,7,
+                    106
+    PUSHBUTTON      "&Verbose",ID_VERBOSE,86,112,28,11,NOT WS_VISIBLE | NOT 
+                    WS_TABSTOP
+END
+
+DIALOG_LADDER_CHATROOM DIALOGEX 0, 61, 256, 146
+STYLE WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_CHATEDIT,46,128,122,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER
+    PUSHBUTTON      "C&hannel",ID_CHATCHANNEL,4,2,34,23,BS_BOTTOM | 
+                    BS_MULTILINE
+    PUSHBUTTON      "&Create",ID_CHATCREATE,4,31,34,23,BS_BOTTOM | 
+                    BS_MULTILINE
+    PUSHBUTTON      "&Join",ID_CHATJOIN,4,60,34,23,BS_BOTTOM | BS_MULTILINE
+    PUSHBUTTON      "&Ladder",ID_CHATLADDER,4,89,34,23,BS_BOTTOM | 
+                    BS_MULTILINE
+    PUSHBUTTON      "&Quit",IDQUIT,4,118,34,23,BS_BOTTOM
+    LISTBOX         IDC_USERLIST,184,27,57,92,LBS_OWNERDRAWFIXED | 
+                    LBS_HASSTRINGS | NOT WS_BORDER | WS_TABSTOP
+    LISTBOX         IDC_CHATWINDOW,46,10,115,108,NOT LBS_NOTIFY | 
+                    LBS_OWNERDRAWFIXED | LBS_HASSTRINGS | LBS_USETABSTOPS | 
+                    LBS_NOSEL | NOT WS_BORDER | WS_TABSTOP
+    PUSHBUTTON      "&Send",IDOK,179,128,34,15
+    PUSHBUTTON      "&Whisper",ID_WHISPER,214,128,34,15
+    CTEXT           "",IDC_STATIC_CHANNEL,181,8,66,9
+    CONTROL         "",IDC_USERLIST_SCROLLBAR,"StormScrollbar",0x0,241,27,7,
+                    88
+    CONTROL         "",IDC_MSGLIST_SCROLLBAR,"StormScrollbar",0x0,161,10,7,
+                    106
+    PUSHBUTTON      "&Verbose",ID_VERBOSE,86,112,28,11,NOT WS_VISIBLE | NOT 
+                    WS_TABSTOP
+END
+
+DIALOG_JOIN_GAME DIALOGEX 0, 61, 256, 146
+STYLE WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_NAME,168,50,76,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PASSWORD,168,69,76,12,ES_AUTOHSCROLL
+    LISTBOX         IDC_GAMELIST,10,23,97,117,LBS_OWNERDRAWFIXED | 
+                    LBS_HASSTRINGS | LBS_USETABSTOPS | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,179,128,34,15
+    PUSHBUTTON      "Cancel",IDCANCEL,214,128,34,15
+    CTEXT           "Join Game",IDC_TITLE,130,8,114,9,0,WS_EX_TRANSPARENT
+    RTEXT           "Name:",IDC_STATIC,130,50,36,12,0,WS_EX_TRANSPARENT
+    RTEXT           "Password:",IDC_STATIC,130,69,36,12,0,WS_EX_TRANSPARENT
+    LTEXT           "To Join a game, enter the game information below.",
+                    IDC_STATIC,130,23,114,18,0,WS_EX_TRANSPARENT
+    CTEXT           "Matching Public Games",IDC_STATIC,10,8,104,9,0,
+                    WS_EX_TRANSPARENT
+    LTEXT           "",IDC_GAMEDESCRIPTION,130,88,114,27
+    CONTROL         "",IDC_SCROLLBAR,"StormScrollbar",0x0,107,24,7,110
+END
+
+DIALOG_CHAT_HELP DIALOGEX 0, 0, 154, 118
+STYLE DS_CENTER | WS_POPUP
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,56,95,34,15
+    EDITTEXT        IDC_EDIT1,18,16,112,70,ES_MULTILINE | ES_READONLY
+    CTEXT           "Help",IDC_TITLE,18,4,119,9,0,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_SCROLLBAR,"StormScrollbar",0x0,130,16,7,70
+    DEFPUSHBUTTON   "Cancel",IDCANCEL,94,95,34,15
+END
+
+DIALOG_LOGON DIALOGEX 0, 0, 256, 203
+STYLE DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CLIPCHILDREN
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_PASSWORD,23,114,85,12,ES_PASSWORD | 
+                    ES_AUTOHSCROLL | WS_CLIPSIBLINGS
+    PUSHBUTTON      "New Account",IDS_NEWACCOUNT,33,157,66,15
+    CTEXT           "Battle.net Login",IDC_TITLE,2,61,254,12,0,
+                    WS_EX_TRANSPARENT
+    LTEXT           "Name",IDC_STATIC,22,77,32,10,0,WS_EX_TRANSPARENT
+    LTEXT           "Password",IDC_STATIC,22,103,32,10,0,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_COMBO_NAME,"StormComboBox",WS_CLIPSIBLINGS | 
+                    WS_TABSTOP,22,87,88,14,WS_EX_CONTROLPARENT
+    DEFPUSHBUTTON   "Ok",IDOK,179,185,34,15
+    PUSHBUTTON      "Cancel",IDCANCEL,214,185,34,15
+    LTEXT           "Profile:",IDC_STATIC,134,76,114,10,0,WS_EX_TRANSPARENT
+    LTEXT           "",IDC_PROFILE,134,85,110,86,WS_BORDER,WS_EX_TRANSPARENT
+END
+
+DIALOG_CHAT_CHANNEL DIALOGEX 0, 61, 256, 146
+STYLE WS_POPUP
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_NAME,168,50,76,12,ES_AUTOHSCROLL
+    LISTBOX         IDC_CHANNELLIST,10,23,97,117,LBS_USETABSTOPS | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,179,128,34,15
+    PUSHBUTTON      "Cancel",IDCANCEL,214,128,34,15
+    LTEXT           "To join or create a Private Channel, enter a name below.",
+                    IDC_STATIC,130,23,114,18,0,WS_EX_TRANSPARENT
+    CTEXT           "Select Channel",IDC_TITLE,130,8,114,9,0,
+                    WS_EX_TRANSPARENT
+    RTEXT           "Channel:",IDC_STATIC,130,50,36,12,0,WS_EX_TRANSPARENT
+    CTEXT           "Channels",IDC_STATIC,10,8,104,9,0,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_SCROLLBAR,"StormScrollbar",0x0,107,24,7,110
+END
+
+DIALOG_CONNECT_BG DIALOGEX 0, 0, 256, 203
+STYLE WS_POPUP
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LOGO_ANIMATE,"Static",SS_BLACKFRAME,0,0,104,43
+END
+
+DIALOG_PROGRESS DIALOGEX 0, 0, 112, 61
+STYLE DS_CENTER | WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    CTEXT           "",IDC_PROGRESS_TEXT,0,4,112,18,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "Cancel",IDCANCEL,34,42,44,12
+    CONTROL         "",IDC_UIGENERIC_PROGRESS,"Static",SS_BLACKFRAME,10,22,
+                    91,16
+END
+
+DIALOG_BATTLENET DIALOGEX 0, 0, 256, 203
+STYLE WS_POPUP
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LOGO_ANIMATE,"Static",SS_BLACKFRAME,0,0,104,47
+END
+
+DIALOG_CONNECT_CANCEL DIALOGEX 0, 0, 112, 61
+STYLE DS_CENTER | WS_POPUP
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    CTEXT           "Searching for the fastest Battle.net server...",
+                    IDC_TITLE,7,9,98,27
+    PUSHBUTTON      "Cancel",IDCANCEL,34,39,44,12
+END
+
+DIALOG_AD DIALOGEX 37, 29, 187, 25
+STYLE WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+END
+
+DIALOG_SET_PASSWORD DIALOGEX 0, 0, 154, 118
+STYLE DS_CENTER | WS_POPUP
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,32,73,92,12,ES_AUTOHSCROLL | NOT WS_BORDER
+    DEFPUSHBUTTON   "OK",IDOK,42,90,34,15
+    DEFPUSHBUTTON   "Cancel",IDCANCEL,80,90,34,15
+    CTEXT           "Set Password",IDC_TITLE,10,10,132,9,0,WS_EX_TRANSPARENT
+    LTEXT           "Please enter a password for your character. This will prevent other people from using your name on Battle.net.",
+                    IDC_STATIC,10,27,132,42,0,WS_EX_TRANSPARENT
+END
+
+DIALOG_ENTER_PASSWORD DIALOGEX 0, 0, 154, 117
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,32,73,92,12,ES_AUTOHSCROLL | NOT WS_BORDER
+    DEFPUSHBUTTON   "OK",IDOK,55,92,44,12
+    PUSHBUTTON      "Cancel",IDCANCEL,103,92,44,12
+    PUSHBUTTON      "New Account",IDC_NEWACCOUNT,7,92,44,12
+    CTEXT           "Enter Password",IDC_TITLE,10,10,132,9,0,
+                    WS_EX_TRANSPARENT
+    LTEXT           "",IDC_STATIC,10,27,132,36,0,WS_EX_TRANSPARENT
+END
+
+DIALOG_RENAME_ACCOUNT DIALOGEX 0, 0, 154, 117
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    CTEXT           "Rename Character",IDC_TITLE,10,10,132,9,0,
+                    WS_EX_TRANSPARENT
+    LTEXT           "",IDC_STATIC,10,27,132,36,0,WS_EX_TRANSPARENT
+    DEFPUSHBUTTON   "OK",IDOK,42,90,34,15
+    DEFPUSHBUTTON   "Cancel",IDCANCEL,80,90,34,15
+    EDITTEXT        IDC_EDIT1,32,73,92,12,ES_AUTOHSCROLL | NOT WS_BORDER
+END
+
+DIALOG_CREATE_NAME DIALOGEX 0, 0, 154, 118
+STYLE DS_CENTER | WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    CTEXT           "Create Name",IDC_STATIC,4,5,146,12
+    RTEXT           "Name",IDC_STATIC,2,46,46,12
+    RTEXT           "Password",IDC_STATIC,2,69,46,12
+    EDITTEXT        IDC_EDIT_NAME,52,46,94,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PASSWORD,52,69,94,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Accept",IDOK,26,98,40,15
+    PUSHBUTTON      "Cancel",IDESCAPE,88,98,40,15
+END
+
+DIALOG_FILTER_JOIN_GAME DIALOGEX 0, 61, 256, 146
+STYLE WS_POPUP | WS_VISIBLE | WS_CLIPCHILDREN
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_NAME,168,50,76,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PASSWORD,168,69,76,12,ES_AUTOHSCROLL
+    LISTBOX         IDC_GAMELIST,10,40,97,99,LBS_OWNERDRAWFIXED | 
+                    LBS_HASSTRINGS | LBS_USETABSTOPS | WS_CLIPSIBLINGS | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,179,128,34,15
+    PUSHBUTTON      "Cancel",IDCANCEL,214,128,34,15
+    CTEXT           "Join Game",IDC_TITLE,130,8,114,9,0,WS_EX_TRANSPARENT
+    RTEXT           "Name:",IDC_STATIC,130,50,36,12,0,WS_EX_TRANSPARENT
+    RTEXT           "Password:",IDC_STATIC,130,69,36,12,0,WS_EX_TRANSPARENT
+    LTEXT           "To Join a game, enter the game information below.",
+                    IDC_STATIC,130,23,114,18,0,WS_EX_TRANSPARENT
+    CTEXT           "Matching Public Games",IDC_STATIC,10,8,104,9,0,
+                    WS_EX_TRANSPARENT
+    LTEXT           "",IDC_GAMEDESCRIPTION,130,88,114,27
+    CONTROL         "",IDC_SCROLLBAR,"StormScrollbar",WS_CLIPSIBLINGS,107,40,
+                    7,99
+    CONTROL         "",IDC_FILTER,"StormComboBox",WS_CLIPSIBLINGS | 
+                    WS_TABSTOP | 0x3,10,22,104,14
+END
+
+DIALOG_NEW_ACCOUNT DIALOGEX DISCARDABLE  0, 61, 256, 146
+STYLE WS_POPUP | WS_VISIBLE
+FONT 13, "Times New Roman", 700, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,179,128,34,15
+    PUSHBUTTON      "Cancel",IDCANCEL,214,128,34,15
+    EDITTEXT        IDC_NAME,23,32,85,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASS1,23,58,85,12,ES_AUTOHSCROLL|ES_PASSWORD
+    EDITTEXT        IDC_PASS2,23,83,85,12,ES_AUTOHSCROLL|ES_PASSWORD
+    LTEXT           "Password:",IDC_STATIC,23,50,72,8,0,WS_EX_TRANSPARENT
+    LTEXT           "Name:",IDC_STATIC,23,24,72,8,0,WS_EX_TRANSPARENT
+    LTEXT           "Repeat Password:",IDC_STATIC,23,75,72,8,0,WS_EX_TRANSPARENT
+    CTEXT           "New Account",IDC_STATIC,10,4,234,10,0,WS_EX_TRANSPARENT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1997,3,21,1
+ PRODUCTVERSION 1997,3,21,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "Blizzard Entertainment\0"
+            VALUE "FileDescription", "Battle.snp\0"
+            VALUE "FileVersion", "1.03\0"
+            VALUE "InternalName", "Battle.snp\0"
+            VALUE "LegalCopyright", "Copyright © 1997, Blizzard Entertainment\0"
+            VALUE "OriginalFilename", "Battle.snp\0"
+            VALUE "ProductName", "Battle.net Service Provider\0"
+            VALUE "ProductVersion", "1.03\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PASSWORD_MISMATCH   "The passwords you have typed do not match. Please enter the same password twice."
+    IDS_CHAT_HELP_RES       "chat_help"
+    IDS_NAME_REQUIRED       "You must enter a name for the game."
+    IDS_ASK_UPDATE          "There is a new version of software available. Battle.net requires that you use the latest version. Your software will be updated now."
+    IDS_PREP_RESTART        "The update has been downloaded successfully.  Your application will now restart."
+    IDS_CHAT_JOIN_ROOM      "%cJoining channel: %s"
+    IDS_CHAT_PLAYER_LEFT_ROOM "%c%s has left the channel."
+    IDS_CHAT_PLAYER_ENTERED_ROOM "%c%s has joined the channel."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_JOIN_FAILED         "You were unable to join the selected game."
+    IDS_ERR_UNREACHABLE     "Battle.net is not responding, please wait and try connecting again later."
+    IDS_BATTLENET           "Battle.net"
+    IDS_ERR_NOTRESPONDING   "The connection to Battle.net has been interrupted. Please try again later."
+    IDS_ERR_UNABLETOUPGRADE "Battle.net was unable to properly identify your application version. Please reinstall the application from the CD and then reconnect to Battle.net."
+    IDS_ERR_DOWNLOADFAILED  "The update has been interrupted. No changes were made. Please try this process again."
+    IDS_DOWNLOADPROGRESS    "Downloading software upgrade."
+    IDS_WHISPER_FROM        "From: "
+    IDS_WHISPER_TO          "To: "
+    IDS_ERR_INVALIDBETAID   "You have entered an Invalid ID."
+    IDS_ERR_CANTWHISPER     "You have not chosen a player to whisper to. You must first select a player from the list. Then, click whisper to send your message only to that player."
+    IDS_CHANNEL_NAME_INVALID 
+                            "Invalid channel name. A channel name cannot contain reserved characters."
+    IDS_FIRST_NASTY         "gvdl"
+    IDS_NASTY0              "dvou"
+    IDS_NASTY1              "tiju"
+    IDS_NASTY2              "cjudi"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NASTY3              "bttipmf"
+    IDS_NASTY4              "ojhhfs"
+    IDS_NASTY5              "cmj{{bse"
+    IDS_LAST_NASTY          "benjo"
+    IDS_ERR_CHATNOTHINGTOSEND 
+                            "To chat with other players, you must first type a message to send."
+    IDS_PROMPT_CREATECHANNEL 
+                            "The ""%s"" channel is currently empty. Do you want to create a new channel with this name?"
+    IDS_CHANNEL_FULL        "The ""%s"" channel is currently full. Please try again later."
+    IDS_ERR_BADCONNECTION   "Unable to connect to the Battle.net. If you are using a modem to access your service provider and are not configured for Dialup Networking, you may have to initiate the the connection manually."
+    IDS_ERR_BADSERVICEPROVIDER 
+                            "Your Internet connection is either very poor or is not processing UDP packets. Contact your service provider or your system administrator for assistance. When connected to Battle.net, you will be able to chat but will not be able to play games."
+    IDS_CHANNEL_FMT         "%s (%d)"
+    IDS_USERUNSQUELCHED_FMT "%cAccepting messages from %s."
+    IDS_USERSQUELCHED_FMT   "%cIgnoring messages from %s."
+    IDS_VERBOSE_FMT         "%cEnter/Leave notifications: ON"
+    IDS_NONVERBOSE_FMT      "%cEnter/Leave notifications: OFF"
+    IDS_ERR_NOWSOCK32       "Your system has not been configured to support 32 bit Internet applications or Dialup Networking has not been configured for Auto Dial. You may have to connect to your internet provider manually before logging into Battle.net."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_QUERYBROWSEWEB      "You have clicked on a link to the Internet. Your web browser will now be launched. You can use the Windows Taskbar to return to Battle.net."
+    IDS_QUERYDISCONNECT     "You have disconnected from Battle.net. Press OK to hangup the connection to %s. Press Cancel to stay connected."
+    IDS_BROWSERERROR        "Battle.net was unable to launch your default browser."
+    IDS_ERR_HOST_UNREACHABLE 
+                            "You were unable to join. The game you have selected is not responding. "
+    IDS_ERR_GAME_FULL       "You were unable to join. The game you have selected is currently full."
+    IDS_ENTERPASSWORD       """%1"" is a registered Battle.net name. Please enter the password for ""%1"", or select New Account to choose a different name."
+    IDS_RENAMECHARACTER     """%1"" is already registered as a unique Battle.net name. Please enter a new name for your character."
+    IDS_ERR_INVALIDPASSWORD "You have entered an incorrect password. If your character has not been on Battle.net for 3 months, or if you forgot your password, you can select ""New Account"" to choose a new name and password."
+    IDS_TITLE_INVALIDPASSWORD "Invalid Password"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

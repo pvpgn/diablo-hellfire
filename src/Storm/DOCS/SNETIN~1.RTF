@@ -1,0 +1,60 @@
+{\rtf1\ansi \deff4\deflang1033{\fonttbl{\f1\froman\fcharset2\fprq2 Symbol;}{\f4\froman\fcharset0\fprq2 Times New Roman;}{\f11\fmodern\fcharset0\fprq1 Courier New;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;
+\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;
+\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\widctlpar \f4\fs20 \snext0 Normal;}{\*\cs10 \additive Default Paragraph Font;}{\s15\widctlpar \b\f4\fs40 \sbasedon0\snext16 API Title;}{\s16\widctlpar \f4 
+\sbasedon0\snext16 API Description;}{\s17\widctlpar \f11\fs22 \sbasedon0\snext17 API Function;}{\s18\widctlpar \b\f4 \sbasedon0\snext16 API Section;}{\s19\li720\widctlpar \f4 \sbasedon0\snext16 API Parameter Description;}{\s20\widctlpar \i\f4 
+\sbasedon0\snext19 API Parameter Name;}{\s21\widctlpar \f4\fs20 \sbasedon0\snext21 footnote text;}{\*\cs22 \additive\super \sbasedon10 footnote reference;}}{\info{\author Mike O'Brien}{\operator Mike O'Brien}{\creatim\yr1996\mo8\dy21\hr16\min21}
+{\revtim\yr1996\mo10\dy3\hr19\min16}{\version2}{\edmins0}{\nofpages2}{\nofwords438}{\nofchars2502}{\*\company Blizzard Entertainment}{\vern57431}}\widowctrl\ftnbj\aenddoc\hyphcaps0\formshade \fet0\sectd \linex0\endnhere {\*\pnseclvl1
+\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5
+\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang
+{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \s15\keepn\widctlpar \b\f4\fs40 {\cs22\super ${\footnote \pard\plain \s21\widctlpar \f4\fs20 {\cs22\super $} SNetInitializeProvider}#{\footnote 
+\pard\plain \s21\widctlpar \f4\fs20 {\cs22\super #} SNetInitializeProvider}K{\footnote \pard\plain \s21\widctlpar \f4\fs20 {\cs22\super K} SNetInitializeProvider}} SNetInitializeProvider
+\par \pard\plain \s16\widctlpar \f4 
+\par Initializes the given network provider, which will provide support for all further SNet calls.
+\par 
+\par Some providers can take a second or more to initialize, especially if initialization involves connecting to a server.
+\par 
+\par Rather than calling this function manually, an application will generally call SNetSelectProvider() to present the user with a list of network providers and allow him to select and initialize one.
+\par 
+\par \pard\plain \s17\widctlpar \f11\fs22 BOOL SNetInitializeProvider (
+\par \tab DWORD\tab \tab \tab \tab providerid,
+\par \tab SNETPROGRAMDATAPTR\tab programdata,
+\par \tab SNETPLAYERDATAPTR\tab playerdata,
+\par \tab SNETUIDATAPTR\tab \tab interfacedata,
+\par \tab SNETVERSIONDATAPTR\tab versiondata
+\par );
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s18\widctlpar \b\f4 Parameters
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 providerid
+\par \pard\plain \s19\li720\widctlpar \f4 The ID of the provider to be initialized.  This is obtained from a call to SNetEnumerateProviders().
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s19\li720\widctlpar \f4 You can also specify zero to use the null provider.  The null provider is used just l
+ike any other provider, but it does not make use of any communications medium.  It is provided so that single player games can use the same code as multi-player games.  To create a single player game using the null provider, first initialize the provider,
+ then create a game using SNetCreateGame(), then send messages and turns using the SNet functions as normal.  At the end of the game, call SNetLeaveGame().
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 programdata
+\par \pard\plain \s19\li720\widctlpar \f4 A pointer to a structure containing information about the program, such as the program name, version, and number of players supported.  This is a mandatory parameter.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 playerdata
+\par \pard\plain \s19\li720\widctlpar \f4 A pointer to a structure containing the name and description of the current player.  The provider may use this information if it performs a matchmaking process.  This is a mandatory parameter.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 interfacedata
+\par \pard\plain \s19\li720\widctlpar \f4 A pointer to a structure containing information about how the network provider should display user interface screens if necessary.  Most network providers will fail if this information is not given.  For example, 
+the modem provider cannot query the user for a phone number to dial without the ability to display user interface screens.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s20\widctlpar \i\f4 versiondata
+\par \pard\plain \s19\li720\widctlpar \f4 A pointer to a structure containing information about the application which is necessary for automatic version control.  Some network providers are capable of performing over-the-wire version updates.
+\par \pard\plain \s16\widctlpar \f4 
+\par \pard\plain \s18\widctlpar \b\f4 Return Value
+\par \pard\plain \s16\widctlpar \f4 
+\par This function returns TRUE for success or FALSE for failure.  The function can fail if:
+\par {\pntext\pard\plain\f1 \'b7\tab}\pard \s16\fi-360\li360\widctlpar{\*\pn \pnlvlblt\pnf1\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}The program data is missing or invalid.
+\par {\pntext\pard\plain\f1 \'b7\tab}The player data is missing or invalid.
+\par {\pntext\pard\plain\f1 \'b7\tab}The interface data is missing or invalid, and the provider needs to display user interface in order to initialize itself.
+\par {\pntext\pard\plain\f1 \'b7\tab}The system is out of memory or resources
+\par {\pntext\pard\plain\f1 \'b7\tab}The network provider was unable to initialize itself.  For example, the IPX provider may fail if IPX support is not available, and the Battle.net provider may fail if it cannot contact any Battle.net servers.
+\par {\pntext\pard\plain\f1 \'b7\tab}The application needs to be upgraded before it can connect to the server.
+\par \pard \s16\widctlpar 
+\par If this function fails, the application should call GetLastError() to determine the reason for failure.  If GetLastError() returns SNET_ERROR_REQUIRES_UPGRADE, the application should call SNetPerformUpgrade().
+\par \pard\plain \widctlpar \f4\fs20 
+\par }

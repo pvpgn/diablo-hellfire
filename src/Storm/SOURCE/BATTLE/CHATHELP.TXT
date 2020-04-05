@@ -1,0 +1,38 @@
+The buttons along the left side of the chat screen have the following functions:
+
+CHANNEL: Select a new channel to join or create a private channel.  You will be prompted to choose either a Public Channel, or enter the name of a Private Channel that you wish to enter. To start a new Channel, enter the name of the Channel that you wish to create.  
+
+CREATE: Create a new game for other players to join. You will be prompted to enter a name for this game and to choose a difficulty level at which you wish to play. You also have the option to make the game Private by assigning a password to the game. Other players who wish to join your game will need to know the password you have selected.
+
+JOIN: Enter an existing game. You can join either a Public or Private game. Public games can be joined any time they have less than four players within them. To join a Private game you will be required to enter the name of the game and its assigned password.
+
+QUIT: Exits the Battle.net Connection Screen and returns you to the previous screen.
+
+
+The window on the right side of the chat screen displays the name of the Channel that you are currently in and lists the other members within that Channel. The portrait for each player displays the class and level of their character. To the right of the player's name is a colored bar that indicates their Internet latency. The longer the bar, the slower their connection.
+
+To communicate with other members of a Channel, type your message within the box at the bottom of the screen and then click on either the SEND or the WHISPER button.
+
+SEND will display your message to everyone in your Channel.
+
+WHISPER will send your message to the selected player only.
+
+To select the player to whom you wish to WHISPER, click on the player's name.  Only the player whose name is highlighted will receive messages that you WHISPER.
+
+To toggle player joining/leaving notifications, press Alt<V>.
+
+
+Special Chat Commands:
+
+/whereis <player>: Searches for another player in public chat rooms and games.
+
+/whisper <player>: Sends a private message to this player.  (Short form: /w or /msg)
+
+/squelch <player>: Ignore messages from this player.
+
+/unsquelch <player>: Turns off squelch for this player.
+
+To quickly enter a player's name, double click on the player's name from the list.
+
+\ 
+*** (Do not remove '\') ***

@@ -1,0 +1,8 @@
+Fork width 188  height 121  
+Fork width 188  height 121  
+Neutral frame count 10 
+Walk frame count 10 
+Attack frame count 15 
+Get hit frame count 6 
+Die frame count 16 
+Special frame count 0 

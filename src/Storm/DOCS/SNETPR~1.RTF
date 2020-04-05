@@ -1,0 +1,70 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f16\froman\fcharset238\fprq2 Times New Roman CE;}{\f17\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f19\froman\fcharset161\fprq2 Times New Roman Greek;}{\f20\froman\fcharset162\fprq2 Times New Roman Tur;}
+{\f21\froman\fcharset186\fprq2 Times New Roman Baltic;}{\f28\fmodern\fcharset238\fprq1 Courier New CE;}{\f29\fmodern\fcharset204\fprq1 Courier New Cyr;}{\f31\fmodern\fcharset161\fprq1 Courier New Greek;}{\f32\fmodern\fcharset162\fprq1 Courier New Tur;}
+{\f33\fmodern\fcharset186\fprq1 Courier New Baltic;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;
+\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\nowidctlpar\widctlpar\adjustright \fs20 \snext0 Normal;}
+{\*\cs10 \additive Default Paragraph Font;}{\s15\nowidctlpar\widctlpar\adjustright \b\fs40 \sbasedon0 \snext16 API Title;}{\s16\nowidctlpar\widctlpar\adjustright \sbasedon0 \snext16 API Description;}{\s17\nowidctlpar\widctlpar\adjustright \f2\fs22 
+\sbasedon0 \snext17 API Function;}{\s18\nowidctlpar\widctlpar\adjustright \b \sbasedon0 \snext16 API Section;}{\s19\li720\nowidctlpar\widctlpar\adjustright \sbasedon0 \snext16 API Parameter Description;}{\s20\nowidctlpar\widctlpar\adjustright \i 
+\sbasedon0 \snext19 API Parameter Name;}{\s21\nowidctlpar\widctlpar\adjustright \fs20 \sbasedon0 \snext21 footnote text;}{\*\cs22 \additive \super \sbasedon10 footnote reference;}}{\info{\title SNetCreateGame}{\author Mike O'Brien}{\operator Mike O'Brien}
+{\creatim\yr1996\mo8\dy21\hr16\min18}{\revtim\yr1997\mo3\dy21\hr17\min47}{\version3}{\edmins5}{\nofpages2}{\nofwords224}{\nofchars1280}{\*\company Blizzard Entertainment}{\nofcharsws0}{\vern71}}
+\widowctrl\ftnbj\aenddoc\hyphcaps0\formshade\viewkind1\viewscale100 \fet0\sectd \linex0\endnhere\sectdefaultcl {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3
+\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain 
+\s15\keepn\nowidctlpar\widctlpar\adjustright \b\fs40 {\cs22\super ${\footnote \pard\plain \s21\nowidctlpar\widctlpar\adjustright \fs20 {\cs22\super $}{ SNETPROGRAMDATA}}#{\footnote \pard\plain \s21\nowidctlpar\widctlpar\adjustright \fs20 {\cs22\super #}{
+ SNETPROGRAMDATA}}K{\footnote \pard\plain \s21\nowidctlpar\widctlpar\adjustright \fs20 {\cs22\super K}{ SNETPROGRAMDATA}}}{ SNETPROGRAMDATA
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par The SNETPROGRAMDATA structure contains information about the application, such as the program name and version number.
+\par 
+\par }\pard\plain \s17\nowidctlpar\widctlpar\adjustright \f2\fs22 {typedef struct _SNETPROGRAMDATA \{
+\par \tab DWORD\tab \tab size;
+\par \tab LPCSTR\tab programname;
+\par \tab LPCSTR\tab programdescription;
+\par \tab DWORD\tab \tab programid;
+\par \tab DWORD\tab \tab versionid;
+\par \tab DWORD\tab \tab reserved1;
+\par \tab DWORD\tab \tab maxplayers;
+\par \tab LPVOID\tab initdata;
+\par \tab DWORD\tab \tab initdatabytes;
+\par \tab LPVOID\tab reserved2;
+\par \tab DWORD\tab \tab optcategorybits;
+\par \} SNETPROGRAMDATA, *SNETPROGRAMDATAPTR;
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s18\nowidctlpar\widctlpar\adjustright \b {Members
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {size
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {The size of the structure, in bytes.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {programname
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {The name of the program.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {programdescription
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {The description of the progr
+am.  This usually includes a name and version number.  It is displayed at the bottom of the standard connection screens.  If this field is not provided, Storm will automatically generate it using the EXE file\rquote s product version information.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {programid
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {A unique 32-bit identifier for the application.  The use of this unique identifier allows multiple applications using Storm to create games on the same network without interfering with each other.
+
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {versionid
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {A unique 32-bit identifier for the network version of the application.  This number should be incremented whenever a change in the application makes it incompatible with older versions.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {reserved1
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {Reserved -- must be set to 0.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {maxplayers
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {The maximum number of players per game supported by the application.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {initdata
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {Application-specific initialization data.  This data is provided by the game creator, and is available to all joining computers through the SNET_EVENT_INITDATA callback.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {initdatabytes
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {The size of the application-specific initialization data.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {reserved2
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {Reserved \endash  must be set to 0.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {optcategorybits
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {This value provides a hint to the network provider about which category bits will most often be used by users to narrow the list of joinable games.  The network provider can us
+e this hint to structure the way it stores its list of games.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }}

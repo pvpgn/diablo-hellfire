@@ -1,0 +1,129 @@
+--------------------------------------------------------------------
+patch.txt
+--------------------------------------------------------------------
+
+
+
+--------------------------------------------------------------------
+PATCH 1 -- 1/13/97
+--------------------------------------------------------------------
+
+
+diabloui.dll (connect.cpp)
+--------------------------------------------------------------------
+corrects crash bug when attempting to join game created with an
+invalid time (year < 1970 or year > 2036)
+
+checks for characters with (level==0) and treats that as an invalid
+diablo character (no portrait, can't create or join)
+
+mike.rc
+--------------------------------------------------------------------
+Added version information
+
+
+storm.dll (snet.cpp)
+--------------------------------------------------------------------
+send relative time instead of absolute time to players joining game
+(helps correct diabloui crash bug)
+
+
+standard.snp (ipx.cpp)
+--------------------------------------------------------------------
+run-time dynamically link to wsock32.dll to prevent errors when
+that file does not exist.
+
+
+battle.snp (chatchnl.cpp)
+--------------------------------------------------------------------
+fixed deallocated pointer error which caused player to get locked out
+after creating a channel
+
+joingame.cpp
+--------------------------------------------------------------------
+added more descriptive messages for can't join if game is full or
+game owner is not responding.
+
+games shown in the list of public games will not disappear anymore.
+The list will be refreshed only if the user closes and opens the join 
+game dialog.
+
+scrollrt.cpp
+engine.cpp
+--------------------------------------------------------------------
+corrects the NULL cell buffer errors and other data corruption in draw code
+now uses "GRACEFUL_EXIT" to prevent fatal exits on error conditions
+
+
+diablo.rc
+--------------------------------------------------------------------
+version number changed
+changed IDESCAPE to IDCANCEL for IDD_CDROM_ERR dialog
+now matches code in appfat.cpp
+
+
+init.cpp
+--------------------------------------------------------------------
+version number changed
+
+
+dx.cpp -- init_backbuf()
+--------------------------------------------------------------------
+potential bug -- never actually seen
+commented out ddraw_assert on failure to unlock video surface.
+In NT it is possible to lose a video surface while it is locked.
+
+
+dx.cpp:170 -- init_directx() fail on SetDisplayMode
+--------------------------------------------------------------------
+reported bug -- occurs on some notebook systems
+if direct draw doesn't support switching screen resolutions, try
+switching color depth and keep same screen resolution
+
+
+wave.cpp -- patSFileReadFile()
+--------------------------------------------------------------------
+reported bug -- can't recover from read failure
+if read failure occurs, restart read from beginning,
+not from where read error occurred
+
+
+wave.cpp/appfat.cpp -- InsertCDDlg()
+--------------------------------------------------------------------
+reported bug -- both OK and Exit buttons did the same thing (oops)
+
+
+sound.cpp -- snd_restore_snd()
+--------------------------------------------------------------------
+potential bug -- never actually seen
+if sound buffer cannot be locked, no error occurs, sound skipped
+
+
+sound.cpp:384 -- snd_set_format()
+--------------------------------------------------------------------
+reported bug -- sound cards don't support SetFormat()
+commented out assertion
+
+
+diablo.cpp -- CommandLine()
+--------------------------------------------------------------------
+fixed silly problem with special direct draw command line options so
+they can now appear anywhere on the command line instead of at the end
+
+
+init.cpp -- MainWndProc()
+--------------------------------------------------------------------
+correct palette problems when other applications realize their 
+palettes in the background.
+
+
+pfile.cpp
+--------------------------------------------------------------------
+removed "retribution" code which deletes player inventory when
+cheating dectected.
+
+
+mpqapi.cpp
+--------------------------------------------------------------------
+removed time-stamp save code which appears to damage registry on
+some systems.  Code was related to "retribution" code

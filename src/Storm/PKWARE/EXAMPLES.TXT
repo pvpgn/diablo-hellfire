@@ -1,0 +1,142 @@
+*******************************************************************
+*** Important information for use with the                      ***
+*** PKWARE Data Compression Library (R) for Win32               ***
+*** Copyright 1995 by PKWARE Inc. All Rights Reserved.          *** 
+*** PKWARE Data Compression Library Reg. U.S. Pat. and Tm. Off. ***
+*******************************************************************
+
+*  The examples provided show how the PKWARE Data Compression Library is
+   implemented. These examples show how to do "file-to-file" compression,
+   "memory-to-memory" compression, and disk spanning. We recommend that
+   you run the examples with a debugger, and set breakpoints in the I/O
+   callback functions. These functions handle the data I/O, and can be
+   modified to compress or extract data from any device, not just from a file.
+
+
+* Visual C++ users
+
+   *  To build a Visual C++ project, load the Visual Workbench, and open
+      the .MAK file through the "Open" menu item under "Project."  This
+      will automatically update the makefile to the path of where the
+      examples are installed.
+
+   *  To make a VC++ .MAK file, add all the files in the example directory
+      with the extensions: *.c*, *.rc, *.def, *.lib
+
+* Borland C++ 4.x users
+
+   * Borland .IDE files are provided for each example on the distribution 
+     disk.  You must set your include and library directories by going into 
+     the OPTIONS | PROJECT | DIRECTORIES window.  
+   
+   * If you are making your own .IDE file, add all the files in the current
+     directory to the project with the extensions: *.c*, *.rc, *.def, *.lib.
+
+
+* DLL examples
+
+   If you will be using the DLL examples, make sure that IMPLODE.DLL and/or
+   IMPBORL.DLL is in your user path.
+
+
+Directory Structure for the examples:
+
+   ÀÄÄÄEXAMPLES
+       ÃÄÄÄCMDLINE
+       ³   ÃÄÄÄFIL2FIL
+       ³   ÃÄÄÄMEM2MEM
+       ³   ÀÄÄÄMULTFILE
+       ÃÄÄÄGUI
+       ³   ÃÄÄÄFIL2FIL
+       ³   ÀÄÄÄMEM2MEM
+       ÃÄÄÄMFC
+       ³   ÃÄÄÄFIL2FIL
+       ³   ³   ÀÄÄÄRES
+       ³   ÃÄÄÄMEM2MEM
+       ³   ³   ÀÄÄÄRES
+       ³   ÃÄÄÄMULTFILE
+       ³   ³   ÀÄÄÄRES
+       ³   ÀÄÄÄSPAN
+       ³       ÀÄÄÄRES
+       ÀÄÄÄOWL
+           ÃÄÄÄMEM2MEM
+           ÀÄÄÄSPAN
+
+
+CMDLINE Examples
+----------------
+
+FIL2FIL  => This example shows how to compress and uncompress from one
+            file to another. Requires the TEST.IN file in the executable
+            directory to run.
+
+MEM2MEM  => This example shows how to compress and uncompress from one
+            memory buffer to another.  TEST.IN must be less than 62K bytes.
+
+MULTFILE => This example shows how to compress multiple files into one file,
+            then uncompress the file.  The multiple files must be specified 
+            on the command line.
+
+
+GUI Examples
+------------
+
+FIL2FIL  => SDK Windows example. Requires the TEST.IN file in the executable
+            directory to run.
+
+MEM2MEM  => SDK Windows example. Requires the TEST.IN file in the executable
+            directory to run.  This example shows how to compress and 
+            uncompress from one memory buffer to another. 
+
+
+MFC Examples
+------------
+
+FIL2FIL  => Written using Visual C++ with MFC and the static link library.
+            Requires the TEST.IN file in the executable directory to run.
+            This example also contains debugging statements to help display
+            how the PKWARE Data Compression Library calls the read and write
+            routines repeatedly.
+
+MEM2MEM  => This example shows how to compress and uncompress from one
+            memory buffer to another. Written using Visual C++ with MFC
+            (also uses MFC DLL). Prompts for file to load, which must be
+            less than 62K bytes.
+
+MULTFILE => This example shows how to compress multiple files into one file,
+            then uncompress the file. Written using Visual C++ with MFC
+            (also uses MFC DLL).
+
+SPAN     => Written using Visual C++ with MFC (also uses MFC DLL). This
+            example uses MULTFILE as a base, but includes disk spanning.
+            All files are extracted to a temporary directory, C:\TEMP\.
+            To change the extract directory, modify the global variable
+            "UncompressDir" in MAINFRM.CPP.
+
+
+OWL Examples
+------------
+
+MEM2MEM  => This example shows how to compress and uncompress from one
+            memory buffer to another. Written using Borland C++ 4.5 with OWL.
+            Prompts for file to load, which must be less than 62K bytes.
+
+
+SPAN     => Written using Borland C++ 4.5 with OWL. This example compresses
+            multiple files and includes disk spanning. All files are
+            extracted to a temporary directory, C:\TEMP\. To change the
+            extract directory, modify the global variable "UncompressDir"
+            in SPANAPP.CPP.
+
+
+Directions on Using MULTFILE and SPAN Programs:
+
+        To compress multiple files: Select Compress Files from the File
+        menu, and use the Shift and Ctrl keys with the mouse to
+        highlight multiple files. Select OK after selecting the files.
+        Enter the path and name of file to compress the selected files
+        to.
+
+        To uncompress a file: Select Uncompress Files from the File menu,
+        and enter or select the file to uncompress, then select the OK
+        button. The files will be uncompressed in the same directory.

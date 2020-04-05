@@ -1,0 +1,8 @@
+babyd width 180  height 163  
+babyd width 180  height 163  
+Neutral frame count 12 
+Walk frame count 10 
+Attack frame count 14 
+Get hit frame count 6 
+Die frame count 16 
+Special frame count 1 

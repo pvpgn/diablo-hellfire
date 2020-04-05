@@ -1,0 +1,13 @@
+--------------------Configuration: uisrc - Win32 Debug--------------------
+
+
+Microsoft (R) Program Maintenance Utility   Version 1.62.7022
+Copyright (C) Microsoft Corp 1988-1997. All rights reserved.
+
+NMAKE : fatal error U1052: file 'uisrc.mak' not found
+Stop.
+Error executing NMAKE.
+
+
+
+uisrc.exe - 1 error(s), 0 warning(s)

@@ -1,0 +1,80 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f16\froman\fcharset238\fprq2 Times New Roman CE;}{\f17\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f19\froman\fcharset161\fprq2 Times New Roman Greek;}{\f20\froman\fcharset162\fprq2 Times New Roman Tur;}
+{\f21\froman\fcharset186\fprq2 Times New Roman Baltic;}{\f28\fmodern\fcharset238\fprq1 Courier New CE;}{\f29\fmodern\fcharset204\fprq1 Courier New Cyr;}{\f31\fmodern\fcharset161\fprq1 Courier New Greek;}{\f32\fmodern\fcharset162\fprq1 Courier New Tur;}
+{\f33\fmodern\fcharset186\fprq1 Courier New Baltic;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;
+\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\nowidctlpar\widctlpar\adjustright \fs20 \snext0 Normal;}
+{\*\cs10 \additive Default Paragraph Font;}{\s15\nowidctlpar\widctlpar\adjustright \b\fs40 \sbasedon0 \snext16 API Title;}{\s16\nowidctlpar\widctlpar\adjustright \sbasedon0 \snext16 API Description;}{\s17\nowidctlpar\widctlpar\adjustright \f2\fs22 
+\sbasedon0 \snext17 API Function;}{\s18\nowidctlpar\widctlpar\adjustright \b \sbasedon0 \snext16 API Section;}{\s19\li720\nowidctlpar\widctlpar\adjustright \sbasedon0 \snext16 API Parameter Description;}{\s20\nowidctlpar\widctlpar\adjustright \i 
+\sbasedon0 \snext19 API Parameter Name;}{\s21\nowidctlpar\widctlpar\adjustright \fs20 \sbasedon0 \snext21 footnote text;}{\*\cs22 \additive \super \sbasedon10 footnote reference;}}{\info{\title SNetCreateGame}{\author Mike O'Brien}{\operator Mike O'Brien}
+{\creatim\yr1996\mo8\dy21\hr16\min18}{\revtim\yr1997\mo3\dy21\hr17\min50}{\version4}{\edmins2}{\nofpages2}{\nofwords369}{\nofchars2106}{\*\company Blizzard Entertainment}{\nofcharsws0}{\vern71}}
+\widowctrl\ftnbj\aenddoc\hyphcaps0\formshade\viewkind1\viewscale100 \fet0\sectd \linex0\endnhere\sectdefaultcl {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3
+\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain 
+\s15\keepn\nowidctlpar\widctlpar\adjustright \b\fs40 {\cs22\super ${\footnote \pard\plain \s21\nowidctlpar\widctlpar\adjustright \fs20 {\cs22\super $}{ SNETUIDATA}}#{\footnote \pard\plain \s21\nowidctlpar\widctlpar\adjustright \fs20 {\cs22\super #}{
+ SNETUIDATA}}K{\footnote \pard\plain \s21\nowidctlpar\widctlpar\adjustright \fs20 {\cs22\super K}{ SNETUIDATA}}}{ SNETUIDATA
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par The SNETUIDATA structure contains information which Storm and the network providers use to display user interface on behalf of the application program.
+\par 
+\par }\pard\plain \s17\nowidctlpar\widctlpar\adjustright \f2\fs22 {typedef struct _SNETUIDATA \{
+\par \tab DWORD\tab \tab \tab \tab size;
+\par \tab DWORD\tab \tab \tab \tab uiflags;
+\par \tab HWND\tab \tab \tab \tab parentwindow;
+\par \tab SNETGETARTPROC\tab \tab artcallback;
+\par \tab SNETCHECKAUTHPROC\tab authcallback;
+\par \tab SNETCREATEPROC\tab \tab createcallback;
+\par \tab SNETDRAWDESCPROC\tab drawdesccallback;
+\par \tab SNETSELECTEDPROC\tab selectedcallback;
+\par \tab SNETMESSAGEBOXPROC\tab messageboxcallback;
+\par \tab SNETPLAYSOUNDPROC\tab soundcallback;
+\par \tab SNETSTATUSPROC\tab \tab statuscallback;
+\par \tab SNETGETDATAPROC\tab \tab getdatacallback;
+\par \tab SNETCATEGORYPROC\tab \tab categorycallback;
+\par \} SNETUIDATA, *SNETUIDATAPTR;
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s18\nowidctlpar\widctlpar\adjustright \b {Members
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {size
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {The size of the structure, in bytes.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {uiflags
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {A set of flags specifying the desired behavior of the network provider\rquote s user interface.  No flags are currently defined.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {parentwindow
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {The window handle of the active window.  If Storm or a network provider creates a dialog box, it will use this handle for the parent window.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {artcallback
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {A pointer to a function which Storm or a network provider can call to obtain artwork for the dialog background or controls.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {authcallback
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {A pointer to a function which the network provider calls to determine whether the local player has access to a chat room.  This only applies to network providers which provide chat functionality.
+
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {createcallback
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {
+A pointer to a function which the network provider calls when the user has decided to create a game.  This function is responsible for asking the user for the game name and options, and then calling SNetCreateGame().
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {drawdesccallback
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {
+A pointer to a function which the network provider calls if it needs to draw a game or player description.  This allows the application to perform its own drawing.  For example, it could convert a cryptic description str
+ing which only the application understands, like \ldblquote FOG LOW BATTLE.PUD\rdblquote  into a group of icons which would represent the game options in a way players could easily understand.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {selectedcallback
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {A pointer to a function which Storm calls when the user selects a network provider.  This provides the application a chance to review the network provider\rquote 
+s ID and capabilities, and either accept the selection or present the user with an error message and reject the selection. 
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {messageboxcallback
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {A pointer to a function which Storm and the network provider can use to display message boxes.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {soundcallback
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {A pointer to a function which Storm and the network provider can use to play sound effects.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {statuscallback
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {A pointer to a function that the network provider can use to provide feedback on the status of a long operation.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {getdatacallback
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {A pointer to a function that the network provider can use to request provider-specific data from the application.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {categorycallback
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {A pointer to a function that the network provider can use to request information about which categories of games the user is interested in joining.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }}

@@ -1,0 +1,18 @@
+ALL : WinDCL.exe
+
+WinDCL.res : WinDCL.rc resource.h
+     rc -r WinDCL.rc
+
+WinDCL.obj : WinDCL.c WinDCL.h
+     cl -c /D "_X86_" /D "WIN32" WinDCL.c
+
+#     rc WinDCL.res
+
+LINK32_OBJS= \
+    WINDCL.res \
+    WINDCL.OBJ \
+    
+WinDcl.exe : WinDCL.res WinDCL.obj
+    link /SUBSYSTEM:windows /INCREMENTAL:no /MACHINE:I386 /OUT:"windcl.exe" \
+         $(LINK32_OBJS) ..\..\..\IMPLODE.LIB
+

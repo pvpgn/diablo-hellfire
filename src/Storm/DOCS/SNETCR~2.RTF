@@ -1,0 +1,85 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f16\froman\fcharset238\fprq2 Times New Roman CE;}{\f17\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f19\froman\fcharset161\fprq2 Times New Roman Greek;}
+{\f20\froman\fcharset162\fprq2 Times New Roman Tur;}{\f21\froman\fcharset186\fprq2 Times New Roman Baltic;}{\f28\fmodern\fcharset238\fprq1 Courier New CE;}{\f29\fmodern\fcharset204\fprq1 Courier New Cyr;}{\f31\fmodern\fcharset161\fprq1 Courier New Greek;}
+{\f32\fmodern\fcharset162\fprq1 Courier New Tur;}{\f33\fmodern\fcharset186\fprq1 Courier New Baltic;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;
+\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{
+\nowidctlpar\widctlpar\adjustright \fs20 \snext0 Normal;}{\*\cs10 \additive Default Paragraph Font;}{\s15\nowidctlpar\widctlpar\adjustright \b\fs40 \sbasedon0 \snext16 API Title;}{\s16\nowidctlpar\widctlpar\adjustright \sbasedon0 \snext16 
+API Description;}{\s17\nowidctlpar\widctlpar\adjustright \f2\fs22 \sbasedon0 \snext17 API Function;}{\s18\nowidctlpar\widctlpar\adjustright \b \sbasedon0 \snext16 API Section;}{\s19\li720\nowidctlpar\widctlpar\adjustright \sbasedon0 \snext16 
+API Parameter Description;}{\s20\nowidctlpar\widctlpar\adjustright \i \sbasedon0 \snext19 API Parameter Name;}{\s21\nowidctlpar\widctlpar\adjustright \fs20 \sbasedon0 \snext21 footnote text;}{\*\cs22 \additive \super \sbasedon10 footnote reference;}}
+{\*\listtable{\list\listtemplateid-1\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat0\levelspace0\levelindent0{\leveltext\'01*;}{\levelnumbers;}}{\listname ;}\listid-2}}{\*\listoverridetable{\listoverride\listid-2
+\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent360{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360 }}\ls1}}{\info{\title SNetCreateGame}
+{\author Mike O'Brien}{\operator Mike O'Brien}{\creatim\yr1996\mo8\dy21\hr16\min18}{\revtim\yr1997\mo3\dy21\hr16\min55}{\version3}{\edmins5}{\nofpages2}{\nofwords409}{\nofchars2332}{\*\company Blizzard Entertainment}{\nofcharsws0}{\vern71}}
+\widowctrl\ftnbj\aenddoc\hyphcaps0\formshade\viewkind1\viewscale100 \fet0\sectd \linex0\endnhere\sectdefaultcl {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3
+\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain 
+\s15\keepn\nowidctlpar\widctlpar\adjustright \b\fs40 {\cs22\super ${\footnote \pard\plain \s21\nowidctlpar\widctlpar\adjustright \fs20 {\cs22\super $}{ SNetCreateGame}}#{\footnote \pard\plain \s21\nowidctlpar\widctlpar\adjustright \fs20 {\cs22\super #}{
+ SNetCreateGame}}K{\footnote \pard\plain \s21\nowidctlpar\widctlpar\adjustright \fs20 {\cs22\super K}{ SNetCreateGame}}}{ SNetCreateGame 
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par Creates a new network game using the currently selected network provider, and adds the local player as the game master.  The game master is always player number one.
+\par 
+\par Rather than calling this function manually, an application will generally call SNetSelectGame() to present the user with a list of games and allow him to join a game or create a new one.
+\par 
+\par }\pard\plain \s17\nowidctlpar\widctlpar\adjustright \f2\fs22 {BOOL SNetCreateGame (
+\par \tab LPCSTR\tab gamename,
+\par \tab LPCSTR\tab gamepassword,
+\par \tab LPCSTR\tab gamedescription,
+\par \tab DWORD\tab \tab gamecategorybits,
+\par \tab LPVOID\tab initdata,
+\par \tab DWORD\tab \tab initdatabytes,
+\par \tab DWORD\tab \tab maxplayers,
+\par \tab LPCSTR\tab playername,
+\par \tab LPCSTR\tab playerdescription,
+\par \tab DWORD\tab \tab *playerid
+\par );
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s18\nowidctlpar\widctlpar\adjustright \b {Parameters
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {gamename
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {The name of the game being created, as specified by the player.  For example, \ldblquote Bob\rquote s Game\rdblquote .
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {gamepassword
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {A password for the game.  If the password is not blank, then the game
+ is considered private.  It does not show up on lists of games, and players cannot join the game without knowing the password.  Passwords are not case sensitive.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {gamedescription
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {A description of the game.  This can be generated by the program, and cont
+ain information about the game options.  On joining systems, the options strings may be simply displayed as text, or may be decoded by the game into a graphical or iconic representation of game options, such as whether fog of war is in effect.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {gamecategorybits
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {A set of bits describing the categories to which this game belongs.  Other systems can either enumerate all games, or enumerate only games which belong to certain categories.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {initdata
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {A 
+pointer to application-specific initialization data.  This data is sent to all joining players.  The application receives it on the joining side through the SNET_EVENT_INITDATA callback, which it is guaranteed to get on its first call to SNetReceiveMessag
+e() or SNetReceiveTurns() after joining.  The maximum size of the initialization data is equal to the maximum message size for the current network provider.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {initdatabytes
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {The number of bytes in the application-specific initialization data.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {maxplayers
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {The 
+maximum number of players which will be allowed to join this game.  This number must be less than or equal to the maximum number of players that was set during the call to SNetInitializeProvider().
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {playername
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {The name of the local player.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {playerdescription
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {A description of the local player.  This can be generated by the program, and contain information such as the player\rquote 
+s character class or level.  On joining systems, it may be decoded into a graphical or iconic representation of the player.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s20\nowidctlpar\widctlpar\adjustright \i {playerid
+\par }\pard\plain \s19\li720\nowidctlpar\widctlpar\adjustright {The ID that is assigned to the player, if creating the game is successful.
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s18\nowidctlpar\widctlpar\adjustright \b {Return Value
+\par }\pard\plain \s16\nowidctlpar\widctlpar\adjustright {
+\par This function returns TRUE for success or FALSE for failure.  The function can fail if:
+\par {\pntext\pard\plain\s16 \f3 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s16\fi-360\li360\nowidctlpar\widctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls1\adjustright {No network provider has been initialized
+
+\par {\pntext\pard\plain\s16 \f3 \loch\af3\dbch\af0\hich\f3 \'b7\tab}No game name or description is specified
+\par {\pntext\pard\plain\s16 \f3 \loch\af3\dbch\af0\hich\f3 \'b7\tab}The maximum number of players is out of range
+\par {\pntext\pard\plain\s16 \f3 \loch\af3\dbch\af0\hich\f3 \'b7\tab}No player name or description is specified
+\par {\pntext\pard\plain\s16 \f3 \loch\af3\dbch\af0\hich\f3 \'b7\tab}No variable is given to receive the player ID
+\par {\pntext\pard\plain\s16 \f3 \loch\af3\dbch\af0\hich\f3 \'b7\tab}The system is out of memory
+\par {\pntext\pard\plain\s16 \f3 \loch\af3\dbch\af0\hich\f3 \'b7\tab}The network provider uses a server, and the server is unable to process the request
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20 {
+\par }}

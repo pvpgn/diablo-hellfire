@@ -1,0 +1,8 @@
+HorkD width 138  height 144  
+HorkD width 138  height 144  
+Neutral frame count 15 
+Walk frame count 8 
+Attack frame count 16 
+Get hit frame count 6 
+Die frame count 16 
+Special frame count 9 
